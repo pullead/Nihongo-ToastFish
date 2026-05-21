@@ -1,6 +1,7 @@
 obj/
 bin/
 packages/
+.local/
 /Log/
 token.txt
 .vs/
