@@ -40,3 +40,33 @@ msbuild ToastFish.sln /p:Configuration=Debug
 ```
 
 Do not mark Phase 0 complete until restore and build pass.
+
+### Phase 1: Product Shell And Japanese-First Scope
+
+Completed:
+
+- Updated visible branding from `ToastFish` to `Nihongo ToastFish` for the main window, tray tooltip, notification title, duplicate-run message, and startup shortcut name.
+- Reorganized the tray menu so Japanese study is the primary content entry.
+- Moved old English content under `旧版英语词库`.
+- Renamed practice and help labels for the Japanese-first product direction.
+- Removed fragile tray-menu setup code that depended on `Cms.Items[index]` positions.
+
+Static verification:
+
+```powershell
+[xml](Get-Content View\ToastFish.xaml -Encoding UTF8 -Raw)
+git diff --check
+rg "Cms\.Items\[[0-9]+\]|随机测试|英语词汇|日语词汇|开始！|参数设置|版本号：2\.3\.3|官方网站" -n View\ToastFish.xaml.cs
+```
+
+Result:
+
+- XAML parses as XML.
+- `git diff --check` passes.
+- No old tray menu labels or numeric `Cms.Items[index]` access remain.
+
+Remaining verification:
+
+- Build with MSBuild.
+- Launch the app and manually inspect tray menu order.
+- Confirm selecting gojuon and Japanese vocabulary still starts sessions.
