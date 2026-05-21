@@ -49,7 +49,7 @@ namespace ToastFish.Model.PushControl
             {"0","A"},{"1","B"},{"2","C"},{"3","D"}
         };
         public static MyHotObservable HotKeytObservable = new MyHotObservable();
-        private readonly NotificationService notificationService = new NotificationService();
+        protected readonly NotificationService notificationService = new NotificationService();
 
         /// <summary>
         /// 判断字符串是否为数字

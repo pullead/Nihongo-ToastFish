@@ -9,6 +9,7 @@ using ToastFish.Model.SqliteControl;
 using ToastFish.Model.Mp3;
 using System.Threading;
 using ToastFish.Model.Log;
+using ToastFish.Services.Notifications;
 
 namespace ToastFish.Model.PushControl
 {
@@ -17,67 +18,30 @@ namespace ToastFish.Model.PushControl
         // 当前推送单词的状态
         public static int WORD_NUMBER = 10;  // 单词数量
 
-        public Task<int> ProcessToastNotificationOrderGoin()
+        public async Task<int> ProcessToastNotificationOrderGoin()
         {
-            var Tcs = new TaskCompletionSource<int>();
-
-            ToastNotificationManagerCompat.OnActivated += toastArgs =>
-            {
-                ToastArguments Args = ToastArguments.Parse(toastArgs.Argument);
-                string Status = "";
-                try
-                {
-                    Status = Args["action"];
-                }
-                catch
-                {
-                }
-                if (Status == "succeed")
-                {
-                    Tcs.TrySetResult(0);
-                }
-                else if (Status == "fail")
-                {
-                    Tcs.TrySetResult(1);
-                }
-                else if (Status == "voice")
-                {
-                    Tcs.TrySetResult(2);
-                }
-                else
-                {
-                    Tcs.TrySetResult(1);
-                }
-            };
-            return Tcs.Task;
+            string action = await notificationService.WaitForActionAsync();
+            return MapGoinOrderAction(action);
         }
 
-        public Task<int> ProcessToastNotificationGoinQuestion()
+        public async Task<int> ProcessToastNotificationGoinQuestion()
         {
-            var Tcs = new TaskCompletionSource<int>();
-
-            ToastNotificationManagerCompat.OnActivated += toastArgs =>
+            string action = await notificationService.WaitForActionAsync();
+            if (action == string.Empty)
             {
-                ToastArguments Args = ToastArguments.Parse(toastArgs.Argument);
-                string Status = "";
-                try
-                {
-                    Status = Args["action"];
-                }
-                catch
-                {
-                    Tcs.TrySetResult(-1);
-                }
-                if (Status == QUESTION_CURRENT_RIGHT_ANSWER.ToString())
-                {
-                    Tcs.TrySetResult(1);
-                }
-                else
-                {
-                    Tcs.TrySetResult(0);
-                }
-            };
-            return Tcs.Task;
+                return -1;
+            }
+
+            return action == QUESTION_CURRENT_RIGHT_ANSWER.ToString() ? 1 : 0;
+        }
+
+        private int MapGoinOrderAction(string action)
+        {
+            if (action == NotificationAction.Succeed)
+                return 0;
+            if (action == NotificationAction.Voice)
+                return 2;
+            return 1;
         }
 
         public static void OrderGoin(Object Words)
