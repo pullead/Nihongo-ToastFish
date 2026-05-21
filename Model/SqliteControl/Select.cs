@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Linq;
 using ToastFish.Model.SM2plus;
+using ToastFish.Model.Storage;
 
 namespace ToastFish.Model.SqliteControl
 {
@@ -13,6 +14,7 @@ namespace ToastFish.Model.SqliteControl
         {
             DataBase = ConnectToDatabase();
             DataBase.Open();
+            new ContentSchemaMigrator().EnsureCreated(DataBase);
         }
  
         public static string TABLE_NAME = "CET4_1";  // 当前书籍名字

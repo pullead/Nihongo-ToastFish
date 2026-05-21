@@ -139,6 +139,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\Log\CreateLog.cs" />
+    <Compile Include="Model\Content\ContentPack.cs" />
+    <Compile Include="Model\Content\ContentSource.cs" />
+    <Compile Include="Model\Content\GrammarExample.cs" />
+    <Compile Include="Model\Content\GrammarPoint.cs" />
+    <Compile Include="Model\Content\VocabularyItem.cs" />
     <Compile Include="Model\Mp3\DownloadMp3.cs" />
     <Compile Include="Model\Mp3\PlayMp3.cs" />
     <Compile Include="Model\PushControl\PushCustomizeWords.cs" />
@@ -148,6 +153,8 @@
     <Compile Include="Model\PushControl\WordType.cs" />
     <Compile Include="Model\SM2plus\Card.cs" />
     <Compile Include="Model\SM2plus\Parameters.cs" />
+    <Compile Include="Model\Storage\ContentSchemaMigrator.cs" />
+    <Compile Include="Model\Study\ReviewCard.cs" />
     <Compile Include="Model\SqliteControl\Select.cs" />
     <Compile Include="Model\StartWithWindows\HotKey.cs" />
     <Compile Include="Model\StartWithWindows\StartWithWindows.cs" />
