@@ -152,6 +152,7 @@
     <Compile Include="Model\StartWithWindows\HotKey.cs" />
     <Compile Include="Model\StartWithWindows\StartWithWindows.cs" />
     <Compile Include="Services\Notifications\NotificationAction.cs" />
+    <Compile Include="Services\Notifications\NotificationInputResult.cs" />
     <Compile Include="Services\Notifications\NotificationService.cs" />
     <Compile Include="Resources\IconChika.Designer.cs">
       <AutoGen>True</AutoGen>

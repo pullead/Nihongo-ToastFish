@@ -209,33 +209,16 @@ namespace ToastFish.Model.PushControl
         /// <summary>
         /// 设置单词数量的Task
         /// </summary>
-        public Task<int> ProcessToastNotificationSetNumber()
+        public async Task<int> ProcessToastNotificationSetNumber()
         {
-            var Tcs = new TaskCompletionSource<int>();
-
-            ToastNotificationManagerCompat.OnActivated += toastArgs =>
+            NotificationInputResult inputResult = await notificationService.WaitForInputAsync("number");
+            if (inputResult.Action == "yes")
             {
-                ToastArguments Args = ToastArguments.Parse(toastArgs.Argument);
-                string Status = "";
-                try
-                {
-                    Status = Args["action"];
-                }
-                catch
-                {
-                    Tcs.TrySetResult(0);
-                }
-                if (Status == "yes")
-                {
-                    WORD_NUMBER_STRING = (string)toastArgs.UserInput["number"];
-                    Tcs.TrySetResult(1);
-                }
-                else
-                {
-                    Tcs.TrySetResult(0);
-                }
-            };
-            return Tcs.Task;
+                WORD_NUMBER_STRING = inputResult.InputValue;
+                return 1;
+            }
+
+            return 0;
         }
 
         /// <summary>

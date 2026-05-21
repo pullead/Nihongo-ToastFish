@@ -60,12 +60,44 @@ namespace ToastFish.Services.Notifications
             });
         }
 
+        public Task<NotificationInputResult> WaitForInputAsync(string inputKey)
+        {
+            TaskCompletionSource<NotificationInputResult> completion = new TaskCompletionSource<NotificationInputResult>();
+
+            OnActivated toastHandler = toastArgs =>
+            {
+                string action = GetActionArgument(toastArgs);
+                string inputValue = GetUserInputValue(toastArgs, inputKey);
+                completion.TrySetResult(new NotificationInputResult(action, inputValue));
+            };
+
+            ToastNotificationManagerCompat.OnActivated += toastHandler;
+
+            return completion.Task.ContinueWith(task =>
+            {
+                ToastNotificationManagerCompat.OnActivated -= toastHandler;
+                return task.Result;
+            });
+        }
+
         private string GetActionArgument(ToastNotificationActivatedEventArgsCompat toastArgs)
         {
             try
             {
                 ToastArguments args = ToastArguments.Parse(toastArgs.Argument);
                 return args["action"];
+            }
+            catch
+            {
+                return string.Empty;
+            }
+        }
+
+        private string GetUserInputValue(ToastNotificationActivatedEventArgsCompat toastArgs, string inputKey)
+        {
+            try
+            {
+                return toastArgs.UserInput[inputKey] as string ?? string.Empty;
             }
             catch
             {
