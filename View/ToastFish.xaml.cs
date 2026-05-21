@@ -102,7 +102,7 @@ namespace ToastFish
             //如果该数组长度大于1，说明多次运行
             if (processes.Length > 1)
             {
-                System.Windows.Forms.MessageBox.Show("程序已经在运行了，不能运行两次。\n如果右下角软件已经退出，请在任务管理器中结束ToastFish任务。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);//弹出提示信息
+                System.Windows.Forms.MessageBox.Show("程序已经在运行了，不能运行两次。\n如果右下角软件已经退出，请在任务管理器中结束 Nihongo ToastFish 任务。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);//弹出提示信息
                 this.Close();//关闭当前窗体
             }
         }
@@ -110,7 +110,7 @@ namespace ToastFish
         private void SetNotifyIcon()
         {
             Vm.notifyIcon = new NotifyIcon();
-            Vm.notifyIcon.Text = "ToastFish";
+            Vm.notifyIcon.Text = "Nihongo ToastFish";
             System.Drawing.Icon icon = IconChika.chika16;
 
             Vm.notifyIcon.Icon = icon;
@@ -200,7 +200,7 @@ namespace ToastFish
 
             Start.Text = "开机启动";
             Start.Click += new EventHandler(Start_Click);
-            if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Startup), "ToastFish.lnk")))
+            if (File.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Startup), "Nihongo ToastFish.lnk")))
                 Start.Checked = true;
             else
                 Start.Checked = false;
@@ -715,7 +715,7 @@ namespace ToastFish
         private void Start_Click(object sender, EventArgs e)
         {
             //StartWithWindows.SetMeStart(true);
-            String startupPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Startup), "ToastFish.lnk");
+            String startupPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Startup), "Nihongo ToastFish.lnk");
             (sender as ToolStripMenuItem).Checked = !(sender as ToolStripMenuItem).Checked;
             StartWithWindows.CreateShortcut(startupPath);
         }

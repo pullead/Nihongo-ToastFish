@@ -871,7 +871,7 @@ namespace ToastFish.Model.PushControl
         {
             if (Buttom != "")
                 new ToastContentBuilder()
-                .AddText("Toast Fish")
+                .AddText("Nihongo ToastFish")
                 .AddText(Message)
                 .AddButton(new ToastButton()
                 .SetContent(Buttom)
@@ -880,7 +880,7 @@ namespace ToastFish.Model.PushControl
                 .Show();
             else
                 new ToastContentBuilder()
-                .AddText("Toast Fish")
+                .AddText("Nihongo ToastFish")
                 .AddText(Message)
                 .Show();
         }
