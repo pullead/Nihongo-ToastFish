@@ -118,6 +118,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Speech" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -144,6 +145,7 @@
     <Compile Include="Model\Content\GrammarExample.cs" />
     <Compile Include="Model\Content\GrammarPoint.cs" />
     <Compile Include="Model\Content\VocabularyItem.cs" />
+    <Compile Include="Model\Japanese\FuriganaSegment.cs" />
     <Compile Include="Model\Mp3\DownloadMp3.cs" />
     <Compile Include="Model\Mp3\PlayMp3.cs" />
     <Compile Include="Model\PushControl\PushCustomizeWords.cs" />
@@ -161,6 +163,7 @@
     <Compile Include="Services\Notifications\NotificationAction.cs" />
     <Compile Include="Services\Notifications\NotificationInputResult.cs" />
     <Compile Include="Services\Notifications\NotificationService.cs" />
+    <Compile Include="Services\Japanese\FuriganaFormatter.cs" />
     <Compile Include="Resources\IconChika.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
