@@ -106,130 +106,14 @@ namespace ToastFish.Model.PushControl
         /// </summary>
         public async Task<int> ProcessToastNotificationRecitation()//CancellationToken cancellationToken
         {
-            var Tcs = new TaskCompletionSource<int>();
-
-            using (HotKeytObservable.Subscribe(events =>
-            {
-                Debug.WriteLine("HotKeytObservable.Subscribe:" + events);
-                switch (events)
-                {
-                    case "1": // succeed
-                        Tcs.TrySetResult(0);
-                        break;
-                    case "2"://fail
-                        Tcs.TrySetResult(1);
-                        break;
-                    case "3"://voice
-                        Tcs.TrySetResult(2);
-                        break;
-                    default:
-                        break;
-                }
-
-            }))
-            {
-                ToastNotificationManagerCompat.OnActivated += toastArgs =>
-                {
-                    ToastArguments Args = ToastArguments.Parse(toastArgs.Argument);
-                    string Status = "";
-                    try
-                    {
-                        Status = Args["action"];
-                    }
-                    catch
-                    {
-                    }
-                    // Debug.WriteLine("Debuging....");
-                    if (Status == "succeed")
-                    {
-                        Tcs.TrySetResult(0);
-                    }
-                    else if (Status == "fail")
-                    {
-                        Tcs.TrySetResult(1);
-                    }
-                    else if (Status == "voice")
-                    {
-                        Tcs.TrySetResult(2);
-                    }
-                    else
-                    {
-                        Tcs.TrySetResult(1);
-                    }
-                };
-                return await Tcs.Task;
-            }
+            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapRecitationHotKeyAction);
+            return MapRecitationAction(action);
         }
 
         public async Task<int> ProcessToastNotificationRecitationSM2()//CancellationToken cancellationToken
         {
-            var Tcs = new TaskCompletionSource<int>();
-
-            using (HotKeytObservable.Subscribe(events =>
-            {
-                Debug.WriteLine("HotKeytObservable.Subscribe:" + events);
-                switch (events)
-                {
-                    case "1": //again
-                        Tcs.TrySetResult(1);
-                        break;
-                    case "2"://hard
-                        Tcs.TrySetResult(2);
-                        break;
-                    case "3"://good
-                        Tcs.TrySetResult(3);
-                        break;
-                    case "4"://easy
-                        Tcs.TrySetResult(4);
-                        break;
-                    case "S"://voice
-                        Tcs.TrySetResult(0);
-                        break;
-                    default:
-                        break;
-                }
-
-            }))
-            {
-                ToastNotificationManagerCompat.OnActivated += toastArgs =>
-                {
-                    ToastArguments Args = ToastArguments.Parse(toastArgs.Argument);
-                    string Status = "";
-                    try
-                    {
-                        Status = Args["action"];
-                    }
-                    catch
-                    {
-                    }
-                    //Debug.WriteLine("Debuging....");
-                    if (Status == "easy")
-                    {
-                        Tcs.TrySetResult(4);
-                    }
-                    else if (Status == "good")
-                    {
-                        Tcs.TrySetResult(3);
-                    }
-                    else if (Status == "hard")
-                    {
-                        Tcs.TrySetResult(2);
-                    }
-                    else if (Status == "again")
-                    {
-                        Tcs.TrySetResult(1);
-                    }
-                    else if (Status == "voice")
-                    {
-                        Tcs.TrySetResult(0);
-                    }
-                    else
-                    {
-                        Tcs.TrySetResult(0);
-                    }
-                };
-                return await Tcs.Task;
-            }
+            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapSm2HotKeyAction);
+            return MapSm2Action(action);
         }
 
         /// <summary>
@@ -237,62 +121,88 @@ namespace ToastFish.Model.PushControl
         /// </summary>
         public async Task<int> ProcessToastNotificationQuestion()
         {
-            var Tcs = new TaskCompletionSource<int>();
-
-            using (HotKeytObservable.Subscribe(events =>
+            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapQuestionHotKeyAction);
+            if (action == string.Empty)
             {
-                Debug.WriteLine("HotKeytObservable.Subscribe:" + events);
-                int Ans = -1;
-                switch (events)
-                {
-                    case "1":  // A
-                        Ans = 0;
-                        break;
-                    case "2":  // B
-                        Ans = 1;
-                        break;
-                    case "3":  // C
-                        Ans = 2;
-                        break;
-                    case "4":  // D
-                        Ans = 3;
-                        break;
-                    default:
-                        break;
-                }
-                if (Ans == QUESTION_CURRENT_RIGHT_ANSWER)
-                {
-                    Tcs.TrySetResult(1);
-                }
-                else
-                {
-                    Tcs.TrySetResult(0);
-                }
+                return -1;
+            }
 
-            }))
+            return action == QUESTION_CURRENT_RIGHT_ANSWER.ToString() ? 1 : 0;
+        }
+
+        private string MapRecitationHotKeyAction(string events)
+        {
+            Debug.WriteLine("HotKeytObservable.Subscribe:" + events);
+            switch (events)
             {
-                ToastNotificationManagerCompat.OnActivated += toastArgs =>
-                {
-                    ToastArguments Args = ToastArguments.Parse(toastArgs.Argument);
-                    string Status = "";
-                    try
-                    {
-                        Status = Args["action"];
-                    }
-                    catch
-                    {
-                        Tcs.TrySetResult(-1);
-                    }
-                    if (Status == QUESTION_CURRENT_RIGHT_ANSWER.ToString())
-                    {
-                        Tcs.TrySetResult(1);
-                    }
-                    else
-                    {
-                        Tcs.TrySetResult(0);
-                    }
-                };
-                return await Tcs.Task;
+                case "1":
+                    return NotificationAction.Succeed;
+                case "2":
+                    return NotificationAction.Fail;
+                case "3":
+                    return NotificationAction.Voice;
+                default:
+                    return string.Empty;
+            }
+        }
+
+        private int MapRecitationAction(string action)
+        {
+            if (action == NotificationAction.Succeed)
+                return 0;
+            if (action == NotificationAction.Voice)
+                return 2;
+            return 1;
+        }
+
+        private string MapSm2HotKeyAction(string events)
+        {
+            Debug.WriteLine("HotKeytObservable.Subscribe:" + events);
+            switch (events)
+            {
+                case "1":
+                    return NotificationAction.Again;
+                case "2":
+                    return NotificationAction.Hard;
+                case "3":
+                    return NotificationAction.Good;
+                case "4":
+                    return NotificationAction.Easy;
+                case "S":
+                    return NotificationAction.Voice;
+                default:
+                    return string.Empty;
+            }
+        }
+
+        private int MapSm2Action(string action)
+        {
+            if (action == NotificationAction.Again)
+                return 1;
+            if (action == NotificationAction.Hard)
+                return 2;
+            if (action == NotificationAction.Good)
+                return 3;
+            if (action == NotificationAction.Easy)
+                return 4;
+            return 0;
+        }
+
+        private string MapQuestionHotKeyAction(string events)
+        {
+            Debug.WriteLine("HotKeytObservable.Subscribe:" + events);
+            switch (events)
+            {
+                case "1":
+                    return "0";
+                case "2":
+                    return "1";
+                case "3":
+                    return "2";
+                case "4":
+                    return "3";
+                default:
+                    return string.Empty;
             }
         }
 
