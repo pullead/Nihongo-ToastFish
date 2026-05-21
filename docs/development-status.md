@@ -67,3 +67,35 @@ Remaining verification:
 
 - Launch the app and manually inspect tray menu order.
 - Confirm selecting gojuon and Japanese vocabulary still starts sessions.
+
+### Phase 2: Service Boundaries
+
+Completed:
+
+- Added `Services/Notifications/NotificationAction.cs` and `Services/Notifications/NotificationService.cs`.
+- Routed basic message toasts through `NotificationService.ShowMessage`.
+- Centralized toast action waiting and hotkey mapping through `NotificationService.WaitForActionAsync`.
+- Migrated vocabulary recitation, SM2 review, vocabulary quiz, and gojuon prompt waits away from direct `ToastNotificationManagerCompat.OnActivated` subscriptions.
+- Added `NotificationInputResult` and routed toast selection input through `NotificationService.WaitForInputAsync`.
+- Confirmed `Model/PushControl` no longer directly subscribes to Toast activation events or reads Toast `UserInput`.
+
+Verification:
+
+```powershell
+rg "OnActivated|UserInput" Model Services -n
+git diff --check
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+```
+
+Result:
+
+```text
+Only Services\Notifications\NotificationService.cs contains Toast activation and UserInput handling.
+Debug build succeeded with 0 warnings and 0 errors.
+```
+
+Remaining work:
+
+- Extract database/content read-write boundaries before adding Japanese content packs.
+- Extract review-session flow enough to keep vocabulary, grammar, sentence practice, and gojuon from duplicating notification loop logic.
+- Add automated tests around pure mapping/import/review logic once those seams are separated from WPF and Toast APIs.
