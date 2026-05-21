@@ -13,6 +13,7 @@ using System.Diagnostics;
 using System.Reactive.Subjects;
 using ToastFish.Model.SM2plus;
 using System.Windows.Forms;
+using ToastFish.Services.Notifications;
 
 namespace ToastFish.Model.PushControl
 {
@@ -48,6 +49,7 @@ namespace ToastFish.Model.PushControl
             {"0","A"},{"1","B"},{"2","C"},{"3","D"}
         };
         public static MyHotObservable HotKeytObservable = new MyHotObservable();
+        private readonly NotificationService notificationService = new NotificationService();
 
         /// <summary>
         /// 判断字符串是否为数字
@@ -869,20 +871,7 @@ namespace ToastFish.Model.PushControl
         /// </summary>
         public void PushMessage(string Message, string Buttom = "")
         {
-            if (Buttom != "")
-                new ToastContentBuilder()
-                .AddText("Nihongo ToastFish")
-                .AddText(Message)
-                .AddButton(new ToastButton()
-                .SetContent(Buttom)
-                .AddArgument("action", "succeed")
-                .SetBackgroundActivation())
-                .Show();
-            else
-                new ToastContentBuilder()
-                .AddText("Nihongo ToastFish")
-                .AddText(Message)
-                .Show();
+            notificationService.ShowMessage(Message, Buttom);
         }
 
         /// <summary>
