@@ -99,3 +99,36 @@ Remaining work:
 - Extract database/content read-write boundaries before adding Japanese content packs.
 - Extract review-session flow enough to keep vocabulary, grammar, sentence practice, and gojuon from duplicating notification loop logic.
 - Add automated tests around pure mapping/import/review logic once those seams are separated from WPF and Toast APIs.
+
+### Phase 3: Content Data Model
+
+Completed:
+
+- Added POCO models for `ContentPack`, `ContentSource`, `VocabularyItem`, `GrammarPoint`, `GrammarExample`, and `ReviewCard`.
+- Added `ContentSchemaMigrator` to create separated content and progress tables in SQLite.
+- Wired the migrator into the existing `Select` database open path so the schema is created idempotently at runtime.
+- Kept content records (`VocabularyItem`, `GrammarPoint`, `GrammarExample`) separate from user progress (`ReviewCard`).
+
+Verification:
+
+```powershell
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+$p = Start-Process -FilePath '.\\bin\\Debug\\ToastFish.exe' -WindowStyle Hidden -PassThru; Start-Sleep -Seconds 5; $alive = Get-Process -Id $p.Id -ErrorAction SilentlyContinue; if ($alive) { Stop-Process -Id $p.Id; 'runtime smoke ok' } else { 'process exited early' }
+```
+
+Runtime SQLite check:
+
+```text
+ContentPack
+ContentSource
+GrammarExample
+GrammarPoint
+ReviewCard
+VocabularyItem
+```
+
+Remaining work:
+
+- Add structured furigana model and toast formatter.
+- Define JSON content pack schema and importer validation.
+- Add content repository methods for reading built-in vocabulary, grammar, and examples.
