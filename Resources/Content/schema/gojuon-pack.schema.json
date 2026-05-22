@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nihongo-toastfish.local/schema/gojuon-pack.schema.json",
+  "title": "Nihongo ToastFish Gojuon Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pack", "items"],
+  "properties": {
+    "pack": { "$ref": "#/$defs/packMetadata" },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/gojuonItem" }
+    }
+  },
+  "$defs": {
+    "packMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["packId", "version", "jlptLevel", "contentKind", "displayName", "source", "license"],
+      "properties": {
+        "packId": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 },
+        "jlptLevel": { "const": "gojuon" },
+        "contentKind": { "const": "gojuon" },
+        "displayName": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "source": { "$ref": "#/$defs/source" },
+        "license": { "$ref": "#/$defs/license" }
+      }
+    },
+    "gojuonItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contentId", "romaji", "hiragana", "katakana"],
+      "properties": {
+        "contentId": { "type": "string", "minLength": 1 },
+        "romaji": { "type": "string", "minLength": 1 },
+        "hiragana": { "type": "string", "minLength": 1 },
+        "katakana": { "type": "string", "minLength": 1 },
+        "audioPath": { "type": "string" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "name"],
+      "properties": {
+        "sourceId": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" },
+        "attribution": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" }
+      }
+    }
+  }
+}

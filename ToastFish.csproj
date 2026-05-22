@@ -264,6 +264,21 @@
   <ItemGroup>
     <Resource Include="chika64.ico" />
     <Content Include=".gitignore" />
+    <Content Include="Resources\Content\schema\content-manifest.schema.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Content\schema\example-pack.schema.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Content\schema\gojuon-pack.schema.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Content\schema\grammar-pack.schema.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Content\schema\vocabulary-pack.schema.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\使用说明.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

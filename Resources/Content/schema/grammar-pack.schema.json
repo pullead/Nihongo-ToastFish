@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nihongo-toastfish.local/schema/grammar-pack.schema.json",
+  "title": "Nihongo ToastFish Grammar Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pack", "items"],
+  "properties": {
+    "pack": { "$ref": "#/$defs/packMetadata" },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/grammarPoint" }
+    }
+  },
+  "$defs": {
+    "jlptLevel": { "type": "string", "enum": ["N5", "N4", "N3", "N2", "N1"] },
+    "packMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["packId", "version", "jlptLevel", "contentKind", "displayName", "source", "license"],
+      "properties": {
+        "packId": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "minLength": 1 },
+        "jlptLevel": { "$ref": "#/$defs/jlptLevel" },
+        "contentKind": { "const": "grammar" },
+        "displayName": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "source": { "$ref": "#/$defs/source" },
+        "license": { "$ref": "#/$defs/license" }
+      }
+    },
+    "grammarPoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contentId", "pattern", "meaningCn"],
+      "properties": {
+        "contentId": { "type": "string", "minLength": 1 },
+        "pattern": { "type": "string", "minLength": 1 },
+        "meaningCn": { "type": "string", "minLength": 1 },
+        "formation": { "type": "string" },
+        "usageNote": { "type": "string" },
+        "furiganaJson": { "type": "string" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceId", "name"],
+      "properties": {
+        "sourceId": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" },
+        "attribution": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" }
+      }
+    }
+  }
+}
