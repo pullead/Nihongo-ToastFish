@@ -17,6 +17,7 @@ using ToastFish.Model.StartWithWindows;
 using System.IO;
 using System.Windows.Xps.Packaging;
 using System.Windows.Input;
+using ToastFish.Services.Study;
 
 namespace ToastFish
 {
@@ -145,6 +146,7 @@ namespace ToastFish
         System.Windows.Forms.ToolStripMenuItem SelectBook = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem SelectJpBook = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem RandomTest = new System.Windows.Forms.ToolStripMenuItem();
+        System.Windows.Forms.ToolStripMenuItem BuiltinN5Preview = new System.Windows.Forms.ToolStripMenuItem();
 
         System.Windows.Forms.ToolStripMenuItem GotoHtml = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem Start = new System.Windows.Forms.ToolStripMenuItem();
@@ -192,6 +194,8 @@ namespace ToastFish
             SelectBook.Text = "旧版英语词库";
 
             SelectJpBook.Text = "日语学习";
+            BuiltinN5Preview.Text = "内置 N5 词汇预览";
+            BuiltinN5Preview.Click += new EventHandler(BuiltinN5Preview_Click);
 
             RandomTest.Text = "练习";
 
@@ -312,6 +316,7 @@ namespace ToastFish
 
             SelectJpBook.DropDownItems.Add(Goin);
             SelectJpBook.DropDownItems.Add(StdJp_Mid);
+            SelectJpBook.DropDownItems.Add(BuiltinN5Preview);
             RandomTest.DropDownItems.Add(RandomJpWord);
             RandomTest.DropDownItems.Add(RandomGoin);
             RandomTest.DropDownItems.Add(RandomWord);
@@ -626,6 +631,23 @@ namespace ToastFish
             Select.TABLE_NAME = "StdJp_Mid";
             thread = new Thread(new ParameterizedThreadStart(PushJpWords.UnorderWord));
             thread.Start(Select.WORD_NUMBER);
+        }
+
+        private void BuiltinN5Preview_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ImportedContentStudyService studyService = new ImportedContentStudyService();
+                studyService.ShowFirstVocabularyCard(Se.DataBase, "N5");
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(
+                    "内置日语内容预览失败：\n" + ex.Message,
+                    "Nihongo ToastFish",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
         }
 
         public  void ResetLearingStatus_Click(object sender, EventArgs e)

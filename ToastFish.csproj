@@ -172,6 +172,7 @@
     <Compile Include="Services\Study\StudyCardFactory.cs" />
     <Compile Include="Services\Study\StudyCardKind.cs" />
     <Compile Include="Services\Study\StudyCardNotificationFormatter.cs" />
+    <Compile Include="Services\Study\ImportedContentStudyService.cs" />
     <Compile Include="Resources\IconChika.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

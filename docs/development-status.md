@@ -407,3 +407,38 @@ Remaining work:
 
 - Add one tray-accessible imported-content smoke study mode.
 - Replace the temporary smoke flow with review-scheduled card selection after the session controller is extracted.
+
+### Phase 5: Tray Smoke Entry For Imported Content
+
+Completed:
+
+- Added `ImportedContentStudyService` to ensure bundled smoke content is imported and return the first N5 vocabulary study card.
+- Added a tray menu entry under `日语学习` named `内置 N5 词汇预览`.
+- Wired the tray entry to show the first imported N5 vocabulary card through `NotificationService.ShowStudyCard`.
+- Kept the existing `开始学习`, legacy gojuon, and legacy Japanese vocabulary flows unchanged.
+
+Verification:
+
+```powershell
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Load bin\\Debug\\ToastFish.exe, call ImportedContentStudyService.GetFirstVocabularyCard("N5").
+rg "内置 N5 词汇预览|BuiltinN5Preview|BuiltinN5Preview_Click|ImportedContentStudyService" View\\ToastFish.xaml.cs -n
+git diff --check
+$p = Start-Process -FilePath '.\\bin\\Debug\\ToastFish.exe' -WindowStyle Hidden -PassThru; Start-Sleep -Seconds 5; $alive = Get-Process -Id $p.Id -ErrorAction SilentlyContinue; if ($alive) { Stop-Process -Id $p.Id; 'runtime smoke ok' } else { 'process exited early' }
+```
+
+Result:
+
+```text
+Debug build succeeded with 0 warnings and 0 errors.
+ImportedContentStudyService probe returned:
+card=Vocabulary|学校(がっこう)|がっこう / 名词 / 学校
+Static menu check found the menu item, click handler, and service call.
+git diff --check reported no whitespace errors.
+Runtime smoke started the app process successfully.
+```
+
+Remaining work:
+
+- Manually inspect the tray menu and click `内置 N5 词汇预览` on a desktop session.
+- Replace this preview entry with real vocabulary/grammar/example mode selection and review scheduling.
