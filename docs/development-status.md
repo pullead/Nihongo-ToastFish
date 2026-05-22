@@ -555,3 +555,39 @@ Remaining work:
 
 - Add a visible pause menu action that calls the shared session controller.
 - Manually verify duplicate-notification behavior by starting a session twice from the tray.
+
+### Phase 4: Built-In JLPT Vocabulary And Example Sentence Import
+
+Completed:
+
+- Added `scripts/generate_builtin_jlpt_content.py` to convert downloaded open-license/reference sources into Nihongo ToastFish content packs.
+- Added N5-N1 vocabulary packs from `elzup/jlpt-word-list`.
+- Added N5-N1 grammar example sentence packs from `hanabira.org-japanese-content` grammar JSON.
+- Added `Resources/Content/manifest-builtin-jlpt.json` with per-pack SHA-256 hashes.
+- Added `scripts/Import-ContentManifest.ps1` to import a manifest through the app's existing `ContentPackImporter`.
+- Updated bundled content selection so an empty runtime database prefers the full built-in JLPT manifest and falls back to smoke content only if the full manifest is absent.
+
+Current imported pack sizes:
+
+| Pack | Items |
+|---|---:|
+| N5 vocabulary | 718 |
+| N4 vocabulary | 668 |
+| N3 vocabulary | 2,139 |
+| N2 vocabulary | 1,748 |
+| N1 vocabulary | 2,699 |
+| N5 examples | 544 |
+| N4 examples | 494 |
+| N3 examples | 528 |
+| N2 examples | 764 |
+| N1 examples | 980 |
+
+Known limitation:
+
+- The selected source datasets provide English glosses, not Chinese translations. They are stored in the current `meaningCn` fields as an interim compatibility measure until curated Chinese localization is added.
+
+Remaining work:
+
+- Add curated Chinese localization for vocabulary meanings and example meanings.
+- Add furigana generation or curated furigana data for vocabulary/example sentences.
+- Add grammar point packs separately if full grammar teaching cards are needed in the same built-in import batch.

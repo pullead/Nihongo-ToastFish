@@ -6,5 +6,6 @@ packages/
 token.txt
 .vs/
 ToastFish-upstream/
+_external/
 *.user
 *.suo

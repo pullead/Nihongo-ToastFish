@@ -86,18 +86,23 @@ namespace ToastFish.Services.Study
             if (vocabularyItems.Count > 0)
                 return;
 
-            string manifestPath = GetBundledSmokeManifestPath();
+            string manifestPath = GetBundledContentManifestPath();
             if (!File.Exists(manifestPath))
-                throw new FileNotFoundException("Bundled smoke content manifest was not found.", manifestPath);
+                throw new FileNotFoundException("Bundled content manifest was not found.", manifestPath);
 
             importer.ImportManifest(manifestPath, database);
         }
 
-        private string GetBundledSmokeManifestPath()
+        private string GetBundledContentManifestPath()
         {
             string executablePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
             string executableDirectory = Path.GetDirectoryName(executablePath);
-            return Path.Combine(executableDirectory, "Resources", "Content", "manifest-smoke.json");
+            string contentDirectory = Path.Combine(executableDirectory, "Resources", "Content");
+            string builtinManifestPath = Path.Combine(contentDirectory, "manifest-builtin-jlpt.json");
+            if (File.Exists(builtinManifestPath))
+                return builtinManifestPath;
+
+            return Path.Combine(contentDirectory, "manifest-smoke.json");
         }
     }
 }

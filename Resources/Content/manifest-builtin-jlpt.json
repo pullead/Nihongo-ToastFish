@@ -1,0 +1,217 @@
+{
+  "manifestVersion": "0.2.0",
+  "generatedAt": "2026-05-22T00:00:00Z",
+  "baseUrl": "packs/",
+  "packs": [
+    {
+      "packId": "builtin-vocabulary-n5",
+      "version": "2026.05.22",
+      "jlptLevel": "N5",
+      "contentKind": "vocabulary",
+      "displayName": "N5 vocabulary reference pack",
+      "description": "N5 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "path": "vocabulary-n5.json",
+      "sha256": "bbf869326dd10b759bf31cb6728ca69b70eb314a8428c2cf24a24c6866165e95",
+      "source": {
+        "sourceId": "elzup-jlpt-word-list",
+        "name": "elzup/jlpt-word-list",
+        "url": "https://github.com/elzup/jlpt-word-list",
+        "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
+        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-examples-n5",
+      "version": "2026.05.22",
+      "jlptLevel": "N5",
+      "contentKind": "example",
+      "displayName": "N5 grammar example sentence reference pack",
+      "description": "N5 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "path": "examples-n5.json",
+      "sha256": "8b8996cf408dc3c0e3cfd2e84562356be72054cd5e528485c0eb6eec4dc0ceda",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
+      }
+    },
+    {
+      "packId": "builtin-vocabulary-n4",
+      "version": "2026.05.22",
+      "jlptLevel": "N4",
+      "contentKind": "vocabulary",
+      "displayName": "N4 vocabulary reference pack",
+      "description": "N4 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "path": "vocabulary-n4.json",
+      "sha256": "375b1e9a8a6418479b76643e787606113c574006c4dbf7b5eaf89e7fc95ce22e",
+      "source": {
+        "sourceId": "elzup-jlpt-word-list",
+        "name": "elzup/jlpt-word-list",
+        "url": "https://github.com/elzup/jlpt-word-list",
+        "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
+        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-examples-n4",
+      "version": "2026.05.22",
+      "jlptLevel": "N4",
+      "contentKind": "example",
+      "displayName": "N4 grammar example sentence reference pack",
+      "description": "N4 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "path": "examples-n4.json",
+      "sha256": "b615c51e545aa006d76987c28ecc1bab106e6ad8acdc1765841fcf4d7ee9b759",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
+      }
+    },
+    {
+      "packId": "builtin-vocabulary-n3",
+      "version": "2026.05.22",
+      "jlptLevel": "N3",
+      "contentKind": "vocabulary",
+      "displayName": "N3 vocabulary reference pack",
+      "description": "N3 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "path": "vocabulary-n3.json",
+      "sha256": "778d1ab14f26c8b76774f1d8b3e841618e1fd85632a4c5207332e6a85ac1666d",
+      "source": {
+        "sourceId": "elzup-jlpt-word-list",
+        "name": "elzup/jlpt-word-list",
+        "url": "https://github.com/elzup/jlpt-word-list",
+        "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
+        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-examples-n3",
+      "version": "2026.05.22",
+      "jlptLevel": "N3",
+      "contentKind": "example",
+      "displayName": "N3 grammar example sentence reference pack",
+      "description": "N3 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "path": "examples-n3.json",
+      "sha256": "7413bfc19e59f24caf64504ec69d78547ae5b4fd98a3ce9b4c08254ce1093396",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
+      }
+    },
+    {
+      "packId": "builtin-vocabulary-n2",
+      "version": "2026.05.22",
+      "jlptLevel": "N2",
+      "contentKind": "vocabulary",
+      "displayName": "N2 vocabulary reference pack",
+      "description": "N2 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "path": "vocabulary-n2.json",
+      "sha256": "3a7e3b7695bcb61ef3b18253dc3e3019a479387f4e87108d37e8c62b6e619d2f",
+      "source": {
+        "sourceId": "elzup-jlpt-word-list",
+        "name": "elzup/jlpt-word-list",
+        "url": "https://github.com/elzup/jlpt-word-list",
+        "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
+        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-examples-n2",
+      "version": "2026.05.22",
+      "jlptLevel": "N2",
+      "contentKind": "example",
+      "displayName": "N2 grammar example sentence reference pack",
+      "description": "N2 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "path": "examples-n2.json",
+      "sha256": "e3f837947d941575069b42d7411de0821eead66a636143c0f58b1195c264036b",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
+      }
+    },
+    {
+      "packId": "builtin-vocabulary-n1",
+      "version": "2026.05.22",
+      "jlptLevel": "N1",
+      "contentKind": "vocabulary",
+      "displayName": "N1 vocabulary reference pack",
+      "description": "N1 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "path": "vocabulary-n1.json",
+      "sha256": "545f8a26035f8ada7aa23c07159683b7ca080d28e94491919954be7f918745dc",
+      "source": {
+        "sourceId": "elzup-jlpt-word-list",
+        "name": "elzup/jlpt-word-list",
+        "url": "https://github.com/elzup/jlpt-word-list",
+        "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
+        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-examples-n1",
+      "version": "2026.05.22",
+      "jlptLevel": "N1",
+      "contentKind": "example",
+      "displayName": "N1 grammar example sentence reference pack",
+      "description": "N1 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "path": "examples-n1.json",
+      "sha256": "c06d9ae44dfefd0ad15fe457cd7c8ed57a844c4e8c7374bb07de099da11cc4e9",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
+      }
+    }
+  ]
+}
