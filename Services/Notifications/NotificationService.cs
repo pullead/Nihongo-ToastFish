@@ -1,5 +1,6 @@
 using Microsoft.Toolkit.Uwp.Notifications;
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 using ToastFish.Services.Japanese;
 using ToastFish.Services.Study;
@@ -42,10 +43,15 @@ namespace ToastFish.Services.Notifications
 
         public Task<string> WaitForActionAsync(
             IObservable<string> hotKeyObservable = null,
-            Func<string, string> hotKeyActionMapper = null)
+            Func<string, string> hotKeyActionMapper = null,
+            CancellationToken cancellationToken = default(CancellationToken))
         {
+            if (cancellationToken.IsCancellationRequested)
+                return Task.FromResult(NotificationAction.Cancel);
+
             TaskCompletionSource<string> completion = new TaskCompletionSource<string>();
             IDisposable hotKeySubscription = null;
+            CancellationTokenRegistration cancellationRegistration = default(CancellationTokenRegistration);
 
             OnActivated toastHandler = toastArgs =>
             {
@@ -66,18 +72,30 @@ namespace ToastFish.Services.Notifications
             }
 
             ToastNotificationManagerCompat.OnActivated += toastHandler;
+            if (cancellationToken.CanBeCanceled)
+            {
+                cancellationRegistration = cancellationToken.Register(
+                    () => completion.TrySetResult(NotificationAction.Cancel));
+            }
 
             return completion.Task.ContinueWith(task =>
             {
                 ToastNotificationManagerCompat.OnActivated -= toastHandler;
                 hotKeySubscription?.Dispose();
+                cancellationRegistration.Dispose();
                 return task.Result;
             });
         }
 
-        public Task<NotificationInputResult> WaitForInputAsync(string inputKey)
+        public Task<NotificationInputResult> WaitForInputAsync(
+            string inputKey,
+            CancellationToken cancellationToken = default(CancellationToken))
         {
+            if (cancellationToken.IsCancellationRequested)
+                return Task.FromResult(new NotificationInputResult(NotificationAction.Cancel, string.Empty));
+
             TaskCompletionSource<NotificationInputResult> completion = new TaskCompletionSource<NotificationInputResult>();
+            CancellationTokenRegistration cancellationRegistration = default(CancellationTokenRegistration);
 
             OnActivated toastHandler = toastArgs =>
             {
@@ -87,10 +105,16 @@ namespace ToastFish.Services.Notifications
             };
 
             ToastNotificationManagerCompat.OnActivated += toastHandler;
+            if (cancellationToken.CanBeCanceled)
+            {
+                cancellationRegistration = cancellationToken.Register(
+                    () => completion.TrySetResult(new NotificationInputResult(NotificationAction.Cancel, string.Empty)));
+            }
 
             return completion.Task.ContinueWith(task =>
             {
                 ToastNotificationManagerCompat.OnActivated -= toastHandler;
+                cancellationRegistration.Dispose();
                 return task.Result;
             });
         }

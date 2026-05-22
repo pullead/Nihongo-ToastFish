@@ -516,3 +516,42 @@ Remaining work:
 
 - Migrate the legacy vocabulary, gojuon, and imported-content long-running study loops from raw `Thread.Abort()` to `StudySessionController`.
 - Add explicit pause semantics once imported-content preview becomes a real review session.
+
+### Phase 2: Cancellation-Aware Legacy Study Startup
+
+Completed:
+
+- Extended `NotificationService.WaitForActionAsync` and `WaitForInputAsync` with optional cancellation tokens.
+- Added `NotificationAction.Cancel` so cancelled waits can unwind through existing action mapping.
+- Added a cancellation token to `WordType` and threaded it through legacy vocabulary, Japanese vocabulary, gojuon, custom-content, random practice, and SM2 study waits.
+- Added `StudySessionController.StartThread` for legacy `ParameterizedThreadStart` migration.
+- Replaced direct `Thread.Abort()` usage in primary study, import-followup study, and random practice paths with `StudySessionController` cancellation.
+- Added an exception boundary around controller-started legacy threads so a worker failure does not terminate the host process.
+- Removed remaining direct `Thread.Abort()` calls from `View/ToastFish.xaml.cs`.
+
+Verification:
+
+```powershell
+git diff --check
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Reflection probe: cancelled NotificationService.WaitForActionAsync returns "cancel".
+# Reflection probe: StudySessionController.StartThread handles a throwing worker and resets IsRunning.
+$p = Start-Process -FilePath '.\\bin\\Debug\\ToastFish.exe' -WindowStyle Hidden -PassThru; Start-Sleep -Seconds 5; $alive = Get-Process -Id $p.Id -ErrorAction SilentlyContinue; if ($alive) { Stop-Process -Id $p.Id; 'runtime smoke ok' } else { 'process exited early' }
+rg "Thread\\.Abort|thread\\.Abort|ThreadState" View\\ToastFish.xaml.cs Model\\PushControl Services -n
+```
+
+Result:
+
+```text
+git diff --check reported only CRLF normalization warnings.
+Debug build succeeded with 0 warnings and 0 errors.
+Cancelled wait probe returned: waitActionResult=cancel.
+Thread exception-boundary probe returned: threadAlive=False; finalRunning=False.
+Runtime smoke started the app process successfully.
+View\\ToastFish.xaml.cs no longer contains direct Thread.Abort or ThreadState control flow.
+```
+
+Remaining work:
+
+- Add a visible pause menu action that calls the shared session controller.
+- Manually verify duplicate-notification behavior by starting a session twice from the tray.

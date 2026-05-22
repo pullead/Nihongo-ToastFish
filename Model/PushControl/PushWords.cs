@@ -104,25 +104,25 @@ namespace ToastFish.Model.PushControl
         /// <summary>
         /// 推送单词的Task
         /// </summary>
-        public async Task<int> ProcessToastNotificationRecitation()//CancellationToken cancellationToken
+        public async Task<int> ProcessToastNotificationRecitation(CancellationToken cancellationToken = default(CancellationToken))
         {
-            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapRecitationHotKeyAction);
+            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapRecitationHotKeyAction, cancellationToken);
             return MapRecitationAction(action);
         }
 
-        public async Task<int> ProcessToastNotificationRecitationSM2()//CancellationToken cancellationToken
+        public async Task<int> ProcessToastNotificationRecitationSM2(CancellationToken cancellationToken = default(CancellationToken))
         {
-            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapSm2HotKeyAction);
+            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapSm2HotKeyAction, cancellationToken);
             return MapSm2Action(action);
         }
 
         /// <summary>
         /// 推送问题的Task
         /// </summary>
-        public async Task<int> ProcessToastNotificationQuestion()
+        public async Task<int> ProcessToastNotificationQuestion(CancellationToken cancellationToken = default(CancellationToken))
         {
-            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapQuestionHotKeyAction);
-            if (action == string.Empty)
+            string action = await notificationService.WaitForActionAsync(HotKeytObservable, MapQuestionHotKeyAction, cancellationToken);
+            if (action == string.Empty || action == NotificationAction.Cancel)
             {
                 return -1;
             }
@@ -148,6 +148,8 @@ namespace ToastFish.Model.PushControl
 
         private int MapRecitationAction(string action)
         {
+            if (action == NotificationAction.Cancel)
+                return -1;
             if (action == NotificationAction.Succeed)
                 return 0;
             if (action == NotificationAction.Voice)
@@ -177,6 +179,8 @@ namespace ToastFish.Model.PushControl
 
         private int MapSm2Action(string action)
         {
+            if (action == NotificationAction.Cancel)
+                return -1;
             if (action == NotificationAction.Again)
                 return 1;
             if (action == NotificationAction.Hard)
@@ -300,7 +304,13 @@ namespace ToastFish.Model.PushControl
             }
         }
 
-        public double pushCard(Card card, Cardstatus cardstatus, int numNewCards, int numLearingCards, int numReviewedCards)
+        public double pushCard(
+            Card card,
+            Cardstatus cardstatus,
+            int numNewCards,
+            int numLearingCards,
+            int numReviewedCards,
+            CancellationToken cancellationToken = default(CancellationToken))
         {
             Word CurrentWord = card.word;
             int answer;
@@ -332,10 +342,13 @@ namespace ToastFish.Model.PushControl
             }
             while (isFinished != true)
             {
+                if (cancellationToken.IsCancellationRequested)
+                    return -2;
+
                 PushOneWordSM2(CurrentWord, cardstatus, numNewCards, numLearingCards, numReviewedCards);
                 try
                 {
-                    var task = this.ProcessToastNotificationRecitationSM2();
+                    var task = this.ProcessToastNotificationRecitationSM2(cancellationToken);
                     answer = task.Result;
                 }
                 catch (Exception e)
@@ -372,6 +385,10 @@ namespace ToastFish.Model.PushControl
                         synth.SpeakAsync(CurrentWord.headWord);
                     }
                 }
+                else if (answer == -1)
+                {
+                    return -2;
+                }
             }
             return result;
         }
@@ -399,9 +416,14 @@ namespace ToastFish.Model.PushControl
             Debug.WriteLine($"开始背单词 @{DateTime.Now}");
             while (NewCardLst.Count != 0)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 Card newCardi = NewCardLst[0];
                 // Cardstatus cardstatus, int numNewCards, int numLearingCards, int numReviewedCards)
-                Score = pushWords.pushCard(newCardi, newCardi.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count);
+                Score = pushWords.pushCard(newCardi, newCardi.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count, WordList.CancellationToken);
+                if (Score == -2)
+                    return;
                 if (Score == -1)
                 {
                     MessageBox.Show("卡题出错！");
@@ -425,10 +447,15 @@ namespace ToastFish.Model.PushControl
                 });
                 for (int j = 0; j < LearningCardLst.Count; j++)
                 {
+                    if (WordList.IsCancellationRequested)
+                        return;
+
                     Card Cardj = LearningCardLst[j];
                     if (Cardj.isDue())
                     {
-                        Score = pushWords.pushCard(Cardj, Cardj.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count);
+                        Score = pushWords.pushCard(Cardj, Cardj.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count, WordList.CancellationToken);
+                        if (Score == -2)
+                            return;
                         if (Score == -1)
                         {
                             MessageBox.Show("卡题出错！");
@@ -450,9 +477,14 @@ namespace ToastFish.Model.PushControl
             //Reviewed Card Next
             while (ReviewedCardLst.Count != 0)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 Card newCardi = ReviewedCardLst[0];
                 // Cardstatus cardstatus, int numNewCards, int numLearingCards, int numReviewedCards)
-                Score = pushWords.pushCard(newCardi, newCardi.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count);
+                Score = pushWords.pushCard(newCardi, newCardi.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count, WordList.CancellationToken);
+                if (Score == -2)
+                    return;
                 if (Score == -1)
                 {
                     MessageBox.Show("卡题出错！");
@@ -476,10 +508,15 @@ namespace ToastFish.Model.PushControl
                 });
                 for (int j = 0; j < LearningCardLst.Count; j++)
                 {
+                    if (WordList.IsCancellationRequested)
+                        return;
+
                     Card Cardj = LearningCardLst[j];
                     if (Cardj.isDue())
                     {
-                        Score = pushWords.pushCard(Cardj, Cardj.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count);
+                        Score = pushWords.pushCard(Cardj, Cardj.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count, WordList.CancellationToken);
+                        if (Score == -2)
+                            return;
                         if (Score == -1)
                         {
                             MessageBox.Show("卡题出错！");
@@ -508,8 +545,13 @@ namespace ToastFish.Model.PushControl
             });
             while (LearningCardLst.Count != 0)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 Card Cardj = LearningCardLst[0];
-                Score = pushWords.pushCard(Cardj, Cardj.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count);
+                Score = pushWords.pushCard(Cardj, Cardj.status, NewCardLst.Count, LearningCardLst.Count, ReviewedCardLst.Count, WordList.CancellationToken);
+                if (Score == -2)
+                    return;
                 if (Score == -1)
                 {
                     MessageBox.Show("卡题出错！");
@@ -555,7 +597,7 @@ namespace ToastFish.Model.PushControl
             if (RandomList.Count > 0)
             {
                 pushWords.PushMessage("背完了！接下来开始测验记忆模糊的单词！");
-                pushWords.PushWaitAllQuestions(RandomList, (List<Word>)Query.AllWordList);
+                pushWords.PushWaitAllQuestions(RandomList, (List<Word>)Query.AllWordList, WordList.CancellationToken);
             }
             pushWords.PushMessage("结束了！恭喜！");
 
@@ -613,6 +655,9 @@ namespace ToastFish.Model.PushControl
             Debug.WriteLine($"开始背单词 @{DateTime.Now}");
             while (CopyList.Count != 0)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 if (pushWords.WORD_CURRENT_STATUS != 3)
                     CurrentWord = CopyList[0];// GetRandomWord(CopyList);
                 pushWords.PushOneWord(CurrentWord);
@@ -620,10 +665,13 @@ namespace ToastFish.Model.PushControl
                 pushWords.WORD_CURRENT_STATUS = 2;
                 while (pushWords.WORD_CURRENT_STATUS == 2)
                 {
+                    if (WordList.IsCancellationRequested)
+                        return;
+
                     int result = -1;
                     try
                     {
-                        var task = pushWords.ProcessToastNotificationRecitation();
+                        var task = pushWords.ProcessToastNotificationRecitation(WordList.CancellationToken);
                         result = task.Result;
                     }
                     catch (Exception e)
@@ -634,6 +682,10 @@ namespace ToastFish.Model.PushControl
                     if (result == 0)
                     {
                         pushWords.WORD_CURRENT_STATUS = 1;
+                    }
+                    else if (result == -1)
+                    {
+                        return;
                     }
                     else if (result == 1)
                     {
@@ -699,7 +751,7 @@ namespace ToastFish.Model.PushControl
             /* 背诵结束 */
             Debug.WriteLine($"开始做题 @{DateTime.Now}");
             Query.SelectWordList();
-            pushWords.PushWaitAllQuestions(RandomList, (List<Word>)Query.AllWordList);
+            pushWords.PushWaitAllQuestions(RandomList, (List<Word>)Query.AllWordList, WordList.CancellationToken);
 
             Debug.WriteLine($"结束了！恭喜！ @{DateTime.Now}");
 
@@ -709,7 +761,9 @@ namespace ToastFish.Model.PushControl
 
         public void UnorderWord(Object Num)
         {
-            int Number = (int)Num;
+            WordType wordType = Num as WordType;
+            int Number = wordType == null ? (int)Num : wordType.Number;
+            CancellationToken cancellationToken = wordType == null ? CancellationToken.None : wordType.CancellationToken;
             Select Query = new Select();
             Query.SelectWordList();
             List<Word> TestList = Query.GetRandomWords(Number);
@@ -722,6 +776,9 @@ namespace ToastFish.Model.PushControl
 
             while (TestList.Count != 0)
             {
+                if (cancellationToken.IsCancellationRequested)
+                    return;
+
                 ToastNotificationManagerCompat.History.Clear();
                 Thread.Sleep(500);
                 CurrentWord = GetRandomWord(TestList);
@@ -732,12 +789,16 @@ namespace ToastFish.Model.PushControl
                 QUESTION_CURRENT_STATUS = 2;
                 while (QUESTION_CURRENT_STATUS == 2)
                 {
-                    var task = ProcessToastNotificationQuestion();
-                    if (task.Result == 1)
+                    if (cancellationToken.IsCancellationRequested)
+                        return;
+
+                    var task = ProcessToastNotificationQuestion(cancellationToken);
+                    int result = task.Result;
+                    if (result == 1)
                         QUESTION_CURRENT_STATUS = 1;
-                    else if (task.Result == 0)
+                    else if (result == 0)
                         QUESTION_CURRENT_STATUS = 0;
-                    else if (task.Result == -1)
+                    else if (result == -1)
                         QUESTION_CURRENT_STATUS = -1;
                 }
 
@@ -885,7 +946,10 @@ namespace ToastFish.Model.PushControl
         /// <summary>
         /// 推送翻译和填空选择题/
         /// </summary>
-        public void PushWaitAllQuestions(List<Word> RandomList, List<Word> AllWordList)
+        public void PushWaitAllQuestions(
+            List<Word> RandomList,
+            List<Word> AllWordList,
+            CancellationToken cancellationToken = default(CancellationToken))
         {
             /* 背诵结束 */
             //中译英
@@ -901,6 +965,9 @@ namespace ToastFish.Model.PushControl
             Debug.WriteLine($"开始翻译选择 @{DateTime.Now}");
             while (CopyList.Count != 0)
             {
+                if (cancellationToken.IsCancellationRequested)
+                    return;
+
                 ToastNotificationManagerCompat.History.Clear();
                 Thread.Sleep(500);
                 CurrentWord = CopyList[0];
@@ -913,7 +980,7 @@ namespace ToastFish.Model.PushControl
                     rndWords = GetRandomWordLst(CurrentWord, AllWordList, 2);
                 }
 
-                bool result = PushWaitTransQuestion(CurrentWord, rndWords[0].headWord, rndWords[1].headWord);
+                bool result = PushWaitTransQuestion(CurrentWord, rndWords[0].headWord, rndWords[1].headWord, cancellationToken);
                 if (result)
                 {
                     CopyList.RemoveAt(0);
@@ -942,12 +1009,15 @@ namespace ToastFish.Model.PushControl
             Debug.WriteLine($"开始填空 @{DateTime.Now}");
             while (CopyList.Count != 0)
             {
+                if (cancellationToken.IsCancellationRequested)
+                    return;
+
                 ToastNotificationManagerCompat.History.Clear();
                 //CurrentWord = GetRandomWord(CopyList);
                 CurrentWord = CopyList[0];
                 QUESTION_CURRENT_RIGHT_ANSWER = int.Parse(CurrentWord.rightIndex) - 1;
                 PushOneQuestion(CurrentWord);
-                bool isFinished = PushWaitFillQuestion(CurrentWord);
+                bool isFinished = PushWaitFillQuestion(CurrentWord, cancellationToken);
 
                 if (isFinished)
                 {
@@ -974,14 +1044,16 @@ namespace ToastFish.Model.PushControl
         /// <summary>
         /// 推送一道选择题
         /// </summary>
-        public bool PushWaitFillQuestion(Word CurrentWord)
+        public bool PushWaitFillQuestion(
+            Word CurrentWord,
+            CancellationToken cancellationToken = default(CancellationToken))
         {
             bool isFinished = false;
             int rst = -1;
             PushOneQuestion(CurrentWord);
             try
             {
-                var task = ProcessToastNotificationQuestion();
+                var task = ProcessToastNotificationQuestion(cancellationToken);
                 rst = task.Result;
             }
             catch (Exception e)
@@ -1031,7 +1103,11 @@ namespace ToastFish.Model.PushControl
         /// <summary>
         /// 推送翻译问题
         /// </summary>
-        public bool PushWaitTransQuestion(Word CurrentWord, string headWord1, string headWord2)
+        public bool PushWaitTransQuestion(
+            Word CurrentWord,
+            string headWord1,
+            string headWord2,
+            CancellationToken cancellationToken = default(CancellationToken))
         {
             bool isFinshed = false;
             int rst = -1;
@@ -1039,7 +1115,7 @@ namespace ToastFish.Model.PushControl
 
             try
             {
-                var task = ProcessToastNotificationQuestion();
+                var task = ProcessToastNotificationQuestion(cancellationToken);
                 rst = task.Result;
             }
             catch (Exception e)

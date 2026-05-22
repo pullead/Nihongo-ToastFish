@@ -174,6 +174,9 @@ namespace ToastFish.Model.PushControl
             JpWord CurrentWord = new JpWord();
             while (CopyList.Count != 0)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 if (pushJpWords.WORD_CURRENT_STATUS != 3)
                     CurrentWord = pushJpWords.GetRandomWord(CopyList);
                 pushJpWords.PushOneWord(CurrentWord);
@@ -181,16 +184,24 @@ namespace ToastFish.Model.PushControl
                 pushJpWords.WORD_CURRENT_STATUS = 2;
                 while (pushJpWords.WORD_CURRENT_STATUS == 2)
                 {
-                    var task = pushJpWords.ProcessToastNotificationRecitation();
-                    if (task.Result == 0)
+                    if (WordList.IsCancellationRequested)
+                        return;
+
+                    var task = pushJpWords.ProcessToastNotificationRecitation(WordList.CancellationToken);
+                    int result = task.Result;
+                    if (result == 0)
                     {
                         pushJpWords.WORD_CURRENT_STATUS = 1;
                     }
-                    else if (task.Result == 1)
+                    else if (result == -1)
+                    {
+                        return;
+                    }
+                    else if (result == 1)
                     {
                         pushJpWords.WORD_CURRENT_STATUS = 0;
                     }
-                    else if (task.Result == 2)
+                    else if (result == 2)
                     {
                         pushJpWords.WORD_CURRENT_STATUS = 3;
                         SpeechSynthesizer synth = new SpeechSynthesizer();
@@ -221,6 +232,9 @@ namespace ToastFish.Model.PushControl
 
             while (RandomList.Count != 0)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 ToastNotificationManagerCompat.History.Clear();
                 Thread.Sleep(500);
                 CurrentWord = pushJpWords.GetRandomWord(RandomList);
@@ -231,12 +245,16 @@ namespace ToastFish.Model.PushControl
                 pushJpWords.QUESTION_CURRENT_STATUS = 2;
                 while (pushJpWords.QUESTION_CURRENT_STATUS == 2)
                 {
-                    var task = pushJpWords.ProcessToastNotificationQuestion();
-                    if (task.Result == 1)
+                    if (WordList.IsCancellationRequested)
+                        return;
+
+                    var task = pushJpWords.ProcessToastNotificationQuestion(WordList.CancellationToken);
+                    int result = task.Result;
+                    if (result == 1)
                         pushJpWords.QUESTION_CURRENT_STATUS = 1;
-                    else if (task.Result == 0)
+                    else if (result == 0)
                         pushJpWords.QUESTION_CURRENT_STATUS = 0;
-                    else if (task.Result == -1)
+                    else if (result == -1)
                         pushJpWords.QUESTION_CURRENT_STATUS = -1;
                 }
 
@@ -261,7 +279,9 @@ namespace ToastFish.Model.PushControl
 
         public static new void UnorderWord(Object Num)
         {
-            int Number = (int)Num;
+            WordType wordType = Num as WordType;
+            int Number = wordType == null ? (int)Num : wordType.Number;
+            CancellationToken cancellationToken = wordType == null ? CancellationToken.None : wordType.CancellationToken;
             Select Query = new Select();
             PushJpWords pushJpWords = new PushJpWords();
             List<JpWord> TestList = Query.GetRandomJpWords(Number);
@@ -274,6 +294,9 @@ namespace ToastFish.Model.PushControl
 
             while (TestList.Count != 0)
             {
+                if (cancellationToken.IsCancellationRequested)
+                    return;
+
                 ToastNotificationManagerCompat.History.Clear();
                 Thread.Sleep(500);
                 CurrentWord = pushJpWords.GetRandomWord(TestList);
@@ -284,12 +307,16 @@ namespace ToastFish.Model.PushControl
                 pushJpWords.QUESTION_CURRENT_STATUS = 2;
                 while (pushJpWords.QUESTION_CURRENT_STATUS == 2)
                 {
-                    var task = pushJpWords.ProcessToastNotificationQuestion();
-                    if (task.Result == 1)
+                    if (cancellationToken.IsCancellationRequested)
+                        return;
+
+                    var task = pushJpWords.ProcessToastNotificationQuestion(cancellationToken);
+                    int result = task.Result;
+                    if (result == 1)
                         pushJpWords.QUESTION_CURRENT_STATUS = 1;
-                    else if (task.Result == 0)
+                    else if (result == 0)
                         pushJpWords.QUESTION_CURRENT_STATUS = 0;
-                    else if (task.Result == -1)
+                    else if (result == -1)
                         pushJpWords.QUESTION_CURRENT_STATUS = -1;
                 }
 

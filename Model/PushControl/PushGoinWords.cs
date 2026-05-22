@@ -18,16 +18,16 @@ namespace ToastFish.Model.PushControl
         // 当前推送单词的状态
         public static int WORD_NUMBER = 10;  // 单词数量
 
-        public async Task<int> ProcessToastNotificationOrderGoin()
+        public async Task<int> ProcessToastNotificationOrderGoin(CancellationToken cancellationToken = default(CancellationToken))
         {
-            string action = await notificationService.WaitForActionAsync();
+            string action = await notificationService.WaitForActionAsync(cancellationToken: cancellationToken);
             return MapGoinOrderAction(action);
         }
 
-        public async Task<int> ProcessToastNotificationGoinQuestion()
+        public async Task<int> ProcessToastNotificationGoinQuestion(CancellationToken cancellationToken = default(CancellationToken))
         {
-            string action = await notificationService.WaitForActionAsync();
-            if (action == string.Empty)
+            string action = await notificationService.WaitForActionAsync(cancellationToken: cancellationToken);
+            if (action == string.Empty || action == NotificationAction.Cancel)
             {
                 return -1;
             }
@@ -37,6 +37,8 @@ namespace ToastFish.Model.PushControl
 
         private int MapGoinOrderAction(string action)
         {
+            if (action == NotificationAction.Cancel)
+                return -1;
             if (action == NotificationAction.Succeed)
                 return 0;
             if (action == NotificationAction.Voice)
@@ -62,6 +64,9 @@ namespace ToastFish.Model.PushControl
             GoinWord CurrentWord = new GoinWord();
             while (GoinProgress < Limit)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 if (pushGoinWords.WORD_CURRENT_STATUS != 3)
                     CurrentWord = GoinList[GoinProgress - 1];
                 pushGoinWords.PushGoinWord(CurrentWord);
@@ -69,16 +74,24 @@ namespace ToastFish.Model.PushControl
                 pushGoinWords.WORD_CURRENT_STATUS = 2;
                 while (pushGoinWords.WORD_CURRENT_STATUS == 2)
                 {
-                    var task = pushGoinWords.ProcessToastNotificationOrderGoin();
-                    if (task.Result == 0)
+                    if (WordList.IsCancellationRequested)
+                        return;
+
+                    var task = pushGoinWords.ProcessToastNotificationOrderGoin(WordList.CancellationToken);
+                    int result = task.Result;
+                    if (result == 0)
                     {
                         pushGoinWords.WORD_CURRENT_STATUS = 1;
                     }
-                    else if (task.Result == 1)
+                    else if (result == -1)
+                    {
+                        return;
+                    }
+                    else if (result == 1)
                     {
                         pushGoinWords.WORD_CURRENT_STATUS = 0;
                     }
-                    else if (task.Result == 2)
+                    else if (result == 2)
                     {
                         pushGoinWords.WORD_CURRENT_STATUS = 3;
                         MUSIC temp = new MUSIC();
@@ -105,6 +118,9 @@ namespace ToastFish.Model.PushControl
 
             while (TestList.Count != 0)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 ToastNotificationManagerCompat.History.Clear();
                 Thread.Sleep(500);
                 CurrentWord = pushGoinWords.GetRandomGoinWord(TestList);
@@ -132,12 +148,16 @@ namespace ToastFish.Model.PushControl
                 pushGoinWords.QUESTION_CURRENT_STATUS = 2;
                 while (pushGoinWords.QUESTION_CURRENT_STATUS == 2)
                 {
-                    var task = pushGoinWords.ProcessToastNotificationGoinQuestion();
-                    if (task.Result == 1)
+                    if (WordList.IsCancellationRequested)
+                        return;
+
+                    var task = pushGoinWords.ProcessToastNotificationGoinQuestion(WordList.CancellationToken);
+                    int result = task.Result;
+                    if (result == 1)
                         pushGoinWords.QUESTION_CURRENT_STATUS = 1;
-                    else if (task.Result == 0)
+                    else if (result == 0)
                         pushGoinWords.QUESTION_CURRENT_STATUS = 0;
-                    else if (task.Result == -1)
+                    else if (result == -1)
                         pushGoinWords.QUESTION_CURRENT_STATUS = -1;
                 }
 
@@ -161,7 +181,9 @@ namespace ToastFish.Model.PushControl
 
         public static void UnorderGoin(Object Num)
         {
-            int Number = (int)Num;
+            WordType wordType = Num as WordType;
+            int Number = wordType == null ? (int)Num : wordType.Number;
+            CancellationToken cancellationToken = wordType == null ? CancellationToken.None : wordType.CancellationToken;
             Select Query = new Select();
             List<GoinWord> TestList = Query.GetGainWordList();
             PushGoinWords pushGoinWords = new PushGoinWords();
@@ -180,6 +202,9 @@ namespace ToastFish.Model.PushControl
             GoinWord CurrentWord = new GoinWord();
             while (TestList.Count != 0)
             {
+                if (cancellationToken.IsCancellationRequested)
+                    return;
+
                 ToastNotificationManagerCompat.History.Clear();
                 Thread.Sleep(500);
                 CurrentWord = pushGoinWords.GetRandomGoinWord(TestList);
@@ -207,12 +232,16 @@ namespace ToastFish.Model.PushControl
                 pushGoinWords.QUESTION_CURRENT_STATUS = 2;
                 while (pushGoinWords.QUESTION_CURRENT_STATUS == 2)
                 {
-                    var task = pushGoinWords.ProcessToastNotificationGoinQuestion();
-                    if (task.Result == 1)
+                    if (cancellationToken.IsCancellationRequested)
+                        return;
+
+                    var task = pushGoinWords.ProcessToastNotificationGoinQuestion(cancellationToken);
+                    int result = task.Result;
+                    if (result == 1)
                         pushGoinWords.QUESTION_CURRENT_STATUS = 1;
-                    else if (task.Result == 0)
+                    else if (result == 0)
                         pushGoinWords.QUESTION_CURRENT_STATUS = 0;
-                    else if (task.Result == -1)
+                    else if (result == -1)
                         pushGoinWords.QUESTION_CURRENT_STATUS = -1;
                 }
 

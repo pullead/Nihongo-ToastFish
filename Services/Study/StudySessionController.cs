@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -46,6 +47,33 @@ namespace ToastFish.Services.Study
                     EndSession(currentSession);
                 }
             });
+        }
+
+        public Thread StartThread(Action<CancellationToken> session)
+        {
+            if (session == null)
+                throw new ArgumentNullException(nameof(session));
+
+            CancellationTokenSource currentSession = BeginSession();
+            Thread thread = new Thread(() =>
+            {
+                try
+                {
+                    if (!currentSession.IsCancellationRequested)
+                        session(currentSession.Token);
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex);
+                }
+                finally
+                {
+                    EndSession(currentSession);
+                }
+            });
+
+            thread.Start();
+            return thread;
         }
 
         public void CancelActiveSession()

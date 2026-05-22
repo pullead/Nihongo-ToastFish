@@ -31,6 +31,7 @@ namespace ToastFish
         Select Se = new Select();
         PushWords pushWords = new PushWords();
         StudySessionController importedContentSession = new StudySessionController();
+        StudySessionController legacyStudySession = new StudySessionController();
         Thread thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
         Dictionary<string, string> TablelDictionary = new Dictionary<string, string>(){
         {"CET4_1", "四级核心词汇"},{"CET4_3", "四级完整词汇"},{"CET6_1", "六级核心词汇"},
@@ -361,44 +362,31 @@ namespace ToastFish
             if (!System.IO.Directory.Exists("Log"))  {
                 System.IO.Directory.CreateDirectory("Log");
             }
-           // System.IO.Directory.CreateDirectory("Log");
-
-            var state = thread.ThreadState;
 
             WordType Words = new WordType();
             Words.Number = Select.WORD_NUMBER;
 
-            if (state == System.Threading.ThreadState.WaitSleepJoin || state == System.Threading.ThreadState.Stopped)
-            {
-                thread.Abort();
-                while (thread.ThreadState != System.Threading.ThreadState.Aborted)
-                {
-                    Thread.Sleep(100);
-                }
-                if(Select.TABLE_NAME == "Goin")
-                    thread = new Thread(new ParameterizedThreadStart(PushGoinWords.OrderGoin));
-                else if(Select.TABLE_NAME == "StdJp_Mid")
-                    thread = new Thread(new ParameterizedThreadStart(PushJpWords.Recitation));
-                //else if (Select.TABLE_NAME == "自定义英语")
-                //    thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
-                else
-                    thread = new Thread(new ParameterizedThreadStart(PushWords.RecitationSM2));
+            StartLegacyStudyThread(CreateSelectedStudyStart(), Words);
+        }
 
-                thread.Start(Words);
-            }
-            else
+        private ParameterizedThreadStart CreateSelectedStudyStart()
+        {
+            if (Select.TABLE_NAME == "Goin")
+                return new ParameterizedThreadStart(PushGoinWords.OrderGoin);
+            if (Select.TABLE_NAME == "StdJp_Mid")
+                return new ParameterizedThreadStart(PushJpWords.Recitation);
+
+            return new ParameterizedThreadStart(PushWords.RecitationSM2);
+        }
+
+        private void StartLegacyStudyThread(ParameterizedThreadStart studyStart, WordType words)
+        {
+            legacyStudySession.CancelActiveSession();
+            thread = legacyStudySession.StartThread(token =>
             {
-                if (Select.TABLE_NAME == "Goin")
-                    thread = new Thread(new ParameterizedThreadStart(PushGoinWords.OrderGoin));
-                else if (Select.TABLE_NAME == "StdJp_Mid")
-                    thread = new Thread(new ParameterizedThreadStart(PushJpWords.Recitation));
-                //else if (Select.TABLE_NAME == "自定义英语")
-                //    thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
-                else
-                    thread = new Thread(new ParameterizedThreadStart(PushWords.RecitationSM2));
-                
-                thread.Start(Words);
-            }
+                words.CancellationToken = token;
+                studyStart(words);
+            });
         }
 
         private void SetNumber_Click(object sender, EventArgs e)
@@ -466,43 +454,19 @@ namespace ToastFish
             }
             
 
-            var state = thread.ThreadState;
+            StartLegacyStudyThread(CreateImportedStudyStart(), Words);
+        }
 
-            if (state == System.Threading.ThreadState.WaitSleepJoin || state == System.Threading.ThreadState.Stopped)
-            {
-                thread.Abort();
-                while (thread.ThreadState != System.Threading.ThreadState.Aborted)
-                {
-                    Thread.Sleep(100);
-                }
-                if (Select.TABLE_NAME == "Goin")
-                    thread = new Thread(new ParameterizedThreadStart(PushGoinWords.OrderGoin));
-                else if (Select.TABLE_NAME == "StdJp_Mid")
-                    thread = new Thread(new ParameterizedThreadStart(PushJpWords.Recitation));
-                //else if (Select.TABLE_NAME == "自定义英语")
-                //    thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
-                else if (Select.TABLE_NAME == "自定义")
-                    thread = new Thread(new ParameterizedThreadStart(PushCustomizeWords.Recitation));
-                else
-                    thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
+        private ParameterizedThreadStart CreateImportedStudyStart()
+        {
+            if (Select.TABLE_NAME == "Goin")
+                return new ParameterizedThreadStart(PushGoinWords.OrderGoin);
+            if (Select.TABLE_NAME == "StdJp_Mid")
+                return new ParameterizedThreadStart(PushJpWords.Recitation);
+            if (Select.TABLE_NAME == "自定义")
+                return new ParameterizedThreadStart(PushCustomizeWords.Recitation);
 
-                thread.Start(Words);
-            }
-            else
-            {
-                if (Select.TABLE_NAME == "Goin")
-                    thread = new Thread(new ParameterizedThreadStart(PushGoinWords.OrderGoin));
-                else if (Select.TABLE_NAME == "StdJp_Mid")
-                    thread = new Thread(new ParameterizedThreadStart(PushJpWords.Recitation));
-                //else if (Select.TABLE_NAME == "自定义英语")
-                //    thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
-                else if (Select.TABLE_NAME == "自定义")
-                    thread = new Thread(new ParameterizedThreadStart(PushCustomizeWords.Recitation));
-                else
-                    thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
-
-                thread.Start(Words);
-            }
+            return new ParameterizedThreadStart(PushWords.Recitation);
         }
 
         private void SelectBook_Click(object sender, EventArgs e)
@@ -587,59 +551,31 @@ namespace ToastFish
 
         private void RandomWordTest_Click(object sender, EventArgs e)
         {
-            var state = thread.ThreadState;
-            if (state == System.Threading.ThreadState.WaitSleepJoin || state == System.Threading.ThreadState.Stopped)
-            {
-                thread.Abort();
-                while (thread.ThreadState != System.Threading.ThreadState.Aborted)
-                {
-                    Thread.Sleep(100);
-                }
-            }
             if (Select.TABLE_NAME == "StdJp_Mid" || Select.TABLE_NAME == "Goin")
                 Select.TABLE_NAME = "GRE_2";
-            thread = new Thread(new ParameterizedThreadStart(pushWords.UnorderWord));
-            thread.Start(Select.WORD_NUMBER);
+
+            WordType words = new WordType();
+            words.Number = Select.WORD_NUMBER;
+            StartLegacyStudyThread(new ParameterizedThreadStart(pushWords.UnorderWord), words);
         }
 
         private void RandomGoinTest_Click(object sender, EventArgs e)
         {
             Select.TABLE_NAME = "Goin";
             Se.UpdateBookName("Goin");
-            var state = thread.ThreadState;
-            if (state == System.Threading.ThreadState.WaitSleepJoin || state == System.Threading.ThreadState.Stopped)
-            {
-                thread.Abort();
-                while (thread.ThreadState != System.Threading.ThreadState.Aborted)
-                {
-                    Thread.Sleep(100);
-                }
-                if (Select.TABLE_NAME == "Goin")
-                    thread = new Thread(new ParameterizedThreadStart(PushGoinWords.UnorderGoin));
-                thread.Start(Select.WORD_NUMBER);
-            }
-            else
-            {
-                if (Select.TABLE_NAME == "Goin")
-                    thread = new Thread(new ParameterizedThreadStart(PushGoinWords.UnorderGoin));
-                thread.Start(Select.WORD_NUMBER);
-            }
+
+            WordType words = new WordType();
+            words.Number = Select.WORD_NUMBER;
+            StartLegacyStudyThread(new ParameterizedThreadStart(PushGoinWords.UnorderGoin), words);
         }
 
         private void RandomJpWordTest_Click(object sender, EventArgs e)
         {
-            var state = thread.ThreadState;
-            if (state == System.Threading.ThreadState.WaitSleepJoin || state == System.Threading.ThreadState.Stopped)
-            {
-                thread.Abort();
-                while (thread.ThreadState != System.Threading.ThreadState.Aborted)
-                {
-                    Thread.Sleep(100);
-                }
-            }
             Select.TABLE_NAME = "StdJp_Mid";
-            thread = new Thread(new ParameterizedThreadStart(PushJpWords.UnorderWord));
-            thread.Start(Select.WORD_NUMBER);
+
+            WordType words = new WordType();
+            words.Number = Select.WORD_NUMBER;
+            StartLegacyStudyThread(new ParameterizedThreadStart(PushJpWords.UnorderWord), words);
         }
 
         private void BuiltinN5Preview_Click(object sender, EventArgs e)
@@ -758,6 +694,7 @@ namespace ToastFish
         }
         private void ExitApp_Click(object sender, EventArgs e)
         {
+            legacyStudySession.CancelActiveSession();
             importedContentSession.CancelActiveSession();
             ToastNotificationManagerCompat.History.Clear();
             Environment.Exit(0);

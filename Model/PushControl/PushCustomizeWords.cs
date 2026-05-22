@@ -52,6 +52,9 @@ namespace ToastFish.Model.PushControl
             //int index = 0;
             while (RandomList.Count != 0)
             {
+                if (WordList.IsCancellationRequested)
+                    return;
+
                 //if (index == RandomList.Count - 1)
                 //    index = 0;
                 CurrentWord = RandomList[0];
@@ -60,12 +63,20 @@ namespace ToastFish.Model.PushControl
                 pushCustomizeWords.WORD_CURRENT_STATUS = 2;
                 while (pushCustomizeWords.WORD_CURRENT_STATUS == 2)
                 {
-                    var task = pushCustomizeWords.ProcessToastNotificationRecitation();
-                    if (task.Result == 0)
+                    if (WordList.IsCancellationRequested)
+                        return;
+
+                    var task = pushCustomizeWords.ProcessToastNotificationRecitation(WordList.CancellationToken);
+                    int result = task.Result;
+                    if (result == 0)
                     {
                         pushCustomizeWords.WORD_CURRENT_STATUS = 1;
                     }
-                    else if (task.Result == 1)
+                    else if (result == -1)
+                    {
+                        return;
+                    }
+                    else if (result == 1)
                     {
                         pushCustomizeWords.WORD_CURRENT_STATUS = 0;
                     }
