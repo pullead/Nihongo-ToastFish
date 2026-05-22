@@ -273,3 +273,36 @@ Remaining work:
 - Add downloader/update service around this importer for manual online updates.
 - Add content repository queries for study card generation.
 - Expand smoke packs into larger N5-N1 reference content after license/source metadata is finalized.
+
+### Phase 5 Prep: Content Read Repository
+
+Completed:
+
+- Added `Services/Content/ContentRepository.cs` as the read boundary for imported content.
+- Added parameterized read methods for gojuon, vocabulary, grammar points, and grammar examples.
+- Added optional JLPT-level filtering for vocabulary, grammar, and examples.
+- Added conservative read limits so future UI/study flows do not accidentally load unbounded content.
+
+Verification:
+
+```powershell
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Import manifest-smoke.json into bin\\Debug\\Resources\\inami.db,
+# then query imported rows through ContentRepository.
+```
+
+Result:
+
+```text
+Debug build succeeded with 0 warnings and 0 errors.
+ContentRepository probe returned:
+gojuon=5 firstGojuon=a
+vocab=5 firstVocab=学校
+grammar=3 firstGrammar=Nです
+examples=3 firstExample=example-n5-desu-nihongo
+```
+
+Remaining work:
+
+- Add unified study card models and factory methods that consume `ContentRepository`.
+- Route at least one tray study path through imported smoke content before expanding packs.
