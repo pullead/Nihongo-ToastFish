@@ -1,0 +1,79 @@
+{
+  "manifestVersion": "0.1.0",
+  "generatedAt": "2026-05-22T00:00:00Z",
+  "baseUrl": "Resources/Content/packs/",
+  "packs": [
+    {
+      "packId": "builtin-gojuon-smoke",
+      "version": "0.1.0",
+      "jlptLevel": "gojuon",
+      "contentKind": "gojuon",
+      "displayName": "五十音入门样本",
+      "description": "用于验证内置五十音内容包格式的最小样本。",
+      "path": "gojuon-smoke.json",
+      "sha256": "3d9f14d9dcca4a3bcd8f8735c7c967b985f492543b77a7218b987352f8e8fb9d",
+      "source": {
+        "sourceId": "nihongo-toastfish-first-party",
+        "name": "Nihongo ToastFish first-party content",
+        "notes": "Created for schema and importer validation."
+      },
+      "license": {
+        "name": "Nihongo ToastFish first-party sample license"
+      }
+    },
+    {
+      "packId": "builtin-vocabulary-n5-smoke",
+      "version": "0.1.0",
+      "jlptLevel": "N5",
+      "contentKind": "vocabulary",
+      "displayName": "N5 词汇样本",
+      "description": "用于验证内置 N5 词汇内容包格式的最小样本。",
+      "path": "vocabulary-n5-smoke.json",
+      "sha256": "ddcb4747eb5e10d02c3bb47ab7de33ab34593d5a761d54fcdc8a8d6c7add3895",
+      "source": {
+        "sourceId": "nihongo-toastfish-first-party",
+        "name": "Nihongo ToastFish first-party content",
+        "notes": "Created for schema and importer validation."
+      },
+      "license": {
+        "name": "Nihongo ToastFish first-party sample license"
+      }
+    },
+    {
+      "packId": "builtin-grammar-n5-smoke",
+      "version": "0.1.0",
+      "jlptLevel": "N5",
+      "contentKind": "grammar",
+      "displayName": "N5 语法样本",
+      "description": "用于验证内置 N5 语法内容包格式的最小样本。",
+      "path": "grammar-n5-smoke.json",
+      "sha256": "d5e8940a065e1b2e8414976ba4edba46ca24c7aef464f051ed1945f6d72c3059",
+      "source": {
+        "sourceId": "nihongo-toastfish-first-party",
+        "name": "Nihongo ToastFish first-party content",
+        "notes": "Created for schema and importer validation."
+      },
+      "license": {
+        "name": "Nihongo ToastFish first-party sample license"
+      }
+    },
+    {
+      "packId": "builtin-examples-n5-smoke",
+      "version": "0.1.0",
+      "jlptLevel": "N5",
+      "contentKind": "example",
+      "displayName": "N5 例句样本",
+      "description": "用于验证内置 N5 语法例句内容包格式的最小样本。",
+      "path": "examples-n5-smoke.json",
+      "sha256": "2cb8c75d14d559dc494508fb3bbc2b56c039fa8318720008ac883e940be57772",
+      "source": {
+        "sourceId": "nihongo-toastfish-first-party",
+        "name": "Nihongo ToastFish first-party content",
+        "notes": "Created for schema and importer validation."
+      },
+      "license": {
+        "name": "Nihongo ToastFish first-party sample license"
+      }
+    }
+  ]
+}

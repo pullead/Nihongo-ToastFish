@@ -1,0 +1,55 @@
+{
+  "pack": {
+    "packId": "builtin-gojuon-smoke",
+    "version": "0.1.0",
+    "jlptLevel": "gojuon",
+    "contentKind": "gojuon",
+    "displayName": "五十音入门样本",
+    "description": "用于验证内置五十音内容包格式的最小样本。",
+    "source": {
+      "sourceId": "nihongo-toastfish-first-party",
+      "name": "Nihongo ToastFish first-party content",
+      "notes": "Created for schema and importer validation."
+    },
+    "license": {
+      "name": "Nihongo ToastFish first-party sample license"
+    }
+  },
+  "items": [
+    {
+      "contentId": "gojuon-a",
+      "romaji": "a",
+      "hiragana": "あ",
+      "katakana": "ア",
+      "audioPath": "Resources/Goin/a.mp3"
+    },
+    {
+      "contentId": "gojuon-i",
+      "romaji": "i",
+      "hiragana": "い",
+      "katakana": "イ",
+      "audioPath": "Resources/Goin/i.mp3"
+    },
+    {
+      "contentId": "gojuon-u",
+      "romaji": "u",
+      "hiragana": "う",
+      "katakana": "ウ",
+      "audioPath": "Resources/Goin/u.mp3"
+    },
+    {
+      "contentId": "gojuon-e",
+      "romaji": "e",
+      "hiragana": "え",
+      "katakana": "エ",
+      "audioPath": "Resources/Goin/e.mp3"
+    },
+    {
+      "contentId": "gojuon-o",
+      "romaji": "o",
+      "hiragana": "お",
+      "katakana": "オ",
+      "audioPath": "Resources/Goin/o.mp3"
+    }
+  ]
+}

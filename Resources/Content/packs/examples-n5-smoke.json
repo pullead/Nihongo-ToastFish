@@ -1,0 +1,56 @@
+{
+  "pack": {
+    "packId": "builtin-examples-n5-smoke",
+    "version": "0.1.0",
+    "jlptLevel": "N5",
+    "contentKind": "example",
+    "displayName": "N5 例句样本",
+    "description": "用于验证内置 N5 语法例句内容包格式的最小样本。",
+    "source": {
+      "sourceId": "nihongo-toastfish-first-party",
+      "name": "Nihongo ToastFish first-party content",
+      "notes": "Created for schema and importer validation."
+    },
+    "license": {
+      "name": "Nihongo ToastFish first-party sample license"
+    }
+  },
+  "items": [
+    {
+      "contentId": "example-n5-desu-nihongo",
+      "grammarId": "grammar-n5-desu",
+      "sentenceJp": "これは日本語の本です。",
+      "sentenceKana": "これはにほんごのほんです。",
+      "sentenceFuriganaJson": "[{\"text\":\"これは\"},{\"text\":\"日本語\",\"kana\":\"にほんご\"},{\"text\":\"の\"},{\"text\":\"本\",\"kana\":\"ほん\"},{\"text\":\"です。\"}]",
+      "meaningCn": "这是日语书。",
+      "questionType": "choose_meaning",
+      "promptCn": "请选择句子的中文意思。",
+      "correctAnswer": "这是日语书。",
+      "distractors": ["我学习日语。", "这是学校。", "我喝水。"]
+    },
+    {
+      "contentId": "example-n5-wo-mizu",
+      "grammarId": "grammar-n5-wo",
+      "sentenceJp": "水を飲みます。",
+      "sentenceKana": "みずをのみます。",
+      "sentenceFuriganaJson": "[{\"text\":\"水\",\"kana\":\"みず\"},{\"text\":\"を\"},{\"text\":\"飲\",\"kana\":\"の\"},{\"text\":\"みます。\"}]",
+      "meaningCn": "喝水。",
+      "questionType": "fill_pattern",
+      "promptCn": "选择合适的助词：水__飲みます。",
+      "correctAnswer": "を",
+      "distractors": ["は", "へ", "に"]
+    },
+    {
+      "contentId": "example-n5-e-gakkou",
+      "grammarId": "grammar-n5-e",
+      "sentenceJp": "学校へ行きます。",
+      "sentenceKana": "がっこうへいきます。",
+      "sentenceFuriganaJson": "[{\"text\":\"学校\",\"kana\":\"がっこう\"},{\"text\":\"へ\"},{\"text\":\"行\",\"kana\":\"い\"},{\"text\":\"きます。\"}]",
+      "meaningCn": "去学校。",
+      "questionType": "choose_sentence",
+      "promptCn": "选择“去学校。”对应的日语句子。",
+      "correctAnswer": "学校へ行きます。",
+      "distractors": ["水を飲みます。", "日本語を勉強します。", "大きいかばんです。"]
+    }
+  ]
+}

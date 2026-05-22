@@ -1,0 +1,80 @@
+{
+  "pack": {
+    "packId": "builtin-vocabulary-n5-smoke",
+    "version": "0.1.0",
+    "jlptLevel": "N5",
+    "contentKind": "vocabulary",
+    "displayName": "N5 词汇样本",
+    "description": "用于验证内置 N5 词汇内容包格式的最小样本。",
+    "source": {
+      "sourceId": "nihongo-toastfish-first-party",
+      "name": "Nihongo ToastFish first-party content",
+      "notes": "Created for schema and importer validation."
+    },
+    "license": {
+      "name": "Nihongo ToastFish first-party sample license"
+    }
+  },
+  "items": [
+    {
+      "contentId": "vocab-n5-nihongo",
+      "headword": "日本語",
+      "reading": "にほんご",
+      "furiganaJson": "[{\"text\":\"日本語\",\"kana\":\"にほんご\"}]",
+      "meaningCn": "日语",
+      "partOfSpeech": "名词",
+      "exampleJp": "日本語を勉強します。",
+      "exampleKana": "にほんごをべんきょうします。",
+      "exampleFuriganaJson": "[{\"text\":\"日本語\",\"kana\":\"にほんご\"},{\"text\":\"を\"},{\"text\":\"勉強\",\"kana\":\"べんきょう\"},{\"text\":\"します。\"}]",
+      "exampleCn": "我学习日语。"
+    },
+    {
+      "contentId": "vocab-n5-gakkou",
+      "headword": "学校",
+      "reading": "がっこう",
+      "furiganaJson": "[{\"text\":\"学校\",\"kana\":\"がっこう\"}]",
+      "meaningCn": "学校",
+      "partOfSpeech": "名词",
+      "exampleJp": "学校へ行きます。",
+      "exampleKana": "がっこうへいきます。",
+      "exampleFuriganaJson": "[{\"text\":\"学校\",\"kana\":\"がっこう\"},{\"text\":\"へ\"},{\"text\":\"行\",\"kana\":\"い\"},{\"text\":\"きます。\"}]",
+      "exampleCn": "去学校。"
+    },
+    {
+      "contentId": "vocab-n5-mizu",
+      "headword": "水",
+      "reading": "みず",
+      "furiganaJson": "[{\"text\":\"水\",\"kana\":\"みず\"}]",
+      "meaningCn": "水",
+      "partOfSpeech": "名词",
+      "exampleJp": "水を飲みます。",
+      "exampleKana": "みずをのみます。",
+      "exampleFuriganaJson": "[{\"text\":\"水\",\"kana\":\"みず\"},{\"text\":\"を\"},{\"text\":\"飲\",\"kana\":\"の\"},{\"text\":\"みます。\"}]",
+      "exampleCn": "喝水。"
+    },
+    {
+      "contentId": "vocab-n5-tabemasu",
+      "headword": "食べます",
+      "reading": "たべます",
+      "furiganaJson": "[{\"text\":\"食\",\"kana\":\"た\"},{\"text\":\"べます\"}]",
+      "meaningCn": "吃",
+      "partOfSpeech": "动词",
+      "exampleJp": "朝ご飯を食べます。",
+      "exampleKana": "あさごはんをたべます。",
+      "exampleFuriganaJson": "[{\"text\":\"朝\",\"kana\":\"あさ\"},{\"text\":\"ご\"},{\"text\":\"飯\",\"kana\":\"はん\"},{\"text\":\"を\"},{\"text\":\"食\",\"kana\":\"た\"},{\"text\":\"べます。\"}]",
+      "exampleCn": "吃早饭。"
+    },
+    {
+      "contentId": "vocab-n5-ookii",
+      "headword": "大きい",
+      "reading": "おおきい",
+      "furiganaJson": "[{\"text\":\"大\",\"kana\":\"おお\"},{\"text\":\"きい\"}]",
+      "meaningCn": "大的",
+      "partOfSpeech": "形容词",
+      "exampleJp": "大きいかばんです。",
+      "exampleKana": "おおきいかばんです。",
+      "exampleFuriganaJson": "[{\"text\":\"大\",\"kana\":\"おお\"},{\"text\":\"きいかばんです。\"}]",
+      "exampleCn": "是一个大包。"
+    }
+  ]
+}

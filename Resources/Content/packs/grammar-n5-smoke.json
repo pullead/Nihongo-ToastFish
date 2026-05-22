@@ -1,0 +1,41 @@
+{
+  "pack": {
+    "packId": "builtin-grammar-n5-smoke",
+    "version": "0.1.0",
+    "jlptLevel": "N5",
+    "contentKind": "grammar",
+    "displayName": "N5 语法样本",
+    "description": "用于验证内置 N5 语法内容包格式的最小样本。",
+    "source": {
+      "sourceId": "nihongo-toastfish-first-party",
+      "name": "Nihongo ToastFish first-party content",
+      "notes": "Created for schema and importer validation."
+    },
+    "license": {
+      "name": "Nihongo ToastFish first-party sample license"
+    }
+  },
+  "items": [
+    {
+      "contentId": "grammar-n5-desu",
+      "pattern": "Nです",
+      "meaningCn": "是……",
+      "formation": "名词 + です",
+      "usageNote": "用于礼貌地说明身份、性质或状态。"
+    },
+    {
+      "contentId": "grammar-n5-wo",
+      "pattern": "NをVます",
+      "meaningCn": "做某个动作的宾语标记",
+      "formation": "名词 + を + 动词ます形",
+      "usageNote": "助词「を」标记动作直接作用的对象。"
+    },
+    {
+      "contentId": "grammar-n5-e",
+      "pattern": "場所へ行きます",
+      "meaningCn": "去某地",
+      "formation": "地点 + へ + 行きます",
+      "usageNote": "助词「へ」表示移动方向，读作「え」。"
+    }
+  ]
+}
