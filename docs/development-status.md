@@ -132,3 +132,33 @@ Remaining work:
 - Add structured furigana model and toast formatter.
 - Define JSON content pack schema and importer validation.
 - Add content repository methods for reading built-in vocabulary, grammar, and examples.
+
+### Phase 3: Furigana Formatting
+
+Completed:
+
+- Added `Model/Japanese/FuriganaSegment.cs` for structured furigana segments.
+- Added `Services/Japanese/FuriganaFormatter.cs` to parse furigana JSON arrays and format Toast-compatible inline text.
+- Added `NotificationService.ShowFuriganaMessage` so future Japanese content cards can render `漢字(かな)` in Windows toast notifications.
+- Kept malformed or missing furigana JSON safe by falling back to plain text.
+
+Verification:
+
+```powershell
+$refs = @('System.Runtime.Serialization','System.Xml'); Add-Type -Path @('Model\\Japanese\\FuriganaSegment.cs','Services\\Japanese\\FuriganaFormatter.cs') -ReferencedAssemblies $refs; $formatter = New-Object ToastFish.Services.Japanese.FuriganaFormatter; $json = '[{\"text\":\"日本語\",\"kana\":\"にほんご\"},{\"text\":\"を\"},{\"text\":\"勉強\",\"kana\":\"べんきょう\"}]'; $inline = $formatter.ToInlineText($json, 'fallback', $true); $hidden = $formatter.ToInlineText($json, 'fallback', $false); $fallback = $formatter.ToInlineText('bad json', '日本語', $true)
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+```
+
+Result:
+
+```text
+Inline: 日本語(にほんご)を勉強(べんきょう)
+Hidden: 日本語を勉強
+Fallback: 日本語
+Debug build succeeded with 0 warnings and 0 errors.
+```
+
+Remaining work:
+
+- Add a WPF ruby-like text control for detail/settings views.
+- Use `ShowFuriganaMessage` when the new content repository starts producing vocabulary, grammar, and example cards.
