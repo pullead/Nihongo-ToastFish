@@ -237,3 +237,39 @@ Remaining work:
 
 - Add importer validation and SQLite import into the separated content schema.
 - Expand from smoke content to fuller N5-N1 pack coverage after importer behavior is tested.
+
+### Phase 4/6: Verified Local Content Pack Importer
+
+Completed:
+
+- Added `GojuonItem` model and SQLite table so gojuon content is imported through the same content-pack path as vocabulary, grammar, and examples.
+- Added `ContentPackImporter` for local manifest-based imports.
+- Verified pack SHA-256 hashes before reading pack JSON into SQLite.
+- Resolved pack paths relative to the manifest directory and rejected rooted or escaping paths.
+- Imported content in a single SQLite transaction using parameterized commands.
+- Kept content metadata and imported learning content separate from review progress tables.
+- Adjusted the smoke manifest `baseUrl` to `packs/` so copied build output imports from `bin\Debug\Resources\Content`.
+
+Verification:
+
+```powershell
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Load bin\\Debug\\ToastFish.exe, run ContentSchemaMigrator, import manifest-smoke.json,
+# then count ContentPack, ContentSource, GojuonItem, VocabularyItem, GrammarPoint, GrammarExample.
+# Create a temporary manifest with a bad SHA-256 and confirm import rejection.
+```
+
+Result:
+
+```text
+Debug build succeeded with 0 warnings and 0 errors.
+Import result: packs=4 sources=1 gojuon=5 vocab=5 grammar=3 examples=3.
+SQLite counts: ContentPack=4, ContentSource=1, GojuonItem=5, VocabularyItem=5, GrammarPoint=3, GrammarExample=3.
+Bad hash rejected with System.IO.InvalidDataException: Hash verification failed for gojuon-smoke.json.
+```
+
+Remaining work:
+
+- Add downloader/update service around this importer for manual online updates.
+- Add content repository queries for study card generation.
+- Expand smoke packs into larger N5-N1 reference content after license/source metadata is finalized.

@@ -79,6 +79,15 @@ namespace ToastFish.Model.Storage
                     FOREIGN KEY(packId) REFERENCES ContentPack(packId),
                     FOREIGN KEY(grammarId) REFERENCES GrammarPoint(contentId)
                 )",
+                @"CREATE TABLE IF NOT EXISTS GojuonItem (
+                    contentId TEXT PRIMARY KEY,
+                    packId TEXT NOT NULL,
+                    romaji TEXT NOT NULL,
+                    hiragana TEXT NOT NULL,
+                    katakana TEXT NOT NULL,
+                    audioPath TEXT,
+                    FOREIGN KEY(packId) REFERENCES ContentPack(packId)
+                )",
                 @"CREATE TABLE IF NOT EXISTS ReviewCard (
                     reviewCardId TEXT PRIMARY KEY,
                     contentId TEXT NOT NULL,
@@ -96,6 +105,7 @@ namespace ToastFish.Model.Storage
                 "CREATE INDEX IF NOT EXISTS IX_VocabularyItem_Pack ON VocabularyItem(packId)",
                 "CREATE INDEX IF NOT EXISTS IX_GrammarPoint_Pack ON GrammarPoint(packId)",
                 "CREATE INDEX IF NOT EXISTS IX_GrammarExample_Pack ON GrammarExample(packId)",
+                "CREATE INDEX IF NOT EXISTS IX_GojuonItem_Pack ON GojuonItem(packId)",
                 "CREATE INDEX IF NOT EXISTS IX_ReviewCard_Due ON ReviewCard(dueAt, status)"
             };
 

@@ -142,6 +142,7 @@
     <Compile Include="Model\Log\CreateLog.cs" />
     <Compile Include="Model\Content\ContentPack.cs" />
     <Compile Include="Model\Content\ContentSource.cs" />
+    <Compile Include="Model\Content\GojuonItem.cs" />
     <Compile Include="Model\Content\GrammarExample.cs" />
     <Compile Include="Model\Content\GrammarPoint.cs" />
     <Compile Include="Model\Content\VocabularyItem.cs" />
@@ -164,6 +165,8 @@
     <Compile Include="Services\Notifications\NotificationInputResult.cs" />
     <Compile Include="Services\Notifications\NotificationService.cs" />
     <Compile Include="Services\Japanese\FuriganaFormatter.cs" />
+    <Compile Include="Services\ContentUpdate\ContentImportResult.cs" />
+    <Compile Include="Services\ContentUpdate\ContentPackImporter.cs" />
     <Compile Include="Resources\IconChika.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

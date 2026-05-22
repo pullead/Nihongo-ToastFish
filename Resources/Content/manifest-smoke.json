@@ -1,7 +1,7 @@
 {
   "manifestVersion": "0.1.0",
   "generatedAt": "2026-05-22T00:00:00Z",
-  "baseUrl": "Resources/Content/packs/",
+  "baseUrl": "packs/",
   "packs": [
     {
       "packId": "builtin-gojuon-smoke",
