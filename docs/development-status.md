@@ -380,3 +380,30 @@ Remaining work:
 
 - Wire `StudyCardNotificationFormatter` into `NotificationService`.
 - Add one imported-content study path from the tray menu.
+
+### Phase 5: Study Card Notification Service Entry
+
+Completed:
+
+- Added `NotificationService.ShowStudyCard`.
+- Reused `StudyCardNotificationFormatter` inside the notification boundary.
+- Left existing tray and study flows unchanged for this slice.
+
+Verification:
+
+```powershell
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Load bin\\Debug\\ToastFish.exe and check NotificationService exposes ShowStudyCard.
+```
+
+Result:
+
+```text
+Debug build succeeded with 0 warnings and 0 errors.
+ShowStudyCard method available.
+```
+
+Remaining work:
+
+- Add one tray-accessible imported-content smoke study mode.
+- Replace the temporary smoke flow with review-scheduled card selection after the session controller is extracted.

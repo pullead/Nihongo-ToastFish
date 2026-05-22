@@ -2,6 +2,7 @@ using Microsoft.Toolkit.Uwp.Notifications;
 using System;
 using System.Threading.Tasks;
 using ToastFish.Services.Japanese;
+using ToastFish.Services.Study;
 
 namespace ToastFish.Services.Notifications
 {
@@ -9,6 +10,7 @@ namespace ToastFish.Services.Notifications
     {
         public const string AppTitle = "Nihongo ToastFish";
         private readonly FuriganaFormatter furiganaFormatter = new FuriganaFormatter();
+        private readonly StudyCardNotificationFormatter studyCardFormatter = new StudyCardNotificationFormatter();
 
         public void ShowMessage(string message, string buttonText = "")
         {
@@ -31,6 +33,11 @@ namespace ToastFish.Services.Notifications
         {
             string message = furiganaFormatter.ToInlineText(furiganaJson, plainText);
             ShowMessage(message, buttonText);
+        }
+
+        public void ShowStudyCard(StudyCard card, string buttonText = "")
+        {
+            ShowMessage(studyCardFormatter.Format(card), buttonText);
         }
 
         public Task<string> WaitForActionAsync(
