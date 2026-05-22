@@ -162,3 +162,40 @@ Remaining work:
 
 - Add a WPF ruby-like text control for detail/settings views.
 - Use `ShowFuriganaMessage` when the new content repository starts producing vocabulary, grammar, and example cards.
+
+### Phase 4: Content Pack Schema
+
+Completed:
+
+- Added JSON schemas under `Resources/Content/schema/` for:
+  - content manifest
+  - vocabulary packs
+  - grammar packs
+  - example sentence packs
+  - gojuon packs
+- Added schema files to `ToastFish.csproj` with `PreserveNewest` output copying.
+- Manifest schema requires pack id, version, JLPT/reference level, content kind, path, SHA-256 hash, source metadata, and license metadata.
+- Pack schemas cover N5, N4, N3, N2, and N1 where applicable; gojuon is represented as its own content kind and level.
+
+Verification:
+
+```powershell
+Get-ChildItem Resources\\Content\\schema\\*.json | ForEach-Object { $null = Get-Content $_.FullName -Raw | ConvertFrom-Json; $_.Name }
+node -e "<lightweight required-field/schema presence check>"
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+Get-ChildItem bin\\Debug\\Resources\\Content\\schema\\*.json | Select-Object Name,Length
+```
+
+Result:
+
+```text
+All schema JSON files parse successfully.
+Required-field presence checks passed.
+Debug build succeeded with 0 warnings and 0 errors.
+Schema files copy to bin\\Debug\\Resources\\Content\\schema.
+```
+
+Remaining work:
+
+- Add first small built-in content packs that conform to these schemas.
+- Add importer validation with a real JSON Schema validator or equivalent in-process validation before SQLite import.
