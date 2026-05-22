@@ -442,3 +442,43 @@ Remaining work:
 
 - Manually inspect the tray menu and click `内置 N5 词汇预览` on a desktop session.
 - Replace this preview entry with real vocabulary/grammar/example mode selection and review scheduling.
+
+### Phase 5: N5 Vocabulary Grammar Example Preview Modes
+
+Completed:
+
+- Added `ImportedContentStudyMode` for imported-content preview routing.
+- Extended `ImportedContentStudyService` to return the first N5 vocabulary, grammar, or example card.
+- Split the tray preview into three entries under `日语学习`:
+  - `内置 N5 词汇预览`
+  - `内置 N5 语法预览`
+  - `内置 N5 例句预览`
+- Reused the same `ShowImportedContentPreview` handler to keep WPF menu logic thin.
+
+Verification:
+
+```powershell
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Load bin\\Debug\\ToastFish.exe and call ImportedContentStudyService.GetFirstCard for Vocabulary, Grammar, and Example.
+rg "内置 N5 .*预览|BuiltinN5.*Preview|ShowImportedContentPreview|ImportedContentStudyMode" View\\ToastFish.xaml.cs Services\\Study -n
+git diff --check
+$p = Start-Process -FilePath '.\\bin\\Debug\\ToastFish.exe' -WindowStyle Hidden -PassThru; Start-Sleep -Seconds 5; $alive = Get-Process -Id $p.Id -ErrorAction SilentlyContinue; if ($alive) { Stop-Process -Id $p.Id; 'runtime smoke ok' } else { 'process exited early' }
+```
+
+Result:
+
+```text
+Debug build succeeded with 0 warnings and 0 errors.
+ImportedContentStudyService mode probe returned:
+Vocabulary=Vocabulary|学校(がっこう)|がっこう / 名词 / 学校
+Grammar=Grammar|Nです|是……
+Example=Example|これは日本語(にほんご)の本(ほん)です。|这是日语书。
+Static menu check found all three preview entries and handlers.
+git diff --check reported no whitespace errors.
+Runtime smoke started the app process successfully.
+```
+
+Remaining work:
+
+- Manually inspect and click all three preview entries in the tray menu.
+- Move from preview entries to persistent study mode selection and review scheduling.

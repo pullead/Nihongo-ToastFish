@@ -147,6 +147,8 @@ namespace ToastFish
         System.Windows.Forms.ToolStripMenuItem SelectJpBook = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem RandomTest = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem BuiltinN5Preview = new System.Windows.Forms.ToolStripMenuItem();
+        System.Windows.Forms.ToolStripMenuItem BuiltinN5GrammarPreview = new System.Windows.Forms.ToolStripMenuItem();
+        System.Windows.Forms.ToolStripMenuItem BuiltinN5ExamplePreview = new System.Windows.Forms.ToolStripMenuItem();
 
         System.Windows.Forms.ToolStripMenuItem GotoHtml = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem Start = new System.Windows.Forms.ToolStripMenuItem();
@@ -196,6 +198,10 @@ namespace ToastFish
             SelectJpBook.Text = "日语学习";
             BuiltinN5Preview.Text = "内置 N5 词汇预览";
             BuiltinN5Preview.Click += new EventHandler(BuiltinN5Preview_Click);
+            BuiltinN5GrammarPreview.Text = "内置 N5 语法预览";
+            BuiltinN5GrammarPreview.Click += new EventHandler(BuiltinN5GrammarPreview_Click);
+            BuiltinN5ExamplePreview.Text = "内置 N5 例句预览";
+            BuiltinN5ExamplePreview.Click += new EventHandler(BuiltinN5ExamplePreview_Click);
 
             RandomTest.Text = "练习";
 
@@ -317,6 +323,8 @@ namespace ToastFish
             SelectJpBook.DropDownItems.Add(Goin);
             SelectJpBook.DropDownItems.Add(StdJp_Mid);
             SelectJpBook.DropDownItems.Add(BuiltinN5Preview);
+            SelectJpBook.DropDownItems.Add(BuiltinN5GrammarPreview);
+            SelectJpBook.DropDownItems.Add(BuiltinN5ExamplePreview);
             RandomTest.DropDownItems.Add(RandomJpWord);
             RandomTest.DropDownItems.Add(RandomGoin);
             RandomTest.DropDownItems.Add(RandomWord);
@@ -635,10 +643,25 @@ namespace ToastFish
 
         private void BuiltinN5Preview_Click(object sender, EventArgs e)
         {
+            ShowImportedContentPreview(ImportedContentStudyMode.Vocabulary);
+        }
+
+        private void BuiltinN5GrammarPreview_Click(object sender, EventArgs e)
+        {
+            ShowImportedContentPreview(ImportedContentStudyMode.Grammar);
+        }
+
+        private void BuiltinN5ExamplePreview_Click(object sender, EventArgs e)
+        {
+            ShowImportedContentPreview(ImportedContentStudyMode.Example);
+        }
+
+        private void ShowImportedContentPreview(ImportedContentStudyMode mode)
+        {
             try
             {
                 ImportedContentStudyService studyService = new ImportedContentStudyService();
-                studyService.ShowFirstVocabularyCard(Se.DataBase, "N5");
+                studyService.ShowFirstCard(Se.DataBase, mode, "N5");
             }
             catch (Exception ex)
             {

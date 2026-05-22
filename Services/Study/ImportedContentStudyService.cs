@@ -37,17 +37,37 @@ namespace ToastFish.Services.Study
 
         public StudyCard GetFirstVocabularyCard(SQLiteConnection database, string jlptLevel = "N5")
         {
-            EnsureSmokeContentImported(database);
-            var vocabularyItems = repository.GetVocabularyItems(database, jlptLevel, 1);
-            if (vocabularyItems.Count == 0)
-                return null;
+            return GetFirstCard(database, ImportedContentStudyMode.Vocabulary, jlptLevel);
+        }
 
-            return cardFactory.FromVocabulary(vocabularyItems[0]);
+        public StudyCard GetFirstCard(SQLiteConnection database, ImportedContentStudyMode mode, string jlptLevel = "N5")
+        {
+            EnsureSmokeContentImported(database);
+
+            switch (mode)
+            {
+                case ImportedContentStudyMode.Vocabulary:
+                    var vocabularyItems = repository.GetVocabularyItems(database, jlptLevel, 1);
+                    return vocabularyItems.Count == 0 ? null : cardFactory.FromVocabulary(vocabularyItems[0]);
+                case ImportedContentStudyMode.Grammar:
+                    var grammarPoints = repository.GetGrammarPoints(database, jlptLevel, 1);
+                    return grammarPoints.Count == 0 ? null : cardFactory.FromGrammarPoint(grammarPoints[0]);
+                case ImportedContentStudyMode.Example:
+                    var grammarExamples = repository.GetGrammarExamples(database, jlptLevel, 1);
+                    return grammarExamples.Count == 0 ? null : cardFactory.FromGrammarExample(grammarExamples[0]);
+                default:
+                    return null;
+            }
         }
 
         public void ShowFirstVocabularyCard(SQLiteConnection database, string jlptLevel = "N5")
         {
-            StudyCard card = GetFirstVocabularyCard(database, jlptLevel);
+            ShowFirstCard(database, ImportedContentStudyMode.Vocabulary, jlptLevel);
+        }
+
+        public void ShowFirstCard(SQLiteConnection database, ImportedContentStudyMode mode, string jlptLevel = "N5")
+        {
+            StudyCard card = GetFirstCard(database, mode, jlptLevel);
             if (card == null)
             {
                 notificationService.ShowMessage("还没有可学习的内置日语内容。");
