@@ -168,6 +168,9 @@
     <Compile Include="Services\ContentUpdate\ContentImportResult.cs" />
     <Compile Include="Services\ContentUpdate\ContentPackImporter.cs" />
     <Compile Include="Services\Content\ContentRepository.cs" />
+    <Compile Include="Services\Study\StudyCard.cs" />
+    <Compile Include="Services\Study\StudyCardFactory.cs" />
+    <Compile Include="Services\Study\StudyCardKind.cs" />
     <Compile Include="Resources\IconChika.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

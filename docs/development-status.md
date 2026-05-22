@@ -306,3 +306,37 @@ Remaining work:
 
 - Add unified study card models and factory methods that consume `ContentRepository`.
 - Route at least one tray study path through imported smoke content before expanding packs.
+
+### Phase 5: Unified Study Card Model
+
+Completed:
+
+- Added `StudyCardKind`, `StudyCard`, and `StudyCardFactory`.
+- Added card conversion for vocabulary, grammar points, grammar examples, and gojuon.
+- Used `FuriganaFormatter` so vocabulary/example card text can preserve toast-compatible inline furigana.
+- Parsed grammar example distractors into choices and inserted the correct answer when it is not already present.
+- Kept this slice independent of WPF and Toast so the next step can wire it into study flows without mixing concerns.
+
+Verification:
+
+```powershell
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Import manifest-smoke.json into bin\\Debug\\Resources\\inami.db,
+# read content through ContentRepository, then create four StudyCard instances.
+```
+
+Result:
+
+```text
+Debug build succeeded with 0 warnings and 0 errors.
+StudyCardFactory probe returned:
+vocab=Vocabulary|学校(がっこう)|がっこう / 名词 / 学校
+grammar=Grammar|Nです|是……
+example=Example|choices=4|answer=这是日语书。
+gojuon=Gojuon|あ / ア|a
+```
+
+Remaining work:
+
+- Add a notification presenter for `StudyCard`.
+- Route one Japanese study entry through imported smoke content and `StudyCardFactory`.
