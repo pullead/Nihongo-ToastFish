@@ -199,3 +199,41 @@ Remaining work:
 
 - Add first small built-in content packs that conform to these schemas.
 - Add importer validation with a real JSON Schema validator or equivalent in-process validation before SQLite import.
+
+### Phase 4: Built-In Smoke Content
+
+Completed:
+
+- Added first-party smoke content packs under `Resources/Content/packs/`:
+  - `gojuon-smoke.json`
+  - `vocabulary-n5-smoke.json`
+  - `grammar-n5-smoke.json`
+  - `examples-n5-smoke.json`
+- Added `Resources/Content/manifest-smoke.json` with SHA-256 hashes for each pack.
+- Added `Resources/Content/licenses.md` to document that smoke content is first-party sample content and not a complete JLPT list.
+- Added these content files to `ToastFish.csproj` with `PreserveNewest` output copying.
+
+Verification:
+
+```powershell
+node - <manifest/hash/furigana-json validation script>
+Get-ChildItem Resources\\Content -Recurse -Filter *.json | ForEach-Object { $null = (Get-Content $_.FullName -Raw -Encoding UTF8 | ConvertFrom-Json); $_.Name }
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+Get-ChildItem bin\\Debug\\Resources\\Content -Recurse -File | Select-Object FullName,Length
+```
+
+Result:
+
+```text
+Manifest lists 4 packs.
+Pack SHA-256 values match manifest.
+All nested furiganaJson fields parse as JSON.
+All content JSON files parse with UTF-8.
+Debug build succeeded with 0 warnings and 0 errors.
+Content files copy to bin\\Debug\\Resources\\Content.
+```
+
+Remaining work:
+
+- Add importer validation and SQLite import into the separated content schema.
+- Expand from smoke content to fuller N5-N1 pack coverage after importer behavior is tested.
