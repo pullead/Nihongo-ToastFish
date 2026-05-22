@@ -30,6 +30,7 @@ namespace ToastFish
         ToastFishModel Vm = new ToastFishModel();
         Select Se = new Select();
         PushWords pushWords = new PushWords();
+        StudySessionController importedContentSession = new StudySessionController();
         Thread thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
         Dictionary<string, string> TablelDictionary = new Dictionary<string, string>(){
         {"CET4_1", "四级核心词汇"},{"CET4_3", "四级完整词汇"},{"CET6_1", "六级核心词汇"},
@@ -660,8 +661,14 @@ namespace ToastFish
         {
             try
             {
-                ImportedContentStudyService studyService = new ImportedContentStudyService();
-                studyService.ShowFirstCard(Se.DataBase, mode, "N5");
+                importedContentSession.Run(token =>
+                {
+                    if (token.IsCancellationRequested)
+                        return;
+
+                    ImportedContentStudyService studyService = new ImportedContentStudyService();
+                    studyService.ShowFirstCard(Se.DataBase, mode, "N5");
+                });
             }
             catch (Exception ex)
             {
@@ -751,6 +758,7 @@ namespace ToastFish
         }
         private void ExitApp_Click(object sender, EventArgs e)
         {
+            importedContentSession.CancelActiveSession();
             ToastNotificationManagerCompat.History.Clear();
             Environment.Exit(0);
         }

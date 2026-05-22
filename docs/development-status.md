@@ -482,3 +482,37 @@ Remaining work:
 
 - Manually inspect and click all three preview entries in the tray menu.
 - Move from preview entries to persistent study mode selection and review scheduling.
+
+### Phase 2/5: Study Session Controller For Imported Content Preview
+
+Completed:
+
+- Added `Services/Study/StudySessionController.cs`.
+- Added cancellation-aware `Run`, `RunAsync`, and `CancelActiveSession` entry points.
+- Wired the imported N5 vocabulary, grammar, and example preview path through `StudySessionController`.
+- Cancelled the imported-content session on app exit before clearing toast history.
+- Kept legacy ToastFish `Thread` and `Thread.Abort()` study flows unchanged in this slice.
+
+Verification:
+
+```powershell
+git diff --check
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Reflection probe against bin\\Debug\\ToastFish.exe for StudySessionController.Run state changes.
+$p = Start-Process -FilePath '.\\bin\\Debug\\ToastFish.exe' -WindowStyle Hidden -PassThru; Start-Sleep -Seconds 5; $alive = Get-Process -Id $p.Id -ErrorAction SilentlyContinue; if ($alive) { Stop-Process -Id $p.Id; 'runtime smoke ok' } else { 'process exited early' }
+```
+
+Result:
+
+```text
+git diff --check reported only existing CRLF normalization warnings for touched files.
+Debug build succeeded with 0 warnings and 0 errors.
+StudySessionController reflection probe returned:
+typeFound=True; calls=1; runningDuringSession=True; stoppedAfterSession=True
+Runtime smoke started the app process successfully.
+```
+
+Remaining work:
+
+- Migrate the legacy vocabulary, gojuon, and imported-content long-running study loops from raw `Thread.Abort()` to `StudySessionController`.
+- Add explicit pause semantics once imported-content preview becomes a real review session.
