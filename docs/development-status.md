@@ -340,3 +340,43 @@ Remaining work:
 
 - Add a notification presenter for `StudyCard`.
 - Route one Japanese study entry through imported smoke content and `StudyCardFactory`.
+
+### Phase 5: Study Card Toast Text Formatter
+
+Completed:
+
+- Added `StudyCardNotificationFormatter` to convert study cards into compact toast-friendly text.
+- Formatted vocabulary and grammar cards as primary text, secondary text, and optional detail lines.
+- Formatted example practice cards as prompt, answer choices, and the Japanese sentence without revealing extra explanation.
+- Kept formatting separate from actual toast display so it can be verified without launching notifications.
+
+Verification:
+
+```powershell
+.\\.local\\BuildTools\\MSBuild\\Current\\Bin\\MSBuild.exe ToastFish.sln /p:Configuration=Debug
+# Import manifest-smoke.json, build study cards, and format vocabulary/example cards.
+```
+
+Result:
+
+```text
+Debug build succeeded with 0 warnings and 0 errors.
+Vocabulary toast text:
+学校(がっこう)
+がっこう / 名词 / 学校
+学校(がっこう)へ行(い)きます。
+去学校。
+
+Example toast text:
+请选择句子的中文意思。
+A. 这是日语书。
+B. 我学习日语。
+C. 这是学校。
+D. 我喝水。
+これは日本語(にほんご)の本(ほん)です。
+```
+
+Remaining work:
+
+- Wire `StudyCardNotificationFormatter` into `NotificationService`.
+- Add one imported-content study path from the tray menu.
