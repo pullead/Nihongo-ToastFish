@@ -5,13 +5,13 @@
     "jlptLevel": "N4",
     "contentKind": "vocabulary",
     "displayName": "N4 vocabulary reference pack",
-    "description": "N4 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+    "description": "N4 reference vocabulary imported from elzup/jlpt-word-list with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
     "source": {
       "sourceId": "elzup-jlpt-word-list",
       "name": "elzup/jlpt-word-list",
       "url": "https://github.com/elzup/jlpt-word-list",
       "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
-      "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+      "notes": "Simplified Chinese meanings are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
     },
     "license": {
       "name": "MIT",
@@ -22,4674 +22,4674 @@
     {
       "contentId": "elzup-vocab-n4-0001",
       "headword": "踏む",
-      "meaningCn": "to step on, to tread on",
+      "meaningCn": "踩, 踩",
       "reading": "ふむ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0002",
       "headword": "～区",
-      "meaningCn": "~ district, ~ ward, ~ borough",
+      "meaningCn": "〜区，〜区，〜区",
       "reading": "～く",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0003",
       "headword": "すっと",
-      "meaningCn": "straight, quickly",
+      "meaningCn": "直、快",
       "reading": "すっと",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0004",
       "headword": "盗む",
-      "meaningCn": "to steal; to rob",
+      "meaningCn": "偷窃；抢劫",
       "reading": "ぬすむ",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0005",
       "headword": "大抵",
-      "meaningCn": "generally, usually",
+      "meaningCn": "一般来说，通常",
       "reading": "たいてい",
       "partOfSpeech": "Genki Genki_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0006",
       "headword": "とうとう",
-      "meaningCn": "finally, at last",
+      "meaningCn": "最后，最后",
       "reading": "とうとう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0007",
       "headword": "ガソリン",
-      "meaningCn": "gasoline, petrol",
+      "meaningCn": "汽油，汽油",
       "reading": "ガソリン",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0008",
       "headword": "鳴る",
-      "meaningCn": "to sound, to ring (v.i.)",
+      "meaningCn": "发出声音, 响起 (v.i.)",
       "reading": "なる",
       "partOfSpeech": "Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0009",
       "headword": "しっかり",
-      "meaningCn": "firmly, steady",
+      "meaningCn": "坚定地，稳定地",
       "reading": "しっかり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0010",
       "headword": "生きる",
-      "meaningCn": "to live",
+      "meaningCn": "生活",
       "reading": "いきる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0011",
       "headword": "苦い",
-      "meaningCn": "bitter",
+      "meaningCn": "苦的",
       "reading": "にがい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0012",
       "headword": "沸く",
-      "meaningCn": "to boil, to grow hot",
+      "meaningCn": "煮沸，变热",
       "reading": "わく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0013",
       "headword": "意見",
-      "meaningCn": "opinion, view, idea",
+      "meaningCn": "意见、观点、想法",
       "reading": "いけん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0014",
       "headword": "やはり; やっぱり",
-      "meaningCn": "as I thought, absolutely",
+      "meaningCn": "正如我所想的，绝对",
       "reading": "やはり; やっぱり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0015",
       "headword": "漫画",
-      "meaningCn": "comic (book), cartoon",
+      "meaningCn": "漫画（书）、卡通",
       "reading": "まんが",
       "partOfSpeech": "Genki Genki_Ln.14 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0016",
       "headword": "ステレオ",
-      "meaningCn": "stereo",
+      "meaningCn": "立体声",
       "reading": "ステレオ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0017",
       "headword": "医学",
-      "meaningCn": "medical science",
+      "meaningCn": "医学",
       "reading": "いがく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0018",
       "headword": "テキスト",
-      "meaningCn": "text; text book",
+      "meaningCn": "文本;教科书",
       "reading": "テキスト",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0019",
       "headword": "～月",
-      "meaningCn": "month",
+      "meaningCn": "月",
       "reading": "～つき",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0020",
       "headword": "折る",
-      "meaningCn": "to snap, to break; to bend",
+      "meaningCn": "折断，折断；弯曲",
       "reading": "おる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0021",
       "headword": "～会",
-      "meaningCn": "~ meeting",
+      "meaningCn": "〜会议",
       "reading": "～かい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0022",
       "headword": "うかがう",
-      "meaningCn": "to ask",
+      "meaningCn": "询问",
       "reading": "うかがう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0023",
       "headword": "聞こえる",
-      "meaningCn": "to be heard, to be audible",
+      "meaningCn": "被听到, 被听到",
       "reading": "きこえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0024",
       "headword": "僕",
-      "meaningCn": "I (used by men towards those of equal or lower status)",
+      "meaningCn": "I（男性对地位相同或较低的人使用）",
       "reading": "ぼく",
       "partOfSpeech": "Genki Genki_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0025",
       "headword": "必ず",
-      "meaningCn": "surely, certainly",
+      "meaningCn": "确实，当然",
       "reading": "かならず",
       "partOfSpeech": "Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0026",
       "headword": "壊す",
-      "meaningCn": "to break, to break down",
+      "meaningCn": "打破，打破",
       "reading": "こわす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0027",
       "headword": "怒る",
-      "meaningCn": "to get angry; to scold angrily",
+      "meaningCn": "生气；生气地骂",
       "reading": "おこる",
       "partOfSpeech": "Genki Genki_Ln.19 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0028",
       "headword": "床屋",
-      "meaningCn": "barber's (shop)",
+      "meaningCn": "理发店（店）",
       "reading": "とこや",
       "partOfSpeech": "Genki Genki_Ln.10 Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0029",
       "headword": "オートバイ",
-      "meaningCn": "motorcycle (lit: auto-bi(ke))",
+      "meaningCn": "摩托车",
       "reading": "オートバイ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0030",
       "headword": "運動",
-      "meaningCn": "exercise",
+      "meaningCn": "锻炼",
       "reading": "うんどうする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0031",
       "headword": "止む",
-      "meaningCn": "to cease, to stop",
+      "meaningCn": "停止，停止",
       "reading": "やむ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0032",
       "headword": "もし",
-      "meaningCn": "if",
+      "meaningCn": "如果",
       "reading": "もし",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0033",
       "headword": "表",
-      "meaningCn": "surface; front; outside",
+      "meaningCn": "表面;正面;外部",
       "reading": "おもて",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0034",
       "headword": "大学生",
-      "meaningCn": "college student, university student",
+      "meaningCn": "大学生，大学生",
       "reading": "だいがくせい",
       "partOfSpeech": "Genki Genki_Ln.1 Genki_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0035",
       "headword": "運転手",
-      "meaningCn": "driver (by occupation)",
+      "meaningCn": "司机（按职业）",
       "reading": "うんてんしゅ",
       "partOfSpeech": "Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0036",
       "headword": "予習",
-      "meaningCn": "preparation of lessons (for class)",
+      "meaningCn": "备课（课堂）",
       "reading": "よしゅう",
       "partOfSpeech": "Genki Genki_Ln.22 Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0037",
       "headword": "心配",
-      "meaningCn": "worry, concern",
+      "meaningCn": "担心、关心",
       "reading": "しんぱいする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0038",
       "headword": "別",
-      "meaningCn": "distinction, different",
+      "meaningCn": "区分，不同",
       "reading": "べつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0039",
       "headword": "非常に",
-      "meaningCn": "extremely; very",
+      "meaningCn": "极其;非常",
       "reading": "ひじょうに",
       "partOfSpeech": "Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0040",
       "headword": "お宅",
-      "meaningCn": "(someone else's) house; home -- polite word for 家 (いえ) --",
+      "meaningCn": "府上；贵宅；别人家",
       "reading": "おたく",
       "partOfSpeech": "Genki Genki_Ln.13 Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0041",
       "headword": "柔らかい",
-      "meaningCn": "soft (in reference to texture), tender",
+      "meaningCn": "柔软（指质地），嫩",
       "reading": "やわらかい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0042",
       "headword": "拾う",
-      "meaningCn": "to pick up (something), to find",
+      "meaningCn": "捡起（某物），找到",
       "reading": "ひろう",
       "partOfSpeech": "Genki Genki_Ln.22 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0043",
       "headword": "～ございます",
-      "meaningCn": "to be (polite), to exist",
+      "meaningCn": "存在（有礼貌）",
       "reading": "～ございます",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0044",
       "headword": "気",
-      "meaningCn": "spirit, mood",
+      "meaningCn": "精神、心情",
       "reading": "き",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0045",
       "headword": "比べる",
-      "meaningCn": "to compare",
+      "meaningCn": "比较",
       "reading": "くらべる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0046",
       "headword": "ほとんど",
-      "meaningCn": "mostly, almost",
+      "meaningCn": "大多数，几乎",
       "reading": "ほとんど",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0047",
       "headword": "つもり",
-      "meaningCn": "intention, plan",
+      "meaningCn": "意图、计划",
       "reading": "つもり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0048",
       "headword": "郊外",
-      "meaningCn": "suburb, outskirts",
+      "meaningCn": "郊区，郊外",
       "reading": "こうがい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0049",
       "headword": "だめ",
-      "meaningCn": "useless, no good, hopeless",
+      "meaningCn": "无用的，不好的，无望的",
       "reading": "だめ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0050",
       "headword": "売り場",
-      "meaningCn": "place where things are sold",
+      "meaningCn": "卖东西的地方",
       "reading": "うりば",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0051",
       "headword": "正月",
-      "meaningCn": "New Year, New Year's Day",
+      "meaningCn": "新年、元旦",
       "reading": "しょうがつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0052",
       "headword": "規則",
-      "meaningCn": "rule, regulation",
+      "meaningCn": "规则，规定",
       "reading": "きそく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0053",
       "headword": "うん",
-      "meaningCn": "yes (informal), all right (ok)",
+      "meaningCn": "是的（非正式），好的（好的）",
       "reading": "うん",
       "partOfSpeech": "Genki Genki_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0054",
       "headword": "発音",
-      "meaningCn": "pronunciation",
+      "meaningCn": "发音",
       "reading": "はつおん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0055",
       "headword": "焼く",
-      "meaningCn": "to bake, to grill",
+      "meaningCn": "烘烤、烧烤",
       "reading": "やく",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0056",
       "headword": "屋上",
-      "meaningCn": "rooftop",
+      "meaningCn": "屋顶",
       "reading": "おくじょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0057",
       "headword": "失礼",
-      "meaningCn": "discourtesy, impoliteness; Excuse me",
+      "meaningCn": "无礼、无礼；打扰一下",
       "reading": "しつれい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0058",
       "headword": "ごみ",
-      "meaningCn": "trash, garbage",
+      "meaningCn": "垃圾，垃圾",
       "reading": "ごみ",
       "partOfSpeech": "Genki Genki_Ln.16 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0059",
       "headword": "アフリカ",
-      "meaningCn": "Africa",
+      "meaningCn": "非洲",
       "reading": "アフリカ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0060",
       "headword": "点",
-      "meaningCn": "mark, score, grade; point, dot",
+      "meaningCn": "标记，分数，等级；点，点",
       "reading": "てん",
       "partOfSpeech": "Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0061",
       "headword": "一生懸命",
-      "meaningCn": "very hard (as in \"to work hard\"), with utmost effort",
+      "meaningCn": "非常努力（如“努力工作”），竭尽全力",
       "reading": "いっしょうけんめい",
       "partOfSpeech": "Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0062",
       "headword": "今度",
-      "meaningCn": "now, this time, near future, one of these days, next time",
+      "meaningCn": "现在，这一次，不久的将来，其中某一天，下一次",
       "reading": "こんど",
       "partOfSpeech": "Genki Genki_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0063",
       "headword": "機会",
-      "meaningCn": "chance, opportunity",
+      "meaningCn": "机会，机会",
       "reading": "きかい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0064",
       "headword": "建てる",
-      "meaningCn": "to build",
+      "meaningCn": "建造",
       "reading": "たてる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0065",
       "headword": "複雑",
-      "meaningCn": "complexity, complication",
+      "meaningCn": "复杂性，复杂性",
       "reading": "ふくざつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0066",
       "headword": "彼",
-      "meaningCn": "he, boyfriend",
+      "meaningCn": "他，男朋友",
       "reading": "かれ",
       "partOfSpeech": "Genki Genki_Ln.12 Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0067",
       "headword": "いらっしゃる",
-      "meaningCn": "-- honorific expression for いく, くる, and いる --",
+      "meaningCn": "-- いく、くる、いる 的敬语表达 --",
       "reading": "いらっしゃる",
       "partOfSpeech": "Genki Genki_Ln.19 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0068",
       "headword": "布団",
-      "meaningCn": "futon",
+      "meaningCn": "蒲团",
       "reading": "ふとん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0069",
       "headword": "大事",
-      "meaningCn": "important, valuable, serious matter",
+      "meaningCn": "重要的、有价值的、严肃的事情",
       "reading": "だいじ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0070",
       "headword": "贈り物",
-      "meaningCn": "a gift; a present",
+      "meaningCn": "一份礼物；一份礼物",
       "reading": "おくりもの",
       "partOfSpeech": "Intermediate_Japanese_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0071",
       "headword": "泥棒",
-      "meaningCn": "thief; burglar",
+      "meaningCn": "贼;窃贼",
       "reading": "どろぼう",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0072",
       "headword": "～製",
-      "meaningCn": "made in ~",
+      "meaningCn": "制造于~",
       "reading": "～せい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0073",
       "headword": "注意",
-      "meaningCn": "caution, attention",
+      "meaningCn": "小心、注意",
       "reading": "ちゅうい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0074",
       "headword": "台風",
-      "meaningCn": "typhoon",
+      "meaningCn": "台风",
       "reading": "たいふう",
       "partOfSpeech": "Genki Genki_Ln.16 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0075",
       "headword": "日",
-      "meaningCn": "sun, sunshine, day",
+      "meaningCn": "太阳，阳光，白天",
       "reading": "ひ",
       "partOfSpeech": "Genki Genki_Ln.16 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0076",
       "headword": "～軒",
-      "meaningCn": "counter for houses",
+      "meaningCn": "房屋柜台",
       "reading": "～けん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0077",
       "headword": "そう",
-      "meaningCn": "really, (is that) so; yes, right",
+      "meaningCn": "真的，（是这样）；是的，对",
       "reading": "そう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0078",
       "headword": "通る",
-      "meaningCn": "to pass (by), to go through",
+      "meaningCn": "经过（经过），通过",
       "reading": "とおる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0079",
       "headword": "過ぎる",
-      "meaningCn": "to exceed, to go beyond",
+      "meaningCn": "超越，超越",
       "reading": "すぎる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0080",
       "headword": "レポート; リポート",
-      "meaningCn": "report",
+      "meaningCn": "报告",
       "reading": "レポート; リポート",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0081",
       "headword": "葉",
-      "meaningCn": "leaf",
+      "meaningCn": "叶子",
       "reading": "は",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0082",
       "headword": "必要",
-      "meaningCn": "necessary",
+      "meaningCn": "必要的",
       "reading": "ひつよう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0083",
       "headword": "課長",
-      "meaningCn": "section manager",
+      "meaningCn": "部门经理",
       "reading": "かちょう",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0084",
       "headword": "地震",
-      "meaningCn": "earthquake",
+      "meaningCn": "地震",
       "reading": "じしん",
       "partOfSpeech": "Genki Genki_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0085",
       "headword": "すると",
-      "meaningCn": "and, then",
+      "meaningCn": "进而",
       "reading": "すると",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0086",
       "headword": "止める",
-      "meaningCn": "to end, to stop",
+      "meaningCn": "结束，停止",
       "reading": "やめる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0087",
       "headword": "ガラス",
-      "meaningCn": "glass, pane",
+      "meaningCn": "玻璃、窗格",
       "reading": "ガラス",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0088",
       "headword": "～学部",
-      "meaningCn": "department of a university",
+      "meaningCn": "大学系",
       "reading": "～がくぶ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0089",
       "headword": "厳しい",
-      "meaningCn": "hard; rigorous; strict",
+      "meaningCn": "难的;严格的;严格的",
       "reading": "きびしい",
       "partOfSpeech": "Genki Genki_Ln.13 Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0090",
       "headword": "エスカレーター",
-      "meaningCn": "escalator",
+      "meaningCn": "自动扶梯",
       "reading": "エスカレーター",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0091",
       "headword": "人口",
-      "meaningCn": "population",
+      "meaningCn": "人口",
       "reading": "じんこう",
       "partOfSpeech": "Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0092",
       "headword": "月",
-      "meaningCn": "moon",
+      "meaningCn": "月亮",
       "reading": "つき",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0093",
       "headword": "絹",
-      "meaningCn": "silk",
+      "meaningCn": "丝绸",
       "reading": "きぬ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0094",
       "headword": "ちっとも",
-      "meaningCn": "not at all (neg. verb)",
+      "meaningCn": "一点也不（否定动词）",
       "reading": "ちっとも",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0095",
       "headword": "深い",
-      "meaningCn": "deep, profound",
+      "meaningCn": "深刻的，深刻的",
       "reading": "ふかい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0096",
       "headword": "壊れる",
-      "meaningCn": "to be broken, to break",
+      "meaningCn": "被打破，被打破",
       "reading": "こわれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0097",
       "headword": "揺れる",
-      "meaningCn": "to shake, to sway",
+      "meaningCn": "摇动，摇动",
       "reading": "ゆれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0098",
       "headword": "落る",
-      "meaningCn": "to fall, to drop",
+      "meaningCn": "跌倒，掉落",
       "reading": "おちる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0099",
       "headword": "できるだけ",
-      "meaningCn": "if at all possible, as much as possible",
+      "meaningCn": "如果可能的话，尽可能地",
       "reading": "できるだけ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0100",
       "headword": "悲しい",
-      "meaningCn": "sad, sorrowful",
+      "meaningCn": "悲伤的，悲伤的",
       "reading": "かなしい",
       "partOfSpeech": "Genki Genki_Ln.13 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0101",
       "headword": "中学校",
-      "meaningCn": "junior high school pupil",
+      "meaningCn": "初中生",
       "reading": "ちゅうがっこう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0102",
       "headword": "ガス",
-      "meaningCn": "gas",
+      "meaningCn": "气体",
       "reading": "ガス",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0103",
       "headword": "祈る",
-      "meaningCn": "to pray; to wish",
+      "meaningCn": "祈祷；想要",
       "reading": "いのる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0104",
       "headword": "盛ん",
-      "meaningCn": "prosperous, active, thriving",
+      "meaningCn": "繁荣、活跃、繁荣",
       "reading": "さかん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0105",
       "headword": "アルバイト",
-      "meaningCn": "part-time job",
+      "meaningCn": "兼职工作",
       "reading": "アルバイト",
       "partOfSpeech": "Genki Genki_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0106",
       "headword": "起こす",
-      "meaningCn": "to wake (someone) up",
+      "meaningCn": "叫醒（某人）",
       "reading": "おこす",
       "partOfSpeech": "Genki Genki_Ln.16 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0107",
       "headword": "致す",
-      "meaningCn": "-- extra-modest expression for する --",
+      "meaningCn": "-- する 的超谦虚表达方式 --",
       "reading": "いたす",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0108",
       "headword": "噛む",
-      "meaningCn": "to bite, to chew",
+      "meaningCn": "咬、咀嚼",
       "reading": "かむ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0109",
       "headword": "赤ちゃん",
-      "meaningCn": "baby, infant",
+      "meaningCn": "婴儿，婴儿",
       "reading": "あかちゃん",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0110",
       "headword": "浅い",
-      "meaningCn": "shallow, superficial",
+      "meaningCn": "浅薄的，肤浅的",
       "reading": "あさい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0111",
       "headword": "うそ",
-      "meaningCn": "lie",
+      "meaningCn": "说谎",
       "reading": "嘘",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0112",
       "headword": "小説",
-      "meaningCn": "novel",
+      "meaningCn": "小说",
       "reading": "しょうせつ",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0113",
       "headword": "親",
-      "meaningCn": "a parent",
+      "meaningCn": "一位家长",
       "reading": "おや",
       "partOfSpeech": "Genki Genki_Ln.16 Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0114",
       "headword": "それに",
-      "meaningCn": "moreover; besides",
+      "meaningCn": "而且;除了",
       "reading": "それに",
       "partOfSpeech": "Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0115",
       "headword": "西洋",
-      "meaningCn": "the West, Western countries",
+      "meaningCn": "西方、西方国家",
       "reading": "せいよう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0116",
       "headword": "思う",
-      "meaningCn": "to think, to feel",
+      "meaningCn": "去思考、去感受",
       "reading": "おもう",
       "partOfSpeech": "Genki Genki_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0117",
       "headword": "パート (タイム)",
-      "meaningCn": "part time (esp. female part time employees)",
+      "meaningCn": "兼职（尤其是女性兼职员工）",
       "reading": "パート (タイム)",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0118",
       "headword": "時代",
-      "meaningCn": "age, period, epoch, era",
+      "meaningCn": "年龄、时期、纪元、纪元",
       "reading": "じだい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0119",
       "headword": "申し上げる",
-      "meaningCn": "(humble)to say, to tell",
+      "meaningCn": "（谦虚地）说，告诉",
       "reading": "もうしあげる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0120",
       "headword": "～式",
-      "meaningCn": "~ ceremony; ~ style",
+      "meaningCn": "〜仪式； 〜风格",
       "reading": "～しき",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0121",
       "headword": "出席",
-      "meaningCn": "attendance",
+      "meaningCn": "出席率",
       "reading": "しゅっせきする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0122",
       "headword": "～家",
-      "meaningCn": "person who is specialized in ~",
+      "meaningCn": "专门从事~的人",
       "reading": "～か",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0123",
       "headword": "迎える",
-      "meaningCn": "to welcome; to meet; to greet",
+      "meaningCn": "欢迎；见面；打招呼",
       "reading": "むかえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0124",
       "headword": "触る",
-      "meaningCn": "to touch, to feel",
+      "meaningCn": "触摸、感觉",
       "reading": "さわる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0125",
       "headword": "建て",
-      "meaningCn": "~ storied, separate housing",
+      "meaningCn": "~ 多层独立住宅",
       "reading": "～だて",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0126",
       "headword": "社長",
-      "meaningCn": "president of a company",
+      "meaningCn": "公司总裁",
       "reading": "しゃちょう",
       "partOfSpeech": "Genki Genki_Ln.11 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0127",
       "headword": "動物園",
-      "meaningCn": "zoo",
+      "meaningCn": "动物园",
       "reading": "どうぶつえん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0128",
       "headword": "捕まえる",
-      "meaningCn": "to catch, to arrest",
+      "meaningCn": "抓住，逮捕",
       "reading": "つかまえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0129",
       "headword": "季節",
-      "meaningCn": "season (in reference to weather)",
+      "meaningCn": "季节（参考天气）",
       "reading": "きせつ",
       "partOfSpeech": "Genki Genki_Ln.10 Intermediate_Japanese_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0130",
       "headword": "寄る",
-      "meaningCn": "to stop by",
+      "meaningCn": "停下来",
       "reading": "よる",
       "partOfSpeech": "Genki Genki_Ln.19 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0131",
       "headword": "決まる",
-      "meaningCn": "to be set; fixed (v.i.)",
+      "meaningCn": "待设定；固定（v.i.）",
       "reading": "きまる",
       "partOfSpeech": "Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0132",
       "headword": "開く",
-      "meaningCn": "to open; to hold (an event)",
+      "meaningCn": "打开；举办（某活动）",
       "reading": "ひらく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0133",
       "headword": "逃げる",
-      "meaningCn": "to escape, to run away",
+      "meaningCn": "逃跑，逃跑",
       "reading": "にげる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0134",
       "headword": "だから",
-      "meaningCn": "so; therefore",
+      "meaningCn": "所以;所以",
       "reading": "だから",
       "partOfSpeech": "Genki Genki_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0135",
       "headword": "残念",
-      "meaningCn": "regret; regrettable",
+      "meaningCn": "后悔;遗憾的",
       "reading": "ざんねん",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0136",
       "headword": "畳",
-      "meaningCn": "tatami mat (Japanese straw mat)",
+      "meaningCn": "榻榻米（日本草席）",
       "reading": "たたみ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0137",
       "headword": "丁寧",
-      "meaningCn": "polite, courteous, careful",
+      "meaningCn": "有礼貌、有礼貌、细心",
       "reading": "ていねい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0138",
       "headword": "地理",
-      "meaningCn": "geography",
+      "meaningCn": "地理",
       "reading": "ちり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0139",
       "headword": "さっき",
-      "meaningCn": "a little while ago",
+      "meaningCn": "不久前",
       "reading": "さっき",
       "partOfSpeech": "Genki Genki_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0140",
       "headword": "怖い",
-      "meaningCn": "scary, frightening",
+      "meaningCn": "可怕的，可怕的",
       "reading": "こわい",
       "partOfSpeech": "Genki Genki_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0141",
       "headword": "包む",
-      "meaningCn": "to wrap, to cover",
+      "meaningCn": "包裹，覆盖",
       "reading": "つつむ",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0142",
       "headword": "なるべく",
-      "meaningCn": "if possible, as much as possible",
+      "meaningCn": "如果可能的话，尽可能",
       "reading": "なるべく",
       "partOfSpeech": "Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0143",
       "headword": "無理",
-      "meaningCn": "unreasonable, impossible",
+      "meaningCn": "不合理的，不可能的",
       "reading": "むり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0144",
       "headword": "サンドイッチ",
-      "meaningCn": "sandwich",
+      "meaningCn": "三明治",
       "reading": "サンドイッチ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0145",
       "headword": "会議室",
-      "meaningCn": "conference room",
+      "meaningCn": "会议室",
       "reading": "かいぎしつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0146",
       "headword": "品物",
-      "meaningCn": "goods",
+      "meaningCn": "商品",
       "reading": "しなもの",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0147",
       "headword": "人形",
-      "meaningCn": "doll, figure",
+      "meaningCn": "娃娃、人物",
       "reading": "にんぎょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0148",
       "headword": "利用",
-      "meaningCn": "use, utilization",
+      "meaningCn": "使用，利用",
       "reading": "りよう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0149",
       "headword": "飾る",
-      "meaningCn": "to decorate, to adorn",
+      "meaningCn": "装饰，装饰",
       "reading": "かざる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0150",
       "headword": "止める",
-      "meaningCn": "to stop (something)",
+      "meaningCn": "停止（某事）",
       "reading": "とめる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0151",
       "headword": "恥ずかしい",
-      "meaningCn": "ashamed, embarrassed",
+      "meaningCn": "羞愧，尴尬",
       "reading": "はずかしい",
       "partOfSpeech": "Genki Genki_Ln.18 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0152",
       "headword": "いくら～ても",
-      "meaningCn": "however much one may ~",
+      "meaningCn": "不管多少~",
       "reading": "いくら～ても",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0153",
       "headword": "用事",
-      "meaningCn": "business to take care of; tasks; errands",
+      "meaningCn": "需要照顾的事务；任务；差事",
       "reading": "ようじ",
       "partOfSpeech": "Genki Genki_Ln.12 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0154",
       "headword": "ビル",
-      "meaningCn": "(abbr.) building",
+      "meaningCn": "（缩写）建筑物",
       "reading": "ビル",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0155",
       "headword": "けんかする",
-      "meaningCn": "quarrel",
+      "meaningCn": "争吵",
       "reading": "けんかする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0156",
       "headword": "頑張る",
-      "meaningCn": "to try one's best, to try hard, to persist",
+      "meaningCn": "尽力、努力、坚持",
       "reading": "がんばる",
       "partOfSpeech": "Genki Genki_Ln.13 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0157",
       "headword": "投げる",
-      "meaningCn": "to pitch, to cast away",
+      "meaningCn": "投掷，抛弃",
       "reading": "なげる",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0158",
       "headword": "故障",
-      "meaningCn": "breakdown",
+      "meaningCn": "分解",
       "reading": "こしょうする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0159",
       "headword": "力",
-      "meaningCn": "strength, power",
+      "meaningCn": "力量，权力",
       "reading": "ちから",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0160",
       "headword": "受ける",
-      "meaningCn": "to take (an examination, interview, etc.); to receive",
+      "meaningCn": "参加（考试、面试等）；接收",
       "reading": "うける",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0161",
       "headword": "気分",
-      "meaningCn": "feeling, mood",
+      "meaningCn": "感觉、心情",
       "reading": "きぶん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0162",
       "headword": "間違える",
-      "meaningCn": "to make a mistake",
+      "meaningCn": "犯错误",
       "reading": "まちがえる",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0163",
       "headword": "そんな",
-      "meaningCn": "such, like that, that sort of",
+      "meaningCn": "诸如此类，诸如此类",
       "reading": "そんな",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0164",
       "headword": "星",
-      "meaningCn": "star",
+      "meaningCn": "星星",
       "reading": "ほし",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0165",
       "headword": "場合",
-      "meaningCn": "case, situation",
+      "meaningCn": "案件、情况",
       "reading": "ばあい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0166",
       "headword": "やっと",
-      "meaningCn": "at last, finally",
+      "meaningCn": "最后，最后",
       "reading": "やっと",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0167",
       "headword": "足りる",
-      "meaningCn": "to be sufficient; to be enough",
+      "meaningCn": "足够；足够了",
       "reading": "たりる",
       "partOfSpeech": "Genki Genki_Ln.17 Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0168",
       "headword": "行う",
-      "meaningCn": "to carry out; to conduct (typically used in written language)",
+      "meaningCn": "执行；进行（通常用于书面语言）",
       "reading": "おこなう",
       "partOfSpeech": "Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0169",
       "headword": "ぶどう",
-      "meaningCn": "grapes",
+      "meaningCn": "葡萄",
       "reading": "ぶどう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0170",
       "headword": "無くなる",
-      "meaningCn": "to disappear, to get lost",
+      "meaningCn": "消失，迷失",
       "reading": "なくなる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0171",
       "headword": "準備",
-      "meaningCn": "prepare",
+      "meaningCn": "准备",
       "reading": "じゅんびする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0172",
       "headword": "世界",
-      "meaningCn": "world",
+      "meaningCn": "世界",
       "reading": "せかい",
       "partOfSpeech": "Genki Genki_Ln.10 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0173",
       "headword": "住所",
-      "meaningCn": "address; place of residence",
+      "meaningCn": "地址;居住地",
       "reading": "じゅうしょ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0174",
       "headword": "再来月",
-      "meaningCn": "the month after next",
+      "meaningCn": "下个月",
       "reading": "さらいげつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0175",
       "headword": "林",
-      "meaningCn": "woods, forest",
+      "meaningCn": "树林，森林",
       "reading": "はやし",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0176",
       "headword": "倍",
-      "meaningCn": "double",
+      "meaningCn": "双倍的",
       "reading": "ばい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0177",
       "headword": "痩せる",
-      "meaningCn": "to lose weight",
+      "meaningCn": "减肥",
       "reading": "やせる",
       "partOfSpeech": "Genki Genki_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0178",
       "headword": "線",
-      "meaningCn": "line, wire",
+      "meaningCn": "线，电线",
       "reading": "せん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0179",
       "headword": "戦争",
-      "meaningCn": "war",
+      "meaningCn": "战争",
       "reading": "せんそう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0180",
       "headword": "決める",
-      "meaningCn": "to decide (v.t.)",
+      "meaningCn": "决定 (v.t.)",
       "reading": "きめる",
       "partOfSpeech": "Genki Genki_Ln.10 Intermediate_Japanese_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0181",
       "headword": "調べる",
-      "meaningCn": "to check; to look up; to inquire; to search",
+      "meaningCn": "检查；向上看；询问；搜索",
       "reading": "しらべる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0182",
       "headword": "寝坊",
-      "meaningCn": "sleeping in late",
+      "meaningCn": "睡得很晚",
       "reading": "ねぼう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0183",
       "headword": "パパ",
-      "meaningCn": "papa, daddy",
+      "meaningCn": "爸爸，爸爸",
       "reading": "パパ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0184",
       "headword": "光る",
-      "meaningCn": "to shine, to glitter",
+      "meaningCn": "使发光，使闪闪发光",
       "reading": "ひかる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0185",
       "headword": "夫",
-      "meaningCn": "husband",
+      "meaningCn": "丈夫",
       "reading": "おっと",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0186",
       "headword": "雲",
-      "meaningCn": "cloud",
+      "meaningCn": "云",
       "reading": "くも",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0187",
       "headword": "坂",
-      "meaningCn": "slope, hill",
+      "meaningCn": "斜坡、山丘",
       "reading": "さか",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0188",
       "headword": "～(て) しまう",
-      "meaningCn": "to end up ~",
+      "meaningCn": "结束~",
       "reading": "～(て) しまう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0189",
       "headword": "飛行場",
-      "meaningCn": "airport",
+      "meaningCn": "飞机场",
       "reading": "ひこうじょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0190",
       "headword": "柔道",
-      "meaningCn": "judo",
+      "meaningCn": "柔道",
       "reading": "じゅうどう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0191",
       "headword": "決して",
-      "meaningCn": "never",
+      "meaningCn": "绝不",
       "reading": "けっして",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0192",
       "headword": "事務所",
-      "meaningCn": "office",
+      "meaningCn": "办公室",
       "reading": "じむしょ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0193",
       "headword": "連絡",
-      "meaningCn": "communication, contact, connection",
+      "meaningCn": "通讯、联系、联系",
       "reading": "れんらく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0194",
       "headword": "小学校",
-      "meaningCn": "elementary school",
+      "meaningCn": "小学",
       "reading": "しょうがっこう",
       "partOfSpeech": "Genki Genki_Ln.23 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0195",
       "headword": "客",
-      "meaningCn": "guest, customer",
+      "meaningCn": "客人，顾客",
       "reading": "きゃく",
       "partOfSpeech": "Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0196",
       "headword": "昔",
-      "meaningCn": "old days; past",
+      "meaningCn": "旧时光；过去的",
       "reading": "むかし",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0197",
       "headword": "美しい",
-      "meaningCn": "beautiful, lovely",
+      "meaningCn": "美丽、可爱",
       "reading": "うつくしい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0198",
       "headword": "捨てる",
-      "meaningCn": "throw away (trash), dump, discard",
+      "meaningCn": "扔掉（垃圾）、倾倒、丢弃",
       "reading": "すてる",
       "partOfSpeech": "Genki Genki_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0199",
       "headword": "なさる",
-      "meaningCn": "-- honorific expression for する --",
+      "meaningCn": "-- する 的敬语表达 --",
       "reading": "なさる",
       "partOfSpeech": "Genki Genki_Ln.19 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0200",
       "headword": "事",
-      "meaningCn": "thing(s), matter(s), fact",
+      "meaningCn": "事物、事物、事实",
       "reading": "こと",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0201",
       "headword": "どんどん",
-      "meaningCn": "quickly and steadily; at a rapid pace",
+      "meaningCn": "快速、稳定；快速地",
       "reading": "どんどん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0202",
       "headword": "試合",
-      "meaningCn": "match, game, competition",
+      "meaningCn": "比赛，比赛，比赛",
       "reading": "しあい",
       "partOfSpeech": "Genki Genki_Ln.12 Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0203",
       "headword": "適当",
-      "meaningCn": "fitness, suitability",
+      "meaningCn": "体质、适宜性",
       "reading": "てきとう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0204",
       "headword": "素晴らしい",
-      "meaningCn": "wonderful; terrific",
+      "meaningCn": "精彩的;了不起",
       "reading": "すばらしい",
       "partOfSpeech": "Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0205",
       "headword": "美術館",
-      "meaningCn": "art gallery, art museum",
+      "meaningCn": "美术馆, 艺术博物馆",
       "reading": "びじゅつかん",
       "partOfSpeech": "Genki Genki_Ln.11 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0206",
       "headword": "文法",
-      "meaningCn": "grammar",
+      "meaningCn": "语法",
       "reading": "ぶんぽう",
       "partOfSpeech": "Genki Genki_Ln.13 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0207",
       "headword": "終わり",
-      "meaningCn": "end",
+      "meaningCn": "结尾",
       "reading": "おわり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0208",
       "headword": "壁",
-      "meaningCn": "wall",
+      "meaningCn": "墙",
       "reading": "かべ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0209",
       "headword": "一度",
-      "meaningCn": "once, one time",
+      "meaningCn": "一次，一次",
       "reading": "いちど",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0210",
       "headword": "お礼",
-      "meaningCn": "expression of gratitude; thanking; gift of appreciation; bow",
+      "meaningCn": "表达感激之情；感谢；表示感谢的礼物；弓",
       "reading": "おれい",
       "partOfSpeech": "Genki Genki_Ln.19 Intermediate_Japanese_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0211",
       "headword": "親切",
-      "meaningCn": "kindness",
+      "meaningCn": "仁慈",
       "reading": "しんせつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0212",
       "headword": "知らせる",
-      "meaningCn": "to notify",
+      "meaningCn": "通知",
       "reading": "しらせる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0213",
       "headword": "歯医者",
-      "meaningCn": "dentist",
+      "meaningCn": "牙医",
       "reading": "はいしゃ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0214",
       "headword": "熱心",
-      "meaningCn": "enthusiasm",
+      "meaningCn": "热情",
       "reading": "ねっしん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0215",
       "headword": "始める",
-      "meaningCn": "to start, to begin",
+      "meaningCn": "开始，开始",
       "reading": "はじめる",
       "partOfSpeech": "Genki Genki_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0216",
       "headword": "もらう",
-      "meaningCn": "to receive",
+      "meaningCn": "接收",
       "reading": "もらう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0217",
       "headword": "泣く",
-      "meaningCn": "to cry",
+      "meaningCn": "哭",
       "reading": "なく",
       "partOfSpeech": "Genki Genki_Ln.13 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0218",
       "headword": "治る",
-      "meaningCn": "to get better; to recover from illness (v.i.)",
+      "meaningCn": "变得更好；从疾病中康复 (v.i.)",
       "reading": "なおる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0219",
       "headword": "熱",
-      "meaningCn": "fever, temperature",
+      "meaningCn": "发烧，温度",
       "reading": "ねつ",
       "partOfSpeech": "Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0220",
       "headword": "お祭り",
-      "meaningCn": "festival",
+      "meaningCn": "节日",
       "reading": "おまつり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0221",
       "headword": "水道",
-      "meaningCn": "water service, water line",
+      "meaningCn": "供水服务、供水线路",
       "reading": "すいどう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0222",
       "headword": "匂い",
-      "meaningCn": "odor, smell",
+      "meaningCn": "气味，气味",
       "reading": "におい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0223",
       "headword": "ベル",
-      "meaningCn": "bell",
+      "meaningCn": "钟",
       "reading": "ベル",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0224",
       "headword": "赤ん坊",
-      "meaningCn": "baby",
+      "meaningCn": "婴儿",
       "reading": "あかんぼう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0225",
       "headword": "おかしい",
-      "meaningCn": "strange; odd; funny",
+      "meaningCn": "奇怪的;奇怪的;有趣的",
       "reading": "おかしい",
       "partOfSpeech": "Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0226",
       "headword": "事故",
-      "meaningCn": "accident",
+      "meaningCn": "事故",
       "reading": "じこ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0227",
       "headword": "変",
-      "meaningCn": "strange, odd",
+      "meaningCn": "奇怪的，奇怪的",
       "reading": "へん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0228",
       "headword": "辞典",
-      "meaningCn": "encyclopedia, reference book",
+      "meaningCn": "百科全书、参考书",
       "reading": "じてん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0229",
       "headword": "残る",
-      "meaningCn": "to remain (v.i.), to be left",
+      "meaningCn": "留下 (v.i.), 留下",
       "reading": "のこる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0230",
       "headword": "立てる",
-      "meaningCn": "to stand (something) up, to erect (something)",
+      "meaningCn": "站立（某物），竖立（某物）",
       "reading": "たてる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0231",
       "headword": "くれる",
-      "meaningCn": "to give, to do for",
+      "meaningCn": "给予，为之做",
       "reading": "くれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0232",
       "headword": "～員",
-      "meaningCn": "member of ~",
+      "meaningCn": "成员~",
       "reading": "～いん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0233",
       "headword": "原因",
-      "meaningCn": "cause, origin, source",
+      "meaningCn": "原因、起源、来源",
       "reading": "げんいん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0234",
       "headword": "驚く",
-      "meaningCn": "to be surprised, to be astonished",
+      "meaningCn": "感到惊讶，感到惊讶",
       "reading": "おどろく",
       "partOfSpeech": "Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0235",
       "headword": "いただく",
-      "meaningCn": "-- extra-modest expression for たべる and のむ; humble expression for もらう --",
+      "meaningCn": "-- たべる和のむ的超谦虚表达；もらう的谦虚表达——",
       "reading": "頂く",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0236",
       "headword": "祖母",
-      "meaningCn": "grandmother",
+      "meaningCn": "祖母",
       "reading": "そぼ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0237",
       "headword": "場所",
-      "meaningCn": "place, location",
+      "meaningCn": "地点，地点",
       "reading": "ばしょ",
       "partOfSpeech": "Genki Genki_Ln.23 Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0238",
       "headword": "答",
-      "meaningCn": "answer, response",
+      "meaningCn": "回答，反应",
       "reading": "こたえ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0239",
       "headword": "もちろん",
-      "meaningCn": "certainly, of course",
+      "meaningCn": "当然，当然",
       "reading": "もちろん",
       "partOfSpeech": "Genki Genki_Ln.7 Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0240",
       "headword": "漬ける",
-      "meaningCn": "to soak, to moisten, to pickle",
+      "meaningCn": "浸泡、浸湿、腌制",
       "reading": "つける",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0241",
       "headword": "受付",
-      "meaningCn": "reception(ist) desk",
+      "meaningCn": "接待台",
       "reading": "うけつけ",
       "partOfSpeech": "Genki Genki_Ln.22 Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0242",
       "headword": "内",
-      "meaningCn": "within, inside",
+      "meaningCn": "里面，里面",
       "reading": "うち",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0243",
       "headword": "スクリーン",
-      "meaningCn": "screen",
+      "meaningCn": "屏幕",
       "reading": "スクリーン",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0244",
       "headword": "増える",
-      "meaningCn": "to increase, to multiply",
+      "meaningCn": "增加，倍增",
       "reading": "ふえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0245",
       "headword": "または",
-      "meaningCn": "or, otherwise",
+      "meaningCn": "或者，否则",
       "reading": "または",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0246",
       "headword": "けがする",
-      "meaningCn": "injury (to animate object), hurt",
+      "meaningCn": "伤害（使物体活动），伤害",
       "reading": "けがする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0247",
       "headword": "以下",
-      "meaningCn": "less than, below",
+      "meaningCn": "小于，低于",
       "reading": "いか",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0248",
       "headword": "選ぶ",
-      "meaningCn": "to choose; to select",
+      "meaningCn": "选择；选择",
       "reading": "えらぶ",
       "partOfSpeech": "Genki Genki_Ln.17 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0249",
       "headword": "～ばかり",
-      "meaningCn": "just did ~, only",
+      "meaningCn": "刚刚做了〜，仅",
       "reading": "～ばかり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0250",
       "headword": "心",
-      "meaningCn": "heart, mind",
+      "meaningCn": "心、头脑",
       "reading": "こころ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0251",
       "headword": "～だす",
-      "meaningCn": "to start doing ~",
+      "meaningCn": "开始做~",
       "reading": "～だす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0252",
       "headword": "サラダ",
-      "meaningCn": "salad",
+      "meaningCn": "沙拉",
       "reading": "サラダ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0253",
       "headword": "届ける",
-      "meaningCn": "to deliver (v.t.)",
+      "meaningCn": "交付 (v.t.)",
       "reading": "とどける",
       "partOfSpeech": "Intermediate_Japanese_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0254",
       "headword": "あいさつする",
-      "meaningCn": "greet(ing)",
+      "meaningCn": "问候（英）",
       "reading": "挨拶",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0255",
       "headword": "景色",
-      "meaningCn": "scenery, landscape",
+      "meaningCn": "风景，风景",
       "reading": "けしき",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0256",
       "headword": "確か",
-      "meaningCn": "if I remember correctly; certain, definite",
+      "meaningCn": "如果我没记错的话；确定的，确定的",
       "reading": "たしか",
       "partOfSpeech": "Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0257",
       "headword": "ステーキ",
-      "meaningCn": "steak",
+      "meaningCn": "牛排",
       "reading": "ステーキ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0258",
       "headword": "食料品",
-      "meaningCn": "foodstuff, groceries",
+      "meaningCn": "食品、杂货",
       "reading": "しょくりょうひん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0259",
       "headword": "森",
-      "meaningCn": "forest",
+      "meaningCn": "森林",
       "reading": "もり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0260",
       "headword": "以内",
-      "meaningCn": "within, less (no more) than",
+      "meaningCn": "之内，小于（不超过）",
       "reading": "いない",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0261",
       "headword": "予定",
-      "meaningCn": "plans, arrangement, schedule",
+      "meaningCn": "计划、安排、时间表",
       "reading": "よてい",
       "partOfSpeech": "Genki Genki_Ln.15 Intermediate_Japanese_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0262",
       "headword": "オーバー",
-      "meaningCn": "overcoat; over, exceeding, exaggeration",
+      "meaningCn": "大衣;超过，超过，夸大",
       "reading": "オーバー",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0263",
       "headword": "乾く",
-      "meaningCn": "to get dry",
+      "meaningCn": "变干",
       "reading": "かわく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0264",
       "headword": "石",
-      "meaningCn": "stone",
+      "meaningCn": "石头",
       "reading": "いし",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0265",
       "headword": "思い出す",
-      "meaningCn": "to recall, to remember",
+      "meaningCn": "回忆，记住",
       "reading": "おもいだす",
       "partOfSpeech": "Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0266",
       "headword": "踊る",
-      "meaningCn": "to dance",
+      "meaningCn": "跳舞",
       "reading": "おどる",
       "partOfSpeech": "Genki Genki_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0267",
       "headword": "細かい",
-      "meaningCn": "small; fine, minute",
+      "meaningCn": "小的;很好，分钟",
       "reading": "こまかい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0268",
       "headword": "塗る",
-      "meaningCn": "to paint, to plaster",
+      "meaningCn": "涂漆、抹灰",
       "reading": "ぬる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0269",
       "headword": "ご主人",
-      "meaningCn": "(your, her) husband",
+      "meaningCn": "（你的、她的）丈夫",
       "reading": "ごしゅじん",
       "partOfSpeech": "Genki Genki_Ln.14 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0270",
       "headword": "珍しい",
-      "meaningCn": "unusual, rare",
+      "meaningCn": "不寻常的，罕见的",
       "reading": "めずらしい",
       "partOfSpeech": "Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0271",
       "headword": "用",
-      "meaningCn": "errand, task, business (to take care of)",
+      "meaningCn": "差事、任务、事务（照顾）",
       "reading": "よう",
       "partOfSpeech": "Intermediate_Japanese_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0272",
       "headword": "公務員",
-      "meaningCn": "government worker, public servant",
+      "meaningCn": "政府工作人员、公务员",
       "reading": "こうむいん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0273",
       "headword": "お嬢さん",
-      "meaningCn": "(someone's) daughter (polite)",
+      "meaningCn": "（某人的）女儿（有礼貌）",
       "reading": "おじょうさん",
       "partOfSpeech": "Genki Genki_Ln.22 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0274",
       "headword": "用意",
-      "meaningCn": "preparation",
+      "meaningCn": "准备",
       "reading": "ようい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0275",
       "headword": "探す",
-      "meaningCn": "to search, to seek, to look for",
+      "meaningCn": "寻找，寻找，寻找",
       "reading": "さがす",
       "partOfSpeech": "Genki Genki_Ln.15 Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0276",
       "headword": "形",
-      "meaningCn": "shape",
+      "meaningCn": "形状",
       "reading": "かたち",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0277",
       "headword": "運転",
-      "meaningCn": "driving",
+      "meaningCn": "驾驶",
       "reading": "うんてんする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0278",
       "headword": "すっかり",
-      "meaningCn": "all, completely",
+      "meaningCn": "全部，完全",
       "reading": "すっかり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0279",
       "headword": "アナウンサー",
-      "meaningCn": "announcer",
+      "meaningCn": "播音员",
       "reading": "アナウンサー",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0280",
       "headword": "お土産",
-      "meaningCn": "souvenir",
+      "meaningCn": "纪念品",
       "reading": "おみやげ",
       "partOfSpeech": "Genki Genki_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0281",
       "headword": "消しゴム",
-      "meaningCn": "eraser",
+      "meaningCn": "橡皮",
       "reading": "けしゴム",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0282",
       "headword": "旅館",
-      "meaningCn": "a Japanese inn",
+      "meaningCn": "一家日本旅馆",
       "reading": "りょかん",
       "partOfSpeech": "Genki Genki_Ln.15 Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0283",
       "headword": "海岸",
-      "meaningCn": "coast, seashore",
+      "meaningCn": "海岸，海滨",
       "reading": "かいがん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0284",
       "headword": "寂しい",
-      "meaningCn": "lonely, lonesome",
+      "meaningCn": "孤独，寂寞",
       "reading": "さびしい",
       "partOfSpeech": "Genki Genki_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0285",
       "headword": "火",
-      "meaningCn": "fire",
+      "meaningCn": "火",
       "reading": "ひ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0286",
       "headword": "育てる",
-      "meaningCn": "to raise (v.t.); to bring up",
+      "meaningCn": "提高（v.t.）；提出",
       "reading": "そだてる",
       "partOfSpeech": "Genki Genki_Ln.22 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0287",
       "headword": "味噌",
-      "meaningCn": "miso, bean paste",
+      "meaningCn": "味噌、豆沙",
       "reading": "みそ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0288",
       "headword": "お祝い",
-      "meaningCn": "congratulation, celebration",
+      "meaningCn": "祝贺，庆祝",
       "reading": "おいわい",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0289",
       "headword": "乗り物",
-      "meaningCn": "vehicle",
+      "meaningCn": "车辆",
       "reading": "のりもの",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0290",
       "headword": "案内",
-      "meaningCn": "information, guidance",
+      "meaningCn": "信息、指导",
       "reading": "あんないする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0291",
       "headword": "通う",
-      "meaningCn": "to go back and forth; to commute",
+      "meaningCn": "来回走动；通勤",
       "reading": "かよう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0292",
       "headword": "連れる",
-      "meaningCn": "to lead, to take (a person)",
+      "meaningCn": "领导，带领（一个人）",
       "reading": "つれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0293",
       "headword": "技術",
-      "meaningCn": "technique, technology, skill",
+      "meaningCn": "技术、技术、技能",
       "reading": "ぎじゅつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0294",
       "headword": "小鳥",
-      "meaningCn": "small bird",
+      "meaningCn": "小鸟",
       "reading": "ことり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0295",
       "headword": "下宿",
-      "meaningCn": "lodging, boarding house",
+      "meaningCn": "寄宿处、寄宿处",
       "reading": "げしゅく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0296",
       "headword": "ジャム",
-      "meaningCn": "jam",
+      "meaningCn": "果酱",
       "reading": "ジャム",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0297",
       "headword": "招待",
-      "meaningCn": "invitation",
+      "meaningCn": "邀请函",
       "reading": "しょうたいする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0298",
       "headword": "鏡",
-      "meaningCn": "mirror",
+      "meaningCn": "镜子",
       "reading": "かがみ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0299",
       "headword": "はず",
-      "meaningCn": "it should be so",
+      "meaningCn": "应该如此",
       "reading": "はず",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0300",
       "headword": "法律",
-      "meaningCn": "law",
+      "meaningCn": "法律",
       "reading": "ほうりつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0301",
       "headword": "進む",
-      "meaningCn": "to advance, to proceed",
+      "meaningCn": "前进，继续",
       "reading": "すすむ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0302",
       "headword": "楽む",
-      "meaningCn": "to enjoy",
+      "meaningCn": "享受",
       "reading": "たのしむ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0303",
       "headword": "貿易",
-      "meaningCn": "trade",
+      "meaningCn": "贸易",
       "reading": "ぼうえき",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0304",
       "headword": "反対",
-      "meaningCn": "oppose, opposition, resistance",
+      "meaningCn": "反对、反对、抵抗",
       "reading": "はんたい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0305",
       "headword": "おる",
-      "meaningCn": "-- extra-modest expression for いる --",
+      "meaningCn": "-- いる 的超谦虚表达方式 --",
       "reading": "おる",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0306",
       "headword": "申す",
-      "meaningCn": "-- extra-modest (humble) expression for 言う (いう) --",
+      "meaningCn": "-- 言う (いう) 的超谦虚（谦虚）表达方式 --",
       "reading": "もうす",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0307",
       "headword": "試験",
-      "meaningCn": "an exam",
+      "meaningCn": "一次考试",
       "reading": "しけん",
       "partOfSpeech": "Genki Genki_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0308",
       "headword": "真面目",
-      "meaningCn": "diligent, serious",
+      "meaningCn": "勤奋、认真",
       "reading": "まじめ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0309",
       "headword": "ごらんになる",
-      "meaningCn": "-- honorific expression for みる --",
+      "meaningCn": "-- みる 的敬语表达 --",
       "partOfSpeech": "Genki Genki_Ln.19 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0310",
       "headword": "店員",
-      "meaningCn": "clerk; shop-employee",
+      "meaningCn": "文员；商店员工",
       "reading": "てんいん",
       "partOfSpeech": "Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0311",
       "headword": "泊まる",
-      "meaningCn": "to stay (over night) (v.i.)",
+      "meaningCn": "留下来（过夜）（v.i.）",
       "reading": "とまる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0312",
       "headword": "よろしい",
-      "meaningCn": "(hon.) good, OK, all right",
+      "meaningCn": "（尊敬的）好，好的，好的",
       "reading": "よろしい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0313",
       "headword": "今夜",
-      "meaningCn": "this evening, tonight",
+      "meaningCn": "今天晚上，今晚",
       "reading": "こんや",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0314",
       "headword": "おつり",
-      "meaningCn": "change; balance of money returned to the purchaser",
+      "meaningCn": "改变;退还给购买者的余额",
       "reading": "おつり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0315",
       "headword": "チェックする",
-      "meaningCn": "check",
+      "meaningCn": "查看",
       "reading": "チェックする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0316",
       "headword": "会話",
-      "meaningCn": "conversation",
+      "meaningCn": "对话",
       "reading": "かいわ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0317",
       "headword": "空気",
-      "meaningCn": "air, atmosphere",
+      "meaningCn": "空气、气氛",
       "reading": "くうき",
       "partOfSpeech": "Genki Genki_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0318",
       "headword": "交通",
-      "meaningCn": "traffic, transportation",
+      "meaningCn": "交通、运输",
       "reading": "こうつう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0319",
       "headword": "ワープロ",
-      "meaningCn": "word processor",
+      "meaningCn": "文字处理器",
       "reading": "ワープロ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0320",
       "headword": "喜ぶ",
-      "meaningCn": "to rejoice, to be delighted, to be glad",
+      "meaningCn": "使高兴、使高兴、使高兴",
       "reading": "よろこぶ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0321",
       "headword": "急行",
-      "meaningCn": "express train or bus",
+      "meaningCn": "特快列车或巴士",
       "reading": "きゅうこう",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0322",
       "headword": "皆",
-      "meaningCn": "everyone",
+      "meaningCn": "每个人",
       "reading": "みな",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0323",
       "headword": "味",
-      "meaningCn": "flavor, taste",
+      "meaningCn": "味道，味道",
       "reading": "あじ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0324",
       "headword": "空港",
-      "meaningCn": "airport",
+      "meaningCn": "飞机场",
       "reading": "くうこう",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0325",
       "headword": "手袋",
-      "meaningCn": "glove(s)",
+      "meaningCn": "手套）",
       "reading": "てぶくろ",
       "partOfSpeech": "Genki Genki_Ln.10 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0326",
       "headword": "校長",
-      "meaningCn": "principal, headmaster",
+      "meaningCn": "校长，校长",
       "reading": "こうちょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0327",
       "headword": "ごちそう",
-      "meaningCn": "feast, treating (someone)",
+      "meaningCn": "宴请，款待（某人）",
       "reading": "ごちそう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0328",
       "headword": "踊り",
-      "meaningCn": "dance",
+      "meaningCn": "舞蹈",
       "reading": "おどり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0329",
       "headword": "興味",
-      "meaningCn": "interest (in something)",
+      "meaningCn": "兴趣（对某事）",
       "reading": "きょうみ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0330",
       "headword": "引っ越す",
-      "meaningCn": "to move to a new place of residence",
+      "meaningCn": "搬到新的居住地",
       "reading": "ひっこす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0331",
       "headword": "冷房",
-      "meaningCn": "cooling, air conditioning",
+      "meaningCn": "冷却、空调",
       "reading": "れいぼう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0332",
       "headword": "都合",
-      "meaningCn": "circumstances, convenience",
+      "meaningCn": "情况、方便",
       "reading": "つごう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0333",
       "headword": "遠慮",
-      "meaningCn": "restraint, reserve, hesitate",
+      "meaningCn": "克制、保留、犹豫",
       "reading": "えんりょする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0334",
       "headword": "亡くなる",
-      "meaningCn": "to pass away",
+      "meaningCn": "去世",
       "reading": "なくなる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0335",
       "headword": "科学",
-      "meaningCn": "science",
+      "meaningCn": "科学",
       "reading": "かがく",
       "partOfSpeech": "Genki Genki_Ln.1 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0336",
       "headword": "はっきり",
-      "meaningCn": "clearly, distinctly",
+      "meaningCn": "清楚地，清楚地",
       "reading": "はっきり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0337",
       "headword": "差し上げる",
-      "meaningCn": "-- humble expression for あげる --",
+      "meaningCn": "-- あげる 的谦虚表达 --",
       "reading": "さしあげる",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0338",
       "headword": "気持ち",
-      "meaningCn": "feeling, sensation, mood",
+      "meaningCn": "感觉，感觉，情绪",
       "reading": "きもち",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0339",
       "headword": "祖父",
-      "meaningCn": "grandfather",
+      "meaningCn": "祖父",
       "reading": "そふ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0340",
       "headword": "港",
-      "meaningCn": "harbor, port",
+      "meaningCn": "港口，港口",
       "reading": "みなと",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0341",
       "headword": "予約",
-      "meaningCn": "reservation",
+      "meaningCn": "预订",
       "reading": "よやく",
       "partOfSpeech": "Genki Genki_Ln.10 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0342",
       "headword": "凄い",
-      "meaningCn": "terrific, great",
+      "meaningCn": "太棒了，太棒了",
       "reading": "すごい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0343",
       "headword": "入学",
-      "meaningCn": "entry to school or university",
+      "meaningCn": "进入学校或大学",
       "reading": "にゅうがくする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0344",
       "headword": "片付ける",
-      "meaningCn": "to (clean) tidy up (v.t.), to put away",
+      "meaningCn": "（干净）整理（v.t.），收起",
       "reading": "かたづける",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0345",
       "headword": "写す",
-      "meaningCn": "to copy (v.t.); to photograph",
+      "meaningCn": "复制 (v.t.);拍照",
       "reading": "うつす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0346",
       "headword": "パソコン",
-      "meaningCn": "(personal) computer",
+      "meaningCn": "（个人）计算机",
       "reading": "パソコン",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0347",
       "headword": "部長",
-      "meaningCn": "department (division) manager",
+      "meaningCn": "部门（部门）经理",
       "reading": "ぶちょう",
       "partOfSpeech": "Genki Genki_Ln.19 Intermediate_Japanese_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0348",
       "headword": "火事",
-      "meaningCn": "fire",
+      "meaningCn": "火",
       "reading": "かじ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0349",
       "headword": "足す",
-      "meaningCn": "to add (numbers)",
+      "meaningCn": "添加（数字）",
       "reading": "たす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0350",
       "headword": "教会",
-      "meaningCn": "church",
+      "meaningCn": "教会",
       "reading": "きょうかい",
       "partOfSpeech": "Intermediate_Japanese_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0351",
       "headword": "彼ら",
-      "meaningCn": "they (usually male)",
+      "meaningCn": "他们（通常是男性）",
       "reading": "かれら",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0352",
       "headword": "いっぱい",
-      "meaningCn": "full, to the utmost",
+      "meaningCn": "充分, 到最大限度",
       "reading": "一杯",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0353",
       "headword": "アメリカ",
-      "meaningCn": "America, U.S.A.",
+      "meaningCn": "美国，美国",
       "reading": "アメリカ",
       "partOfSpeech": "Genki Genki_Ln.1 Genki_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0354",
       "headword": "男性",
-      "meaningCn": "man; male",
+      "meaningCn": "男人;男性",
       "reading": "だんせい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0355",
       "headword": "理由",
-      "meaningCn": "reason",
+      "meaningCn": "原因",
       "reading": "りゆう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0356",
       "headword": "生産",
-      "meaningCn": "production; to produce",
+      "meaningCn": "生产;生产",
       "reading": "せいさんする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0357",
       "headword": "着物",
-      "meaningCn": "kimono; Japanese traditional dress",
+      "meaningCn": "和服;日本传统服饰",
       "reading": "きもの",
       "partOfSpeech": "Genki Genki_Ln.13 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0358",
       "headword": "おもちゃ",
-      "meaningCn": "a toy",
+      "meaningCn": "一个玩具",
       "reading": "おもちゃ",
       "partOfSpeech": "Genki Genki_Ln.11 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0359",
       "headword": "暮れる",
-      "meaningCn": "to get dark, to come to an end",
+      "meaningCn": "变黑，结束",
       "reading": "くれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0360",
       "headword": "釣る",
-      "meaningCn": "to fish",
+      "meaningCn": "钓鱼",
       "reading": "つる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0361",
       "headword": "～ちゃん",
-      "meaningCn": "suffix for familiar (female) person",
+      "meaningCn": "熟悉的（女性）人的后缀",
       "reading": "～ちゃん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0362",
       "headword": "打つ",
-      "meaningCn": "to hit, to strike",
+      "meaningCn": "击打，打击",
       "reading": "うつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0363",
       "headword": "あんな",
-      "meaningCn": "such, like that",
+      "meaningCn": "这样，这样",
       "reading": "あんな",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0364",
       "headword": "謝る",
-      "meaningCn": "to apologize",
+      "meaningCn": "道歉",
       "reading": "あやまる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0365",
       "headword": "昼間",
-      "meaningCn": "daytime, during the day",
+      "meaningCn": "白天，白天",
       "reading": "ひるま",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0366",
       "headword": "教育",
-      "meaningCn": "education",
+      "meaningCn": "教育",
       "reading": "きょういく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0367",
       "headword": "女性",
-      "meaningCn": "woman",
+      "meaningCn": "女士",
       "reading": "じょせい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0368",
       "headword": "米",
-      "meaningCn": "uncooked rice",
+      "meaningCn": "未煮熟的米饭",
       "reading": "こめ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0369",
       "headword": "邪魔",
-      "meaningCn": "hindrance, intrusion",
+      "meaningCn": "阻碍、侵入",
       "reading": "じゃま",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0370",
       "headword": "国際",
-      "meaningCn": "international",
+      "meaningCn": "国际的",
       "reading": "こくさい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0371",
       "headword": "隅",
-      "meaningCn": "corner",
+      "meaningCn": "角落",
       "reading": "すみ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0372",
       "headword": "伺う",
-      "meaningCn": "humble form of 行く (いく), 聞く (きく) and 来る (くる)",
+      "meaningCn": "行く (いく)、闻く (きく) 和来る (くる) 的简写形式",
       "reading": "うかがう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0373",
       "headword": "再来週",
-      "meaningCn": "the week after next",
+      "meaningCn": "下周",
       "reading": "さらいしゅう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0374",
       "headword": "夢",
-      "meaningCn": "a dream",
+      "meaningCn": "一个梦",
       "reading": "ゆめ",
       "partOfSpeech": "Genki Genki_Ln.11 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0375",
       "headword": "喉",
-      "meaningCn": "throat",
+      "meaningCn": "喉",
       "reading": "のど",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0376",
       "headword": "最近",
-      "meaningCn": "recently, nowadays, in recent years, most recent, latest",
+      "meaningCn": "最近，最近，近几年，最近，最近",
       "reading": "さいきん",
       "partOfSpeech": "Genki Genki_Ln.15 Intermediate_Japanese_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0377",
       "headword": "周り",
-      "meaningCn": "surroundings",
+      "meaningCn": "周围环境",
       "reading": "まわり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0378",
       "headword": "歴史",
-      "meaningCn": "history",
+      "meaningCn": "历史",
       "reading": "れきし",
       "partOfSpeech": "Genki Genki_Ln.1 Genki_Ln.2 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0379",
       "headword": "不便",
-      "meaningCn": "inconvenience",
+      "meaningCn": "不便",
       "reading": "ふべん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0380",
       "headword": "血",
-      "meaningCn": "blood",
+      "meaningCn": "血",
       "reading": "ち",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0381",
       "headword": "～続ける",
-      "meaningCn": "to continue doing ~",
+      "meaningCn": "继续做~",
       "reading": "～つづける",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0382",
       "headword": "毛",
-      "meaningCn": "hair, fur",
+      "meaningCn": "头发，毛皮",
       "reading": "け",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0383",
       "headword": "ひどい",
-      "meaningCn": "terrible, awful, unfair, cruel",
+      "meaningCn": "可怕的, 可怕的, 不公平的, 残酷的",
       "reading": "ひどい",
       "partOfSpeech": "Genki Genki_Ln.21 Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0384",
       "headword": "例えば",
-      "meaningCn": "for example, e.g.",
+      "meaningCn": "例如，例如",
       "reading": "たとえば",
       "partOfSpeech": "Genki Genki_Ln.17 Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0385",
       "headword": "中々",
-      "meaningCn": "very, considerably, quite",
+      "meaningCn": "非常、相当、相当",
       "reading": "なかなか",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0386",
       "headword": "随分",
-      "meaningCn": "extremely",
+      "meaningCn": "极其",
       "reading": "ずいぶん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0387",
       "headword": "～やすい",
-      "meaningCn": "easy to do ~",
+      "meaningCn": "容易做~",
       "reading": "～やすい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0388",
       "headword": "押し入れ",
-      "meaningCn": "closet",
+      "meaningCn": "壁橱",
       "reading": "おしいれ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0389",
       "headword": "電灯",
-      "meaningCn": "electric light",
+      "meaningCn": "电灯",
       "reading": "でんとう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0390",
       "headword": "叱る",
-      "meaningCn": "to scold",
+      "meaningCn": "责骂",
       "reading": "しかる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0391",
       "headword": "サンダル",
-      "meaningCn": "sandal",
+      "meaningCn": "凉鞋",
       "reading": "サンダル",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0392",
       "headword": "びっくりする",
-      "meaningCn": "to be surprised",
+      "meaningCn": "感到惊讶",
       "reading": "びっくりする",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0393",
       "headword": "うまい",
-      "meaningCn": "delicious; skillful; fortunate",
+      "meaningCn": "可口的;熟练;幸运",
       "reading": "うまい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0394",
       "headword": "変える",
-      "meaningCn": "to change, to alter, to vary",
+      "meaningCn": "改变，改变，变化",
       "reading": "かえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0395",
       "headword": "講堂",
-      "meaningCn": "auditorium",
+      "meaningCn": "礼堂",
       "reading": "こうどう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0396",
       "headword": "子",
-      "meaningCn": "child",
+      "meaningCn": "孩子",
       "reading": "こ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0397",
       "headword": "沸かす",
-      "meaningCn": "to boil",
+      "meaningCn": "煮沸",
       "reading": "わかす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0398",
       "headword": "レジ",
-      "meaningCn": "register",
+      "meaningCn": "登记",
       "reading": "レジ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0399",
       "headword": "しばらく",
-      "meaningCn": "little while",
+      "meaningCn": "一会儿",
       "reading": "しばらく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0400",
       "headword": "特に",
-      "meaningCn": "particularly",
+      "meaningCn": "特别",
       "reading": "とくに",
       "partOfSpeech": "Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0401",
       "headword": "空く",
-      "meaningCn": "to open, to become empty (vacant)",
+      "meaningCn": "打开，变空（空）",
       "reading": "あく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0402",
       "headword": "計画",
-      "meaningCn": "plan, project, schedule",
+      "meaningCn": "计划、项目、时间表",
       "reading": "けいかくする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0403",
       "headword": "通り",
-      "meaningCn": "~ Street, ~ Avenue",
+      "meaningCn": "〜街道，〜大道",
       "reading": "とおり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0404",
       "headword": "下着",
-      "meaningCn": "underwear",
+      "meaningCn": "内衣",
       "reading": "したぎ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0405",
       "headword": "経済",
-      "meaningCn": "economics, finance, economy",
+      "meaningCn": "经济、金融、经济",
       "reading": "けいざい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0406",
       "headword": "こう",
-      "meaningCn": "like this, this way",
+      "meaningCn": "像这样，这样",
       "reading": "こう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0407",
       "headword": "是非",
-      "meaningCn": "certainly, by all means; without fail",
+      "meaningCn": "当然，无论如何；毫无疑问",
       "reading": "ぜひ",
       "partOfSpeech": "Genki Genki_Ln.9 Intermediate_Japanese_Ln.15 Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0408",
       "headword": "裏",
-      "meaningCn": "reverse side, back",
+      "meaningCn": "反面，背面",
       "reading": "うら",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0409",
       "headword": "為",
-      "meaningCn": "good, advantage, in order to",
+      "meaningCn": "好，优点，为了",
       "reading": "ため",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0410",
       "headword": "おいでになる",
-      "meaningCn": "(hon.) to be",
+      "meaningCn": "（尊敬的）成为",
       "reading": "おいでになる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0411",
       "headword": "変わる",
-      "meaningCn": "to change (v.i.), to be transformed, to vary",
+      "meaningCn": "改变 (v.i.), 转变, 改变",
       "reading": "かわる",
       "partOfSpeech": "Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0412",
       "headword": "以外",
-      "meaningCn": "other than, with the exception of, excepting",
+      "meaningCn": "除了，除了，除了",
       "reading": "いがい",
       "partOfSpeech": "Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0413",
       "headword": "済む",
-      "meaningCn": "to finish, to end",
+      "meaningCn": "结束，结束",
       "reading": "すむ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0414",
       "headword": "ハンバーグ",
-      "meaningCn": "hamburger steak",
+      "meaningCn": "汉堡牛排",
       "reading": "ハンバーグ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0415",
       "headword": "市",
-      "meaningCn": "city",
+      "meaningCn": "城市",
       "reading": "し",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0416",
       "headword": "引き出し",
-      "meaningCn": "drawer",
+      "meaningCn": "抽屉",
       "reading": "ひきだし",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0417",
       "headword": "遊び",
-      "meaningCn": "play",
+      "meaningCn": "玩",
       "reading": "あそび",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0418",
       "headword": "支度",
-      "meaningCn": "preparation",
+      "meaningCn": "准备",
       "reading": "したくする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0419",
       "headword": "～始める",
-      "meaningCn": "to start doing ~",
+      "meaningCn": "开始做~",
       "reading": "～はじめる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0420",
       "headword": "見える",
-      "meaningCn": "to be visible; -- polite verb meaning 来る (くる) --",
+      "meaningCn": "可见； -- 礼貌动词，意思是来る (くる) --",
       "reading": "みえる",
       "partOfSpeech": "Genki Genki_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0421",
       "headword": "十分",
-      "meaningCn": "enough",
+      "meaningCn": "足够的",
       "reading": "じゅうぶん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0422",
       "headword": "音",
-      "meaningCn": "sound, note",
+      "meaningCn": "声音、音符",
       "reading": "おと",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0423",
       "headword": "きっと",
-      "meaningCn": "surely, definitely, undoubtedly, certainly",
+      "meaningCn": "确实，肯定，毫无疑问，当然",
       "reading": "きっと",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0424",
       "headword": "まず",
-      "meaningCn": "first (of all), to start with",
+      "meaningCn": "首先（首先），首先",
       "reading": "まず",
       "partOfSpeech": "Genki Genki_Ln.18 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0425",
       "headword": "遠く",
-      "meaningCn": "far away, distant",
+      "meaningCn": "遥远的，遥远的",
       "reading": "とおく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0426",
       "headword": "大体",
-      "meaningCn": "approximately; in most cases; in general; to begin with (same as もともと)",
+      "meaningCn": "大约;大多数情况下；一般来说;首先（与もともと相同）",
       "reading": "だいたい",
       "partOfSpeech": "Intermediate_Japanese_Ln.15 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0427",
       "headword": "折れる",
-      "meaningCn": "to break, to be folded, to give in; to turn (a corner)",
+      "meaningCn": "破裂、折叠、屈服；转（一个角）",
       "reading": "おれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0428",
       "headword": "正しい",
-      "meaningCn": "correct",
+      "meaningCn": "正确的",
       "reading": "ただしい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0429",
       "headword": "輸入",
-      "meaningCn": "import",
+      "meaningCn": "进口",
       "reading": "ゆにゅう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0430",
       "headword": "返事",
-      "meaningCn": "reply, answer",
+      "meaningCn": "答复，答复",
       "reading": "へんじ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0431",
       "headword": "都",
-      "meaningCn": "metropolitan",
+      "meaningCn": "大都市的",
       "reading": "と",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0432",
       "headword": "産業",
-      "meaningCn": "industry",
+      "meaningCn": "行业",
       "reading": "さんぎょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0433",
       "headword": "伝える",
-      "meaningCn": "to convey (a message); to tell, to report",
+      "meaningCn": "传达（消息）；告诉，报告",
       "reading": "つたえる",
       "partOfSpeech": "Genki Genki_Ln.20 Intermediate_Japanese_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0434",
       "headword": "お金持ち",
-      "meaningCn": "rich person",
+      "meaningCn": "有钱人",
       "reading": "かねもち; おかねもち",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0435",
       "headword": "説明",
-      "meaningCn": "explanation",
+      "meaningCn": "解释",
       "reading": "せつめい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0436",
       "headword": "島",
-      "meaningCn": "island",
+      "meaningCn": "岛",
       "reading": "しま",
       "partOfSpeech": "Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0437",
       "headword": "道具",
-      "meaningCn": "tool",
+      "meaningCn": "工具",
       "reading": "どうぐ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0438",
       "headword": "滑る",
-      "meaningCn": "to slide, to slip",
+      "meaningCn": "滑动，滑动",
       "reading": "すべる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0439",
       "headword": "それほど",
-      "meaningCn": "to that degree; extent",
+      "meaningCn": "到那个程度；程度",
       "reading": "それほど",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0440",
       "headword": "以上",
-      "meaningCn": "more than; this is all",
+      "meaningCn": "多于;这就是全部",
       "reading": "いじょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0441",
       "headword": "～まま",
-      "meaningCn": "as it is",
+      "meaningCn": "就这样",
       "reading": "～まま",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0442",
       "headword": "特急",
-      "meaningCn": "limited express (train faster than an express)",
+      "meaningCn": "特快列车（比特快列车更快的列车）",
       "reading": "とっきゅう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0443",
       "headword": "プレゼント",
-      "meaningCn": "present, gift",
+      "meaningCn": "礼物，礼物",
       "reading": "プレゼント",
       "partOfSpeech": "Genki Genki_Ln.12 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0444",
       "headword": "～(に) よると",
-      "meaningCn": "according to ~",
+      "meaningCn": "根据~",
       "reading": "～(に) よると",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0445",
       "headword": "妻",
-      "meaningCn": "wife (humble)",
+      "meaningCn": "妻子（卑微）",
       "reading": "つま",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0446",
       "headword": "帰り",
-      "meaningCn": "return, coming back",
+      "meaningCn": "返回，回来",
       "reading": "かえり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0447",
       "headword": "具合",
-      "meaningCn": "condition, state, health",
+      "meaningCn": "状况、状态、健康",
       "reading": "ぐあい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0448",
       "headword": "堅; 硬; 固い",
-      "meaningCn": "solid, hard, firm",
+      "meaningCn": "坚实的、坚硬的、坚定的",
       "reading": "かたい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0449",
       "headword": "駐車場",
-      "meaningCn": "parking lot",
+      "meaningCn": "停车场",
       "reading": "ちゅうしゃじょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0450",
       "headword": "スーツ",
-      "meaningCn": "suit",
+      "meaningCn": "套装",
       "reading": "スーツ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0451",
       "headword": "危険",
-      "meaningCn": "danger, risk, hazard",
+      "meaningCn": "危险、风险、危害",
       "reading": "きけん",
       "partOfSpeech": "Intermediate_Japanese_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0452",
       "headword": "髪",
-      "meaningCn": "hair",
+      "meaningCn": "头发",
       "reading": "かみ",
       "partOfSpeech": "Genki Genki_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0453",
       "headword": "天気予報",
-      "meaningCn": "weather forecast",
+      "meaningCn": "天气预报",
       "reading": "てんきよほう",
       "partOfSpeech": "Genki Genki_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0454",
       "headword": "彼女",
-      "meaningCn": "girlfriend; she",
+      "meaningCn": "女朋友;她",
       "reading": "かのじょ",
       "partOfSpeech": "Genki Genki_Ln.12 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0455",
       "headword": "間",
-      "meaningCn": "space, interval",
+      "meaningCn": "空间、间隔",
       "reading": "あいだ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0456",
       "headword": "卒業",
-      "meaningCn": "graduation",
+      "meaningCn": "毕业",
       "reading": "そつぎょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0457",
       "headword": "それで",
-      "meaningCn": "and (conj.), thereupon, because of that",
+      "meaningCn": "并且；因此；因为",
       "reading": "それで",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0458",
       "headword": "枝",
-      "meaningCn": "branch, twig",
+      "meaningCn": "树枝，树枝",
       "reading": "えだ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0459",
       "headword": "専門",
-      "meaningCn": "major; speciality",
+      "meaningCn": "主要的;专业",
       "reading": "せんもん",
       "partOfSpeech": "Genki Genki_Ln.1 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0460",
       "headword": "そろそろ",
-      "meaningCn": "gradually, soon",
+      "meaningCn": "逐渐地，很快地",
       "reading": "そろそろ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0461",
       "headword": "送る",
-      "meaningCn": "to send, to dispatch",
+      "meaningCn": "发送，派遣",
       "reading": "おくる",
       "partOfSpeech": "Genki Genki_Ln.14 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0462",
       "headword": "あげる",
-      "meaningCn": "to give",
+      "meaningCn": "给予",
       "reading": "あげる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0463",
       "headword": "騒ぐ",
-      "meaningCn": "to make noise, to clamor",
+      "meaningCn": "发出噪音, 喧闹",
       "reading": "さわぐ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0464",
       "headword": "尋ねる",
-      "meaningCn": "to inquire (same as 質問する)",
+      "meaningCn": "询问（同质问する）",
       "reading": "たずねる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0465",
       "headword": "放送",
-      "meaningCn": "broadcasting",
+      "meaningCn": "广播",
       "reading": "ほうそうする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0466",
       "headword": "政治",
-      "meaningCn": "politics",
+      "meaningCn": "政治",
       "reading": "せいじ",
       "partOfSpeech": "Genki Genki_Ln.1 Genki_Ln.12 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0467",
       "headword": "市民",
-      "meaningCn": "citizen",
+      "meaningCn": "公民",
       "reading": "しみん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0468",
       "headword": "ファックス",
-      "meaningCn": "fax",
+      "meaningCn": "传真",
       "reading": "ファックス",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0469",
       "headword": "負ける",
-      "meaningCn": "to lose (a game) (v.i.), to be defeated",
+      "meaningCn": "输掉（一场比赛） (v.i.), 被击败",
       "reading": "まける",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0470",
       "headword": "指輪",
-      "meaningCn": "(finger) ring",
+      "meaningCn": "（手指）戒指",
       "reading": "ゆびわ",
       "partOfSpeech": "Genki Genki_Ln.14 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0471",
       "headword": "田舎",
-      "meaningCn": "rural, countryside",
+      "meaningCn": "乡村，乡村",
       "reading": "いなか",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0472",
       "headword": "見つける",
-      "meaningCn": "to discover, to find (v.t.)",
+      "meaningCn": "发现，发现 (v.t.)",
       "reading": "みつける",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0473",
       "headword": "高校生",
-      "meaningCn": "high school student",
+      "meaningCn": "高中生",
       "reading": "こうこうせい",
       "partOfSpeech": "Genki Genki_Ln.1 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0474",
       "headword": "講義",
-      "meaningCn": "a lecture",
+      "meaningCn": "一场讲座",
       "reading": "こうぎ",
       "partOfSpeech": "Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0475",
       "headword": "そんなに",
-      "meaningCn": "so much, like that",
+      "meaningCn": "这么多，就这样",
       "reading": "そんなに",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0476",
       "headword": "昼休み",
-      "meaningCn": "lunch break, noon recess",
+      "meaningCn": "午休时间，中午休息时间",
       "reading": "ひるやすみ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0477",
       "headword": "忘れ物",
-      "meaningCn": "lost article, something forgotten",
+      "meaningCn": "丢失的文章，遗忘的东西",
       "reading": "わすれもの",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0478",
       "headword": "下りる",
-      "meaningCn": "to get down, to go; come down",
+      "meaningCn": "下来，走；坠落",
       "reading": "おりる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0479",
       "headword": "腕",
-      "meaningCn": "arm (in reference to body)",
+      "meaningCn": "手臂（相对于身体）",
       "reading": "うで",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0480",
       "headword": "訳",
-      "meaningCn": "reason; explanation",
+      "meaningCn": "原因;解释",
       "reading": "わけ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0481",
       "headword": "承知",
-      "meaningCn": "consent, acceptance",
+      "meaningCn": "同意、接受",
       "reading": "しょうちする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0482",
       "headword": "日記",
-      "meaningCn": "diary, journal",
+      "meaningCn": "日记，日记",
       "reading": "にっき",
       "partOfSpeech": "Genki Genki_Ln.18 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0483",
       "headword": "高校; 高等学校",
-      "meaningCn": "high school; senior high school",
+      "meaningCn": "中学;高中",
       "reading": "こうこう; こうとうがっこう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0484",
       "headword": "似る",
-      "meaningCn": "to resemble, to be similar",
+      "meaningCn": "相似，相似",
       "reading": "にる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0485",
       "headword": "～おわる",
-      "meaningCn": "to finish doing ~",
+      "meaningCn": "做完~",
       "reading": "～おわる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0486",
       "headword": "暖房",
-      "meaningCn": "heating",
+      "meaningCn": "加热",
       "reading": "だんぼう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0487",
       "headword": "留守",
-      "meaningCn": "absence; not at home",
+      "meaningCn": "缺席;不在家",
       "reading": "るす",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0488",
       "headword": "割合",
-      "meaningCn": "rate, ratio, percentage",
+      "meaningCn": "比率、比率、百分比",
       "reading": "わりあい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0489",
       "headword": "寺",
-      "meaningCn": "Buddhist temple",
+      "meaningCn": "佛寺",
       "reading": "てら",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0490",
       "headword": "慣れる",
-      "meaningCn": "to grow accustomed to",
+      "meaningCn": "习惯",
       "reading": "なれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0491",
       "headword": "普通",
-      "meaningCn": "common; usual",
+      "meaningCn": "常见的;通常",
       "reading": "ふつう",
       "partOfSpeech": "Intermediate_Japanese_Ln.2 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0492",
       "headword": "手伝う",
-      "meaningCn": "to help",
+      "meaningCn": "帮助",
       "reading": "てつだう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0493",
       "headword": "なるほど",
-      "meaningCn": "I see; I now understand",
+      "meaningCn": "我懂了;我现在明白了",
       "reading": "なるほど",
       "partOfSpeech": "Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0494",
       "headword": "くださる",
-      "meaningCn": "(hon.) to give, to confer",
+      "meaningCn": "给予；授予（尊敬语）",
       "reading": "くださる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0495",
       "headword": "息子",
-      "meaningCn": "(humble) son",
+      "meaningCn": "（卑微的）儿子",
       "reading": "むすこ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0496",
       "headword": "お子さん",
-      "meaningCn": "(someone else's) child (polite)",
+      "meaningCn": "（别人的）孩子（有礼貌）",
       "reading": "おこさん",
       "partOfSpeech": "Genki Genki_Ln.19 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0497",
       "headword": "会場",
-      "meaningCn": "venue, meeting place",
+      "meaningCn": "地点，聚会地点",
       "reading": "かいじょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0498",
       "headword": "笑う",
-      "meaningCn": "to laugh, to smile",
+      "meaningCn": "去笑，去微笑",
       "reading": "わらう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0499",
       "headword": "運ぶ",
-      "meaningCn": "to transport, to carry",
+      "meaningCn": "运输，携带",
       "reading": "はこぶ",
       "partOfSpeech": "Genki Genki_Ln.22 Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0500",
       "headword": "文学",
-      "meaningCn": "literature",
+      "meaningCn": "文学",
       "reading": "ぶんがく",
       "partOfSpeech": "Genki Genki_Ln.1 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0501",
       "headword": "光",
-      "meaningCn": "light",
+      "meaningCn": "光",
       "reading": "ひかり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0502",
       "headword": "お見舞い",
-      "meaningCn": "calling on someone who is ill, visit",
+      "meaningCn": "拜访生病的人、拜访",
       "reading": "おみまい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0503",
       "headword": "席",
-      "meaningCn": "a seat",
+      "meaningCn": "一个座位",
       "reading": "せき",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0504",
       "headword": "～様",
-      "meaningCn": "Mr., Mrs., Ms.",
+      "meaningCn": "先生、夫人、女士",
       "reading": "～さま",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0505",
       "headword": "ご存じ",
-      "meaningCn": "knowing, acquaintance",
+      "meaningCn": "认识、相识",
       "reading": "ごぞんじ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0506",
       "headword": "下る",
-      "meaningCn": "to descend, to drop, to fall",
+      "meaningCn": "下降，下降，坠落",
       "reading": "さがる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0507",
       "headword": "字",
-      "meaningCn": "letter; character",
+      "meaningCn": "信;特点",
       "reading": "じ",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0508",
       "headword": "アジア",
-      "meaningCn": "Asia",
+      "meaningCn": "亚洲",
       "reading": "アジア",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0509",
       "headword": "褒める",
-      "meaningCn": "to praise; to say nice things",
+      "meaningCn": "赞美；说好话",
       "reading": "ほめる",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0510",
       "headword": "空く",
-      "meaningCn": "to be empty (in reference to people), to be less crowded",
+      "meaningCn": "空旷（指人），不那么拥挤",
       "reading": "すく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0511",
       "headword": "あ",
-      "meaningCn": "Ah",
+      "meaningCn": "啊",
       "reading": "あ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0512",
       "headword": "最も",
-      "meaningCn": "most",
+      "meaningCn": "最多",
       "reading": "もっとも",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0513",
       "headword": "合う",
-      "meaningCn": "to fit, to match",
+      "meaningCn": "适合，匹配",
       "reading": "あう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0514",
       "headword": "～代",
-      "meaningCn": "~ age; period",
+      "meaningCn": "〜年龄；时期",
       "reading": "～だい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0515",
       "headword": "最後",
-      "meaningCn": "last, end",
+      "meaningCn": "最后，结束",
       "reading": "さいご",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0516",
       "headword": "値段",
-      "meaningCn": "price",
+      "meaningCn": "价格",
       "reading": "ねだん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0517",
       "headword": "退院",
-      "meaningCn": "leaving hospital",
+      "meaningCn": "出院",
       "reading": "たいいんする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0518",
       "headword": "展覧会",
-      "meaningCn": "exhibition",
+      "meaningCn": "展览",
       "reading": "てんらんかい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0519",
       "headword": "久しぶり",
-      "meaningCn": "it has been a long time; for the first time in a long time",
+      "meaningCn": "已经很久了；很长一段时间以来的第一次",
       "reading": "ひさしぶり",
       "partOfSpeech": "Genki Genki_Ln.11 Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0520",
       "headword": "カーテン",
-      "meaningCn": "curtain",
+      "meaningCn": "窗帘",
       "reading": "カーテン",
       "partOfSpeech": "Genki Genki_Ln.18 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0521",
       "headword": "汽車",
-      "meaningCn": "train (steam)",
+      "meaningCn": "火车（蒸汽）",
       "reading": "きしゃ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0522",
       "headword": "遅れる",
-      "meaningCn": "to (be) become late",
+      "meaningCn": "迟到",
       "reading": "おくれる",
       "partOfSpeech": "Genki Genki_Ln.19 Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0523",
       "headword": "見つかる",
-      "meaningCn": "to be found (v.i.), to be discovered",
+      "meaningCn": "被发现 (v.i.), 被发现",
       "reading": "みつかる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0524",
       "headword": "召し上がる",
-      "meaningCn": "-- honorific form of 食べる (たべる) and 飲む (のむ) --",
+      "meaningCn": "-- 食べる (たべる) 和饮む (のむ) 的敬语形式 --",
       "reading": "めしあがる",
       "partOfSpeech": "Genki Genki_Ln.19 Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0525",
       "headword": "太る",
-      "meaningCn": "to gain weight",
+      "meaningCn": "增加体重",
       "reading": "ふとる",
       "partOfSpeech": "Genki Genki_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0526",
       "headword": "注射",
-      "meaningCn": "injection",
+      "meaningCn": "注射",
       "reading": "ちゅうしゃ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0527",
       "headword": "様",
-      "meaningCn": "way, manner, kind",
+      "meaningCn": "方式、方式、种类",
       "reading": "よう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0528",
       "headword": "～おき",
-      "meaningCn": "after every ~",
+      "meaningCn": "每次之后~",
       "reading": "～おき",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0529",
       "headword": "最初",
-      "meaningCn": "beginning, first",
+      "meaningCn": "开始，首先",
       "reading": "さいしょ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0530",
       "headword": "御～",
-      "meaningCn": "honorable ~",
+      "meaningCn": "尊贵的~",
       "reading": "ご～",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0531",
       "headword": "安心",
-      "meaningCn": "peace of mind, relief",
+      "meaningCn": "心灵的平静、解脱",
       "reading": "あんしん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0532",
       "headword": "直る",
-      "meaningCn": "to be fixed",
+      "meaningCn": "待修复",
       "reading": "なおる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0533",
       "headword": "集める",
-      "meaningCn": "to collect, to gather (v.t.), to assemble",
+      "meaningCn": "收集，聚集（v.t.），聚集",
       "reading": "あつめる",
       "partOfSpeech": "Genki Genki_Ln.16 Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0534",
       "headword": "直す",
-      "meaningCn": "to correct (v.t.); to fix",
+      "meaningCn": "纠正 (v.t.);修复",
       "reading": "なおす",
       "partOfSpeech": "Genki Genki_Ln.16 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0535",
       "headword": "続く",
-      "meaningCn": "to be continued",
+      "meaningCn": "待续",
       "reading": "つづく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0536",
       "headword": "先輩",
-      "meaningCn": "senior members of a group",
+      "meaningCn": "团体的高级成员",
       "reading": "せんぱい",
       "partOfSpeech": "Genki Genki_Ln.22 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0537",
       "headword": "約束",
-      "meaningCn": "arrangement, appointment, promise",
+      "meaningCn": "安排、约定、承诺",
       "reading": "やくそく",
       "partOfSpeech": "Genki Genki_Ln.13 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0538",
       "headword": "世話",
-      "meaningCn": "looking after; to look after",
+      "meaningCn": "照顾；照顾",
       "reading": "せわする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0539",
       "headword": "近所",
-      "meaningCn": "neighborhood",
+      "meaningCn": "邻里",
       "reading": "きんじょ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0540",
       "headword": "将来",
-      "meaningCn": "(in the) future; prospects",
+      "meaningCn": "（将来;前景",
       "reading": "しょうらい",
       "partOfSpeech": "Genki Genki_Ln.11 Intermediate_Japanese_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0541",
       "headword": "億",
-      "meaningCn": "hundred million",
+      "meaningCn": "亿",
       "reading": "おく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0542",
       "headword": "数学",
-      "meaningCn": "mathematics",
+      "meaningCn": "数学",
       "reading": "すうがく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0543",
       "headword": "文化",
-      "meaningCn": "culture",
+      "meaningCn": "文化",
       "reading": "ぶんか",
       "partOfSpeech": "Genki Genki_Ln.19 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0544",
       "headword": "払う",
-      "meaningCn": "to pay",
+      "meaningCn": "支付",
       "reading": "はらう",
       "partOfSpeech": "Genki Genki_Ln.10 Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0545",
       "headword": "習慣",
-      "meaningCn": "custom (in reference to culture)",
+      "meaningCn": "习俗（指文化）",
       "reading": "しゅうかん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0546",
       "headword": "焼ける",
-      "meaningCn": "to burn, to be roasted",
+      "meaningCn": "烧、烤",
       "reading": "やける",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0547",
       "headword": "君",
-      "meaningCn": "you (informal for men)",
+      "meaningCn": "你（男士非正式）",
       "reading": "きみ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0548",
       "headword": "冷える",
-      "meaningCn": "to grow cold, to cool down",
+      "meaningCn": "变冷，变冷",
       "reading": "ひえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0549",
       "headword": "点く",
-      "meaningCn": "to be started, to be switched on",
+      "meaningCn": "被启动，被接通",
       "reading": "つく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0550",
       "headword": "この間",
-      "meaningCn": "the other day, recently",
+      "meaningCn": "前几天，最近",
       "reading": "このあいだ",
       "partOfSpeech": "Genki Genki_Ln.16 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0551",
       "headword": "かっこう",
-      "meaningCn": "appearance, manner, shape, form, posture",
+      "meaningCn": "外貌、态度、形状、形式、姿势",
       "reading": "格好",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0552",
       "headword": "かまう",
-      "meaningCn": "to mind, to care about, to be concerned about",
+      "meaningCn": "介意，关心，关心",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0553",
       "headword": "続ける",
-      "meaningCn": "to continue, to keep up",
+      "meaningCn": "继续，跟上",
       "reading": "つづける",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0554",
       "headword": "落す",
-      "meaningCn": "to drop, to lose",
+      "meaningCn": "掉落，失去",
       "reading": "おとす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0555",
       "headword": "明日",
-      "meaningCn": "tomorrow",
+      "meaningCn": "明天",
       "reading": "あす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0556",
       "headword": "出発",
-      "meaningCn": "departure",
+      "meaningCn": "离开",
       "reading": "しゅっぱつする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0557",
       "headword": "拝見",
-      "meaningCn": "(humble) (polite) seeing, look at",
+      "meaningCn": "（谦虚）（礼貌）看，看",
       "reading": "はいけんする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0558",
       "headword": "割れる",
-      "meaningCn": "to break",
+      "meaningCn": "打破",
       "reading": "われる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0559",
       "headword": "背中",
-      "meaningCn": "back (of body)",
+      "meaningCn": "（身体的）背部",
       "reading": "せなか",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0560",
       "headword": "新聞社",
-      "meaningCn": "newspaper company",
+      "meaningCn": "报业公司",
       "reading": "しんぶんしゃ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0561",
       "headword": "いじめる",
-      "meaningCn": "to bully, to torment",
+      "meaningCn": "欺负、折磨",
       "reading": "いじめる",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0562",
       "headword": "回る、回す",
-      "meaningCn": "to go around, to revolve",
+      "meaningCn": "绕行，旋转",
       "reading": "まわる、まわす",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0563",
       "headword": "～君",
-      "meaningCn": "Mr. (junior) ~, master ~",
+      "meaningCn": "先生（初级）～、师傅～",
       "reading": "～くん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0564",
       "headword": "おっしゃる",
-      "meaningCn": "-- honorific expression for いう --",
+      "meaningCn": "-- いう 的敬语表达 --",
       "reading": "おっしゃる",
       "partOfSpeech": "Genki Genki_Ln.19 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0565",
       "headword": "眠い",
-      "meaningCn": "sleepy, drowsy",
+      "meaningCn": "困倦的，昏昏欲睡的",
       "reading": "ねむい",
       "partOfSpeech": "Genki Genki_Ln.10 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0566",
       "headword": "濡れる",
-      "meaningCn": "to get wet",
+      "meaningCn": "弄湿",
       "reading": "ぬれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0567",
       "headword": "倒れる",
-      "meaningCn": "to collapse, to break down",
+      "meaningCn": "崩溃，崩溃",
       "reading": "たおれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0568",
       "headword": "スーパー (マーケット)",
-      "meaningCn": "supermarket",
+      "meaningCn": "超级市场",
       "reading": "スーパー (マーケット)",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0569",
       "headword": "アクセサリー",
-      "meaningCn": "accessory",
+      "meaningCn": "配饰",
       "reading": "アクセサリー",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0570",
       "headword": "考える",
-      "meaningCn": "to think (about); to consider",
+      "meaningCn": "思考（关于）；考虑",
       "reading": "かんがえる",
       "partOfSpeech": "Genki Genki_Ln.18 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0571",
       "headword": "向かう",
-      "meaningCn": "to face, to go towards",
+      "meaningCn": "面对，走向",
       "reading": "むかう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0572",
       "headword": "自由",
-      "meaningCn": "freedom",
+      "meaningCn": "自由",
       "reading": "じゆう",
       "partOfSpeech": "Genki Genki_Ln.22 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0573",
       "headword": "仕方",
-      "meaningCn": "way (of doing something)",
+      "meaningCn": "（做某事的）方式",
       "reading": "しかた",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0574",
       "headword": "首",
-      "meaningCn": "neck",
+      "meaningCn": "脖子",
       "reading": "くび",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0575",
       "headword": "程",
-      "meaningCn": "degree, extent",
+      "meaningCn": "程度，范围",
       "reading": "ほど",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0576",
       "headword": "代わり",
-      "meaningCn": "substitute, replacement",
+      "meaningCn": "替代品，替代品",
       "reading": "かわり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0577",
       "headword": "失敗",
-      "meaningCn": "failure, mistake",
+      "meaningCn": "失败、错误",
       "reading": "しっぱい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0578",
       "headword": "工業",
-      "meaningCn": "(manufacturing) industry",
+      "meaningCn": "（制造业）工业",
       "reading": "こうぎょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0579",
       "headword": "移る",
-      "meaningCn": "to move (from a house); to transfer (from a department); to shift",
+      "meaningCn": "（从房子里）搬走； （从部门）调动；转移",
       "reading": "うつる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0580",
       "headword": "スーツケース",
-      "meaningCn": "suitcase",
+      "meaningCn": "手提箱",
       "reading": "スーツケース",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0581",
       "headword": "ひげ",
-      "meaningCn": "beard",
+      "meaningCn": "胡须",
       "reading": "ひげ",
       "partOfSpeech": "Genki Genki_Ln.17 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0582",
       "headword": "研究室",
-      "meaningCn": "the professor's office; laboratory",
+      "meaningCn": "教授办公室；实验室",
       "reading": "けんきゅうしつ",
       "partOfSpeech": "Intermediate_Japanese_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0583",
       "headword": "工場",
-      "meaningCn": "factory",
+      "meaningCn": "工厂",
       "reading": "こうじょう",
       "partOfSpeech": "Genki Genki_Ln.21 Intermediate_Japanese_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0584",
       "headword": "紹介",
-      "meaningCn": "an introduction",
+      "meaningCn": "简介",
       "reading": "しょうかい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0585",
       "headword": "けれど; けれども",
-      "meaningCn": "but, although",
+      "meaningCn": "但是，虽然",
       "reading": "けれど; けれども",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0586",
       "headword": "舟",
-      "meaningCn": "ship, boat",
+      "meaningCn": "船，船",
       "reading": "ふね",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0587",
       "headword": "動く",
-      "meaningCn": "to move",
+      "meaningCn": "移动",
       "reading": "うごく",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0588",
       "headword": "～(に) ついて",
-      "meaningCn": "about, concerning",
+      "meaningCn": "关于，关于",
       "reading": "～(に) ついて",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0589",
       "headword": "コンサート",
-      "meaningCn": "concert",
+      "meaningCn": "音乐会",
       "reading": "コンサート",
       "partOfSpeech": "Genki Genki_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0590",
       "headword": "虫",
-      "meaningCn": "insect",
+      "meaningCn": "昆虫",
       "reading": "むし",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0591",
       "headword": "優しい",
-      "meaningCn": "kind (person), gentle (person), easy (problem)",
+      "meaningCn": "善良（人）、温柔（人）、容易（问题）",
       "reading": "やさしい",
       "partOfSpeech": "Genki Genki_Ln.5 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0592",
       "headword": "コンピュータ; コンピューター",
-      "meaningCn": "computer",
+      "meaningCn": "电脑",
       "reading": "コンピュータ; コンピューター",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0593",
       "headword": "植える",
-      "meaningCn": "to plant",
+      "meaningCn": "种植",
       "reading": "うえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0594",
       "headword": "両方",
-      "meaningCn": "both sides, both parties",
+      "meaningCn": "双方，双方",
       "reading": "りょうほう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0595",
       "headword": "汚れる",
-      "meaningCn": "to become dirty",
+      "meaningCn": "变脏",
       "reading": "よごれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0596",
       "headword": "水泳",
-      "meaningCn": "swimming",
+      "meaningCn": "游泳",
       "reading": "すいえい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0597",
       "headword": "経験",
-      "meaningCn": "experience",
+      "meaningCn": "经验",
       "reading": "けいけんする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0598",
       "headword": "勝つ",
-      "meaningCn": "to win",
+      "meaningCn": "赢得胜利",
       "reading": "かつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0599",
       "headword": "砂",
-      "meaningCn": "sand",
+      "meaningCn": "沙",
       "reading": "すな",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0600",
       "headword": "警察",
-      "meaningCn": "police; police station",
+      "meaningCn": "警察;警察局",
       "reading": "けいさつ",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0601",
       "headword": "取り替える",
-      "meaningCn": "to exchange, to replace",
+      "meaningCn": "交换，替换",
       "reading": "とりかえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0602",
       "headword": "急ぐ",
-      "meaningCn": "to hurry, to be in a hurry, to rush",
+      "meaningCn": "赶时间，赶时间，赶时间",
       "reading": "いそぐ",
       "partOfSpeech": "Genki Genki_Ln.6 Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0603",
       "headword": "簡単",
-      "meaningCn": "simple",
+      "meaningCn": "简单的",
       "reading": "かんたん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0604",
       "headword": "参る",
-      "meaningCn": "humble expression for 行く and 来る",
+      "meaningCn": "行く和来る的谦虚表达",
       "reading": "まいる",
       "partOfSpeech": "Genki Genki_Ln.20 Intermediate_Japanese_Ln.6 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0605",
       "headword": "全然",
-      "meaningCn": "not at all; wholly, entirely",
+      "meaningCn": "一点也不;完全地，完全地",
       "reading": "ぜんぜん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0606",
       "headword": "特別",
-      "meaningCn": "special",
+      "meaningCn": "特别的",
       "reading": "とくべつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0607",
       "headword": "復習",
-      "meaningCn": "review (of lessons), revision",
+      "meaningCn": "复习（课程）、复习",
       "reading": "ふくしゅう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0608",
       "headword": "間に合う",
-      "meaningCn": "to be in time for",
+      "meaningCn": "及时",
       "reading": "まにあう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0609",
       "headword": "役に立つ",
-      "meaningCn": "to be helpful, to be useful",
+      "meaningCn": "成为有帮助的人，成为有用的人",
       "reading": "やくにたつ",
       "partOfSpeech": "Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0610",
       "headword": "もうすぐ",
-      "meaningCn": "very soon; in a few moments; days",
+      "meaningCn": "很快；一会儿；天",
       "reading": "もうすぐ",
       "partOfSpeech": "Genki Genki_Ln.12 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0611",
       "headword": "真中",
-      "meaningCn": "middle, center",
+      "meaningCn": "中间，中心",
       "reading": "まんなか",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0612",
       "headword": "戻る",
-      "meaningCn": "to return (v.i.); to come back",
+      "meaningCn": "返回 (v.i.);回来",
       "reading": "もどる",
       "partOfSpeech": "Genki Genki_Ln.20 Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0613",
       "headword": "研究",
-      "meaningCn": "study, research, investigation",
+      "meaningCn": "学习、研究、调查",
       "reading": "けんきゅう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0614",
       "headword": "ケーキ",
-      "meaningCn": "cake",
+      "meaningCn": "蛋糕",
       "reading": "ケーキ",
       "partOfSpeech": "Genki Genki_Ln.13 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0615",
       "headword": "草",
-      "meaningCn": "grass",
+      "meaningCn": "草",
       "reading": "くさ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0616",
       "headword": "込む",
-      "meaningCn": "to be crowded",
+      "meaningCn": "拥挤",
       "reading": "こむ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0617",
       "headword": "この頃",
-      "meaningCn": "these days, nowadays",
+      "meaningCn": "这些天，这些天",
       "reading": "このごろ",
       "partOfSpeech": "Genki Genki_Ln.10 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0618",
       "headword": "訪ねる",
-      "meaningCn": "to visit",
+      "meaningCn": "参观",
       "reading": "たずねる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0619",
       "headword": "下げる",
-      "meaningCn": "to lower (v.t.); to hang",
+      "meaningCn": "降低（v.t.）；挂",
       "reading": "さげる",
       "partOfSpeech": "Intermediate_Japanese_Ln.2 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0620",
       "headword": "花見",
-      "meaningCn": "cherry-blossom viewing",
+      "meaningCn": "赏樱花",
       "reading": "はなみ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0621",
       "headword": "途中",
-      "meaningCn": "on the way, midway",
+      "meaningCn": "在路上，中途",
       "reading": "とちゅう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0622",
       "headword": "入院",
-      "meaningCn": "hospitalization",
+      "meaningCn": "住院治疗",
       "reading": "にゅういんする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0623",
       "headword": "乗り換える",
-      "meaningCn": "to transfer (trains), to change (bus, train, etc.)",
+      "meaningCn": "换乘（火车），换乘（公共汽车、火车等）",
       "reading": "のりかえる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0624",
       "headword": "別れる",
-      "meaningCn": "to part from, to separate",
+      "meaningCn": "分开，分开",
       "reading": "わかれる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0625",
       "headword": "～町",
-      "meaningCn": "the town of ~",
+      "meaningCn": "镇~",
       "reading": "～ちょう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0626",
       "headword": "安全",
-      "meaningCn": "safety, security",
+      "meaningCn": "安全，安全",
       "reading": "あんぜん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0627",
       "headword": "看護婦",
-      "meaningCn": "(female) nurse",
+      "meaningCn": "（女）护士",
       "reading": "かんごふ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0628",
       "headword": "見物",
-      "meaningCn": "sightseeing",
+      "meaningCn": "观光",
       "reading": "けんぶつ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0629",
       "headword": "相談",
-      "meaningCn": "consultation",
+      "meaningCn": "咨询",
       "reading": "そうだんする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0630",
       "headword": "ガソリンスタンド",
-      "meaningCn": "gas station, service station",
+      "meaningCn": "加油站, 服务站",
       "reading": "ガソリンスタンド",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0631",
       "headword": "テニス",
-      "meaningCn": "tennis",
+      "meaningCn": "网球",
       "reading": "テニス",
       "partOfSpeech": "Genki Genki_Ln.3 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0632",
       "headword": "眠る",
-      "meaningCn": "to sleep",
+      "meaningCn": "睡觉",
       "reading": "ねむる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0633",
       "headword": "上がる",
-      "meaningCn": "to rise, to go up",
+      "meaningCn": "上升，上升",
       "reading": "あがる",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0634",
       "headword": "翻訳",
-      "meaningCn": "translation",
+      "meaningCn": "翻译",
       "reading": "ほんやく",
       "partOfSpeech": "Intermediate_Japanese_Ln.8 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0635",
       "headword": "食事",
-      "meaningCn": "meal",
+      "meaningCn": "一顿饭",
       "reading": "しょくじする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0636",
       "headword": "おかげ",
-      "meaningCn": "thanks or owing to",
+      "meaningCn": "感谢或由于",
       "reading": "お陰",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0637",
       "headword": "娘",
-      "meaningCn": "daughter (humble)",
+      "meaningCn": "女儿（卑微）",
       "reading": "むすめ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0638",
       "headword": "湯",
-      "meaningCn": "hot water",
+      "meaningCn": "热水",
       "reading": "ゆ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0639",
       "headword": "競争",
-      "meaningCn": "competition, contest",
+      "meaningCn": "竞赛，竞赛",
       "reading": "きょうそう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0640",
       "headword": "会議",
-      "meaningCn": "business meeting; conference",
+      "meaningCn": "商务会议；会议",
       "reading": "かいぎ",
       "partOfSpeech": "Genki Genki_Ln.21 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0641",
       "headword": "湖",
-      "meaningCn": "lake",
+      "meaningCn": "湖",
       "reading": "みずうみ",
       "partOfSpeech": "Genki Genki_Ln.11 Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0642",
       "headword": "集まる",
-      "meaningCn": "to gather (v.i.), to collect",
+      "meaningCn": "收集 (v.i.), 收集",
       "reading": "あつまる",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0643",
       "headword": "～にくい",
-      "meaningCn": "difficult to do ~",
+      "meaningCn": "很难做到~",
       "reading": "～にくい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0644",
       "headword": "生活",
-      "meaningCn": "living, life; to live",
+      "meaningCn": "生活，生活；生活",
       "reading": "せいかつする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0645",
       "headword": "糸",
-      "meaningCn": "thread",
+      "meaningCn": "线",
       "reading": "いと",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0646",
       "headword": "関係",
-      "meaningCn": "relation(ship), connection",
+      "meaningCn": "关系（船舶），连接",
       "reading": "かんけい",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0647",
       "headword": "ピアノ",
-      "meaningCn": "piano",
+      "meaningCn": "钢琴",
       "reading": "ピアノ",
       "partOfSpeech": "Genki Genki_Ln.9 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0648",
       "headword": "～目",
-      "meaningCn": "number ~ sequence, ~nd; ~th",
+      "meaningCn": "第……；序数",
       "reading": "～め",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0649",
       "headword": "番組",
-      "meaningCn": "broadcast program",
+      "meaningCn": "广播节目",
       "reading": "ばんぐみ",
       "partOfSpeech": "Genki Genki_Ln.15 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0650",
       "headword": "急",
-      "meaningCn": "urgent, sudden; steep",
+      "meaningCn": "紧急的，突然的；陡",
       "reading": "きゅう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0651",
       "headword": "棚",
-      "meaningCn": "shelves, rack",
+      "meaningCn": "架子，架子",
       "reading": "たな",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0652",
       "headword": "木綿",
-      "meaningCn": "cotton",
+      "meaningCn": "棉布",
       "reading": "もめん",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0653",
       "headword": "輸出",
-      "meaningCn": "export",
+      "meaningCn": "出口",
       "reading": "ゆしゅつする",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0654",
       "headword": "タイプ",
-      "meaningCn": "type, style",
+      "meaningCn": "类型、风格",
       "reading": "タイプ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0655",
       "headword": "すり",
-      "meaningCn": "pickpocket",
+      "meaningCn": "扒手",
       "reading": "すり",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0656",
       "headword": "うれしい",
-      "meaningCn": "to be happy; to be glad",
+      "meaningCn": "快乐；感到高兴",
       "reading": "嬉しい",
       "partOfSpeech": "Genki Genki_Ln.13 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0657",
       "headword": "アルコール",
-      "meaningCn": "alcohol",
+      "meaningCn": "酒精",
       "reading": "アルコール",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0658",
       "headword": "ソフト",
-      "meaningCn": "soft; soft hat; software",
+      "meaningCn": "柔软的;软帽；软件",
       "reading": "ソフト",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0659",
       "headword": "神社",
-      "meaningCn": "Shinto shrine",
+      "meaningCn": "神社",
       "reading": "じんじゃ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0660",
       "headword": "大分",
-      "meaningCn": "fairly well, to a large extent, considerably, pretty much",
+      "meaningCn": "相当好，在很大程度上，相当多，相当多",
       "reading": "だいぶ",
       "partOfSpeech": "Intermediate_Japanese_Ln.4 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0661",
       "headword": "楽しみ",
-      "meaningCn": "pleasure, joy",
+      "meaningCn": "愉悦，欢乐",
       "reading": "たのしみ",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0662",
       "headword": "趣味",
-      "meaningCn": "hobby; pastime",
+      "meaningCn": "爱好;消遣",
       "reading": "しゅみ",
       "partOfSpeech": "Genki Genki_Ln.20 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0663",
       "headword": "電報",
-      "meaningCn": "telegram",
+      "meaningCn": "电报",
       "reading": "でんぽう",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0664",
       "headword": "家内",
-      "meaningCn": "(one's own) wife",
+      "meaningCn": "（自己的）妻子",
       "reading": "かない",
       "partOfSpeech": "Intermediate_Japanese_Ln.7 JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0665",
       "headword": "指",
-      "meaningCn": "finger",
+      "meaningCn": "手指",
       "reading": "ゆび",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0666",
       "headword": "これから",
-      "meaningCn": "from now on, after this",
+      "meaningCn": "从现在开始，在这之后",
       "reading": "これから",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0667",
       "headword": "たまに",
-      "meaningCn": "occasionally",
+      "meaningCn": "偶尔",
       "reading": "たまに",
       "partOfSpeech": "JLPT JLPT_N4"
     },
     {
       "contentId": "elzup-vocab-n4-0668",
       "headword": "社会",
-      "meaningCn": "society",
+      "meaningCn": "社会",
       "reading": "しゃかい",
       "partOfSpeech": "JLPT JLPT_N4"
     }

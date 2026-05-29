@@ -12,7 +12,11 @@ $ErrorActionPreference = "Stop"
 
 $resolvedBuildOutput = Resolve-Path $BuildOutput
 $resolvedManifest = Resolve-Path $ManifestPath
-$resolvedDatabase = Resolve-Path $DatabasePath
+$databaseParent = Split-Path -Parent $DatabasePath
+if (-not [string]::IsNullOrWhiteSpace($databaseParent) -and -not (Test-Path $databaseParent)) {
+    New-Item -ItemType Directory -Path $databaseParent | Out-Null
+}
+$resolvedDatabase = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($DatabasePath)
 $sqliteAssembly = Join-Path $resolvedBuildOutput "System.Data.SQLite.dll"
 $appAssembly = Join-Path $resolvedBuildOutput "ToastFish.exe"
 

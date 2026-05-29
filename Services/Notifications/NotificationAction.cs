@@ -10,5 +10,9 @@ namespace ToastFish.Services.Notifications
         public const string Good = "good";
         public const string Easy = "easy";
         public const string Cancel = "cancel";
+        public const string Previous = "previous";
+        public const string Next = "next";
+        public const string Details = "details";
+        public const string AddNote = "add-note";
     }
 }

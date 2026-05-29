@@ -141,6 +141,8 @@ namespace ToastFish.Model.PushControl
                     return NotificationAction.Fail;
                 case "3":
                     return NotificationAction.Voice;
+                case "cancel":
+                    return NotificationAction.Cancel;
                 default:
                     return string.Empty;
             }
@@ -172,6 +174,8 @@ namespace ToastFish.Model.PushControl
                     return NotificationAction.Easy;
                 case "S":
                     return NotificationAction.Voice;
+                case "cancel":
+                    return NotificationAction.Cancel;
                 default:
                     return string.Empty;
             }
@@ -205,6 +209,8 @@ namespace ToastFish.Model.PushControl
                     return "2";
                 case "4":
                     return "3";
+                case "cancel":
+                    return NotificationAction.Cancel;
                 default:
                     return string.Empty;
             }

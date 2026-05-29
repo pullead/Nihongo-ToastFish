@@ -17,6 +17,7 @@ using ToastFish.Model.StartWithWindows;
 using System.IO;
 using System.Windows.Xps.Packaging;
 using System.Windows.Input;
+using System.Threading.Tasks;
 using ToastFish.Services.Study;
 
 namespace ToastFish
@@ -32,6 +33,8 @@ namespace ToastFish
         PushWords pushWords = new PushWords();
         StudySessionController importedContentSession = new StudySessionController();
         StudySessionController legacyStudySession = new StudySessionController();
+        StudySessionStateService studyStateService = new StudySessionStateService();
+        bool isRestoringMenuSelection = false;
         Thread thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
         Dictionary<string, string> TablelDictionary = new Dictionary<string, string>(){
         {"CET4_1", "四级核心词汇"},{"CET4_3", "四级完整词汇"},{"CET6_1", "六级核心词汇"},
@@ -40,11 +43,21 @@ namespace ToastFish
         {"KaoYan_1", "考研必考词汇"},{"KaoYan_2", "考研完整词汇"},{"Level4_1", "专四真题高频词"},
         {"Level4luan_2", "专四核心词汇"},{"Level8_1", "专八真题高频词"},{"Level8luan_2", "专八核心词汇"},
         {"Goin", "顺序五十音"},{"StdJp_Mid", "标准日本语中级词汇"} };
-       // private NotifyIcon _notifyIcon = null;
+        // private NotifyIcon _notifyIcon = null;
        //HotKey _hotKey0, _hotKey1, _hotKey2, _hotKey3, _hotKey4;
         public MainWindow()
         {
-            Form_Load();
+            if (IsAnotherInstanceRunning())
+            {
+                System.Windows.Forms.MessageBox.Show(
+                    "程序已经在运行了，不能运行两次。\n如果右下角软件已经退出，请在任务管理器中结束 Nihongo ToastFish 任务。",
+                    "提示",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                System.Windows.Application.Current.Shutdown();
+                return;
+            }
+
             InitializeComponent();
             DataContext = Vm;
             SetNotifyIcon();
@@ -57,10 +70,22 @@ namespace ToastFish
             new HotKey(Key.D3, KeyModifier.Alt , OnHotKeyHandler);
             new HotKey(Key.D4, KeyModifier.Alt , OnHotKeyHandler);
             new HotKey(Key.Q, KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.A, KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.D, KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.W, KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.S, KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.E, KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.J, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.V, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.G, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.E, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.P, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
+            new HotKey(Key.O, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
 
             // 谜之bug，如果不先播放一段音频，那么什么声音都播不出来。
             // 所以播个没声音的音频先。
             PlayMute();
+            ShowStartupStudyStatus();
             //this.WindowState = (WindowState)FormWindowState.Minimized;
         }
 
@@ -68,8 +93,52 @@ namespace ToastFish
         {
             string key = hotKey.Key.ToString();
             Debug.WriteLine("key pressed:" + key);
-            switch (key) 
+            bool isCtrlAlt = hotKey.KeyModifiers == (KeyModifier.Ctrl | KeyModifier.Alt);
+            if (isCtrlAlt)
             {
+                switch (key)
+                {
+                    case "J":
+                        Begin_Click(null, null);
+                        return;
+                    case "V":
+                        ShowImportedContentPreview(ImportedContentStudyMode.Vocabulary, "N5");
+                        return;
+                    case "G":
+                        ShowImportedContentPreview(ImportedContentStudyMode.Grammar, "N5");
+                        return;
+                    case "E":
+                        ShowImportedContentPreview(ImportedContentStudyMode.Example, "N5");
+                        return;
+                    case "P":
+                        PauseStudySessions();
+                        return;
+                    case "O":
+                        ToggleMainWindow();
+                        return;
+                }
+            }
+
+            switch (key)
+            {
+                case "A":
+                    PushWords.HotKeytObservable.raiseEvent("previous");
+                    break;
+                case "D":
+                    PushWords.HotKeytObservable.raiseEvent("next");
+                    break;
+                case "W":
+                    ToastNotificationManagerCompat.History.Clear();
+                    PushWords.HotKeytObservable.raiseEvent("cancel");
+                    break;
+                case "S":
+                    PushWords.HotKeytObservable.raiseEvent("add-note");
+                    break;
+                case "E":
+                    if (StudyCardDetailWindow.CloseActiveWindow())
+                        break;
+                    PushWords.HotKeytObservable.raiseEvent("details");
+                    break;
                 case "Q":
                     Begin_Click(null, null);
                     break;
@@ -93,8 +162,7 @@ namespace ToastFish
             }           
         }
 
-        private void Form_Load()
-
+        private bool IsAnotherInstanceRunning()
         {
             //获取当前活动进程的模块名称
             string moduleName = Process.GetCurrentProcess().MainModule.ModuleName;
@@ -103,11 +171,7 @@ namespace ToastFish
             //根据文件名创建进程资源数组
             Process[] processes = Process.GetProcessesByName(processName);
             //如果该数组长度大于1，说明多次运行
-            if (processes.Length > 1)
-            {
-                System.Windows.Forms.MessageBox.Show("程序已经在运行了，不能运行两次。\n如果右下角软件已经退出，请在任务管理器中结束 Nihongo ToastFish 任务。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);//弹出提示信息
-                this.Close();//关闭当前窗体
-            }
+            return processes.Length > 1;
         }
 
         private void SetNotifyIcon()
@@ -131,6 +195,23 @@ namespace ToastFish
 
         private void NotifyIconDoubleClick(object sender, EventArgs e)
         {
+            ShowMainWindow();
+        }
+
+        private void ToggleMainWindow()
+        {
+            if (this.IsVisible && this.WindowState != WindowState.Minimized)
+            {
+                this.Hide();
+                this.ShowInTaskbar = false;
+                return;
+            }
+
+            ShowMainWindow();
+        }
+
+        private void ShowMainWindow()
+        {
             this.Activate();
             this.WindowState = WindowState.Normal;
             this.ShowInTaskbar = true;
@@ -138,9 +219,17 @@ namespace ToastFish
             this.Show();
         }
 
+        private void PauseStudySessions()
+        {
+            importedContentSession.CancelActiveSession();
+            legacyStudySession.CancelActiveSession();
+            pushWords.PushMessage("已暂停当前学习。");
+        }
+
         #region 托盘右键菜单
 
         System.Windows.Forms.ToolStripMenuItem Begin = new System.Windows.Forms.ToolStripMenuItem();
+        System.Windows.Forms.ToolStripMenuItem ContinueLastStudy = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem Settings = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem SetNumber = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem SetEngType = new System.Windows.Forms.ToolStripMenuItem();
@@ -148,6 +237,7 @@ namespace ToastFish
         System.Windows.Forms.ToolStripMenuItem SelectBook = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem SelectJpBook = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem RandomTest = new System.Windows.Forms.ToolStripMenuItem();
+        System.Windows.Forms.ToolStripMenuItem Notebook = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem BuiltinN5Preview = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem BuiltinN5GrammarPreview = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem BuiltinN5ExamplePreview = new System.Windows.Forms.ToolStripMenuItem();
@@ -168,6 +258,8 @@ namespace ToastFish
 
             Begin.Text = "开始学习";
             Begin.Click += new EventHandler(Begin_Click);
+            ContinueLastStudy.Text = "继续上次学习";
+            ContinueLastStudy.Click += new EventHandler(Begin_Click);
             Settings.Text = "设置";
 
 
@@ -198,14 +290,10 @@ namespace ToastFish
             SelectBook.Text = "旧版英语词库";
 
             SelectJpBook.Text = "日语学习";
-            BuiltinN5Preview.Text = "内置 N5 词汇预览";
-            BuiltinN5Preview.Click += new EventHandler(BuiltinN5Preview_Click);
-            BuiltinN5GrammarPreview.Text = "内置 N5 语法预览";
-            BuiltinN5GrammarPreview.Click += new EventHandler(BuiltinN5GrammarPreview_Click);
-            BuiltinN5ExamplePreview.Text = "内置 N5 例句预览";
-            BuiltinN5ExamplePreview.Click += new EventHandler(BuiltinN5ExamplePreview_Click);
 
             RandomTest.Text = "练习";
+            Notebook.Text = "笔记本";
+            Notebook.Click += new EventHandler(Notebook_Click);
 
             GotoHtml.Text = "帮助";
             GotoHtml.Click += new EventHandler(HowToUse_Click);
@@ -260,11 +348,13 @@ namespace ToastFish
             RandomGoin.Click += new EventHandler(RandomGoinTest_Click);
             ToolStripItem RandomJpWord = new ToolStripMenuItem("日语单词练习");
             RandomJpWord.Click += new EventHandler(RandomJpWordTest_Click);
+            ToolStripMenuItem RandomJpGrammar = new ToolStripMenuItem("日语语法练习");
+            AddGrammarPracticeMenus(RandomJpGrammar);
             ToolStripItem Pdf = new ToolStripMenuItem("Star!!");
             Pdf.Click += new EventHandler(OpenPdf_Click);
             ToolStripItem Use = new ToolStripMenuItem("使用说明(必读)");
             Use.Click += new EventHandler(HowToUse_Click);
-            ToolStripItem Site = new ToolStripMenuItem("ToastFish 原项目网站");
+            ToolStripItem Site = new ToolStripMenuItem("上游 ToastFish 项目网站");
             Site.Click += new EventHandler(Site_Click);
             ToolStripItem Shortcuts = new ToolStripMenuItem("快捷方式");
             Shortcuts.Click += new EventHandler(ShortCuts_Click);
@@ -276,45 +366,54 @@ namespace ToastFish
 
 
 
+            isRestoringMenuSelection = true;
+            try
+            {
+                if (Select.TABLE_NAME == "CET4_1")
+                    CET4_1.PerformClick();
+                else if (Select.TABLE_NAME == "CET4_3")
+                    CET4_3.PerformClick();
+                else if (Select.TABLE_NAME == "CET6_1")
+                    CET6_1.PerformClick();
+                else if (Select.TABLE_NAME == "CET6_3")
+                    CET6_3.PerformClick();
+                else if (Select.TABLE_NAME == "GMAT_3")
+                    GMAT_3.PerformClick();
+                else if (Select.TABLE_NAME == "GRE_2")
+                    GRE_2.PerformClick();
+                else if (Select.TABLE_NAME == "IELTS_3")
+                    IELTS_3.PerformClick();
+                else if (Select.TABLE_NAME == "TOEFL_2")
+                    TOEFL_2.PerformClick();
+                else if (Select.TABLE_NAME == "SAT_2")
+                    SAT_2.PerformClick();
+                else if (Select.TABLE_NAME == "KaoYan_1")
+                    KaoYan_1.PerformClick();
+                else if (Select.TABLE_NAME == "KaoYan_2")
+                    KaoYan_2.PerformClick();
+                else if (Select.TABLE_NAME == "Level4_1")
+                    Level4_1.PerformClick();
+                else if (Select.TABLE_NAME == "Level4luan_2")
+                    Level4luan_2.PerformClick();
+                else if (Select.TABLE_NAME == "Level8_1")
+                    Level8_1.PerformClick();
+                else if (Select.TABLE_NAME == "Level8luan_2")
+                    Level8luan_2.PerformClick();
+                else if (Select.TABLE_NAME == "Goin")
+                    Goin.PerformClick();
+                else if (Select.TABLE_NAME == "StdJp_Mid")
+                    StdJp_Mid.PerformClick();
+            }
+            finally
+            {
+                isRestoringMenuSelection = false;
+            }
 
-            if (Select.TABLE_NAME == "CET4_1")
-                CET4_1.PerformClick();
-            else if (Select.TABLE_NAME == "CET4_3")
-                CET4_3.PerformClick();
-            else if (Select.TABLE_NAME == "CET6_1")
-                CET6_1.PerformClick();
-            else if (Select.TABLE_NAME == "CET6_3")
-                CET6_3.PerformClick();
-            else if (Select.TABLE_NAME == "GMAT_3")
-                GMAT_3.PerformClick();
-            else if (Select.TABLE_NAME == "GRE_2")
-                GRE_2.PerformClick();
-            else if (Select.TABLE_NAME == "IELTS_3")
-                IELTS_3.PerformClick();
-            else if (Select.TABLE_NAME == "TOEFL_2")
-                TOEFL_2.PerformClick();
-            else if (Select.TABLE_NAME == "SAT_2")
-                SAT_2.PerformClick();
-            else if (Select.TABLE_NAME == "KaoYan_1")
-                KaoYan_1.PerformClick();
-            else if (Select.TABLE_NAME == "KaoYan_2")
-                KaoYan_2.PerformClick();
-            else if (Select.TABLE_NAME == "Level4_1")
-                Level4_1.PerformClick();
-            else if (Select.TABLE_NAME == "Level4luan_2")
-                Level4luan_2.PerformClick();
-            else if (Select.TABLE_NAME == "Level8_1")
-                Level8_1.PerformClick();
-            else if (Select.TABLE_NAME == "Level8luan_2")
-                Level8luan_2.PerformClick();
-            else if (Select.TABLE_NAME == "Goin")
-                Goin.PerformClick();
-            else if (Select.TABLE_NAME == "StdJp_Mid")
-                StdJp_Mid.PerformClick();
-
+            Cms.Items.Add(ContinueLastStudy);
             Cms.Items.Add(Begin);
             Cms.Items.Add(SelectJpBook);
             Cms.Items.Add(RandomTest);
+            Cms.Items.Add(Notebook);
             Cms.Items.Add(ImportWords);
             Cms.Items.Add(Settings);
             Cms.Items.Add(GotoHtml);
@@ -324,10 +423,9 @@ namespace ToastFish
 
             SelectJpBook.DropDownItems.Add(Goin);
             SelectJpBook.DropDownItems.Add(StdJp_Mid);
-            SelectJpBook.DropDownItems.Add(BuiltinN5Preview);
-            SelectJpBook.DropDownItems.Add(BuiltinN5GrammarPreview);
-            SelectJpBook.DropDownItems.Add(BuiltinN5ExamplePreview);
+            AddBuiltinContentMenus(SelectJpBook);
             RandomTest.DropDownItems.Add(RandomJpWord);
+            RandomTest.DropDownItems.Add(RandomJpGrammar);
             RandomTest.DropDownItems.Add(RandomGoin);
             RandomTest.DropDownItems.Add(RandomWord);
             Settings.DropDownItems.Add(SetNumber);
@@ -363,6 +461,19 @@ namespace ToastFish
                 System.IO.Directory.CreateDirectory("Log");
             }
 
+            StudySessionState lastStudy = studyStateService.GetLastStudy(Se.DataBase);
+            if (lastStudy.studySource != StudySessionStateService.SourceLegacy)
+            {
+                ResumeImportedContentStudy();
+                return;
+            }
+
+            if (!string.IsNullOrWhiteSpace(lastStudy.legacyTableName))
+            {
+                Select.TABLE_NAME = lastStudy.legacyTableName;
+                Se.UpdateBookName(lastStudy.legacyTableName);
+            }
+
             WordType Words = new WordType();
             Words.Number = Select.WORD_NUMBER;
 
@@ -381,12 +492,39 @@ namespace ToastFish
 
         private void StartLegacyStudyThread(ParameterizedThreadStart studyStart, WordType words)
         {
+            studyStateService.SaveLegacy(Se.DataBase, Select.TABLE_NAME);
+            importedContentSession.CancelActiveSession();
             legacyStudySession.CancelActiveSession();
             thread = legacyStudySession.StartThread(token =>
             {
                 words.CancellationToken = token;
                 studyStart(words);
             });
+        }
+
+        private void ResumeImportedContentStudy()
+        {
+            try
+            {
+                legacyStudySession.CancelActiveSession();
+                Task sessionTask = importedContentSession.RunAsync(async token =>
+                {
+                    if (token.IsCancellationRequested)
+                        return;
+
+                    ImportedContentStudyService studyService = CreateImportedContentStudyService();
+                    await studyService.RunSavedStudyAsync(Se.DataBase, token);
+                });
+                ReportImportedContentSessionFailure(sessionTask, "继续上次学习失败");
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(
+                    "继续上次学习失败：\n" + ex.Message,
+                    "Nihongo ToastFish",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
         }
 
         private void SetNumber_Click(object sender, EventArgs e)
@@ -536,7 +674,11 @@ namespace ToastFish
                 TempName = "Goin";
             Select.TABLE_NAME = TempName;
             Se.UpdateBookName(TempName);
+            if (!isRestoringMenuSelection)
+                studyStateService.SaveLegacy(Se.DataBase, TempName);
             Se.UpdateTableCount();
+            if (isRestoringMenuSelection)
+                return;
             //if (sender.ToString() == "顺序五十音")
             //{
             //     int Progress = Se.GetGoinProgress();
@@ -547,6 +689,20 @@ namespace ToastFish
             List<int> res = Se.SelectCount();
                 pushWords.PushMessage("当前词库：" + sender.ToString() + "\n当前进度：" + res[0].ToString() + "/" + res[1].ToString());
            // }
+        }
+
+        private void ShowStartupStudyStatus()
+        {
+            try
+            {
+                ImportedContentStudyService studyService = CreateImportedContentStudyService();
+                string message = studyService.GetSavedStudyStatusMessage(Se.DataBase);
+                pushWords.PushMessage(message);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("ShowStartupStudyStatus failed: " + ex.Message);
+            }
         }
 
         private void RandomWordTest_Click(object sender, EventArgs e)
@@ -578,33 +734,121 @@ namespace ToastFish
             StartLegacyStudyThread(new ParameterizedThreadStart(PushJpWords.UnorderWord), words);
         }
 
-        private void BuiltinN5Preview_Click(object sender, EventArgs e)
+        private void Notebook_Click(object sender, EventArgs e)
         {
-            ShowImportedContentPreview(ImportedContentStudyMode.Vocabulary);
+            NotebookWindow window = new NotebookWindow(Se.DataBase);
+            if (this.IsVisible)
+                window.Owner = this;
+            window.Show();
+            window.Activate();
         }
 
-        private void BuiltinN5GrammarPreview_Click(object sender, EventArgs e)
+        private void AddGrammarPracticeMenus(ToolStripMenuItem parent)
         {
-            ShowImportedContentPreview(ImportedContentStudyMode.Grammar);
+            string[] levels = { "N5", "N4", "N3", "N2", "N1" };
+            foreach (string level in levels)
+            {
+                ToolStripMenuItem item = new ToolStripMenuItem(level + " 语法练习");
+                item.Tag = level;
+                item.Click += new EventHandler(RandomJpGrammarTest_Click);
+                parent.DropDownItems.Add(item);
+            }
         }
 
-        private void BuiltinN5ExamplePreview_Click(object sender, EventArgs e)
+        private void RandomJpGrammarTest_Click(object sender, EventArgs e)
         {
-            ShowImportedContentPreview(ImportedContentStudyMode.Example);
+            ToolStripMenuItem item = sender as ToolStripMenuItem;
+            string level = item == null ? "N5" : item.Tag as string;
+            ShowGrammarPractice(string.IsNullOrWhiteSpace(level) ? "N5" : level);
         }
 
-        private void ShowImportedContentPreview(ImportedContentStudyMode mode)
+        private void ShowGrammarPractice(string jlptLevel)
         {
             try
             {
-                importedContentSession.Run(token =>
+                legacyStudySession.CancelActiveSession();
+                Task sessionTask = importedContentSession.RunAsync(async token =>
                 {
                     if (token.IsCancellationRequested)
                         return;
 
-                    ImportedContentStudyService studyService = new ImportedContentStudyService();
-                    studyService.ShowFirstCard(Se.DataBase, mode, "N5");
+                    ImportedContentStudyService studyService = CreateImportedContentStudyService();
+                    await studyService.RunFirstGrammarPracticeAsync(Se.DataBase, jlptLevel, token);
                 });
+                ReportImportedContentSessionFailure(sessionTask, "日语语法练习失败");
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(
+                    "日语语法练习失败：\n" + ex.Message,
+                    "Nihongo ToastFish",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
+        }
+
+        private void AddBuiltinContentMenus(ToolStripMenuItem parent)
+        {
+            string[] levels = { "N5", "N4", "N3", "N2", "N1" };
+            foreach (string level in levels)
+            {
+                ToolStripMenuItem levelMenu = new ToolStripMenuItem("内置 " + level + " 内容");
+                levelMenu.DropDownItems.Add(CreateBuiltinContentMenuItem(level, "词汇预览", ImportedContentStudyMode.Vocabulary));
+                levelMenu.DropDownItems.Add(CreateBuiltinContentMenuItem(level, "语法预览", ImportedContentStudyMode.Grammar));
+                levelMenu.DropDownItems.Add(CreateBuiltinContentMenuItem(level, "例句预览", ImportedContentStudyMode.Example));
+                parent.DropDownItems.Add(levelMenu);
+            }
+        }
+
+        private ToolStripMenuItem CreateBuiltinContentMenuItem(string level, string text, ImportedContentStudyMode mode)
+        {
+            ToolStripMenuItem item = new ToolStripMenuItem(text);
+            item.Tag = mode + "|" + level;
+            item.Click += new EventHandler(BuiltinContentMenu_Click);
+            return item;
+        }
+
+        private void BuiltinContentMenu_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem item = sender as ToolStripMenuItem;
+            string tag = item == null ? string.Empty : item.Tag as string;
+            string[] parts = string.IsNullOrEmpty(tag) ? new string[0] : tag.Split('|');
+            if (parts.Length != 2)
+                return;
+
+            ImportedContentStudyMode mode = (ImportedContentStudyMode)Enum.Parse(typeof(ImportedContentStudyMode), parts[0]);
+            ShowImportedContentPreview(mode, parts[1]);
+        }
+
+        private void BuiltinN5Preview_Click(object sender, EventArgs e)
+        {
+            ShowImportedContentPreview(ImportedContentStudyMode.Vocabulary, "N5");
+        }
+
+        private void BuiltinN5GrammarPreview_Click(object sender, EventArgs e)
+        {
+            ShowImportedContentPreview(ImportedContentStudyMode.Grammar, "N5");
+        }
+
+        private void BuiltinN5ExamplePreview_Click(object sender, EventArgs e)
+        {
+            ShowImportedContentPreview(ImportedContentStudyMode.Example, "N5");
+        }
+
+        private void ShowImportedContentPreview(ImportedContentStudyMode mode, string jlptLevel)
+        {
+            try
+            {
+                legacyStudySession.CancelActiveSession();
+                Task sessionTask = importedContentSession.RunAsync(async token =>
+                {
+                    if (token.IsCancellationRequested)
+                        return;
+
+                    ImportedContentStudyService studyService = CreateImportedContentStudyService();
+                    await studyService.RunFirstStudyAsync(Se.DataBase, mode, jlptLevel, token);
+                });
+                ReportImportedContentSessionFailure(sessionTask, "内置日语内容预览失败");
             }
             catch (Exception ex)
             {
@@ -614,6 +858,53 @@ namespace ToastFish
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Warning);
             }
+        }
+
+        private void ReportImportedContentSessionFailure(Task sessionTask, string title)
+        {
+            sessionTask.ContinueWith(task =>
+            {
+                Exception exception = task.Exception == null ? null : task.Exception.GetBaseException();
+                if (exception == null)
+                    return;
+
+                Dispatcher.BeginInvoke(new Action(() =>
+                {
+                    System.Windows.Forms.MessageBox.Show(
+                        title + "：\n" + exception.Message,
+                        "Nihongo ToastFish",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+                }));
+            }, TaskContinuationOptions.OnlyOnFaulted);
+        }
+
+        private ImportedContentStudyService CreateImportedContentStudyService()
+        {
+            return new ImportedContentStudyService(
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                PushWords.HotKeytObservable,
+                MapNavigationHotKeyAction);
+        }
+
+        private string MapNavigationHotKeyAction(string events)
+        {
+            if (events == "previous")
+                return ToastFish.Services.Notifications.NotificationAction.Previous;
+            if (events == "next")
+                return ToastFish.Services.Notifications.NotificationAction.Next;
+            if (events == "cancel")
+                return ToastFish.Services.Notifications.NotificationAction.Cancel;
+            if (events == "add-note")
+                return ToastFish.Services.Notifications.NotificationAction.AddNote;
+            if (events == "details")
+                return ToastFish.Services.Notifications.NotificationAction.Details;
+            return string.Empty;
         }
 
         public  void ResetLearingStatus_Click(object sender, EventArgs e)
@@ -645,7 +936,22 @@ namespace ToastFish
         }
         private void ShortCuts_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.MessageBox.Show("ALT+Q     ：开始学习\nALT+~     ：播放当前发音\nALT+1到4：对应点击按钮1到4", "Nihongo ToastFish");
+            System.Windows.Forms.MessageBox.Show(
+                "ALT+Q：继续上次学习\n" +
+                "ALT+~：播放当前发音\n" +
+                "ALT+1 到 ALT+4：对应点击通知按钮 1 到 4\n" +
+                "ALT+A：上一个\n" +
+                "ALT+D：下一个\n" +
+                "ALT+W：关闭当前弹窗并暂停\n" +
+                "ALT+S：添加当前内容到笔记本\n" +
+                "ALT+E：打开当前内容详情\n" +
+                "CTRL+ALT+J：继续上次学习\n" +
+                "CTRL+ALT+V：从 N5 词汇开始\n" +
+                "CTRL+ALT+G：从 N5 语法开始\n" +
+                "CTRL+ALT+E：从 N5 例句开始\n" +
+                "CTRL+ALT+P：暂停当前学习\n" +
+                "CTRL+ALT+O：显示/隐藏主窗口",
+                "Nihongo ToastFish");
         }
 
         private void AutoPlay_Click(object sender, EventArgs e)
@@ -682,7 +988,27 @@ namespace ToastFish
 
         private void HowToUse_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(".\\Resources\\使用说明.html");
+            OpenLocalHelpFile();
+        }
+
+        private void OpenLocalHelpFile()
+        {
+            string helpPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "README-使用说明.md");
+            if (!File.Exists(helpPath))
+            {
+                System.Windows.Forms.MessageBox.Show(
+                    "未找到使用说明文件：\n" + helpPath,
+                    "Nihongo ToastFish",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = helpPath,
+                UseShellExecute = true
+            });
         }
         private void Site_Click(object sender, EventArgs e)
         {

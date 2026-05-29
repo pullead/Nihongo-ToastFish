@@ -87,8 +87,10 @@ namespace ToastFish.Services.Study
                 JlptLevel = item.jlptLevel,
                 Title = item.questionType,
                 PrimaryText = primary,
-                SecondaryText = item.meaningCn,
-                DetailText = item.sentenceKana,
+                SecondaryText = string.IsNullOrWhiteSpace(item.grammarPattern)
+                    ? "语法：" + item.grammarId
+                    : "语法：" + item.grammarPattern,
+                DetailText = JoinLines(item.sentenceKana, item.meaningCn),
                 PromptText = item.promptCn,
                 CorrectAnswer = item.correctAnswer,
                 Choices = choices

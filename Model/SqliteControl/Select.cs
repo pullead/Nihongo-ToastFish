@@ -8,274 +8,326 @@ using ToastFish.Model.Storage;
 
 namespace ToastFish.Model.SqliteControl
 {
-    public class Select
+    /// <summary>
+    /// 数据访问层 - 使用 Dapper ORM，所有SQL操作参数化，防止SQL注入
+    /// 所有资源使用 using 语句管理，防止资源泄漏
+    /// </summary>
+    public class Select : IDisposable
     {
+        // 静态配置
+        public static string TABLE_NAME = "CET4_1";
+        public static int WORD_NUMBER = 10;
+        public static int ENG_TYPE = 2;
+        public static int AUTO_PLAY = 1;
+        public static int AUTO_LOG = 1;
+
+        private readonly string connectionString;
+        private bool disposed = false;
+
+        public SQLiteConnection DataBase { get; private set; }
+
+        public IEnumerable<Word> AllWordList { get; private set; }
+        public IEnumerable<JpWord> AllJpWordList { get; private set; }
+        public IEnumerable<BookCount> CountList { get; private set; }
+
+        private List<Card> NewCardLst = new List<Card>();
+        private List<Card> ReviewedCardLst = new List<Card>();
+
         public Select()
         {
-            DataBase = ConnectToDatabase();
+            string strExeFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
+            string dbPath = System.IO.Path.GetDirectoryName(strExeFilePath) + @"\Resources\inami.db";
+            connectionString = $"Data Source={dbPath};Version=3";
+
+            DataBase = new SQLiteConnection(connectionString);
             DataBase.Open();
             new ContentSchemaMigrator().EnsureCreated(DataBase);
         }
- 
-        public static string TABLE_NAME = "CET4_1";  // 当前书籍名字
-        public static int WORD_NUMBER = 10;  // 当前单词数量
-        public static int ENG_TYPE = 2;  // 英语类型1：美语，2：英语
-        public static int AUTO_PLAY = 1;  // 英语自动发音
-        public static int AUTO_LOG  = 1;  // 英语自动发音
-        public SQLiteConnection DataBase;
-        public IEnumerable<Word> AllWordList;
-        public IEnumerable<JpWord> AllJpWordList;
-        public IEnumerable<BookCount> CountList;
-        List<Card> NewCardLst = new List<Card>();
-        List<Card> ReviewedCardLst = new List<Card>();
 
-
-        #region 更新与链接
         /// <summary>
-        /// 连接数据库
+        /// 获取数据库连接（必须使用using）
         /// </summary>
-        SQLiteConnection ConnectToDatabase()
+        private SQLiteConnection GetConnection()
         {
-            //var databasePath = @"Data Source=./Resources/inami.db;Version=3";
-            //var databasePath = @"Data Source="+System.IO.Directory.GetCurrentDirectory() + @"\Resources\inami.db;Version=3";
-            string strExeFilePath = System.Reflection.Assembly.GetExecutingAssembly().Location;
-            string databasePath = @"Data Source=" + System.IO.Path.GetDirectoryName(strExeFilePath) + @"\Resources\inami.db;Version=3";
-            return new SQLiteConnection(databasePath);
+            var conn = new SQLiteConnection(connectionString);
+            conn.Open();
+            return conn;
         }
 
+        #region 更新与链接
+
         /// <summary>
-        /// 标记单词已背过
+        /// 标记单词已背过 - 参数化查询防止SQL注入
         /// </summary>
         public void UpdateWord(int WordRank)
         {
-            SQLiteCommand Update = DataBase.CreateCommand();
-            Update.CommandText = "UPDATE " + TABLE_NAME + " SET status = 1 WHERE wordRank = " + WordRank;
-            Update.ExecuteNonQuery();
-        }
-
-        //重置单词记录
-        public void ResetTableCount()
-        {
-            String cmdtext = $"UPDATE  {TABLE_NAME} SET status = 0 ";
-            SQLiteCommand Update = DataBase.CreateCommand();
-            Update.CommandText = cmdtext;
-            Update.ExecuteNonQuery();
+            using (var conn = GetConnection())
+            {
+                conn.Execute(
+                    $"UPDATE {TABLE_NAME} SET status = 1 WHERE wordRank = @WordRank",
+                    new { WordRank = WordRank }
+                );
+            }
         }
 
         /// <summary>
-        /// 更新CountTable的单词记录
+        /// 重置单词记录
         /// </summary>
-        /// 
-        public void UpdateTableCount()
+        public void ResetTableCount()
         {
-            String cmdtext = $"Select status from {TABLE_NAME}";
-            SQLiteCommand Update = DataBase.CreateCommand();
-            Update.CommandText = cmdtext;
-            var dr = Update.ExecuteReader();
-            List<string> statusLst = new List<string>();
-            int Count = 0;
-            int value = -1;
-            while (dr.Read())//loop through the various columns and their info
+            using (var conn = GetConnection())
             {
-                var rawvalue = dr.GetValue(0);//0:cid;1:name; 2:type;3:notnull;4:dflt_value;5:pk
-
-                string type = rawvalue.GetType().Name;
-                if (type.Equals("String", StringComparison.OrdinalIgnoreCase))
-                    value = int.Parse((string)rawvalue);
-                else
-                    value = int.Parse(rawvalue.ToString());
-                if (value != 0)
-                    Count++;
+                conn.Execute($"UPDATE {TABLE_NAME} SET status = 0");
             }
-            dr.Close();
-            Update.CommandText = "UPDATE Count SET current = " + Count.ToString() + " WHERE bookName = '" + TABLE_NAME + "'";
-            Update.ExecuteNonQuery();
         }
 
-        //increase count by 1
+        /// <summary>
+        /// 更新Count表 - 使用using保证资源释放
+        /// </summary>
+        public void UpdateTableCount()
+        {
+            using (var conn = GetConnection())
+            {
+                int count = 0;
+                using (var reader = conn.ExecuteReader($"SELECT status FROM {TABLE_NAME}"))
+                {
+                    while (reader.Read())
+                    {
+                        var value = reader.GetValue(0);
+                        int status = Convert.ToInt32(value);
+                        if (status != 0)
+                            count++;
+                    }
+                }
+
+                // 参数化更新
+                conn.Execute(
+                    "UPDATE Count SET current = @Current WHERE bookName = @BookName",
+                    new { Current = count, BookName = TABLE_NAME }
+                );
+            }
+        }
+
+        /// <summary>
+        /// 增加计数
+        /// </summary>
         public void UpdateCount()
         {
-            BookCount Temp = new BookCount();
-            CountList = DataBase.Query<BookCount>($"select * from Count where bookName = {TABLE_NAME}", Temp);
-            var CountArray = CountList.ToArray();
-            foreach (var OneCount in CountArray)
+            using (var conn = GetConnection())
             {
-                if (OneCount.bookName == TABLE_NAME)
+                var countRecord = conn.QueryFirstOrDefault<BookCount>(
+                    "SELECT * FROM Count WHERE bookName = @BookName",
+                    new { BookName = TABLE_NAME }
+                );
+
+                if (countRecord != null)
                 {
-                    int Count = OneCount.current + 1;
-                    if (OneCount.bookName == "Goin")
-                        Count %= 104;
-                    SQLiteCommand Update = DataBase.CreateCommand();
-                    Update.CommandText = "UPDATE Count SET current = " + Count.ToString() + " WHERE bookName = '" + TABLE_NAME + "'";
-                    Update.ExecuteNonQuery();
-                    break;
+                    int newCount = countRecord.current + 1;
+                    if (countRecord.bookName == "Goin")
+                        newCount %= 104;
+
+                    conn.Execute(
+                        "UPDATE Count SET current = @Current WHERE bookName = @BookName",
+                        new { Current = newCount, BookName = TABLE_NAME }
+                    );
                 }
             }
         }
 
         public void LoadGlobalConfig()
         {
-            String cmdtext = $"PRAGMA table_info(Global)";
-            SQLiteCommand Update = DataBase.CreateCommand();
-            Update.CommandText = cmdtext;
-            var dr = Update.ExecuteReader();
-            List<string> HeadTileList = new List<string>();
-            while (dr.Read())//loop through the various columns and their info
+            using (var conn = GetConnection())
             {
-                string name = (string)dr.GetValue(1);//0:cid;1:name; 2:type;3:notnull;4:dflt_value;5:pk
-                HeadTileList.Add(name);
-                //Console.WriteLine(name);
+                var columns = new HashSet<string>();
+                using (var reader = conn.ExecuteReader($"PRAGMA table_info(Global)"))
+                {
+                    while (reader.Read())
+                    {
+                        columns.Add((string)reader.GetValue(1));
+                    }
+                }
+
+                if (!columns.Contains("EngType"))
+                {
+                    conn.Execute($"ALTER TABLE Global ADD COLUMN EngType INTEGER NOT NULL DEFAULT {ENG_TYPE}");
+                }
+                if (!columns.Contains("autoLog"))
+                {
+                    conn.Execute($"ALTER TABLE Global ADD COLUMN autoLog INTEGER NOT NULL DEFAULT {AUTO_LOG}");
+                }
+
+                var globalVar = conn.QueryFirstOrDefault<Global>("SELECT * FROM Global");
+                if (globalVar != null)
+                {
+                    WORD_NUMBER = int.TryParse(globalVar.currentWordNumber, out int wn) ? wn : 10;
+                    TABLE_NAME = globalVar.currentBookName ?? "CET4_1";
+                    AUTO_PLAY = globalVar.autoPlay;
+                    ENG_TYPE = globalVar.EngType;
+                    AUTO_LOG = globalVar.autoLog;
+                }
             }
-            dr.Close();
-            if (HeadTileList.Contains("EngType") == false)
-            {
-                Update.CommandText = $"ALTER TABLE Global ADD COLUMN EngType INTEGER NOT NULL DEFAULT {ENG_TYPE}";
-                Update.ExecuteNonQuery();
-            }
-            if (HeadTileList.Contains("autoLog") == false)
-            {
-                Update.CommandText = $"ALTER TABLE Global ADD COLUMN autoLog INTEGER NOT NULL DEFAULT {AUTO_LOG}";
-                Update.ExecuteNonQuery();
-            }
-            Global Temp = new Global();
-            var GlobalVariable = DataBase.Query<Global>("select * from Global", Temp).ToArray();
-            WORD_NUMBER = int.Parse(GlobalVariable[0].currentWordNumber);
-            TABLE_NAME = GlobalVariable[0].currentBookName;
-            AUTO_PLAY = GlobalVariable[0].autoPlay;
-            ENG_TYPE = GlobalVariable[0].EngType;
-            AUTO_LOG = GlobalVariable[0].autoLog;
         }
 
         public void UpdateGlobalConfig()
         {
-            SQLiteCommand Update = DataBase.CreateCommand();
-            Update.CommandText = $"UPDATE Global SET currentWordNumber ='{WORD_NUMBER}'" +
-                $", currentBookName = '{TABLE_NAME}'" +
-                $", autoPlay = '{AUTO_PLAY}'" +
-                $", EngType = '{ENG_TYPE}' " +
-                $", autoLog = '{AUTO_LOG}'";
-            Update.ExecuteNonQuery();
+            using (var conn = GetConnection())
+            {
+                conn.Execute(
+                    @"UPDATE Global
+                      SET currentWordNumber = @WordNumber,
+                          currentBookName = @BookName,
+                          autoPlay = @AutoPlay,
+                          EngType = @EngType,
+                          autoLog = @AutoLog",
+                    new
+                    {
+                        WordNumber = WORD_NUMBER,
+                        BookName = TABLE_NAME,
+                        AutoPlay = AUTO_PLAY,
+                        EngType = ENG_TYPE,
+                        AutoLog = AUTO_LOG
+                    }
+                );
+            }
         }
 
         public void UpdateBookName(string TableName)
         {
-            SQLiteCommand Update = DataBase.CreateCommand();
-            Update.CommandText = "UPDATE Global SET currentBookName = '" + TableName + "'";
-            Update.ExecuteNonQuery();
-            //Global Temp = new Global();
-            //var GlobalVariable = DataBase.Query<Global>("select * from Global", Temp).ToArray();
+            using (var conn = GetConnection())
+            {
+                conn.Execute(
+                    "UPDATE Global SET currentBookName = @BookName",
+                    new { BookName = TableName }
+                );
+            }
+            TABLE_NAME = TableName;
         }
 
         public void UpdateNumber(int WordNumber)
         {
-            SQLiteCommand Update = DataBase.CreateCommand();
-            Update.CommandText = "UPDATE Global SET currentWordNumber = " + WordNumber.ToString();
-            Update.ExecuteNonQuery();
+            using (var conn = GetConnection())
+            {
+                conn.Execute(
+                    "UPDATE Global SET currentWordNumber = @Number",
+                    new { Number = WordNumber }
+                );
+            }
+            WORD_NUMBER = WordNumber;
         }
+
+        #endregion
+
+        #region 英语部分
 
         /// <summary>
         /// 查询当前单词表当前进度
         /// </summary>
         public List<int> SelectCount()
         {
-            BookCount Temp = new BookCount();
-            CountList = DataBase.Query<BookCount>($"select * from Count where bookName = '{TABLE_NAME}'", Temp);
-            var CountArray = CountList.ToArray();
-            List<int> Output = new List<int>();
-            // foreach (var OneCount in CountArray)
-            // {
-            //if (OneCount.bookName == TABLE_NAME)
-            //{
-            Output.Add(CountArray[0].current);
-            Output.Add(CountArray[0].number);
-            return Output;
-            // }
-            // }
-            // return Output;
-        }
-        #endregion
+            using (var conn = GetConnection())
+            {
+                var record = conn.QueryFirstOrDefault<BookCount>(
+                    "SELECT * FROM Count WHERE bookName = @BookName",
+                    new { BookName = TABLE_NAME }
+                );
 
-        #region 英语部分
+                if (record != null)
+                {
+                    return new List<int> { record.current, record.number };
+                }
+                return new List<int> { 0, 0 };
+            }
+        }
+
         /// <summary>
         /// 查找某本书的所有单词
         /// </summary>
         public void SelectWordList()
         {
-
             if (TABLE_NAME.IndexOf("自定义") != -1)
                 TABLE_NAME = "GRE_2";
 
-            //String cmdtext =$"SELECT name FROM PRAGMA_TABLE_INFO('{TABLE_NAME}')";
-            String cmdtext = $"PRAGMA table_info({TABLE_NAME})";
-            SQLiteCommand Update = DataBase.CreateCommand();
-            Update.CommandText = cmdtext;
-            var dr = Update.ExecuteReader();
-            List<string> HeadTileList = new List<string>();
-            while (dr.Read())//loop through the various columns and their info
+            using (var conn = GetConnection())
             {
-                string name = (string)dr.GetValue(1);//0:cid;1:name; 2:type;3:notnull;4:dflt_value;5:pk
-                HeadTileList.Add(name);
-                //Console.WriteLine(name);
-            }
-            dr.Close();
-            if (HeadTileList.Contains("difficulty") == false)
-            {
-                Update.CommandText = $"ALTER TABLE {TABLE_NAME} ADD COLUMN difficulty REAL NOT NULL DEFAULT {Parameters.diffcultyDefaultValue}";
-                Update.ExecuteNonQuery();
-            }
-            if (HeadTileList.Contains("daysBetweenReviews") == false)
-            {
-                Update.CommandText = $"ALTER TABLE {TABLE_NAME} ADD COLUMN daysBetweenReviews  REAL NOT NULL DEFAULT {Parameters.daysBetweenReviewsDefaultValue}";
-                Update.ExecuteNonQuery();
-            }
-            if (HeadTileList.Contains("lastScore") == false)
-            {
-                Update.CommandText = $"ALTER TABLE {TABLE_NAME} ADD COLUMN lastScore REAL NOT NULL DEFAULT 0";
-                Update.ExecuteNonQuery();
-            }
-            if (HeadTileList.Contains("dateLastReviewed") == false)
-            {
-                Update.CommandText = $"ALTER TABLE {TABLE_NAME} ADD COLUMN dateLastReviewed TEXT  DEFAULT NULL";
-                Update.ExecuteNonQuery();
-            }
-            Word Temp = new Word();
-            AllWordList = DataBase.Query<Word>("select * from " + TABLE_NAME, Temp);
+                EnsureCardColumns(conn, TABLE_NAME);
+                AllWordList = conn.Query<Word>($"SELECT * FROM {TABLE_NAME}");
 
-            foreach (var Word in AllWordList)
+                NewCardLst.Clear();
+                ReviewedCardLst.Clear();
+
+                foreach (var word in AllWordList)
+                {
+                    var card = new Card(word);
+                    if (card.status != Cardstatus.Reviewed)
+                        NewCardLst.Add(card);
+                    else
+                        ReviewedCardLst.Add(card);
+                }
+            }
+        }
+
+        private void EnsureCardColumns(SQLiteConnection conn, string tableName)
+        {
+            var columns = new HashSet<string>();
+            using (var reader = conn.ExecuteReader($"PRAGMA table_info({tableName})"))
             {
-                Card cardi = new Card(Word);
-                if (cardi.status != Cardstatus.Reviewed)
-                    NewCardLst.Add(cardi);
-                else
-                    ReviewedCardLst.Add(cardi);
+                while (reader.Read())
+                {
+                    columns.Add((string)reader.GetValue(1));
+                }
+            }
+
+            var requiredColumns = new[]
+            {
+                new { Name = "difficulty", DefaultValue = Parameters.diffcultyDefaultValue.ToString() },
+                new { Name = "daysBetweenReviews", DefaultValue = Parameters.daysBetweenReviewsDefaultValue.ToString() },
+                new { Name = "lastScore", DefaultValue = "0" },
+                new { Name = "dateLastReviewed", DefaultValue = "NULL" }
+            };
+
+            foreach (var column in requiredColumns)
+            {
+                if (!columns.Contains(column.Name))
+                {
+                    string cmd = column.DefaultValue == "NULL"
+                        ? $"ALTER TABLE {tableName} ADD COLUMN {column.Name} TEXT DEFAULT {column.DefaultValue}"
+                        : $"ALTER TABLE {tableName} ADD COLUMN {column.Name} REAL NOT NULL DEFAULT {column.DefaultValue}";
+
+                    conn.Execute(cmd);
+                }
             }
         }
 
         public void updateCardDateBase(List<Card> cardList)
         {
-            SQLiteCommand Update = DataBase.CreateCommand();
-
-            foreach (var card in cardList)
+            using (var conn = GetConnection())
             {
-                /* String Command = $"UPDATE {TABLE_NAME} SET status = {(int)card.status} WHERE wordRank = {card.word.wordRank};";
-                 Command += $"\nUPDATE {TABLE_NAME} SET difficulty ={card.difficulty} WHERE wordRank = {card.word.wordRank};";
-                 Command += $"\nUPDATE {TABLE_NAME} SET daysBetweenReviews ={card.daysBetweenReviews} WHERE wordRank = {card.word.wordRank};";
-                 Command += $"\nUPDATE {TABLE_NAME} SET lastScore ={card.lastScore} WHERE wordRank = {card.word.wordRank};";
-                 Command += $"\nUPDATE {TABLE_NAME} SET dateLastReviewed ='{card.dateLastReviewed}' WHERE wordRank = {card.word.wordRank};";*/
-                String Command = $"UPDATE {TABLE_NAME} SET status = {(int)card.status}, " +
-                    $"difficulty ={card.difficulty}, daysBetweenReviews ={card.daysBetweenReviews}, " +
-                    $"lastScore ={card.lastScore}, dateLastReviewed ='{card.dateLastReviewed}' " +
-                    $"WHERE wordRank = {card.word.wordRank};";
-                Update.CommandText = Command;
-                Update.ExecuteNonQuery();
-                //card.word
+                foreach (var card in cardList)
+                {
+                    conn.Execute(
+                        $@"UPDATE {TABLE_NAME}
+                           SET status = @Status,
+                               difficulty = @Difficulty,
+                               daysBetweenReviews = @DaysBetweenReviews,
+                               lastScore = @LastScore,
+                               dateLastReviewed = @DateLastReviewed
+                           WHERE wordRank = @WordRank",
+                        new
+                        {
+                            Status = (int)card.status,
+                            Difficulty = card.difficulty,
+                            DaysBetweenReviews = card.daysBetweenReviews,
+                            LastScore = card.lastScore,
+                            DateLastReviewed = card.dateLastReviewed,
+                            WordRank = card.word.wordRank
+                        }
+                    );
+                }
             }
-
         }
 
         public void GetOverdueReviewedCardList(int maxReviewedCardNumer, out List<Card> usedReviewedCardLst)
         {
-            //List<Card> 
             usedReviewedCardLst = new List<Card>();
 
             if (ReviewedCardLst.Count() < maxReviewedCardNumer)
@@ -283,7 +335,6 @@ namespace ToastFish.Model.SqliteControl
 
             ReviewedCardLst.Sort((b, a) =>
             {
-                // compare a to b to get decending order
                 int result = a.percentOverdue.CompareTo(b.percentOverdue);
                 return result;
             });
@@ -298,9 +349,6 @@ namespace ToastFish.Model.SqliteControl
 
         public void GenerateRandomNewCardList(int maxNewCardNumber, out List<Card> usedNewCardLst)
         {
-            //SelectWordList();
-
-            //List<Card>
             usedNewCardLst = new List<Card>();
 
             if (NewCardLst.Count() < maxNewCardNumber)
@@ -381,8 +429,11 @@ namespace ToastFish.Model.SqliteControl
         /// </summary>
         public void SelectJpWordList()
         {
-            JpWord Temp = new JpWord();
-            AllJpWordList = DataBase.Query<JpWord>("select * from " + TABLE_NAME, Temp);
+            using (var conn = GetConnection())
+            {
+                JpWord Temp = new JpWord();
+                AllJpWordList = conn.Query<JpWord>("select * from " + TABLE_NAME, Temp);
+            }
         }
 
         /// <summary>
@@ -445,17 +496,23 @@ namespace ToastFish.Model.SqliteControl
         #region 五十音部分
         public List<GoinWord> GetGainWordList()
         {
-            GoinWord Temp = new GoinWord();
-            IEnumerable<GoinWord> AllGoinWordList = DataBase.Query<GoinWord>("select * from " + TABLE_NAME, Temp);
-            return AllGoinWordList.ToList();
+            using (var conn = GetConnection())
+            {
+                GoinWord Temp = new GoinWord();
+                IEnumerable<GoinWord> AllGoinWordList = conn.Query<GoinWord>("select * from " + TABLE_NAME, Temp);
+                return AllGoinWordList.ToList();
+            }
         }
 
         public int GetGoinProgress()
         {
-            BookCount Temp = new BookCount();
-            CountList = DataBase.Query<BookCount>("select * from Count where bookName = 'Goin'", Temp);
-            var CountArray = CountList.ToList();
-            return CountArray[0].current;
+            using (var conn = GetConnection())
+            {
+                BookCount Temp = new BookCount();
+                CountList = conn.Query<BookCount>("select * from Count where bookName = 'Goin'", Temp);
+                var CountArray = CountList.ToList();
+                return CountArray[0].current;
+            }
         }
 
         public List<GoinWord> GetTwoGoinRandomWords(GoinWord CurrentWord)
@@ -477,6 +534,34 @@ namespace ToastFish.Model.SqliteControl
             }
             return Result;
         }
+        #endregion
+
+        #region IDisposable
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposed)
+            {
+                if (disposing)
+                {
+                    AllWordList = null;
+                    AllJpWordList = null;
+                    CountList = null;
+                    NewCardLst?.Clear();
+                    ReviewedCardLst?.Clear();
+                    DataBase?.Dispose();
+                }
+
+                disposed = true;
+            }
+        }
+
         #endregion
     }
 

@@ -1,0 +1,6428 @@
+{
+  "locale": "zh-CN",
+  "packId": "builtin-vocabulary-n3",
+  "translationSource": {
+    "sourceId": "nihongo-toastfish-zh-cn-machine-assisted",
+    "name": "Nihongo ToastFish machine-assisted Simplified Chinese localization",
+    "notes": "Machine-assisted first-party draft localization. Requires human review."
+  },
+  "items": {
+    "elzup-vocab-n3-0001": {
+      "meaningCn": "礼仪、礼节、礼节"
+    },
+    "elzup-vocab-n3-0002": {
+      "meaningCn": "多种多样的，各种各样的"
+    },
+    "elzup-vocab-n3-0003": {
+      "meaningCn": "冷却，让冷却"
+    },
+    "elzup-vocab-n3-0004": {
+      "meaningCn": "唤醒"
+    },
+    "elzup-vocab-n3-0005": {
+      "meaningCn": "变得酷，磨损"
+    },
+    "elzup-vocab-n3-0006": {
+      "meaningCn": "醒来，醒来"
+    },
+    "elzup-vocab-n3-0007": {
+      "meaningCn": "左右;影响"
+    },
+    "elzup-vocab-n3-0008": {
+      "meaningCn": "盘子，盘子"
+    },
+    "elzup-vocab-n3-0009": {
+      "meaningCn": "此外，此外"
+    },
+    "elzup-vocab-n3-0010": {
+      "meaningCn": "离开，走开"
+    },
+    "elzup-vocab-n3-0011": {
+      "meaningCn": "猴"
+    },
+    "elzup-vocab-n3-0012": {
+      "meaningCn": "骚乱，骚乱"
+    },
+    "elzup-vocab-n3-0013": {
+      "meaningCn": "参与"
+    },
+    "elzup-vocab-n3-0014": {
+      "meaningCn": "参考、咨询"
+    },
+    "elzup-vocab-n3-0015": {
+      "meaningCn": "批准、同意"
+    },
+    "elzup-vocab-n3-0016": {
+      "meaningCn": "酸度"
+    },
+    "elzup-vocab-n3-0017": {
+      "meaningCn": "氧"
+    },
+    "elzup-vocab-n3-0018": {
+      "meaningCn": "姓氏、血统"
+    },
+    "elzup-vocab-n3-0019": {
+      "meaningCn": "诗;诗"
+    },
+    "elzup-vocab-n3-0020": {
+      "meaningCn": "幸福、祝福"
+    },
+    "elzup-vocab-n3-0021": {
+      "meaningCn": "牛仔裤"
+    },
+    "elzup-vocab-n3-0022": {
+      "meaningCn": "喷气式飞机"
+    },
+    "elzup-vocab-n3-0023": {
+      "meaningCn": "正方形"
+    },
+    "elzup-vocab-n3-0024": {
+      "meaningCn": "立刻, 轻易, 直接"
+    },
+    "elzup-vocab-n3-0025": {
+      "meaningCn": "而且，此外，此外，加上"
+    },
+    "elzup-vocab-n3-0026": {
+      "meaningCn": "四季"
+    },
+    "elzup-vocab-n3-0027": {
+      "meaningCn": "立即，不久，很快"
+    },
+    "elzup-vocab-n3-0028": {
+      "meaningCn": "时间、季节、时期"
+    },
+    "elzup-vocab-n3-0029": {
+      "meaningCn": "付款、津贴"
+    },
+    "elzup-vocab-n3-0030": {
+      "meaningCn": "紧急的，紧迫的"
+    },
+    "elzup-vocab-n3-0031": {
+      "meaningCn": "频繁地、反复地、热切地"
+    },
+    "elzup-vocab-n3-0032": {
+      "meaningCn": "刺激、动力、激励"
+    },
+    "elzup-vocab-n3-0033": {
+      "meaningCn": "资源"
+    },
+    "elzup-vocab-n3-0034": {
+      "meaningCn": "事件，事务，事件"
+    },
+    "elzup-vocab-n3-0035": {
+      "meaningCn": "时间，小时"
+    },
+    "elzup-vocab-n3-0036": {
+      "meaningCn": "自杀"
+    },
+    "elzup-vocab-n3-0037": {
+      "meaningCn": "事实，真相，现实"
+    },
+    "elzup-vocab-n3-0038": {
+      "meaningCn": "开支，开支"
+    },
+    "elzup-vocab-n3-0039": {
+      "meaningCn": "情况、情况、原因"
+    },
+    "elzup-vocab-n3-0040": {
+      "meaningCn": "诗人"
+    },
+    "elzup-vocab-n3-0041": {
+      "meaningCn": "自己"
+    },
+    "elzup-vocab-n3-0042": {
+      "meaningCn": "下沉；感到沮丧"
+    },
+    "elzup-vocab-n3-0043": {
+      "meaningCn": "自然、自发"
+    },
+    "elzup-vocab-n3-0044": {
+      "meaningCn": "想法，主意"
+    },
+    "elzup-vocab-n3-0045": {
+      "meaningCn": "舌头"
+    },
+    "elzup-vocab-n3-0046": {
+      "meaningCn": "命令;情况;立即地）"
+    },
+    "elzup-vocab-n3-0047": {
+      "meaningCn": "遵守（遵守规则），服从"
+    },
+    "elzup-vocab-n3-0048": {
+      "meaningCn": "因此，因此"
+    },
+    "elzup-vocab-n3-0049": {
+      "meaningCn": "亲密的，亲密的（例如，朋友）"
+    },
+    "elzup-vocab-n3-0050": {
+      "meaningCn": "（人的）品质、本性"
+    },
+    "elzup-vocab-n3-0051": {
+      "meaningCn": "失业"
+    },
+    "elzup-vocab-n3-0052": {
+      "meaningCn": "湿气，湿气，湿气"
+    },
+    "elzup-vocab-n3-0053": {
+      "meaningCn": "实验室工作；实验"
+    },
+    "elzup-vocab-n3-0054": {
+      "meaningCn": "实施、具体化、实现"
+    },
+    "elzup-vocab-n3-0055": {
+      "meaningCn": "实践、执行（例如计划）、实现"
+    },
+    "elzup-vocab-n3-0056": {
+      "meaningCn": "实际上;实际上"
+    },
+    "elzup-vocab-n3-0057": {
+      "meaningCn": "执行, 实施, 操作"
+    },
+    "elzup-vocab-n3-0058": {
+      "meaningCn": "湿度"
+    },
+    "elzup-vocab-n3-0059": {
+      "meaningCn": "耐心地、安静地"
+    },
+    "elzup-vocab-n3-0060": {
+      "meaningCn": "确实，确实，确实"
+    },
+    "elzup-vocab-n3-0061": {
+      "meaningCn": "实际上;实际上"
+    },
+    "elzup-vocab-n3-0062": {
+      "meaningCn": "失望，绝望"
+    },
+    "elzup-vocab-n3-0063": {
+      "meaningCn": "能力;力量"
+    },
+    "elzup-vocab-n3-0064": {
+      "meaningCn": "分店（办事处）"
+    },
+    "elzup-vocab-n3-0065": {
+      "meaningCn": "领导、指导、辅导"
+    },
+    "elzup-vocab-n3-0066": {
+      "meaningCn": "自动的，自行运动的"
+    },
+    "elzup-vocab-n3-0067": {
+      "meaningCn": "儿童、青少年"
+    },
+    "elzup-vocab-n3-0068": {
+      "meaningCn": "东西、物品、物品"
+    },
+    "elzup-vocab-n3-0069": {
+      "meaningCn": "规则、控制、方向"
+    },
+    "elzup-vocab-n3-0070": {
+      "meaningCn": "戏剧，戏剧"
+    },
+    "elzup-vocab-n3-0071": {
+      "meaningCn": "经常，一次又一次，经常"
+    },
+    "elzup-vocab-n3-0072": {
+      "meaningCn": "草地"
+    },
+    "elzup-vocab-n3-0073": {
+      "meaningCn": "支付"
+    },
+    "elzup-vocab-n3-0074": {
+      "meaningCn": "支付"
+    },
+    "elzup-vocab-n3-0075": {
+      "meaningCn": "死亡"
+    },
+    "elzup-vocab-n3-0076": {
+      "meaningCn": "资金、资本"
+    },
+    "elzup-vocab-n3-0077": {
+      "meaningCn": "姐妹"
+    },
+    "elzup-vocab-n3-0078": {
+      "meaningCn": "该死的！"
+    },
+    "elzup-vocab-n3-0079": {
+      "meaningCn": "骄傲，夸耀"
+    },
+    "elzup-vocab-n3-0080": {
+      "meaningCn": "安静、朴素、保守"
+    },
+    "elzup-vocab-n3-0081": {
+      "meaningCn": "表明，表明"
+    },
+    "elzup-vocab-n3-0082": {
+      "meaningCn": "拿起；考虑到"
+    },
+    "elzup-vocab-n3-0083": {
+      "meaningCn": "弄湿，弄湿"
+    },
+    "elzup-vocab-n3-0084": {
+      "meaningCn": "在下，在下，在下"
+    },
+    "elzup-vocab-n3-0085": {
+      "meaningCn": "霜"
+    },
+    "elzup-vocab-n3-0086": {
+      "meaningCn": "债务、贷款、负债"
+    },
+    "elzup-vocab-n3-0087": {
+      "meaningCn": "说话，聊天，闲聊（与话す（はなす）相同）"
+    },
+    "elzup-vocab-n3-0088": {
+      "meaningCn": "星期"
+    },
+    "elzup-vocab-n3-0089": {
+      "meaningCn": "州、省"
+    },
+    "elzup-vocab-n3-0090": {
+      "meaningCn": "枪"
+    },
+    "elzup-vocab-n3-0091": {
+      "meaningCn": "周围环境, 周围环境, 周围环境"
+    },
+    "elzup-vocab-n3-0092": {
+      "meaningCn": "收获, 庄稼, 采集"
+    },
+    "elzup-vocab-n3-0093": {
+      "meaningCn": "宗教"
+    },
+    "elzup-vocab-n3-0094": {
+      "meaningCn": "重要性、压力"
+    },
+    "elzup-vocab-n3-0095": {
+      "meaningCn": "找工作"
+    },
+    "elzup-vocab-n3-0096": {
+      "meaningCn": "果汁、软饮料；平局"
+    },
+    "elzup-vocab-n3-0097": {
+      "meaningCn": "修改，更正"
+    },
+    "elzup-vocab-n3-0098": {
+      "meaningCn": "病重、危急状态"
+    },
+    "elzup-vocab-n3-0099": {
+      "meaningCn": "拥堵（例如交通）、延误"
+    },
+    "elzup-vocab-n3-0100": {
+      "meaningCn": "严肃的、重要的"
+    },
+    "elzup-vocab-n3-0101": {
+      "meaningCn": "居民、住房"
+    },
+    "elzup-vocab-n3-0102": {
+      "meaningCn": "团体、群众"
+    },
+    "elzup-vocab-n3-0103": {
+      "meaningCn": "集中注意力，集中精神"
+    },
+    "elzup-vocab-n3-0104": {
+      "meaningCn": "收入，收入"
+    },
+    "elzup-vocab-n3-0105": {
+      "meaningCn": "居民，居民"
+    },
+    "elzup-vocab-n3-0106": {
+      "meaningCn": "重要的，必要的"
+    },
+    "elzup-vocab-n3-0107": {
+      "meaningCn": "修理，修补"
+    },
+    "elzup-vocab-n3-0108": {
+      "meaningCn": "教义、原因、原则"
+    },
+    "elzup-vocab-n3-0109": {
+      "meaningCn": "住宿"
+    },
+    "elzup-vocab-n3-0110": {
+      "meaningCn": "手术"
+    },
+    "elzup-vocab-n3-0111": {
+      "meaningCn": "总理"
+    },
+    "elzup-vocab-n3-0112": {
+      "meaningCn": "手段、方式、措施"
+    },
+    "elzup-vocab-n3-0113": {
+      "meaningCn": "主张、坚持、断言"
+    },
+    "elzup-vocab-n3-0114": {
+      "meaningCn": "参与"
+    },
+    "elzup-vocab-n3-0115": {
+      "meaningCn": "来自"
+    },
+    "elzup-vocab-n3-0116": {
+      "meaningCn": "发布"
+    },
+    "elzup-vocab-n3-0117": {
+      "meaningCn": "首都"
+    },
+    "elzup-vocab-n3-0118": {
+      "meaningCn": "家庭主妇"
+    },
+    "elzup-vocab-n3-0119": {
+      "meaningCn": "主要的，主要的"
+    },
+    "elzup-vocab-n3-0120": {
+      "meaningCn": "要求"
+    },
+    "elzup-vocab-n3-0121": {
+      "meaningCn": "品种多样、种类丰富"
+    },
+    "elzup-vocab-n3-0122": {
+      "meaningCn": "顺序、转动"
+    },
+    "elzup-vocab-n3-0123": {
+      "meaningCn": "瞬间、秒"
+    },
+    "elzup-vocab-n3-0124": {
+      "meaningCn": "做得很好"
+    },
+    "elzup-vocab-n3-0125": {
+      "meaningCn": "轮流（排队），事情的顺序"
+    },
+    "elzup-vocab-n3-0126": {
+      "meaningCn": "使用（与使うこと (つかうこと) 相同）、申请、雇用、利用"
+    },
+    "elzup-vocab-n3-0127": {
+      "meaningCn": "小的"
+    },
+    "elzup-vocab-n3-0128": {
+      "meaningCn": "章、节；勋章"
+    },
+    "elzup-vocab-n3-0129": {
+      "meaningCn": "奖品，奖品"
+    },
+    "elzup-vocab-n3-0130": {
+      "meaningCn": "第一卷；卓越的品质；政府的"
+    },
+    "elzup-vocab-n3-0131": {
+      "meaningCn": "障碍，障碍"
+    },
+    "elzup-vocab-n3-0132": {
+      "meaningCn": "奖学金"
+    },
+    "elzup-vocab-n3-0133": {
+      "meaningCn": "乘客"
+    },
+    "elzup-vocab-n3-0134": {
+      "meaningCn": "前往首都（东京）"
+    },
+    "elzup-vocab-n3-0135": {
+      "meaningCn": "事态、情况"
+    },
+    "elzup-vocab-n3-0136": {
+      "meaningCn": "条件、条款"
+    },
+    "elzup-vocab-n3-0137": {
+      "meaningCn": "中午，中午"
+    },
+    "elzup-vocab-n3-0138": {
+      "meaningCn": "诚实、正直、坦率"
+    },
+    "elzup-vocab-n3-0139": {
+      "meaningCn": "常识"
+    },
+    "elzup-vocab-n3-0140": {
+      "meaningCn": "年轻女孩"
+    },
+    "elzup-vocab-n3-0141": {
+      "meaningCn": "一点;短（时间）（少し (すこし) 的正式形式）"
+    },
+    "elzup-vocab-n3-0142": {
+      "meaningCn": "症状、状况"
+    },
+    "elzup-vocab-n3-0143": {
+      "meaningCn": "发生、产生、产生"
+    },
+    "elzup-vocab-n3-0144": {
+      "meaningCn": "条件，情况"
+    },
+    "elzup-vocab-n3-0145": {
+      "meaningCn": "改进、进步"
+    },
+    "elzup-vocab-n3-0146": {
+      "meaningCn": "一个笑话"
+    },
+    "elzup-vocab-n3-0147": {
+      "meaningCn": "头等舱，非常好"
+    },
+    "elzup-vocab-n3-0148": {
+      "meaningCn": "碰撞，冲突"
+    },
+    "elzup-vocab-n3-0149": {
+      "meaningCn": "商人、店主、商人"
+    },
+    "elzup-vocab-n3-0150": {
+      "meaningCn": "认可、批准"
+    },
+    "elzup-vocab-n3-0151": {
+      "meaningCn": "男孩、青少年"
+    },
+    "elzup-vocab-n3-0152": {
+      "meaningCn": "贸易、商业、商业"
+    },
+    "elzup-vocab-n3-0153": {
+      "meaningCn": "消费、支出"
+    },
+    "elzup-vocab-n3-0154": {
+      "meaningCn": "商品，商品"
+    },
+    "elzup-vocab-n3-0155": {
+      "meaningCn": "奖品、奖杯"
+    },
+    "elzup-vocab-n3-0156": {
+      "meaningCn": "消防、消防部门"
+    },
+    "elzup-vocab-n3-0157": {
+      "meaningCn": "信息、（军事）情报"
+    },
+    "elzup-vocab-n3-0158": {
+      "meaningCn": "证明，验证"
+    },
+    "elzup-vocab-n3-0159": {
+      "meaningCn": "省略、缩写、删节"
+    },
+    "elzup-vocab-n3-0160": {
+      "meaningCn": "女王"
+    },
+    "elzup-vocab-n3-0161": {
+      "meaningCn": "就业"
+    },
+    "elzup-vocab-n3-0162": {
+      "meaningCn": "职业、商业"
+    },
+    "elzup-vocab-n3-0163": {
+      "meaningCn": "餐桌"
+    },
+    "elzup-vocab-n3-0164": {
+      "meaningCn": "食品"
+    },
+    "elzup-vocab-n3-0165": {
+      "meaningCn": "植物、植被"
+    },
+    "elzup-vocab-n3-0166": {
+      "meaningCn": "食品，食品"
+    },
+    "elzup-vocab-n3-0167": {
+      "meaningCn": "食欲（对食物的）"
+    },
+    "elzup-vocab-n3-0168": {
+      "meaningCn": "食物"
+    },
+    "elzup-vocab-n3-0169": {
+      "meaningCn": "给养、口粮"
+    },
+    "elzup-vocab-n3-0170": {
+      "meaningCn": "学习, 书房"
+    },
+    "elzup-vocab-n3-0171": {
+      "meaningCn": "女人，女孩"
+    },
+    "elzup-vocab-n3-0172": {
+      "meaningCn": "帮手，助理"
+    },
+    "elzup-vocab-n3-0173": {
+      "meaningCn": "慢慢地，一点一点地"
+    },
+    "elzup-vocab-n3-0174": {
+      "meaningCn": "签名"
+    },
+    "elzup-vocab-n3-0175": {
+      "meaningCn": "图书"
+    },
+    "elzup-vocab-n3-0176": {
+      "meaningCn": "演员"
+    },
+    "elzup-vocab-n3-0177": {
+      "meaningCn": "加工、处理、处置"
+    },
+    "elzup-vocab-n3-0178": {
+      "meaningCn": "文件、官方文件"
+    },
+    "elzup-vocab-n3-0179": {
+      "meaningCn": "注意"
+    },
+    "elzup-vocab-n3-0180": {
+      "meaningCn": "臀部、底部"
+    },
+    "elzup-vocab-n3-0181": {
+      "meaningCn": "熟人"
+    },
+    "elzup-vocab-n3-0182": {
+      "meaningCn": "标记;象征;证据"
+    },
+    "elzup-vocab-n3-0183": {
+      "meaningCn": "城堡"
+    },
+    "elzup-vocab-n3-0184": {
+      "meaningCn": "继续上大学"
+    },
+    "elzup-vocab-n3-0185": {
+      "meaningCn": "神经、敏感性"
+    },
+    "elzup-vocab-n3-0186": {
+      "meaningCn": "严肃、认真"
+    },
+    "elzup-vocab-n3-0187": {
+      "meaningCn": "（宗教）信仰，信念"
+    },
+    "elzup-vocab-n3-0188": {
+      "meaningCn": "交通灯、信号灯、信号灯"
+    },
+    "elzup-vocab-n3-0189": {
+      "meaningCn": "人造的，人造的，人类的工作，"
+    },
+    "elzup-vocab-n3-0190": {
+      "meaningCn": "严肃的"
+    },
+    "elzup-vocab-n3-0191": {
+      "meaningCn": "（病人的）医疗检查"
+    },
+    "elzup-vocab-n3-0192": {
+      "meaningCn": "（人的）种族"
+    },
+    "elzup-vocab-n3-0193": {
+      "meaningCn": "相信"
+    },
+    "elzup-vocab-n3-0194": {
+      "meaningCn": "（人类）生命（例如，受孕到死亡）"
+    },
+    "elzup-vocab-n3-0195": {
+      "meaningCn": "亲属）"
+    },
+    "elzup-vocab-n3-0196": {
+      "meaningCn": "新鲜的"
+    },
+    "elzup-vocab-n3-0197": {
+      "meaningCn": "心"
+    },
+    "elzup-vocab-n3-0198": {
+      "meaningCn": "身体"
+    },
+    "elzup-vocab-n3-0199": {
+      "meaningCn": "（身体的）身高、身材"
+    },
+    "elzup-vocab-n3-0200": {
+      "meaningCn": "小心、谨慎、谨慎"
+    },
+    "elzup-vocab-n3-0201": {
+      "meaningCn": "裁判员, 裁判员, 判断"
+    },
+    "elzup-vocab-n3-0202": {
+      "meaningCn": "品格、性格、才华的人"
+    },
+    "elzup-vocab-n3-0203": {
+      "meaningCn": "改善、进步、发展"
+    },
+    "elzup-vocab-n3-0204": {
+      "meaningCn": "亲密的朋友，伙伴"
+    },
+    "elzup-vocab-n3-0205": {
+      "meaningCn": "信心、依赖"
+    },
+    "elzup-vocab-n3-0206": {
+      "meaningCn": "信赖、信任、信心"
+    },
+    "elzup-vocab-n3-0207": {
+      "meaningCn": "心理"
+    },
+    "elzup-vocab-n3-0208": {
+      "meaningCn": "人类，人类"
+    },
+    "elzup-vocab-n3-0209": {
+      "meaningCn": "巢穴、繁殖地"
+    },
+    "elzup-vocab-n3-0210": {
+      "meaningCn": "醋"
+    },
+    "elzup-vocab-n3-0211": {
+      "meaningCn": "图、图画、插图"
+    },
+    "elzup-vocab-n3-0212": {
+      "meaningCn": "等级、标准"
+    },
+    "elzup-vocab-n3-0213": {
+      "meaningCn": "推荐"
+    },
+    "elzup-vocab-n3-0214": {
+      "meaningCn": "转变"
+    },
+    "elzup-vocab-n3-0215": {
+      "meaningCn": "睡觉"
+    },
+    "elzup-vocab-n3-0216": {
+      "meaningCn": "数字、图形"
+    },
+    "elzup-vocab-n3-0217": {
+      "meaningCn": "数字，图形"
+    },
+    "elzup-vocab-n3-0218": {
+      "meaningCn": "（西式）汤"
+    },
+    "elzup-vocab-n3-0219": {
+      "meaningCn": "末了，粉"
+    },
+    "elzup-vocab-n3-0220": {
+      "meaningCn": "身材、形状、外貌"
+    },
+    "elzup-vocab-n3-0221": {
+      "meaningCn": "滑雪"
+    },
+    "elzup-vocab-n3-0222": {
+      "meaningCn": "拯救, 帮助脱离"
+    },
+    "elzup-vocab-n3-0223": {
+      "meaningCn": "至少"
+    },
+    "elzup-vocab-n3-0224": {
+      "meaningCn": "超越, 超过, 超越"
+    },
+    "elzup-vocab-n3-0225": {
+      "meaningCn": "滑冰，滑冰"
+    },
+    "elzup-vocab-n3-0226": {
+      "meaningCn": "日程"
+    },
+    "elzup-vocab-n3-0227": {
+      "meaningCn": "任何东西，一点也不"
+    },
+    "elzup-vocab-n3-0228": {
+      "meaningCn": "过去，花费（时间）"
+    },
+    "elzup-vocab-n3-0229": {
+      "meaningCn": "肌肉、绳子、线"
+    },
+    "elzup-vocab-n3-0230": {
+      "meaningCn": "推进、促进、加速"
+    },
+    "elzup-vocab-n3-0231": {
+      "meaningCn": "敦促（某人）做（某事），推荐"
+    },
+    "elzup-vocab-n3-0232": {
+      "meaningCn": "星星"
+    },
+    "elzup-vocab-n3-0233": {
+      "meaningCn": "风格"
+    },
+    "elzup-vocab-n3-0234": {
+      "meaningCn": "站立"
+    },
+    "elzup-vocab-n3-0235": {
+      "meaningCn": "头痛"
+    },
+    "elzup-vocab-n3-0236": {
+      "meaningCn": "许久;一直；连续地"
+    },
+    "elzup-vocab-n3-0237": {
+      "meaningCn": "酸，酸"
+    },
+    "elzup-vocab-n3-0238": {
+      "meaningCn": "可爱的，很棒的"
+    },
+    "elzup-vocab-n3-0239": {
+      "meaningCn": "已经（与もう相同）"
+    },
+    "elzup-vocab-n3-0240": {
+      "meaningCn": "也就是说，例如"
+    },
+    "elzup-vocab-n3-0241": {
+      "meaningCn": "演讲"
+    },
+    "elzup-vocab-n3-0242": {
+      "meaningCn": "全部，全部，全部"
+    },
+    "elzup-vocab-n3-0243": {
+      "meaningCn": "待完成"
+    },
+    "elzup-vocab-n3-0244": {
+      "meaningCn": "角落"
+    },
+    "elzup-vocab-n3-0245": {
+      "meaningCn": "墨水"
+    },
+    "elzup-vocab-n3-0246": {
+      "meaningCn": "抱歉，请原谅"
+    },
+    "elzup-vocab-n3-0247": {
+      "meaningCn": "晴朗（例如天气），变得透明"
+    },
+    "elzup-vocab-n3-0248": {
+      "meaningCn": "晴朗（例如天气），变得透明"
+    },
+    "elzup-vocab-n3-0249": {
+      "meaningCn": "打印"
+    },
+    "elzup-vocab-n3-0250": {
+      "meaningCn": "去做、尝试"
+    },
+    "elzup-vocab-n3-0251": {
+      "meaningCn": "尖的，尖锐的"
+    },
+    "elzup-vocab-n3-0252": {
+      "meaningCn": "互相擦肩而过"
+    },
+    "elzup-vocab-n3-0253": {
+      "meaningCn": "移动，偏离要点"
+    },
+    "elzup-vocab-n3-0254": {
+      "meaningCn": "（逻辑上的）真实的、有规律的"
+    },
+    "elzup-vocab-n3-0255": {
+      "meaningCn": "出生"
+    },
+    "elzup-vocab-n3-0256": {
+      "meaningCn": "性别，性别"
+    },
+    "elzup-vocab-n3-0257": {
+      "meaningCn": "姓氏，姓氏"
+    },
+    "elzup-vocab-n3-0258": {
+      "meaningCn": "原因、理由、过错"
+    },
+    "elzup-vocab-n3-0259": {
+      "meaningCn": "税"
+    },
+    "elzup-vocab-n3-0260": {
+      "meaningCn": "性格，个性"
+    },
+    "elzup-vocab-n3-0261": {
+      "meaningCn": "准确、准时、精确"
+    },
+    "elzup-vocab-n3-0262": {
+      "meaningCn": "世纪"
+    },
+    "elzup-vocab-n3-0263": {
+      "meaningCn": "主张、要求、要求"
+    },
+    "elzup-vocab-n3-0264": {
+      "meaningCn": "税，关税"
+    },
+    "elzup-vocab-n3-0265": {
+      "meaningCn": "干净的"
+    },
+    "elzup-vocab-n3-0266": {
+      "meaningCn": "限制，约束，限制"
+    },
+    "elzup-vocab-n3-0267": {
+      "meaningCn": "成功，命中"
+    },
+    "elzup-vocab-n3-0268": {
+      "meaningCn": "正式的，正式的"
+    },
+    "elzup-vocab-n3-0269": {
+      "meaningCn": "性质、财产、处置"
+    },
+    "elzup-vocab-n3-0270": {
+      "meaningCn": "思想、灵魂、精神"
+    },
+    "elzup-vocab-n3-0271": {
+      "meaningCn": "成人"
+    },
+    "elzup-vocab-n3-0272": {
+      "meaningCn": "至多，至多"
+    },
+    "elzup-vocab-n3-0273": {
+      "meaningCn": "成绩（即考试成绩）、学业成绩"
+    },
+    "elzup-vocab-n3-0274": {
+      "meaningCn": "制造，生产"
+    },
+    "elzup-vocab-n3-0275": {
+      "meaningCn": "奢华，奢侈"
+    },
+    "elzup-vocab-n3-0276": {
+      "meaningCn": "生长"
+    },
+    "elzup-vocab-n3-0277": {
+      "meaningCn": "生长"
+    },
+    "elzup-vocab-n3-0278": {
+      "meaningCn": "制度、机构"
+    },
+    "elzup-vocab-n3-0279": {
+      "meaningCn": "青年，年轻人"
+    },
+    "elzup-vocab-n3-0280": {
+      "meaningCn": "出生日期"
+    },
+    "elzup-vocab-n3-0281": {
+      "meaningCn": "制成品、制成品"
+    },
+    "elzup-vocab-n3-0282": {
+      "meaningCn": "政府、行政部门"
+    },
+    "elzup-vocab-n3-0283": {
+      "meaningCn": "生物、有机体"
+    },
+    "elzup-vocab-n3-0284": {
+      "meaningCn": "生活"
+    },
+    "elzup-vocab-n3-0285": {
+      "meaningCn": "排序、排列"
+    },
+    "elzup-vocab-n3-0286": {
+      "meaningCn": "咳嗽"
+    },
+    "elzup-vocab-n3-0287": {
+      "meaningCn": "煤炭"
+    },
+    "elzup-vocab-n3-0288": {
+      "meaningCn": "义务、责任"
+    },
+    "elzup-vocab-n3-0289": {
+      "meaningCn": "油，石油，煤油"
+    },
+    "elzup-vocab-n3-0290": {
+      "meaningCn": "世界、社会"
+    },
+    "elzup-vocab-n3-0291": {
+      "meaningCn": "理论"
+    },
+    "elzup-vocab-n3-0292": {
+      "meaningCn": "积极的，主动的，主动的"
+    },
+    "elzup-vocab-n3-0293": {
+      "meaningCn": "计划、设计"
+    },
+    "elzup-vocab-n3-0294": {
+      "meaningCn": "绝对地，毫无疑问地，绝对地"
+    },
+    "elzup-vocab-n3-0295": {
+      "meaningCn": "放"
+    },
+    "elzup-vocab-n3-0296": {
+      "meaningCn": "爱"
+    },
+    "elzup-vocab-n3-0297": {
+      "meaningCn": "一如既往，一如既往"
+    },
+    "elzup-vocab-n3-0298": {
+      "meaningCn": "爱、亲情"
+    },
+    "elzup-vocab-n3-0299": {
+      "meaningCn": "标志，信号"
+    },
+    "elzup-vocab-n3-0300": {
+      "meaningCn": "冰淇淋"
+    },
+    "elzup-vocab-n3-0301": {
+      "meaningCn": "去爱"
+    },
+    "elzup-vocab-n3-0302": {
+      "meaningCn": "伙伴;收件人;正在和你说话的人"
+    },
+    "elzup-vocab-n3-0303": {
+      "meaningCn": "很遗憾"
+    },
+    "elzup-vocab-n3-0304": {
+      "meaningCn": "相遇，相遇（不受欢迎的细微差别）"
+    },
+    "elzup-vocab-n3-0305": {
+      "meaningCn": "出去"
+    },
+    "elzup-vocab-n3-0306": {
+      "meaningCn": "灯光，灯光（一般）"
+    },
+    "elzup-vocab-n3-0307": {
+      "meaningCn": "空缺, 空缺, 空间"
+    },
+    "elzup-vocab-n3-0308": {
+      "meaningCn": "明显的，清楚的"
+    },
+    "elzup-vocab-n3-0309": {
+      "meaningCn": "放弃，抛弃"
+    },
+    "elzup-vocab-n3-0310": {
+      "meaningCn": "厌倦，失去兴趣"
+    },
+    "elzup-vocab-n3-0311": {
+      "meaningCn": "握手"
+    },
+    "elzup-vocab-n3-0312": {
+      "meaningCn": "恶魔，恶魔，邪灵"
+    },
+    "elzup-vocab-n3-0313": {
+      "meaningCn": "到黎明, 成为白昼"
+    },
+    "elzup-vocab-n3-0314": {
+      "meaningCn": "提起、煎炸"
+    },
+    "elzup-vocab-n3-0315": {
+      "meaningCn": "筹集；列出、引用"
+    },
+    "elzup-vocab-n3-0316": {
+      "meaningCn": "为（某人）保留（某物）"
+    },
+    "elzup-vocab-n3-0317": {
+      "meaningCn": "交予保管，存放"
+    },
+    "elzup-vocab-n3-0318": {
+      "meaningCn": "汗水，汗水"
+    },
+    "elzup-vocab-n3-0319": {
+      "meaningCn": "给予"
+    },
+    "elzup-vocab-n3-0320": {
+      "meaningCn": "温暖的"
+    },
+    "elzup-vocab-n3-0321": {
+      "meaningCn": "热身"
+    },
+    "elzup-vocab-n3-0322": {
+      "meaningCn": "取暖，取暖"
+    },
+    "elzup-vocab-n3-0323": {
+      "meaningCn": "温暖（对某人/某事），加热（对某人/某事）"
+    },
+    "elzup-vocab-n3-0324": {
+      "meaningCn": "使温暖，使加热"
+    },
+    "elzup-vocab-n3-0325": {
+      "meaningCn": "附近, 附近"
+    },
+    "elzup-vocab-n3-0326": {
+      "meaningCn": "平常的，常见的，明显的"
+    },
+    "elzup-vocab-n3-0327": {
+      "meaningCn": "被击中，被成功"
+    },
+    "elzup-vocab-n3-0328": {
+      "meaningCn": "这里和那里"
+    },
+    "elzup-vocab-n3-0329": {
+      "meaningCn": "对待、处理、应对"
+    },
+    "elzup-vocab-n3-0330": {
+      "meaningCn": "聚会、会议、收藏"
+    },
+    "elzup-vocab-n3-0331": {
+      "meaningCn": "打；申请到"
+    },
+    "elzup-vocab-n3-0332": {
+      "meaningCn": "痕迹;遗迹;瘢痕"
+    },
+    "elzup-vocab-n3-0333": {
+      "meaningCn": "洞"
+    },
+    "elzup-vocab-n3-0334": {
+      "meaningCn": "油"
+    },
+    "elzup-vocab-n3-0335": {
+      "meaningCn": "胖的"
+    },
+    "elzup-vocab-n3-0336": {
+      "meaningCn": "错误"
+    },
+    "elzup-vocab-n3-0337": {
+      "meaningCn": "缺陷，缺陷，故障"
+    },
+    "elzup-vocab-n3-0338": {
+      "meaningCn": "风暴"
+    },
+    "elzup-vocab-n3-0339": {
+      "meaningCn": "争论、争论、战斗"
+    },
+    "elzup-vocab-n3-0340": {
+      "meaningCn": "新的，新鲜的"
+    },
+    "elzup-vocab-n3-0341": {
+      "meaningCn": "全部，每一个"
+    },
+    "elzup-vocab-n3-0342": {
+      "meaningCn": "表达、展示"
+    },
+    "elzup-vocab-n3-0343": {
+      "meaningCn": "展示，出现，揭示"
+    },
+    "elzup-vocab-n3-0344": {
+      "meaningCn": "撰写、出版"
+    },
+    "elzup-vocab-n3-0345": {
+      "meaningCn": "表达、指示、标志"
+    },
+    "elzup-vocab-n3-0346": {
+      "meaningCn": "出现；变得可见；表达"
+    },
+    "elzup-vocab-n3-0347": {
+      "meaningCn": "谢谢"
+    },
+    "elzup-vocab-n3-0348": {
+      "meaningCn": "生活、存在、存在"
+    },
+    "elzup-vocab-n3-0349": {
+      "meaningCn": "某个……、某个……"
+    },
+    "elzup-vocab-n3-0350": {
+      "meaningCn": "或者，也许"
+    },
+    "elzup-vocab-n3-0351": {
+      "meaningCn": "专辑"
+    },
+    "elzup-vocab-n3-0352": {
+      "meaningCn": "气泡，泡沫"
+    },
+    "elzup-vocab-n3-0353": {
+      "meaningCn": "结合"
+    },
+    "elzup-vocab-n3-0354": {
+      "meaningCn": "变得困惑、恐慌"
+    },
+    "elzup-vocab-n3-0355": {
+      "meaningCn": "无奈、可怜、可悲"
+    },
+    "elzup-vocab-n3-0356": {
+      "meaningCn": "计划、方案、提议"
+    },
+    "elzup-vocab-n3-0357": {
+      "meaningCn": "不料"
+    },
+    "elzup-vocab-n3-0358": {
+      "meaningCn": "背诵，用心学习"
+    },
+    "elzup-vocab-n3-0359": {
+      "meaningCn": "稳定、平衡"
+    },
+    "elzup-vocab-n3-0360": {
+      "meaningCn": "到那个程度，到那个程度"
+    },
+    "elzup-vocab-n3-0361": {
+      "meaningCn": "不是很多，不是很多"
+    },
+    "elzup-vocab-n3-0362": {
+      "meaningCn": "胃"
+    },
+    "elzup-vocab-n3-0363": {
+      "meaningCn": "委员"
+    },
+    "elzup-vocab-n3-0364": {
+      "meaningCn": "出乎意料的，令人惊奇的"
+    },
+    "elzup-vocab-n3-0365": {
+      "meaningCn": "去"
+    },
+    "elzup-vocab-n3-0366": {
+      "meaningCn": "去"
+    },
+    "elzup-vocab-n3-0367": {
+      "meaningCn": "气息"
+    },
+    "elzup-vocab-n3-0368": {
+      "meaningCn": "力量、活力、动量"
+    },
+    "elzup-vocab-n3-0369": {
+      "meaningCn": "生物，生物"
+    },
+    "elzup-vocab-n3-0370": {
+      "meaningCn": "一定不能做、坏、错"
+    },
+    "elzup-vocab-n3-0371": {
+      "meaningCn": "医生，医生"
+    },
+    "elzup-vocab-n3-0372": {
+      "meaningCn": "意图、目的"
+    },
+    "elzup-vocab-n3-0373": {
+      "meaningCn": "意志，意志"
+    },
+    "elzup-vocab-n3-0374": {
+      "meaningCn": "保养、保存"
+    },
+    "elzup-vocab-n3-0375": {
+      "meaningCn": "意识、感官"
+    },
+    "elzup-vocab-n3-0376": {
+      "meaningCn": "奇怪、异常、混乱"
+    },
+    "elzup-vocab-n3-0377": {
+      "meaningCn": "恶意的，卑鄙的，不友善的"
+    },
+    "elzup-vocab-n3-0378": {
+      "meaningCn": "春天, 喷泉"
+    },
+    "elzup-vocab-n3-0379": {
+      "meaningCn": "哪里、哪个、谁"
+    },
+    "elzup-vocab-n3-0380": {
+      "meaningCn": "在过去;前"
+    },
+    "elzup-vocab-n3-0381": {
+      "meaningCn": "木板，木板"
+    },
+    "elzup-vocab-n3-0382": {
+      "meaningCn": "伟大"
+    },
+    "elzup-vocab-n3-0383": {
+      "meaningCn": "持有（v.t.）（书面表达），拥抱，怀抱"
+    },
+    "elzup-vocab-n3-0384": {
+      "meaningCn": "恶作剧，恶作剧"
+    },
+    "elzup-vocab-n3-0385": {
+      "meaningCn": "饭前表达谢意"
+    },
+    "elzup-vocab-n3-0386": {
+      "meaningCn": "疼痛、疼痛、酸痛"
+    },
+    "elzup-vocab-n3-0387": {
+      "meaningCn": "来，到达"
+    },
+    "elzup-vocab-n3-0388": {
+      "meaningCn": "市场，公平"
+    },
+    "elzup-vocab-n3-0389": {
+      "meaningCn": "地点，位置"
+    },
+    "elzup-vocab-n3-0390": {
+      "meaningCn": "暂时，暂时"
+    },
+    "elzup-vocab-n3-0391": {
+      "meaningCn": "一下子"
+    },
+    "elzup-vocab-n3-0392": {
+      "meaningCn": "市场，集市"
+    },
+    "elzup-vocab-n3-0393": {
+      "meaningCn": "某个时候，有一天"
+    },
+    "elzup-vocab-n3-0394": {
+      "meaningCn": "家族、宗族"
+    },
+    "elzup-vocab-n3-0395": {
+      "meaningCn": "一个种类，一个品种，一个品种"
+    },
+    "elzup-vocab-n3-0396": {
+      "meaningCn": "一会儿，一瞬间"
+    },
+    "elzup-vocab-n3-0397": {
+      "meaningCn": "终其一生"
+    },
+    "elzup-vocab-n3-0398": {
+      "meaningCn": "更多，还有更多"
+    },
+    "elzup-vocab-n3-0399": {
+      "meaningCn": "一个物体；身体;到底是什么？一般来说"
+    },
+    "elzup-vocab-n3-0400": {
+      "meaningCn": "协议;一致性"
+    },
+    "elzup-vocab-n3-0401": {
+      "meaningCn": "（在）任何时候，总是"
+    },
+    "elzup-vocab-n3-0402": {
+      "meaningCn": "不知不觉中"
+    },
+    "elzup-vocab-n3-0403": {
+      "meaningCn": "一般，平均"
+    },
+    "elzup-vocab-n3-0404": {
+      "meaningCn": "另一方面;同时"
+    },
+    "elzup-vocab-n3-0405": {
+      "meaningCn": "永远，永远，永远"
+    },
+    "elzup-vocab-n3-0406": {
+      "meaningCn": "迁移，移动"
+    },
+    "elzup-vocab-n3-0407": {
+      "meaningCn": "表弟（男）"
+    },
+    "elzup-vocab-n3-0408": {
+      "meaningCn": "表弟（女）"
+    },
+    "elzup-vocab-n3-0409": {
+      "meaningCn": "水稻"
+    },
+    "elzup-vocab-n3-0410": {
+      "meaningCn": "打瞌睡，打瞌睡"
+    },
+    "elzup-vocab-n3-0411": {
+      "meaningCn": "生活"
+    },
+    "elzup-vocab-n3-0412": {
+      "meaningCn": "违反（法律），侵犯"
+    },
+    "elzup-vocab-n3-0413": {
+      "meaningCn": "衣服"
+    },
+    "elzup-vocab-n3-0414": {
+      "meaningCn": "客厅"
+    },
+    "elzup-vocab-n3-0415": {
+      "meaningCn": "不久，很快"
+    },
+    "elzup-vocab-n3-0416": {
+      "meaningCn": "任何时候，很快"
+    },
+    "elzup-vocab-n3-0417": {
+      "meaningCn": "一个人的形象"
+    },
+    "elzup-vocab-n3-0418": {
+      "meaningCn": "不，没有"
+    },
+    "elzup-vocab-n3-0419": {
+      "meaningCn": "从那时起，从今以后"
+    },
+    "elzup-vocab-n3-0420": {
+      "meaningCn": "要求;依赖"
+    },
+    "elzup-vocab-n3-0421": {
+      "meaningCn": "变得紧张、烦躁"
+    },
+    "elzup-vocab-n3-0422": {
+      "meaningCn": "欢迎"
+    },
+    "elzup-vocab-n3-0423": {
+      "meaningCn": "医疗护理、医疗"
+    },
+    "elzup-vocab-n3-0424": {
+      "meaningCn": "岩石"
+    },
+    "elzup-vocab-n3-0425": {
+      "meaningCn": "庆典、节日"
+    },
+    "elzup-vocab-n3-0426": {
+      "meaningCn": "祝贺，庆祝"
+    },
+    "elzup-vocab-n3-0427": {
+      "meaningCn": "可以这么说"
+    },
+    "elzup-vocab-n3-0428": {
+      "meaningCn": "所谓的，所谓的"
+    },
+    "elzup-vocab-n3-0429": {
+      "meaningCn": "墨水"
+    },
+    "elzup-vocab-n3-0430": {
+      "meaningCn": "印刷"
+    },
+    "elzup-vocab-n3-0431": {
+      "meaningCn": "印象"
+    },
+    "elzup-vocab-n3-0432": {
+      "meaningCn": "退休"
+    },
+    "elzup-vocab-n3-0433": {
+      "meaningCn": "面试"
+    },
+    "elzup-vocab-n3-0434": {
+      "meaningCn": "引文，引用"
+    },
+    "elzup-vocab-n3-0435": {
+      "meaningCn": "威士忌酒"
+    },
+    "elzup-vocab-n3-0436": {
+      "meaningCn": "上、外、表面"
+    },
+    "elzup-vocab-n3-0437": {
+      "meaningCn": "鱼"
+    },
+    "elzup-vocab-n3-0438": {
+      "meaningCn": "漱口"
+    },
+    "elzup-vocab-n3-0439": {
+      "meaningCn": "接受、得到、接受"
+    },
+    "elzup-vocab-n3-0440": {
+      "meaningCn": "移动，转移"
+    },
+    "elzup-vocab-n3-0441": {
+      "meaningCn": "兔子，野兔"
+    },
+    "elzup-vocab-n3-0442": {
+      "meaningCn": "牛，牛"
+    },
+    "elzup-vocab-n3-0443": {
+      "meaningCn": "失去、分开"
+    },
+    "elzup-vocab-n3-0444": {
+      "meaningCn": "怀疑、不信任"
+    },
+    "elzup-vocab-n3-0445": {
+      "meaningCn": "宇宙，宇宙，空间"
+    },
+    "elzup-vocab-n3-0446": {
+      "meaningCn": "攻击、报仇"
+    },
+    "elzup-vocab-n3-0447": {
+      "meaningCn": "攻击、射击"
+    },
+    "elzup-vocab-n3-0448": {
+      "meaningCn": "不小心；不经意间"
+    },
+    "elzup-vocab-n3-0449": {
+      "meaningCn": "投射、反射、投射（阴影）"
+    },
+    "elzup-vocab-n3-0450": {
+      "meaningCn": "投诉、上诉、起诉（某人）"
+    },
+    "elzup-vocab-n3-0451": {
+      "meaningCn": "被拍照、被投影"
+    },
+    "elzup-vocab-n3-0452": {
+      "meaningCn": "被反映、出来（照片）"
+    },
+    "elzup-vocab-n3-0453": {
+      "meaningCn": "呻吟，呻吟"
+    },
+    "elzup-vocab-n3-0454": {
+      "meaningCn": "抢劫，剥夺"
+    },
+    "elzup-vocab-n3-0455": {
+      "meaningCn": "马;晋升主教（在日本国际象棋中称为将棋）"
+    },
+    "elzup-vocab-n3-0456": {
+      "meaningCn": "出生，出生地"
+    },
+    "elzup-vocab-n3-0457": {
+      "meaningCn": "是或否、存在或不存在"
+    },
+    "elzup-vocab-n3-0458": {
+      "meaningCn": "梅子，最低（三级排名系统中）"
+    },
+    "elzup-vocab-n3-0459": {
+      "meaningCn": "埋葬，填补，填补（一个座位，一个空缺位置）"
+    },
+    "elzup-vocab-n3-0460": {
+      "meaningCn": "背叛, 背叛"
+    },
+    "elzup-vocab-n3-0461": {
+      "meaningCn": "令人羡慕的，令人羡慕的"
+    },
+    "elzup-vocab-n3-0462": {
+      "meaningCn": "待售"
+    },
+    "elzup-vocab-n3-0463": {
+      "meaningCn": "谣言、流言蜚语"
+    },
+    "elzup-vocab-n3-0464": {
+      "meaningCn": "财富，运气"
+    },
+    "elzup-vocab-n3-0465": {
+      "meaningCn": "操作、驾驶"
+    },
+    "elzup-vocab-n3-0466": {
+      "meaningCn": "（剑、匕首等的）手柄，握把"
+    },
+    "elzup-vocab-n3-0467": {
+      "meaningCn": "永恒、永久、不朽"
+    },
+    "elzup-vocab-n3-0468": {
+      "meaningCn": "永恒、永久、不朽"
+    },
+    "elzup-vocab-n3-0469": {
+      "meaningCn": "影响，作用"
+    },
+    "elzup-vocab-n3-0470": {
+      "meaningCn": "商业、贸易、管理"
+    },
+    "elzup-vocab-n3-0471": {
+      "meaningCn": "卫星"
+    },
+    "elzup-vocab-n3-0472": {
+      "meaningCn": "营养，营养"
+    },
+    "elzup-vocab-n3-0473": {
+      "meaningCn": "微笑（在某人的脸上）"
+    },
+    "elzup-vocab-n3-0474": {
+      "meaningCn": "画，描绘，描述"
+    },
+    "elzup-vocab-n3-0475": {
+      "meaningCn": "饲料、诱饵"
+    },
+    "elzup-vocab-n3-0476": {
+      "meaningCn": "能量；能源"
+    },
+    "elzup-vocab-n3-0477": {
+      "meaningCn": "获得，获得，赢得，学习"
+    },
+    "elzup-vocab-n3-0478": {
+      "meaningCn": "获得，获得，赢得"
+    },
+    "elzup-vocab-n3-0479": {
+      "meaningCn": "圆, 日元"
+    },
+    "elzup-vocab-n3-0480": {
+      "meaningCn": "延期, 休会"
+    },
+    "elzup-vocab-n3-0481": {
+      "meaningCn": "表演、表演"
+    },
+    "elzup-vocab-n3-0482": {
+      "meaningCn": "援助、援助、支持"
+    },
+    "elzup-vocab-n3-0483": {
+      "meaningCn": "引擎"
+    },
+    "elzup-vocab-n3-0484": {
+      "meaningCn": "讲话、讲话"
+    },
+    "elzup-vocab-n3-0485": {
+      "meaningCn": "音乐表演"
+    },
+    "elzup-vocab-n3-0486": {
+      "meaningCn": "年老，年老"
+    },
+    "elzup-vocab-n3-0487": {
+      "meaningCn": "超越，赶上（）"
+    },
+    "elzup-vocab-n3-0488": {
+      "meaningCn": "国王"
+    },
+    "elzup-vocab-n3-0489": {
+      "meaningCn": "追赶、追赶"
+    },
+    "elzup-vocab-n3-0490": {
+      "meaningCn": "援助，援助，帮助"
+    },
+    "elzup-vocab-n3-0491": {
+      "meaningCn": "国王"
+    },
+    "elzup-vocab-n3-0492": {
+      "meaningCn": "王子"
+    },
+    "elzup-vocab-n3-0493": {
+      "meaningCn": "适应、响应、遵守"
+    },
+    "elzup-vocab-n3-0494": {
+      "meaningCn": "穿越"
+    },
+    "elzup-vocab-n3-0495": {
+      "meaningCn": "完成"
+    },
+    "elzup-vocab-n3-0496": {
+      "meaningCn": "大大地（与大変 (たいへん) 相同），极大地"
+    },
+    "elzup-vocab-n3-0497": {
+      "meaningCn": "遮盖、隐藏、隐藏"
+    },
+    "elzup-vocab-n3-0498": {
+      "meaningCn": "房东"
+    },
+    "elzup-vocab-n3-0499": {
+      "meaningCn": "山, 高度"
+    },
+    "elzup-vocab-n3-0500": {
+      "meaningCn": "外海"
+    },
+    "elzup-vocab-n3-0501": {
+      "meaningCn": "内部，内部部分"
+    },
+    "elzup-vocab-n3-0502": {
+      "meaningCn": "呈现、给予、授予"
+    },
+    "elzup-vocab-n3-0503": {
+      "meaningCn": "发生，发生"
+    },
+    "elzup-vocab-n3-0504": {
+      "meaningCn": "停止、抑制、压制"
+    },
+    "elzup-vocab-n3-0505": {
+      "meaningCn": "非常年轻、幼稚"
+    },
+    "elzup-vocab-n3-0506": {
+      "meaningCn": "储存 支付、供应"
+    },
+    "elzup-vocab-n3-0507": {
+      "meaningCn": "储存 支付、供应"
+    },
+    "elzup-vocab-n3-0508": {
+      "meaningCn": "统治，管理；制服"
+    },
+    "elzup-vocab-n3-0509": {
+      "meaningCn": "弓"
+    },
+    "elzup-vocab-n3-0510": {
+      "meaningCn": "穿着得体、注重时尚"
+    },
+    "elzup-vocab-n3-0511": {
+      "meaningCn": "喋喋不休，说话"
+    },
+    "elzup-vocab-n3-0512": {
+      "meaningCn": "污染，污染"
+    },
+    "elzup-vocab-n3-0513": {
+      "meaningCn": "也许"
+    },
+    "elzup-vocab-n3-0514": {
+      "meaningCn": "害怕，害怕"
+    },
+    "elzup-vocab-n3-0515": {
+      "meaningCn": "可怕的，可怕的"
+    },
+    "elzup-vocab-n3-0516": {
+      "meaningCn": "被教导"
+    },
+    "elzup-vocab-n3-0517": {
+      "meaningCn": "相互的，相互的，彼此的"
+    },
+    "elzup-vocab-n3-0518": {
+      "meaningCn": "冷静、温柔、安静"
+    },
+    "elzup-vocab-n3-0519": {
+      "meaningCn": "男人"
+    },
+    "elzup-vocab-n3-0520": {
+      "meaningCn": "听话的、温顺的、安静的"
+    },
+    "elzup-vocab-n3-0521": {
+      "meaningCn": "落后, 落后于"
+    },
+    "elzup-vocab-n3-0522": {
+      "meaningCn": "食人魔、恶魔、“它”（例如，在捉人游戏中）"
+    },
+    "elzup-vocab-n3-0523": {
+      "meaningCn": "带子、腰带"
+    },
+    "elzup-vocab-n3-0524": {
+      "meaningCn": "午餐，中午"
+    },
+    "elzup-vocab-n3-0525": {
+      "meaningCn": "办公室"
+    },
+    "elzup-vocab-n3-0526": {
+      "meaningCn": "被淹没，沉迷于"
+    },
+    "elzup-vocab-n3-0527": {
+      "meaningCn": "你（唱），存在（高层人物）"
+    },
+    "elzup-vocab-n3-0528": {
+      "meaningCn": "恭喜恭喜，吉祥如意！"
+    },
+    "elzup-vocab-n3-0529": {
+      "meaningCn": "遇见~，看见~"
+    },
+    "elzup-vocab-n3-0530": {
+      "meaningCn": "想到，偶然发现"
+    },
+    "elzup-vocab-n3-0531": {
+      "meaningCn": "回忆，回忆，回忆"
+    },
+    "elzup-vocab-n3-0532": {
+      "meaningCn": "主要地，主要地"
+    },
+    "elzup-vocab-n3-0533": {
+      "meaningCn": "无意识的，自发的"
+    },
+    "elzup-vocab-n3-0534": {
+      "meaningCn": "游泳"
+    },
+    "elzup-vocab-n3-0535": {
+      "meaningCn": "大约，大致，大约"
+    },
+    "elzup-vocab-n3-0536": {
+      "meaningCn": "发挥、引起、锻炼"
+    },
+    "elzup-vocab-n3-0537": {
+      "meaningCn": "降低，放下"
+    },
+    "elzup-vocab-n3-0538": {
+      "meaningCn": "取下、发射、下降"
+    },
+    "elzup-vocab-n3-0539": {
+      "meaningCn": "批发销售，磨碎的（蔬菜）"
+    },
+    "elzup-vocab-n3-0540": {
+      "meaningCn": "声音、音符"
+    },
+    "elzup-vocab-n3-0541": {
+      "meaningCn": "恩惠、义务、恩情"
+    },
+    "elzup-vocab-n3-0542": {
+      "meaningCn": "温暖"
+    },
+    "elzup-vocab-n3-0543": {
+      "meaningCn": "温度"
+    },
+    "elzup-vocab-n3-0544": {
+      "meaningCn": "还过得去"
+    },
+    "elzup-vocab-n3-0545": {
+      "meaningCn": "蚊子"
+    },
+    "elzup-vocab-n3-0546": {
+      "meaningCn": "部门、部门"
+    },
+    "elzup-vocab-n3-0547": {
+      "meaningCn": "车"
+    },
+    "elzup-vocab-n3-0548": {
+      "meaningCn": "卡、凝乳"
+    },
+    "elzup-vocab-n3-0549": {
+      "meaningCn": "贝壳、贝类"
+    },
+    "elzup-vocab-n3-0550": {
+      "meaningCn": "伤害，损害"
+    },
+    "elzup-vocab-n3-0551": {
+      "meaningCn": "会员，会员"
+    },
+    "elzup-vocab-n3-0552": {
+      "meaningCn": "图片、绘画"
+    },
+    "elzup-vocab-n3-0553": {
+      "meaningCn": "国外，国外，海外"
+    },
+    "elzup-vocab-n3-0554": {
+      "meaningCn": "账户、财务"
+    },
+    "elzup-vocab-n3-0555": {
+      "meaningCn": "解决办法, 解决方案, 决议"
+    },
+    "elzup-vocab-n3-0556": {
+      "meaningCn": "会议、集会"
+    },
+    "elzup-vocab-n3-0557": {
+      "meaningCn": "外交"
+    },
+    "elzup-vocab-n3-0558": {
+      "meaningCn": "开始，开始，开始"
+    },
+    "elzup-vocab-n3-0559": {
+      "meaningCn": "解释、诠释"
+    },
+    "elzup-vocab-n3-0560": {
+      "meaningCn": "郊游，外出"
+    },
+    "elzup-vocab-n3-0561": {
+      "meaningCn": "改善，改善"
+    },
+    "elzup-vocab-n3-0562": {
+      "meaningCn": "愉快的, 令人愉快的"
+    },
+    "elzup-vocab-n3-0563": {
+      "meaningCn": "(从疾病中)康复、康复、恢复"
+    },
+    "elzup-vocab-n3-0564": {
+      "meaningCn": "保留；拥有（宠物）；筹集；喂养"
+    },
+    "elzup-vocab-n3-0565": {
+      "meaningCn": "寄回"
+    },
+    "elzup-vocab-n3-0566": {
+      "meaningCn": "交换，互换，替代"
+    },
+    "elzup-vocab-n3-0567": {
+      "meaningCn": "交换，互换，替代"
+    },
+    "elzup-vocab-n3-0568": {
+      "meaningCn": "交换，互换，替代"
+    },
+    "elzup-vocab-n3-0569": {
+      "meaningCn": "扭曲，扭曲，弯曲"
+    },
+    "elzup-vocab-n3-0570": {
+      "meaningCn": "香气，香气"
+    },
+    "elzup-vocab-n3-0571": {
+      "meaningCn": "画家"
+    },
+    "elzup-vocab-n3-0572": {
+      "meaningCn": "抱在或抱在怀里或抱在怀里"
+    },
+    "elzup-vocab-n3-0573": {
+      "meaningCn": "价格、价值"
+    },
+    "elzup-vocab-n3-0574": {
+      "meaningCn": "化学"
+    },
+    "elzup-vocab-n3-0575": {
+      "meaningCn": "使发光、使闪闪发光、使闪闪发光"
+    },
+    "elzup-vocab-n3-0576": {
+      "meaningCn": "负责人"
+    },
+    "elzup-vocab-n3-0577": {
+      "meaningCn": "遭受"
+    },
+    "elzup-vocab-n3-0578": {
+      "meaningCn": "限制，限制，约束"
+    },
+    "elzup-vocab-n3-0579": {
+      "meaningCn": "刮伤"
+    },
+    "elzup-vocab-n3-0580": {
+      "meaningCn": "画，描绘，描述"
+    },
+    "elzup-vocab-n3-0581": {
+      "meaningCn": "嗅、闻"
+    },
+    "elzup-vocab-n3-0582": {
+      "meaningCn": "家具"
+    },
+    "elzup-vocab-n3-0583": {
+      "meaningCn": "学习、知识"
+    },
+    "elzup-vocab-n3-0584": {
+      "meaningCn": "数量;框架"
+    },
+    "elzup-vocab-n3-0585": {
+      "meaningCn": "决心、辞职、准备"
+    },
+    "elzup-vocab-n3-0586": {
+      "meaningCn": "确定性、可靠性、健全性"
+    },
+    "elzup-vocab-n3-0587": {
+      "meaningCn": "学者"
+    },
+    "elzup-vocab-n3-0588": {
+      "meaningCn": "学习，学习"
+    },
+    "elzup-vocab-n3-0589": {
+      "meaningCn": "隐藏，隐藏"
+    },
+    "elzup-vocab-n3-0590": {
+      "meaningCn": "放大，放大"
+    },
+    "elzup-vocab-n3-0591": {
+      "meaningCn": "肯定，确认"
+    },
+    "elzup-vocab-n3-0592": {
+      "meaningCn": "奖学金、学习、学习"
+    },
+    "elzup-vocab-n3-0593": {
+      "meaningCn": "隐藏，隐藏"
+    },
+    "elzup-vocab-n3-0594": {
+      "meaningCn": "阴影，阴影，另一面"
+    },
+    "elzup-vocab-n3-0595": {
+      "meaningCn": "阴影，阴影，另一面"
+    },
+    "elzup-vocab-n3-0596": {
+      "meaningCn": "缺乏"
+    },
+    "elzup-vocab-n3-0597": {
+      "meaningCn": "调整;加法和减法"
+    },
+    "elzup-vocab-n3-0598": {
+      "meaningCn": "过去的"
+    },
+    "elzup-vocab-n3-0599": {
+      "meaningCn": "篮子、笼子"
+    },
+    "elzup-vocab-n3-0600": {
+      "meaningCn": "包围，包围"
+    },
+    "elzup-vocab-n3-0601": {
+      "meaningCn": "大火，火灾"
+    },
+    "elzup-vocab-n3-0602": {
+      "meaningCn": "堆积起来, 叠放在一起"
+    },
+    "elzup-vocab-n3-0603": {
+      "meaningCn": "堆积，把某物放在另一物上，堆起来"
+    },
+    "elzup-vocab-n3-0604": {
+      "meaningCn": "装饰"
+    },
+    "elzup-vocab-n3-0605": {
+      "meaningCn": "贷款，借贷"
+    },
+    "elzup-vocab-n3-0606": {
+      "meaningCn": "糖果，甜的"
+    },
+    "elzup-vocab-n3-0607": {
+      "meaningCn": "家庭事务；家务（同家の仕事（いえのしごと））"
+    },
+    "elzup-vocab-n3-0608": {
+      "meaningCn": "聪明的，聪明的，聪明的"
+    },
+    "elzup-vocab-n3-0609": {
+      "meaningCn": "歌手"
+    },
+    "elzup-vocab-n3-0610": {
+      "meaningCn": "数目、图形、金额"
+    },
+    "elzup-vocab-n3-0611": {
+      "meaningCn": "赚取收入，劳动"
+    },
+    "elzup-vocab-n3-0612": {
+      "meaningCn": "数数"
+    },
+    "elzup-vocab-n3-0613": {
+      "meaningCn": "模具、模型、风格"
+    },
+    "elzup-vocab-n3-0614": {
+      "meaningCn": "肩膀"
+    },
+    "elzup-vocab-n3-0615": {
+      "meaningCn": "硬的，坚定的，坚固的"
+    },
+    "elzup-vocab-n3-0616": {
+      "meaningCn": "硬的，坚定的，坚固的"
+    },
+    "elzup-vocab-n3-0617": {
+      "meaningCn": "人"
+    },
+    "elzup-vocab-n3-0618": {
+      "meaningCn": "整理、解决"
+    },
+    "elzup-vocab-n3-0619": {
+      "meaningCn": "剑，军刀"
+    },
+    "elzup-vocab-n3-0620": {
+      "meaningCn": "说话、讲述、背诵"
+    },
+    "elzup-vocab-n3-0621": {
+      "meaningCn": "胜利，胜利"
+    },
+    "elzup-vocab-n3-0622": {
+      "meaningCn": "价值，价值，优点"
+    },
+    "elzup-vocab-n3-0623": {
+      "meaningCn": "感到失望、沮丧、灰心"
+    },
+    "elzup-vocab-n3-0624": {
+      "meaningCn": "活力;活泼；活力;活力"
+    },
+    "elzup-vocab-n3-0625": {
+      "meaningCn": "乐器"
+    },
+    "elzup-vocab-n3-0626": {
+      "meaningCn": "学期（学校）"
+    },
+    "elzup-vocab-n3-0627": {
+      "meaningCn": "行动，活动"
+    },
+    "elzup-vocab-n3-0628": {
+      "meaningCn": "活动"
+    },
+    "elzup-vocab-n3-0629": {
+      "meaningCn": "共轭；实际使用"
+    },
+    "elzup-vocab-n3-0630": {
+      "meaningCn": "假设，假设，假说"
+    },
+    "elzup-vocab-n3-0631": {
+      "meaningCn": "过程"
+    },
+    "elzup-vocab-n3-0632": {
+      "meaningCn": "课程，课程"
+    },
+    "elzup-vocab-n3-0633": {
+      "meaningCn": "悲伤、哀悼、遗憾"
+    },
+    "elzup-vocab-n3-0634": {
+      "meaningCn": "（不）总是，（不）必然"
+    },
+    "elzup-vocab-n3-0635": {
+      "meaningCn": "相当地，相当地，相当地"
+    },
+    "elzup-vocab-n3-0636": {
+      "meaningCn": "金、金属；钱"
+    },
+    "elzup-vocab-n3-0637": {
+      "meaningCn": "钟声，钟声"
+    },
+    "elzup-vocab-n3-0638": {
+      "meaningCn": "可能的，可行的，可行的"
+    },
+    "elzup-vocab-n3-0639": {
+      "meaningCn": "库存; （树桩）"
+    },
+    "elzup-vocab-n3-0640": {
+      "meaningCn": "穿；被覆盖"
+    },
+    "elzup-vocab-n3-0641": {
+      "meaningCn": "耐心、耐力、毅力"
+    },
+    "elzup-vocab-n3-0642": {
+      "meaningCn": "第一卷；卓越的品质；政府的"
+    },
+    "elzup-vocab-n3-0643": {
+      "meaningCn": "上帝"
+    },
+    "elzup-vocab-n3-0644": {
+      "meaningCn": "雷"
+    },
+    "elzup-vocab-n3-0645": {
+      "meaningCn": "头发（头）"
+    },
+    "elzup-vocab-n3-0646": {
+      "meaningCn": "（学校）学科、课程、课程"
+    },
+    "elzup-vocab-n3-0647": {
+      "meaningCn": "也许，也许"
+    },
+    "elzup-vocab-n3-0648": {
+      "meaningCn": "痒，痒"
+    },
+    "elzup-vocab-n3-0649": {
+      "meaningCn": "歌曲、民谣"
+    },
+    "elzup-vocab-n3-0650": {
+      "meaningCn": "空的"
+    },
+    "elzup-vocab-n3-0651": {
+      "meaningCn": "外壳、外壳、外壳"
+    },
+    "elzup-vocab-n3-0652": {
+      "meaningCn": "图案;建造;特点"
+    },
+    "elzup-vocab-n3-0653": {
+      "meaningCn": "剪（头发）、割（草）、收获"
+    },
+    "elzup-vocab-n3-0654": {
+      "meaningCn": "河流、小溪"
+    },
+    "elzup-vocab-n3-0655": {
+      "meaningCn": "皮，兽皮，皮革"
+    },
+    "elzup-vocab-n3-0656": {
+      "meaningCn": "皮革"
+    },
+    "elzup-vocab-n3-0657": {
+      "meaningCn": "可怜的，可怜的，可悲的"
+    },
+    "elzup-vocab-n3-0658": {
+      "meaningCn": "可爱、甜蜜"
+    },
+    "elzup-vocab-n3-0659": {
+      "meaningCn": "晾干"
+    },
+    "elzup-vocab-n3-0660": {
+      "meaningCn": "口渴"
+    },
+    "elzup-vocab-n3-0661": {
+      "meaningCn": "取代, 减轻, 取代"
+    },
+    "elzup-vocab-n3-0662": {
+      "meaningCn": "罐头、罐头"
+    },
+    "elzup-vocab-n3-0663": {
+      "meaningCn": "知觉、直觉、第六感"
+    },
+    "elzup-vocab-n3-0664": {
+      "meaningCn": "思考、想法、想法"
+    },
+    "elzup-vocab-n3-0665": {
+      "meaningCn": "感觉，感觉"
+    },
+    "elzup-vocab-n3-0666": {
+      "meaningCn": "空间；间隔"
+    },
+    "elzup-vocab-n3-0667": {
+      "meaningCn": "观众，观众"
+    },
+    "elzup-vocab-n3-0668": {
+      "meaningCn": "环境，情况"
+    },
+    "elzup-vocab-n3-0669": {
+      "meaningCn": "欢迎、接待"
+    },
+    "elzup-vocab-n3-0670": {
+      "meaningCn": "观光"
+    },
+    "elzup-vocab-n3-0671": {
+      "meaningCn": "观察、调查"
+    },
+    "elzup-vocab-n3-0672": {
+      "meaningCn": "感觉、感觉、印象"
+    },
+    "elzup-vocab-n3-0673": {
+      "meaningCn": "谢谢，感激"
+    },
+    "elzup-vocab-n3-0674": {
+      "meaningCn": "病人"
+    },
+    "elzup-vocab-n3-0675": {
+      "meaningCn": "计算，计算，考虑"
+    },
+    "elzup-vocab-n3-0676": {
+      "meaningCn": "情绪、感觉、情感"
+    },
+    "elzup-vocab-n3-0677": {
+      "meaningCn": "去感觉，去感觉"
+    },
+    "elzup-vocab-n3-0678": {
+      "meaningCn": "钦佩"
+    },
+    "elzup-vocab-n3-0679": {
+      "meaningCn": "关心、兴趣"
+    },
+    "elzup-vocab-n3-0680": {
+      "meaningCn": "关心、相关"
+    },
+    "elzup-vocab-n3-0681": {
+      "meaningCn": "完成，完成；完美"
+    },
+    "elzup-vocab-n3-0682": {
+      "meaningCn": "完美、完整"
+    },
+    "elzup-vocab-n3-0683": {
+      "meaningCn": "干燥的, 干旱的, 脱水的"
+    },
+    "elzup-vocab-n3-0684": {
+      "meaningCn": "（某人的）印象、（某人的）想法"
+    },
+    "elzup-vocab-n3-0685": {
+      "meaningCn": "被深深地感动、激动"
+    },
+    "elzup-vocab-n3-0686": {
+      "meaningCn": "监督、控制、（电影）导演"
+    },
+    "elzup-vocab-n3-0687": {
+      "meaningCn": "控制、管理（例如企业的）"
+    },
+    "elzup-vocab-n3-0688": {
+      "meaningCn": "完成、结论"
+    },
+    "elzup-vocab-n3-0689": {
+      "meaningCn": "关系、联系、相关性"
+    },
+    "elzup-vocab-n3-0690": {
+      "meaningCn": "国会、议会或国会议员"
+    },
+    "elzup-vocab-n3-0691": {
+      "meaningCn": "记忆，回忆，回忆"
+    },
+    "elzup-vocab-n3-0692": {
+      "meaningCn": "温度（天气 - 不用于事物）"
+    },
+    "elzup-vocab-n3-0693": {
+      "meaningCn": "机器，机器"
+    },
+    "elzup-vocab-n3-0694": {
+      "meaningCn": "乐器"
+    },
+    "elzup-vocab-n3-0695": {
+      "meaningCn": "国会、国会、议会"
+    },
+    "elzup-vocab-n3-0696": {
+      "meaningCn": "时期、期限"
+    },
+    "elzup-vocab-n3-0697": {
+      "meaningCn": "引擎;机构、组织"
+    },
+    "elzup-vocab-n3-0698": {
+      "meaningCn": "工业、商业、事业"
+    },
+    "elzup-vocab-n3-0699": {
+      "meaningCn": "要有效率"
+    },
+    "elzup-vocab-n3-0700": {
+      "meaningCn": "期限、期限"
+    },
+    "elzup-vocab-n3-0701": {
+      "meaningCn": "幽默、脾气、心情"
+    },
+    "elzup-vocab-n3-0702": {
+      "meaningCn": "气候"
+    },
+    "elzup-vocab-n3-0703": {
+      "meaningCn": "银行、海岸、海岸"
+    },
+    "elzup-vocab-n3-0704": {
+      "meaningCn": "织物;面团"
+    },
+    "elzup-vocab-n3-0705": {
+      "meaningCn": "文章、新闻报道"
+    },
+    "elzup-vocab-n3-0706": {
+      "meaningCn": "工程师、技术员"
+    },
+    "elzup-vocab-n3-0707": {
+      "meaningCn": "记者"
+    },
+    "elzup-vocab-n3-0708": {
+      "meaningCn": "伤口，受伤，伤害"
+    },
+    "elzup-vocab-n3-0709": {
+      "meaningCn": "期待、期盼、希望"
+    },
+    "elzup-vocab-n3-0710": {
+      "meaningCn": "蒸气、气体"
+    },
+    "elzup-vocab-n3-0711": {
+      "meaningCn": "回国"
+    },
+    "elzup-vocab-n3-0712": {
+      "meaningCn": "珍贵的，有价值的"
+    },
+    "elzup-vocab-n3-0713": {
+      "meaningCn": "主席"
+    },
+    "elzup-vocab-n3-0714": {
+      "meaningCn": "准确地，准确地"
+    },
+    "elzup-vocab-n3-0715": {
+      "meaningCn": "紧密的、紧密的、强烈的"
+    },
+    "elzup-vocab-n3-0716": {
+      "meaningCn": "注意到、认识、意识到"
+    },
+    "elzup-vocab-n3-0717": {
+      "meaningCn": "喜欢、取悦"
+    },
+    "elzup-vocab-n3-0718": {
+      "meaningCn": "录入、填写表格"
+    },
+    "elzup-vocab-n3-0719": {
+      "meaningCn": "纪念、记忆"
+    },
+    "elzup-vocab-n3-0720": {
+      "meaningCn": "职能、师资"
+    },
+    "elzup-vocab-n3-0721": {
+      "meaningCn": "可怜，可惜"
+    },
+    "elzup-vocab-n3-0722": {
+      "meaningCn": "贡献，捐赠"
+    },
+    "elzup-vocab-n3-0723": {
+      "meaningCn": "希望、愿望、愿望"
+    },
+    "elzup-vocab-n3-0724": {
+      "meaningCn": "基本的，基础的"
+    },
+    "elzup-vocab-n3-0725": {
+      "meaningCn": "解决，结论，规则"
+    },
+    "elzup-vocab-n3-0726": {
+      "meaningCn": "好像，看起来，看起来"
+    },
+    "elzup-vocab-n3-0727": {
+      "meaningCn": "奇怪的，古怪的，好奇的"
+    },
+    "elzup-vocab-n3-0728": {
+      "meaningCn": "义务、义务、责任"
+    },
+    "elzup-vocab-n3-0729": {
+      "meaningCn": "问题，问题，疑问"
+    },
+    "elzup-vocab-n3-0730": {
+      "meaningCn": "反向，相反"
+    },
+    "elzup-vocab-n3-0731": {
+      "meaningCn": "队长"
+    },
+    "elzup-vocab-n3-0732": {
+      "meaningCn": "营"
+    },
+    "elzup-vocab-n3-0733": {
+      "meaningCn": "前任-"
+    },
+    "elzup-vocab-n3-0734": {
+      "meaningCn": "班级、年级、等级"
+    },
+    "elzup-vocab-n3-0735": {
+      "meaningCn": "地球仪, 球体, 球体"
+    },
+    "elzup-vocab-n3-0736": {
+      "meaningCn": "假期, 假期, 休息日"
+    },
+    "elzup-vocab-n3-0737": {
+      "meaningCn": "休息、休息、中场休息"
+    },
+    "elzup-vocab-n3-0738": {
+      "meaningCn": "突然的、急速的、激进的"
+    },
+    "elzup-vocab-n3-0739": {
+      "meaningCn": "吸收、吸力"
+    },
+    "elzup-vocab-n3-0740": {
+      "meaningCn": "救济, 援助, 营救"
+    },
+    "elzup-vocab-n3-0741": {
+      "meaningCn": "快速（例如，进展）"
+    },
+    "elzup-vocab-n3-0742": {
+      "meaningCn": "休息、缓解、放松"
+    },
+    "elzup-vocab-n3-0743": {
+      "meaningCn": "突然"
+    },
+    "elzup-vocab-n3-0744": {
+      "meaningCn": "工资，工资"
+    },
+    "elzup-vocab-n3-0745": {
+      "meaningCn": "熟练的，得心应手的"
+    },
+    "elzup-vocab-n3-0746": {
+      "meaningCn": "教科书"
+    },
+    "elzup-vocab-n3-0747": {
+      "meaningCn": "比赛，比赛，竞赛"
+    },
+    "elzup-vocab-n3-0748": {
+      "meaningCn": "礼仪"
+    },
+    "elzup-vocab-n3-0749": {
+      "meaningCn": "供给，供应"
+    },
+    "elzup-vocab-n3-0750": {
+      "meaningCn": "教学、指导；教授"
+    },
+    "elzup-vocab-n3-0751": {
+      "meaningCn": "强调, 重音, 强调点"
+    },
+    "elzup-vocab-n3-0752": {
+      "meaningCn": "共同性、共同性"
+    },
+    "elzup-vocab-n3-0753": {
+      "meaningCn": "合作、联合、合作"
+    },
+    "elzup-vocab-n3-0754": {
+      "meaningCn": "恐惧，恐怖"
+    },
+    "elzup-vocab-n3-0755": {
+      "meaningCn": "合作，协作"
+    },
+    "elzup-vocab-n3-0756": {
+      "meaningCn": "强大的，强大的"
+    },
+    "elzup-vocab-n3-0757": {
+      "meaningCn": "许可、批准"
+    },
+    "elzup-vocab-n3-0758": {
+      "meaningCn": "办公室、局、站（电视台、电台）"
+    },
+    "elzup-vocab-n3-0759": {
+      "meaningCn": "巨大的，巨大的，巨大的"
+    },
+    "elzup-vocab-n3-0760": {
+      "meaningCn": "讨厌、不喜欢、厌恶"
+    },
+    "elzup-vocab-n3-0761": {
+      "meaningCn": "雾，薄雾"
+    },
+    "elzup-vocab-n3-0762": {
+      "meaningCn": "布、片、剪"
+    },
+    "elzup-vocab-n3-0763": {
+      "meaningCn": "切得好，锋利；打破（关闭）"
+    },
+    "elzup-vocab-n3-0764": {
+      "meaningCn": "记录、会议记录、文件"
+    },
+    "elzup-vocab-n3-0765": {
+      "meaningCn": "争论、讨论、争论"
+    },
+    "elzup-vocab-n3-0766": {
+      "meaningCn": "金、金属；钱"
+    },
+    "elzup-vocab-n3-0767": {
+      "meaningCn": "银"
+    },
+    "elzup-vocab-n3-0768": {
+      "meaningCn": "禁止抽烟"
+    },
+    "elzup-vocab-n3-0769": {
+      "meaningCn": "金额"
+    },
+    "elzup-vocab-n3-0770": {
+      "meaningCn": "保险柜, 保险库"
+    },
+    "elzup-vocab-n3-0771": {
+      "meaningCn": "禁止，禁止"
+    },
+    "elzup-vocab-n3-0772": {
+      "meaningCn": "钱，现金"
+    },
+    "elzup-vocab-n3-0773": {
+      "meaningCn": "金属"
+    },
+    "elzup-vocab-n3-0774": {
+      "meaningCn": "现代"
+    },
+    "elzup-vocab-n3-0775": {
+      "meaningCn": "紧张、精神紧张、精神紧张"
+    },
+    "elzup-vocab-n3-0776": {
+      "meaningCn": "肌肉、筋腱"
+    },
+    "elzup-vocab-n3-0777": {
+      "meaningCn": "金融、货币和银行业务"
+    },
+    "elzup-vocab-n3-0778": {
+      "meaningCn": "短语"
+    },
+    "elzup-vocab-n3-0779": {
+      "meaningCn": "（男）（俗）吃"
+    },
+    "elzup-vocab-n3-0780": {
+      "meaningCn": "偶然；碰巧"
+    },
+    "elzup-vocab-n3-0781": {
+      "meaningCn": "臭的, 臭的, 难闻的"
+    },
+    "elzup-vocab-n3-0782": {
+      "meaningCn": "链"
+    },
+    "elzup-vocab-n3-0783": {
+      "meaningCn": "腐烂，变坏"
+    },
+    "elzup-vocab-n3-0784": {
+      "meaningCn": "习惯（通常是坏习惯），特性"
+    },
+    "elzup-vocab-n3-0785": {
+      "meaningCn": "管子，管子"
+    },
+    "elzup-vocab-n3-0786": {
+      "meaningCn": "具体的、有形的、物质的"
+    },
+    "elzup-vocab-n3-0787": {
+      "meaningCn": "下车（从东京出发）"
+    },
+    "elzup-vocab-n3-0788": {
+      "meaningCn": "下来，下降"
+    },
+    "elzup-vocab-n3-0789": {
+      "meaningCn": "痛苦，痛苦"
+    },
+    "elzup-vocab-n3-0790": {
+      "meaningCn": "熟睡，熟睡"
+    },
+    "elzup-vocab-n3-0791": {
+      "meaningCn": "区分、区别、分类"
+    },
+    "elzup-vocab-n3-0792": {
+      "meaningCn": "班级、团队、组"
+    },
+    "elzup-vocab-n3-0793": {
+      "meaningCn": "协会、联盟"
+    },
+    "elzup-vocab-n3-0794": {
+      "meaningCn": "放在一起"
+    },
+    "elzup-vocab-n3-0795": {
+      "meaningCn": "抽、舀、抽"
+    },
+    "elzup-vocab-n3-0796": {
+      "meaningCn": "侍酒"
+    },
+    "elzup-vocab-n3-0797": {
+      "meaningCn": "令人遗憾的, 令人羞愧的, 令人烦恼的"
+    },
+    "elzup-vocab-n3-0798": {
+      "meaningCn": "等级、等级、关于"
+    },
+    "elzup-vocab-n3-0799": {
+      "meaningCn": "活的;生活方式"
+    },
+    "elzup-vocab-n3-0800": {
+      "meaningCn": "经典"
+    },
+    "elzup-vocab-n3-0801": {
+      "meaningCn": "去生活、去相处"
+    },
+    "elzup-vocab-n3-0802": {
+      "meaningCn": "玻璃;草"
+    },
+    "elzup-vocab-n3-0803": {
+      "meaningCn": "腺体，大，（电气）接地"
+    },
+    "elzup-vocab-n3-0804": {
+      "meaningCn": "奶油"
+    },
+    "elzup-vocab-n3-0805": {
+      "meaningCn": "重复，重新做某事"
+    },
+    "elzup-vocab-n3-0806": {
+      "meaningCn": "圣诞节"
+    },
+    "elzup-vocab-n3-0807": {
+      "meaningCn": "发疯，失去秩序"
+    },
+    "elzup-vocab-n3-0808": {
+      "meaningCn": "团体"
+    },
+    "elzup-vocab-n3-0809": {
+      "meaningCn": "艰难的;体力消耗大"
+    },
+    "elzup-vocab-n3-0810": {
+      "meaningCn": "受苦、呻吟、担心"
+    },
+    "elzup-vocab-n3-0811": {
+      "meaningCn": "年底，"
+    },
+    "elzup-vocab-n3-0812": {
+      "meaningCn": "困难；痛苦"
+    },
+    "elzup-vocab-n3-0813": {
+      "meaningCn": "追加、总结、相加（上）"
+    },
+    "elzup-vocab-n3-0814": {
+      "meaningCn": "将某物含在嘴里"
+    },
+    "elzup-vocab-n3-0815": {
+      "meaningCn": "详细的;满的;准确的"
+    },
+    "elzup-vocab-n3-0816": {
+      "meaningCn": "加入，加入"
+    },
+    "elzup-vocab-n3-0817": {
+      "meaningCn": "以日语为母语的汉字读法"
+    },
+    "elzup-vocab-n3-0818": {
+      "meaningCn": "军队、部队、军队"
+    },
+    "elzup-vocab-n3-0819": {
+      "meaningCn": "国家、地区"
+    },
+    "elzup-vocab-n3-0820": {
+      "meaningCn": "军队，部队"
+    },
+    "elzup-vocab-n3-0821": {
+      "meaningCn": "练习、训练"
+    },
+    "elzup-vocab-n3-0822": {
+      "meaningCn": "在下，在下，在下"
+    },
+    "elzup-vocab-n3-0823": {
+      "meaningCn": "计划;总和，总计"
+    },
+    "elzup-vocab-n3-0824": {
+      "meaningCn": "尊重、荣誉"
+    },
+    "elzup-vocab-n3-0825": {
+      "meaningCn": "管理、行政"
+    },
+    "elzup-vocab-n3-0826": {
+      "meaningCn": "条件、状态、业务（条件）"
+    },
+    "elzup-vocab-n3-0827": {
+      "meaningCn": "倾向、趋势、倾向"
+    },
+    "elzup-vocab-n3-0828": {
+      "meaningCn": "警告"
+    },
+    "elzup-vocab-n3-0829": {
+      "meaningCn": "计算，算计"
+    },
+    "elzup-vocab-n3-0830": {
+      "meaningCn": "通知、公告"
+    },
+    "elzup-vocab-n3-0831": {
+      "meaningCn": "刑事案件、（警察）侦探"
+    },
+    "elzup-vocab-n3-0832": {
+      "meaningCn": "（精）艺术，艺术"
+    },
+    "elzup-vocab-n3-0833": {
+      "meaningCn": "合同，契约，协定"
+    },
+    "elzup-vocab-n3-0834": {
+      "meaningCn": "顺便，经过"
+    },
+    "elzup-vocab-n3-0835": {
+      "meaningCn": "案件"
+    },
+    "elzup-vocab-n3-0836": {
+      "meaningCn": "游戏"
+    },
+    "elzup-vocab-n3-0837": {
+      "meaningCn": "戏剧，戏剧"
+    },
+    "elzup-vocab-n3-0838": {
+      "meaningCn": "剧院，剧场"
+    },
+    "elzup-vocab-n3-0839": {
+      "meaningCn": "化妆（化妆品）"
+    },
+    "elzup-vocab-n3-0840": {
+      "meaningCn": "吝啬，守财奴"
+    },
+    "elzup-vocab-n3-0841": {
+      "meaningCn": "血"
+    },
+    "elzup-vocab-n3-0842": {
+      "meaningCn": "结果，后果"
+    },
+    "elzup-vocab-n3-0843": {
+      "meaningCn": "缺陷、错误、不足"
+    },
+    "elzup-vocab-n3-0844": {
+      "meaningCn": "毕竟，最终"
+    },
+    "elzup-vocab-n3-0845": {
+      "meaningCn": "决心，决心"
+    },
+    "elzup-vocab-n3-0846": {
+      "meaningCn": "缺席，缺席"
+    },
+    "elzup-vocab-n3-0847": {
+      "meaningCn": "决定，决心"
+    },
+    "elzup-vocab-n3-0848": {
+      "meaningCn": "缺点、缺陷、弱点"
+    },
+    "elzup-vocab-n3-0849": {
+      "meaningCn": "结论"
+    },
+    "elzup-vocab-n3-0850": {
+      "meaningCn": "烟，烟雾"
+    },
+    "elzup-vocab-n3-0851": {
+      "meaningCn": "踢"
+    },
+    "elzup-vocab-n3-0852": {
+      "meaningCn": "门票、证书"
+    },
+    "elzup-vocab-n3-0853": {
+      "meaningCn": "州"
+    },
+    "elzup-vocab-n3-0854": {
+      "meaningCn": "意见、观点"
+    },
+    "elzup-vocab-n3-0855": {
+      "meaningCn": "极限，界限"
+    },
+    "elzup-vocab-n3-0856": {
+      "meaningCn": "现金"
+    },
+    "elzup-vocab-n3-0857": {
+      "meaningCn": "语言"
+    },
+    "elzup-vocab-n3-0858": {
+      "meaningCn": "健康）"
+    },
+    "elzup-vocab-n3-0859": {
+      "meaningCn": "检查，检查"
+    },
+    "elzup-vocab-n3-0860": {
+      "meaningCn": "现在（与今（いま）相同），现在，现在"
+    },
+    "elzup-vocab-n3-0861": {
+      "meaningCn": "现实"
+    },
+    "elzup-vocab-n3-0862": {
+      "meaningCn": "现象"
+    },
+    "elzup-vocab-n3-0863": {
+      "meaningCn": "现状，现状"
+    },
+    "elzup-vocab-n3-0864": {
+      "meaningCn": "建筑、地基"
+    },
+    "elzup-vocab-n3-0865": {
+      "meaningCn": "今天，现在"
+    },
+    "elzup-vocab-n3-0866": {
+      "meaningCn": "建筑、建筑"
+    },
+    "elzup-vocab-n3-0867": {
+      "meaningCn": "估计、猜测"
+    },
+    "elzup-vocab-n3-0868": {
+      "meaningCn": "考虑、审查、调查"
+    },
+    "elzup-vocab-n3-0869": {
+      "meaningCn": "实际地点、场景、场地"
+    },
+    "elzup-vocab-n3-0870": {
+      "meaningCn": "宪法"
+    },
+    "elzup-vocab-n3-0871": {
+      "meaningCn": "权利，特权"
+    },
+    "elzup-vocab-n3-0872": {
+      "meaningCn": "之后，从那时起"
+    },
+    "elzup-vocab-n3-0873": {
+      "meaningCn": "围棋（占领领土的棋盘游戏）"
+    },
+    "elzup-vocab-n3-0874": {
+      "meaningCn": "爱，温柔的激情"
+    },
+    "elzup-vocab-n3-0875": {
+      "meaningCn": "浓稠（就颜色、液体而言）、致密、坚固"
+    },
+    "elzup-vocab-n3-0876": {
+      "meaningCn": "情人;亲爱的;女朋友"
+    },
+    "elzup-vocab-n3-0877": {
+      "meaningCn": "祝你好运，财富"
+    },
+    "elzup-vocab-n3-0878": {
+      "meaningCn": "演讲，谈话"
+    },
+    "elzup-vocab-n3-0879": {
+      "meaningCn": "效果，结果"
+    },
+    "elzup-vocab-n3-0880": {
+      "meaningCn": "硬币"
+    },
+    "elzup-vocab-n3-0881": {
+      "meaningCn": "高价"
+    },
+    "elzup-vocab-n3-0882": {
+      "meaningCn": "豪华的, 华美的, 奢侈的"
+    },
+    "elzup-vocab-n3-0883": {
+      "meaningCn": "成功、通过（例如考试）"
+    },
+    "elzup-vocab-n3-0884": {
+      "meaningCn": "交换，交换"
+    },
+    "elzup-vocab-n3-0885": {
+      "meaningCn": "航空、飞行"
+    },
+    "elzup-vocab-n3-0886": {
+      "meaningCn": "场景，奇观"
+    },
+    "elzup-vocab-n3-0887": {
+      "meaningCn": "总计，总金额"
+    },
+    "elzup-vocab-n3-0888": {
+      "meaningCn": "攻击，攻击，进攻"
+    },
+    "elzup-vocab-n3-0889": {
+      "meaningCn": "贡献、服务"
+    },
+    "elzup-vocab-n3-0890": {
+      "meaningCn": "广告"
+    },
+    "elzup-vocab-n3-0891": {
+      "meaningCn": "友谊、交往、相识"
+    },
+    "elzup-vocab-n3-0892": {
+      "meaningCn": "校舍"
+    },
+    "elzup-vocab-n3-0893": {
+      "meaningCn": "后者"
+    },
+    "elzup-vocab-n3-0894": {
+      "meaningCn": "工厂，厂房"
+    },
+    "elzup-vocab-n3-0895": {
+      "meaningCn": "公正、公平、公正"
+    },
+    "elzup-vocab-n3-0896": {
+      "meaningCn": "组织、组成"
+    },
+    "elzup-vocab-n3-0897": {
+      "meaningCn": "高速、高速档"
+    },
+    "elzup-vocab-n3-0898": {
+      "meaningCn": "行动、行为、举止"
+    },
+    "elzup-vocab-n3-0899": {
+      "meaningCn": "抢劫，盗窃"
+    },
+    "elzup-vocab-n3-0900": {
+      "meaningCn": "团体的初级成员"
+    },
+    "elzup-vocab-n3-0901": {
+      "meaningCn": "幸福、幸福"
+    },
+    "elzup-vocab-n3-0902": {
+      "meaningCn": "公平、公正、正义"
+    },
+    "elzup-vocab-n3-0903": {
+      "meaningCn": "候选资格"
+    },
+    "elzup-vocab-n3-0904": {
+      "meaningCn": "考虑到，考虑到"
+    },
+    "elzup-vocab-n3-0905": {
+      "meaningCn": "超越、越过、越过"
+    },
+    "elzup-vocab-n3-0906": {
+      "meaningCn": "超越、越过、越过"
+    },
+    "elzup-vocab-n3-0907": {
+      "meaningCn": "教练"
+    },
+    "elzup-vocab-n3-0908": {
+      "meaningCn": "代码;绳索;弦"
+    },
+    "elzup-vocab-n3-0909": {
+      "meaningCn": "冰、冰雹"
+    },
+    "elzup-vocab-n3-0910": {
+      "meaningCn": "冻结, 冻结, 凝结"
+    },
+    "elzup-vocab-n3-0911": {
+      "meaningCn": "目标"
+    },
+    "elzup-vocab-n3-0912": {
+      "meaningCn": "误解"
+    },
+    "elzup-vocab-n3-0913": {
+      "meaningCn": "语言学习"
+    },
+    "elzup-vocab-n3-0914": {
+      "meaningCn": "呼吸，呼吸"
+    },
+    "elzup-vocab-n3-0915": {
+      "meaningCn": "家乡"
+    },
+    "elzup-vocab-n3-0916": {
+      "meaningCn": "相当，非常"
+    },
+    "elzup-vocab-n3-0917": {
+      "meaningCn": "国语"
+    },
+    "elzup-vocab-n3-0918": {
+      "meaningCn": "国籍"
+    },
+    "elzup-vocab-n3-0919": {
+      "meaningCn": "黑板"
+    },
+    "elzup-vocab-n3-0920": {
+      "meaningCn": "征服，克服"
+    },
+    "elzup-vocab-n3-0921": {
+      "meaningCn": "国家、人民、公民"
+    },
+    "elzup-vocab-n3-0922": {
+      "meaningCn": "谷物、谷类、玉米"
+    },
+    "elzup-vocab-n3-0923": {
+      "meaningCn": "臀部、腰部"
+    },
+    "elzup-vocab-n3-0924": {
+      "meaningCn": "胡椒"
+    },
+    "elzup-vocab-n3-0925": {
+      "meaningCn": "个人，私人"
+    },
+    "elzup-vocab-n3-0926": {
+      "meaningCn": "过去（例如，与观众一起）"
+    },
+    "elzup-vocab-n3-0927": {
+      "meaningCn": "渡过、经过、渡过难关"
+    },
+    "elzup-vocab-n3-0928": {
+      "meaningCn": "州、国家、民族"
+    },
+    "elzup-vocab-n3-0929": {
+      "meaningCn": "国民议会、议会、国会"
+    },
+    "elzup-vocab-n3-0930": {
+      "meaningCn": "国家或州边界"
+    },
+    "elzup-vocab-n3-0931": {
+      "meaningCn": "骨折"
+    },
+    "elzup-vocab-n3-0932": {
+      "meaningCn": "包裹，包裹"
+    },
+    "elzup-vocab-n3-0933": {
+      "meaningCn": "日本竖琴"
+    },
+    "elzup-vocab-n3-0934": {
+      "meaningCn": "使不同，使不同"
+    },
+    "elzup-vocab-n3-0935": {
+      "meaningCn": "谚语，说"
+    },
+    "elzup-vocab-n3-0936": {
+      "meaningCn": "拒绝、拒绝、解雇"
+    },
+    "elzup-vocab-n3-0937": {
+      "meaningCn": "面粉，粉末"
+    },
+    "elzup-vocab-n3-0938": {
+      "meaningCn": "喜好、品味、选择"
+    },
+    "elzup-vocab-n3-0939": {
+      "meaningCn": "喜欢、偏爱"
+    },
+    "elzup-vocab-n3-0940": {
+      "meaningCn": "溢出"
+    },
+    "elzup-vocab-n3-0941": {
+      "meaningCn": "溢出，溢出"
+    },
+    "elzup-vocab-n3-0942": {
+      "meaningCn": "垃圾，垃圾"
+    },
+    "elzup-vocab-n3-0943": {
+      "meaningCn": "小麦"
+    },
+    "elzup-vocab-n3-0944": {
+      "meaningCn": "对不起，对不起，对不起"
+    },
+    "elzup-vocab-n3-0945": {
+      "meaningCn": "小屋, 小屋, 棚屋"
+    },
+    "elzup-vocab-n3-0946": {
+      "meaningCn": "这些"
+    },
+    "elzup-vocab-n3-0947": {
+      "meaningCn": "杀死"
+    },
+    "elzup-vocab-n3-0948": {
+      "meaningCn": "跌倒，跌倒"
+    },
+    "elzup-vocab-n3-0949": {
+      "meaningCn": "现在，这个时候，最近"
+    },
+    "elzup-vocab-n3-0950": {
+      "meaningCn": "从现在开始，以后"
+    },
+    "elzup-vocab-n3-0951": {
+      "meaningCn": "混乱、拥堵"
+    },
+    "elzup-vocab-n3-0952": {
+      "meaningCn": "所以，像这样，这样"
+    },
+    "elzup-vocab-n3-0953": {
+      "meaningCn": "困难、苦恼"
+    },
+    "elzup-vocab-n3-0954": {
+      "meaningCn": "今天，这一天"
+    },
+    "elzup-vocab-n3-0955": {
+      "meaningCn": "你好，美好的一天（白天问候语）"
+    },
+    "elzup-vocab-n3-0956": {
+      "meaningCn": "订婚，订婚"
+    },
+    "elzup-vocab-n3-0957": {
+      "meaningCn": "混乱、混乱、混乱"
+    },
+    "elzup-vocab-n3-0958": {
+      "meaningCn": "差异，变化"
+    },
+    "elzup-vocab-n3-0959": {
+      "meaningCn": "服务、支持系统；免费的商品或服务"
+    },
+    "elzup-vocab-n3-0960": {
+      "meaningCn": "值此之际、情况"
+    },
+    "elzup-vocab-n3-0961": {
+      "meaningCn": "最高的，最高的，最高的"
+    },
+    "elzup-vocab-n3-0962": {
+      "meaningCn": "财产、财富、资产"
+    },
+    "elzup-vocab-n3-0963": {
+      "meaningCn": "最后，结束"
+    },
+    "elzup-vocab-n3-0964": {
+      "meaningCn": "在中间"
+    },
+    "elzup-vocab-n3-0965": {
+      "meaningCn": "最少，最低，最差"
+    },
+    "elzup-vocab-n3-0966": {
+      "meaningCn": "天赋、能力"
+    },
+    "elzup-vocab-n3-0967": {
+      "meaningCn": "审判、判决"
+    },
+    "elzup-vocab-n3-0968": {
+      "meaningCn": "成分、材料"
+    },
+    "elzup-vocab-n3-0969": {
+      "meaningCn": "幸运的是;幸运的是"
+    },
+    "elzup-vocab-n3-0970": {
+      "meaningCn": "签名;符号;正弦"
+    },
+    "elzup-vocab-n3-0971": {
+      "meaningCn": "边界，边界，精神状态"
+    },
+    "elzup-vocab-n3-0972": {
+      "meaningCn": "反对，反对，不服从"
+    },
+    "elzup-vocab-n3-0973": {
+      "meaningCn": "帮助、服务"
+    },
+    "elzup-vocab-n3-0974": {
+      "meaningCn": "工作、操作、制造"
+    },
+    "elzup-vocab-n3-0975": {
+      "meaningCn": "撕裂，分裂"
+    },
+    "elzup-vocab-n3-0976": {
+      "meaningCn": "去年（年），昨天"
+    },
+    "elzup-vocab-n3-0977": {
+      "meaningCn": "工作、作品、生产"
+    },
+    "elzup-vocab-n3-0978": {
+      "meaningCn": "农产品（例如农产品）、农作物"
+    },
+    "elzup-vocab-n3-0979": {
+      "meaningCn": "樱花，樱花树"
+    },
+    "elzup-vocab-n3-0980": {
+      "meaningCn": "酒精、清酒"
+    },
+    "elzup-vocab-n3-0981": {
+      "meaningCn": "喊叫、哭泣"
+    },
+    "elzup-vocab-n3-0982": {
+      "meaningCn": "避免（身体接触）；避开，避免"
+    },
+    "elzup-vocab-n3-0983": {
+      "meaningCn": "支持，持有，维持"
+    },
+    "elzup-vocab-n3-0984": {
+      "meaningCn": "粘住，被卡住"
+    },
+    "elzup-vocab-n3-0985": {
+      "meaningCn": "刺，咬（例如虫子），刺，刺"
+    },
+    "elzup-vocab-n3-0986": {
+      "meaningCn": "指点,"
+    },
+    "elzup-vocab-n3-0987": {
+      "meaningCn": "插入、放入、嫁接"
+    },
+    "elzup-vocab-n3-0988": {
+      "meaningCn": "倒（饮料），服务（饮料）"
+    },
+    "elzup-vocab-n3-0989": {
+      "meaningCn": "闪耀、打击"
+    },
+    "elzup-vocab-n3-0990": {
+      "meaningCn": "座位"
+    },
+    "elzup-vocab-n3-0991": {
+      "meaningCn": "邀请（某人和你一起做某事）；诱惑，引诱"
+    },
+    "elzup-vocab-n3-0992": {
+      "meaningCn": "帐单、票据"
+    },
+    "elzup-vocab-n3-0993": {
+      "meaningCn": "作家、作家、小说家"
+    },
+    "elzup-vocab-n3-0994": {
+      "meaningCn": "（音乐的）作曲"
+    },
+    "elzup-vocab-n3-0995": {
+      "meaningCn": "粗略地，以整数表示"
+    },
+    "elzup-vocab-n3-0996": {
+      "meaningCn": "感觉清爽、整洁"
+    },
+    "elzup-vocab-n3-0997": {
+      "meaningCn": "出色地;现在（通常在切换到新的、通常更重要的主题时使用）"
+    },
+    "elzup-vocab-n3-0998": {
+      "meaningCn": "沙漠"
+    },
+    "elzup-vocab-n3-0999": {
+      "meaningCn": "歧视、区别对待"
+    },
+    "elzup-vocab-n3-1000": {
+      "meaningCn": "妈妈"
+    },
+    "elzup-vocab-n3-1001": {
+      "meaningCn": "豆类，豌豆"
+    },
+    "elzup-vocab-n3-1002": {
+      "meaningCn": "保护；遵守（遵守规则）"
+    },
+    "elzup-vocab-n3-1003": {
+      "meaningCn": "迷惑、困惑、迷失方向"
+    },
+    "elzup-vocab-n3-1004": {
+      "meaningCn": "圆，满（月）"
+    },
+    "elzup-vocab-n3-1005": {
+      "meaningCn": "圆圈"
+    },
+    "elzup-vocab-n3-1006": {
+      "meaningCn": "一样"
+    },
+    "elzup-vocab-n3-1007": {
+      "meaningCn": "偶然地, 如果有偶然的话"
+    },
+    "elzup-vocab-n3-1008": {
+      "meaningCn": "满意"
+    },
+    "elzup-vocab-n3-1009": {
+      "meaningCn": "本体，主要部分"
+    },
+    "elzup-vocab-n3-1010": {
+      "meaningCn": "水果、种子、好结果"
+    },
+    "elzup-vocab-n3-1011": {
+      "meaningCn": "送别"
+    },
+    "elzup-vocab-n3-1012": {
+      "meaningCn": "盟友，支持者"
+    },
+    "elzup-vocab-n3-1013": {
+      "meaningCn": "辉煌的，壮丽的"
+    },
+    "elzup-vocab-n3-1014": {
+      "meaningCn": "错误；失误；失败；小姐"
+    },
+    "elzup-vocab-n3-1015": {
+      "meaningCn": "变得充实、成熟"
+    },
+    "elzup-vocab-n3-1016": {
+      "meaningCn": "厚实、紧密"
+    },
+    "elzup-vocab-n3-1017": {
+      "meaningCn": "认识、注意到；批准"
+    },
+    "elzup-vocab-n3-1018": {
+      "meaningCn": "表达同情、表达关心"
+    },
+    "elzup-vocab-n3-1019": {
+      "meaningCn": "纪念品"
+    },
+    "elzup-vocab-n3-1020": {
+      "meaningCn": "城市;首都"
+    },
+    "elzup-vocab-n3-1021": {
+      "meaningCn": "奇怪的，不寻常的"
+    },
+    "elzup-vocab-n3-1022": {
+      "meaningCn": "后天"
+    },
+    "elzup-vocab-n3-1023": {
+      "meaningCn": "将来时（生活时态）"
+    },
+    "elzup-vocab-n3-1024": {
+      "meaningCn": "魅力, 魅力, 吸引力"
+    },
+    "elzup-vocab-n3-1025": {
+      "meaningCn": "检查（病人）"
+    },
+    "elzup-vocab-n3-1026": {
+      "meaningCn": "牛奶"
+    },
+    "elzup-vocab-n3-1027": {
+      "meaningCn": "什么都没有，没有，零"
+    },
+    "elzup-vocab-n3-1028": {
+      "meaningCn": "面对、对面、对面"
+    },
+    "elzup-vocab-n3-1029": {
+      "meaningCn": "会议，派人去接货"
+    },
+    "elzup-vocab-n3-1030": {
+      "meaningCn": "面对"
+    },
+    "elzup-vocab-n3-1031": {
+      "meaningCn": "去皮，去皮"
+    },
+    "elzup-vocab-n3-1032": {
+      "meaningCn": "转向，指向"
+    },
+    "elzup-vocab-n3-1033": {
+      "meaningCn": "忽视，忽略"
+    },
+    "elzup-vocab-n3-1034": {
+      "meaningCn": "潮湿、闷热"
+    },
+    "elzup-vocab-n3-1035": {
+      "meaningCn": "蛀牙、蛀牙"
+    },
+    "elzup-vocab-n3-1036": {
+      "meaningCn": "反而，更好，相反"
+    },
+    "elzup-vocab-n3-1037": {
+      "meaningCn": "蒸、敷药膏、闷热"
+    },
+    "elzup-vocab-n3-1038": {
+      "meaningCn": "捆绑，捆绑，链接"
+    },
+    "elzup-vocab-n3-1039": {
+      "meaningCn": "无用，无用"
+    },
+    "elzup-vocab-n3-1040": {
+      "meaningCn": "迷恋、疯狂、着迷"
+    },
+    "elzup-vocab-n3-1041": {
+      "meaningCn": "乳房，胸部"
+    },
+    "elzup-vocab-n3-1042": {
+      "meaningCn": "免费，不收费"
+    },
+    "elzup-vocab-n3-1043": {
+      "meaningCn": "发芽"
+    },
+    "elzup-vocab-n3-1044": {
+      "meaningCn": "明确的、明确的"
+    },
+    "elzup-vocab-n3-1045": {
+      "meaningCn": "（姓名）卡；名片"
+    },
+    "elzup-vocab-n3-1046": {
+      "meaningCn": "名词"
+    },
+    "elzup-vocab-n3-1047": {
+      "meaningCn": "命令，命令，任命"
+    },
+    "elzup-vocab-n3-1048": {
+      "meaningCn": "大师、专家"
+    },
+    "elzup-vocab-n3-1049": {
+      "meaningCn": "命令，命令，法令"
+    },
+    "elzup-vocab-n3-1050": {
+      "meaningCn": "麻烦、烦恼、烦恼"
+    },
+    "elzup-vocab-n3-1051": {
+      "meaningCn": "地位较高的人；某人的前辈"
+    },
+    "elzup-vocab-n3-1052": {
+      "meaningCn": "饭菜，食物"
+    },
+    "elzup-vocab-n3-1053": {
+      "meaningCn": "很少（带有否定动词），很少"
+    },
+    "elzup-vocab-n3-1054": {
+      "meaningCn": "备忘录、注释"
+    },
+    "elzup-vocab-n3-1055": {
+      "meaningCn": "面、杯子、表面、侧面或小面、角、页面"
+    },
+    "elzup-vocab-n3-1056": {
+      "meaningCn": "棉布"
+    },
+    "elzup-vocab-n3-1057": {
+      "meaningCn": "许可证, 许可证, 证书"
+    },
+    "elzup-vocab-n3-1058": {
+      "meaningCn": "面试"
+    },
+    "elzup-vocab-n3-1059": {
+      "meaningCn": "麻烦、注意"
+    },
+    "elzup-vocab-n3-1060": {
+      "meaningCn": "成员"
+    },
+    "elzup-vocab-n3-1061": {
+      "meaningCn": "申请，提出申请"
+    },
+    "elzup-vocab-n3-1062": {
+      "meaningCn": "道歉、借口"
+    },
+    "elzup-vocab-n3-1063": {
+      "meaningCn": "毯子"
+    },
+    "elzup-vocab-n3-1064": {
+      "meaningCn": "烧掉"
+    },
+    "elzup-vocab-n3-1065": {
+      "meaningCn": "目的、目的、目标"
+    },
+    "elzup-vocab-n3-1066": {
+      "meaningCn": "标记，目的，目标"
+    },
+    "elzup-vocab-n3-1067": {
+      "meaningCn": "字母（字母表中的）、字符"
+    },
+    "elzup-vocab-n3-1068": {
+      "meaningCn": "字母（字母表中的）、字符"
+    },
+    "elzup-vocab-n3-1069": {
+      "meaningCn": "或许，也许，偶然"
+    },
+    "elzup-vocab-n3-1070": {
+      "meaningCn": "如果"
+    },
+    "elzup-vocab-n3-1071": {
+      "meaningCn": "升高，举起，奉承"
+    },
+    "elzup-vocab-n3-1072": {
+      "meaningCn": "使用，利用"
+    },
+    "elzup-vocab-n3-1073": {
+      "meaningCn": "浪费；不止一个人值得，不值得"
+    },
+    "elzup-vocab-n3-1074": {
+      "meaningCn": "完全正确、合理、自然"
+    },
+    "elzup-vocab-n3-1075": {
+      "meaningCn": "起源，原始；以前的"
+    },
+    "elzup-vocab-n3-1076": {
+      "meaningCn": "基础"
+    },
+    "elzup-vocab-n3-1077": {
+      "meaningCn": "主要的"
+    },
+    "elzup-vocab-n3-1078": {
+      "meaningCn": "恢复、恢复、归还"
+    },
+    "elzup-vocab-n3-1079": {
+      "meaningCn": "基于；建立在……之上"
+    },
+    "elzup-vocab-n3-1080": {
+      "meaningCn": "要求，要求；寻找，寻找"
+    },
+    "elzup-vocab-n3-1081": {
+      "meaningCn": "人（与人（ひと）相同）"
+    },
+    "elzup-vocab-n3-1082": {
+      "meaningCn": "声音"
+    },
+    "elzup-vocab-n3-1083": {
+      "meaningCn": "故事，故事，传说"
+    },
+    "elzup-vocab-n3-1084": {
+      "meaningCn": "事物，一切"
+    },
+    "elzup-vocab-n3-1085": {
+      "meaningCn": "烧掉"
+    },
+    "elzup-vocab-n3-1086": {
+      "meaningCn": "图案、图形、设计"
+    },
+    "elzup-vocab-n3-1087": {
+      "meaningCn": "投诉"
+    },
+    "elzup-vocab-n3-1088": {
+      "meaningCn": "不久，不久，终于"
+    },
+    "elzup-vocab-n3-1089": {
+      "meaningCn": "角色、职位"
+    },
+    "elzup-vocab-n3-1090": {
+      "meaningCn": "大约，大约，一些"
+    },
+    "elzup-vocab-n3-1091": {
+      "meaningCn": "翻译"
+    },
+    "elzup-vocab-n3-1092": {
+      "meaningCn": "翻译"
+    },
+    "elzup-vocab-n3-1093": {
+      "meaningCn": "分配（分配）零件、角色、职责"
+    },
+    "elzup-vocab-n3-1094": {
+      "meaningCn": "租"
+    },
+    "elzup-vocab-n3-1095": {
+      "meaningCn": "麻烦、负担、照顾"
+    },
+    "elzup-vocab-n3-1096": {
+      "meaningCn": "客栈、住宿处"
+    },
+    "elzup-vocab-n3-1097": {
+      "meaningCn": "雇用，聘用"
+    },
+    "elzup-vocab-n3-1098": {
+      "meaningCn": "屋顶"
+    },
+    "elzup-vocab-n3-1099": {
+      "meaningCn": "撕裂；违反；击败"
+    },
+    "elzup-vocab-n3-1100": {
+      "meaningCn": "被撕裂，磨损"
+    },
+    "elzup-vocab-n3-1101": {
+      "meaningCn": "退休"
+    },
+    "elzup-vocab-n3-1102": {
+      "meaningCn": "一点，部分，有点"
+    },
+    "elzup-vocab-n3-1103": {
+      "meaningCn": "唯一的，唯一的，唯一的"
+    },
+    "elzup-vocab-n3-1104": {
+      "meaningCn": "勇气、勇气、大胆"
+    },
+    "elzup-vocab-n3-1105": {
+      "meaningCn": "友谊"
+    },
+    "elzup-vocab-n3-1106": {
+      "meaningCn": "有效的，有效的"
+    },
+    "elzup-vocab-n3-1107": {
+      "meaningCn": "优越性、卓越性"
+    },
+    "elzup-vocab-n3-1108": {
+      "meaningCn": "总冠军，总冠军"
+    },
+    "elzup-vocab-n3-1109": {
+      "meaningCn": "友谊，团契"
+    },
+    "elzup-vocab-n3-1110": {
+      "meaningCn": "朋友（正式）"
+    },
+    "elzup-vocab-n3-1111": {
+      "meaningCn": "有能力的，有能力的，有效率的"
+    },
+    "elzup-vocab-n3-1112": {
+      "meaningCn": "邮件、邮政服务"
+    },
+    "elzup-vocab-n3-1113": {
+      "meaningCn": "幽默"
+    },
+    "elzup-vocab-n3-1114": {
+      "meaningCn": "有利的，更好的"
+    },
+    "elzup-vocab-n3-1115": {
+      "meaningCn": "地面"
+    },
+    "elzup-vocab-n3-1116": {
+      "meaningCn": "愉快的，愉快的"
+    },
+    "elzup-vocab-n3-1117": {
+      "meaningCn": "移交，移交，移交"
+    },
+    "elzup-vocab-n3-1118": {
+      "meaningCn": "丰富的，丰富的，丰富的，丰富的"
+    },
+    "elzup-vocab-n3-1119": {
+      "meaningCn": "煮沸"
+    },
+    "elzup-vocab-n3-1120": {
+      "meaningCn": "允许，允许，批准"
+    },
+    "elzup-vocab-n3-1121": {
+      "meaningCn": "晚上，晚上"
+    },
+    "elzup-vocab-n3-1122": {
+      "meaningCn": "黎明，黎明"
+    },
+    "elzup-vocab-n3-1123": {
+      "meaningCn": "喝醉"
+    },
+    "elzup-vocab-n3-1124": {
+      "meaningCn": "简单、简单、简单"
+    },
+    "elzup-vocab-n3-1125": {
+      "meaningCn": "容器，船只"
+    },
+    "elzup-vocab-n3-1126": {
+      "meaningCn": "季节、天气、心情"
+    },
+    "elzup-vocab-n3-1127": {
+      "meaningCn": "要求，要求"
+    },
+    "elzup-vocab-n3-1128": {
+      "meaningCn": "照顾、预防、小心"
+    },
+    "elzup-vocab-n3-1129": {
+      "meaningCn": "方面、状态、外观"
+    },
+    "elzup-vocab-n3-1130": {
+      "meaningCn": "总之，总之，总之……"
+    },
+    "elzup-vocab-n3-1131": {
+      "meaningCn": "元素"
+    },
+    "elzup-vocab-n3-1132": {
+      "meaningCn": "要点，要点"
+    },
+    "elzup-vocab-n3-1133": {
+      "meaningCn": "一周中的某一天"
+    },
+    "elzup-vocab-n3-1134": {
+      "meaningCn": "欧洲"
+    },
+    "elzup-vocab-n3-1135": {
+      "meaningCn": "期望、预测"
+    },
+    "elzup-vocab-n3-1136": {
+      "meaningCn": "交叉（例如，手臂），穿过"
+    },
+    "elzup-vocab-n3-1137": {
+      "meaningCn": "污染，弄脏"
+    },
+    "elzup-vocab-n3-1138": {
+      "meaningCn": "估计，预算"
+    },
+    "elzup-vocab-n3-1139": {
+      "meaningCn": "停止，放弃"
+    },
+    "elzup-vocab-n3-1140": {
+      "meaningCn": "收集，聚集，放在一边"
+    },
+    "elzup-vocab-n3-1141": {
+      "meaningCn": "预测、估计"
+    },
+    "elzup-vocab-n3-1142": {
+      "meaningCn": "游艇"
+    },
+    "elzup-vocab-n3-1143": {
+      "meaningCn": "半夜，夜深人静"
+    },
+    "elzup-vocab-n3-1144": {
+      "meaningCn": "社会、世界"
+    },
+    "elzup-vocab-n3-1145": {
+      "meaningCn": "额外的，多余的，多余的"
+    },
+    "elzup-vocab-n3-1146": {
+      "meaningCn": "预测，预测"
+    },
+    "elzup-vocab-n3-1147": {
+      "meaningCn": "预防、防护"
+    },
+    "elzup-vocab-n3-1148": {
+      "meaningCn": "阅读"
+    },
+    "elzup-vocab-n3-1149": {
+      "meaningCn": "新娘、儿媳妇"
+    },
+    "elzup-vocab-n3-1150": {
+      "meaningCn": "过量的;剩余"
+    },
+    "elzup-vocab-n3-1151": {
+      "meaningCn": "捻度、层数"
+    },
+    "elzup-vocab-n3-1152": {
+      "meaningCn": "来自"
+    },
+    "elzup-vocab-n3-1153": {
+      "meaningCn": "喜悦、快乐、欢欣鼓舞"
+    },
+    "elzup-vocab-n3-1154": {
+      "meaningCn": "最好的问候，请记住我"
+    },
+    "elzup-vocab-n3-1155": {
+      "meaningCn": "四"
+    },
+    "elzup-vocab-n3-1156": {
+      "meaningCn": "下一个~"
+    },
+    "elzup-vocab-n3-1157": {
+      "meaningCn": "打火机;作家"
+    },
+    "elzup-vocab-n3-1158": {
+      "meaningCn": "舒适、轻松"
+    },
+    "elzup-vocab-n3-1159": {
+      "meaningCn": "球拍"
+    },
+    "elzup-vocab-n3-1160": {
+      "meaningCn": "利润，收益"
+    },
+    "elzup-vocab-n3-1161": {
+      "meaningCn": "理解，理解"
+    },
+    "elzup-vocab-n3-1162": {
+      "meaningCn": "陆地、海岸"
+    },
+    "elzup-vocab-n3-1163": {
+      "meaningCn": "聪明的，精明的，聪明的"
+    },
+    "elzup-vocab-n3-1164": {
+      "meaningCn": "离婚"
+    },
+    "elzup-vocab-n3-1165": {
+      "meaningCn": "理想的"
+    },
+    "elzup-vocab-n3-1166": {
+      "meaningCn": "比率、比率、百分比"
+    },
+    "elzup-vocab-n3-1167": {
+      "meaningCn": "出国留学"
+    },
+    "elzup-vocab-n3-1168": {
+      "meaningCn": "流行的, 流行的, 流行的"
+    },
+    "elzup-vocab-n3-1169": {
+      "meaningCn": "数量，数额"
+    },
+    "elzup-vocab-n3-1170": {
+      "meaningCn": "宿舍、宿舍"
+    },
+    "elzup-vocab-n3-1171": {
+      "meaningCn": "零钱, 货币兑换"
+    },
+    "elzup-vocab-n3-1172": {
+      "meaningCn": "费用，收费，车费"
+    },
+    "elzup-vocab-n3-1173": {
+      "meaningCn": "例子，例子，事例"
+    },
+    "elzup-vocab-n3-1174": {
+      "meaningCn": "表达感激之情；弓"
+    },
+    "elzup-vocab-n3-1175": {
+      "meaningCn": "例外"
+    },
+    "elzup-vocab-n3-1176": {
+      "meaningCn": "礼仪、礼貌、礼节"
+    },
+    "elzup-vocab-n3-1177": {
+      "meaningCn": "冷静、冷静"
+    },
+    "elzup-vocab-n3-1178": {
+      "meaningCn": "队列、行、行"
+    },
+    "elzup-vocab-n3-1179": {
+      "meaningCn": "火车（普通）"
+    },
+    "elzup-vocab-n3-1180": {
+      "meaningCn": "等级"
+    },
+    "elzup-vocab-n3-1181": {
+      "meaningCn": "(想法的)联想、建议"
+    },
+    "elzup-vocab-n3-1182": {
+      "meaningCn": "连续的，连续的，持续的"
+    },
+    "elzup-vocab-n3-1183": {
+      "meaningCn": "年老的, 老人"
+    },
+    "elzup-vocab-n3-1184": {
+      "meaningCn": "劳动，工作"
+    },
+    "elzup-vocab-n3-1185": {
+      "meaningCn": "挂坠盒, 火箭"
+    },
+    "elzup-vocab-n3-1186": {
+      "meaningCn": "争论，讨论"
+    },
+    "elzup-vocab-n3-1187": {
+      "meaningCn": "争论，争论"
+    },
+    "elzup-vocab-n3-1188": {
+      "meaningCn": "论文、论文"
+    },
+    "elzup-vocab-n3-1189": {
+      "meaningCn": "环、圈、圈"
+    },
+    "elzup-vocab-n3-1190": {
+      "meaningCn": "葡萄酒"
+    },
+    "elzup-vocab-n3-1191": {
+      "meaningCn": "自私、利己主义、任性"
+    },
+    "elzup-vocab-n3-1192": {
+      "meaningCn": "离别、分离、告别"
+    },
+    "elzup-vocab-n3-1193": {
+      "meaningCn": "分支出来，偏离"
+    },
+    "elzup-vocab-n3-1194": {
+      "meaningCn": "边"
+    },
+    "elzup-vocab-n3-1195": {
+      "meaningCn": "煮沸，变热"
+    },
+    "elzup-vocab-n3-1196": {
+      "meaningCn": "分开，分开"
+    },
+    "elzup-vocab-n3-1197": {
+      "meaningCn": "故意"
+    },
+    "elzup-vocab-n3-1198": {
+      "meaningCn": "仅仅，仅仅，一点点"
+    },
+    "elzup-vocab-n3-1199": {
+      "meaningCn": "棉布"
+    },
+    "elzup-vocab-n3-1200": {
+      "meaningCn": "主题，主题"
+    },
+    "elzup-vocab-n3-1201": {
+      "meaningCn": "笑，笑，微笑"
+    },
+    "elzup-vocab-n3-1202": {
+      "meaningCn": "分裂，打破"
+    },
+    "elzup-vocab-n3-1203": {
+      "meaningCn": "辱骂、侮辱"
+    },
+    "elzup-vocab-n3-1204": {
+      "meaningCn": "我们"
+    },
+    "elzup-vocab-n3-1205": {
+      "meaningCn": "海湾, 海湾, 入口"
+    },
+    "elzup-vocab-n3-1206": {
+      "meaningCn": "碗"
+    },
+    "elzup-vocab-n3-1207": {
+      "meaningCn": "碗"
+    },
+    "elzup-vocab-n3-1208": {
+      "meaningCn": "邪恶，恶习"
+    },
+    "elzup-vocab-n3-1209": {
+      "meaningCn": "击中、成功、达到目标"
+    },
+    "elzup-vocab-n3-1210": {
+      "meaningCn": "向上"
+    },
+    "elzup-vocab-n3-1211": {
+      "meaningCn": "解决，放置"
+    },
+    "elzup-vocab-n3-1212": {
+      "meaningCn": "问卷调查；调查"
+    },
+    "elzup-vocab-n3-1213": {
+      "meaningCn": "异议"
+    },
+    "elzup-vocab-n3-1214": {
+      "meaningCn": "将要"
+    },
+    "elzup-vocab-n3-1215": {
+      "meaningCn": "医生办公室（外科）、诊所"
+    },
+    "elzup-vocab-n3-1216": {
+      "meaningCn": "愤怒"
+    },
+    "elzup-vocab-n3-1217": {
+      "meaningCn": "别致、风格、纯粹"
+    },
+    "elzup-vocab-n3-1218": {
+      "meaningCn": "性情、精神、固执、食欲"
+    },
+    "elzup-vocab-n3-1219": {
+      "meaningCn": "仍然，至今"
+    },
+    "elzup-vocab-n3-1220": {
+      "meaningCn": "损坏、损害、破坏"
+    },
+    "elzup-vocab-n3-1221": {
+      "meaningCn": "炒"
+    },
+    "elzup-vocab-n3-1222": {
+      "meaningCn": "一个地区，整个地方"
+    },
+    "elzup-vocab-n3-1223": {
+      "meaningCn": "变更、转移"
+    },
+    "elzup-vocab-n3-1224": {
+      "meaningCn": "衣服"
+    },
+    "elzup-vocab-n3-1225": {
+      "meaningCn": "漩涡"
+    },
+    "elzup-vocab-n3-1226": {
+      "meaningCn": "被埋葬，被填满"
+    },
+    "elzup-vocab-n3-1227": {
+      "meaningCn": "v.t. 生出，交付，生产"
+    },
+    "elzup-vocab-n3-1228": {
+      "meaningCn": "机会、关系、关系"
+    },
+    "elzup-vocab-n3-1229": {
+      "meaningCn": "尾、脊"
+    },
+    "elzup-vocab-n3-1230": {
+      "meaningCn": "承担、欠下"
+    },
+    "elzup-vocab-n3-1231": {
+      "meaningCn": "延迟，滞后"
+    },
+    "elzup-vocab-n3-1232": {
+      "meaningCn": "教义，教义"
+    },
+    "elzup-vocab-n3-1233": {
+      "meaningCn": "惊讶、吃惊、惊奇"
+    },
+    "elzup-vocab-n3-1234": {
+      "meaningCn": "编织"
+    },
+    "elzup-vocab-n3-1235": {
+      "meaningCn": "缺乏、破裂"
+    },
+    "elzup-vocab-n3-1236": {
+      "meaningCn": "角度"
+    },
+    "elzup-vocab-n3-1237": {
+      "meaningCn": "核，内核"
+    },
+    "elzup-vocab-n3-1238": {
+      "meaningCn": "状态、性格、情况"
+    },
+    "elzup-vocab-n3-1239": {
+      "meaningCn": "学术背景"
+    },
+    "elzup-vocab-n3-1240": {
+      "meaningCn": "运行"
+    },
+    "elzup-vocab-n3-1241": {
+      "meaningCn": "打赌，冒险，赌博"
+    },
+    "elzup-vocab-n3-1242": {
+      "meaningCn": "主题、主题、任务"
+    },
+    "elzup-vocab-n3-1243": {
+      "meaningCn": "整理，整理"
+    },
+    "elzup-vocab-n3-1244": {
+      "meaningCn": "调味料，调味料"
+    },
+    "elzup-vocab-n3-1245": {
+      "meaningCn": "借款、债务、贷款"
+    },
+    "elzup-vocab-n3-1246": {
+      "meaningCn": "打猎"
+    },
+    "elzup-vocab-n3-1247": {
+      "meaningCn": "管子，管子"
+    },
+    "elzup-vocab-n3-1248": {
+      "meaningCn": "感觉、看法"
+    },
+    "elzup-vocab-n3-1249": {
+      "meaningCn": "癌症"
+    },
+    "elzup-vocab-n3-1250": {
+      "meaningCn": "出版，发行"
+    },
+    "elzup-vocab-n3-1251": {
+      "meaningCn": "惯例、习惯、传统事件"
+    },
+    "elzup-vocab-n3-1252": {
+      "meaningCn": "欢呼，欢呼"
+    },
+    "elzup-vocab-n3-1253": {
+      "meaningCn": "官僚主义，官僚主义"
+    },
+    "elzup-vocab-n3-1254": {
+      "meaningCn": "（身体、仪器的）器官"
+    },
+    "elzup-vocab-n3-1255": {
+      "meaningCn": "每季（例如杂志）"
+    },
+    "elzup-vocab-n3-1256": {
+      "meaningCn": "起源、开始、兴起"
+    },
+    "elzup-vocab-n3-1257": {
+      "meaningCn": "机制、组织"
+    },
+    "elzup-vocab-n3-1258": {
+      "meaningCn": "建立，建立"
+    },
+    "elzup-vocab-n3-1259": {
+      "meaningCn": "规定"
+    },
+    "elzup-vocab-n3-1260": {
+      "meaningCn": "爬坡道"
+    },
+    "elzup-vocab-n3-1261": {
+      "meaningCn": "会议、讨论、谈判"
+    },
+    "elzup-vocab-n3-1262": {
+      "meaningCn": "享受、被给予"
+    },
+    "elzup-vocab-n3-1263": {
+      "meaningCn": "合作、调解、和谐"
+    },
+    "elzup-vocab-n3-1264": {
+      "meaningCn": "限制，停止的地方"
+    },
+    "elzup-vocab-n3-1265": {
+      "meaningCn": "病菌，细菌"
+    },
+    "elzup-vocab-n3-1266": {
+      "meaningCn": "近视"
+    },
+    "elzup-vocab-n3-1267": {
+      "meaningCn": "烦恼、烦恼、困难"
+    },
+    "elzup-vocab-n3-1268": {
+      "meaningCn": "团体"
+    },
+    "elzup-vocab-n3-1269": {
+      "meaningCn": "刑罚，刑罚，刑罚"
+    },
+    "elzup-vocab-n3-1270": {
+      "meaningCn": "事件的顺序、过程"
+    },
+    "elzup-vocab-n3-1271": {
+      "meaningCn": "仪表，量规"
+    },
+    "elzup-vocab-n3-1272": {
+      "meaningCn": "机会，机会"
+    },
+    "elzup-vocab-n3-1273": {
+      "meaningCn": "携带东西；移动电话"
+    },
+    "elzup-vocab-n3-1274": {
+      "meaningCn": "形式、形状、图形"
+    },
+    "elzup-vocab-n3-1275": {
+      "meaningCn": "血管"
+    },
+    "elzup-vocab-n3-1276": {
+      "meaningCn": "做（有决心），执行（例如计划）"
+    },
+    "elzup-vocab-n3-1277": {
+      "meaningCn": "事项、案件、项目"
+    },
+    "elzup-vocab-n3-1278": {
+      "meaningCn": "减少，减少，衰退"
+    },
+    "elzup-vocab-n3-1279": {
+      "meaningCn": "公开表演"
+    },
+    "elzup-vocab-n3-1280": {
+      "meaningCn": "后悔、悔改"
+    },
+    "elzup-vocab-n3-1281": {
+      "meaningCn": "航行，航行"
+    },
+    "elzup-vocab-n3-1282": {
+      "meaningCn": "限制，约束"
+    },
+    "elzup-vocab-n3-1283": {
+      "meaningCn": "废墟"
+    },
+    "elzup-vocab-n3-1284": {
+      "meaningCn": "投降、投降、投降"
+    },
+    "elzup-vocab-n3-1285": {
+      "meaningCn": "兴奋、刺激"
+    },
+    "elzup-vocab-n3-1286": {
+      "meaningCn": "单词、短语"
+    },
+    "elzup-vocab-n3-1287": {
+      "meaningCn": "个别的，一一的"
+    },
+    "elzup-vocab-n3-1288": {
+      "meaningCn": "死者"
+    },
+    "elzup-vocab-n3-1289": {
+      "meaningCn": "硬币、零钱"
+    },
+    "elzup-vocab-n3-1290": {
+      "meaningCn": "（视情况而定）"
+    },
+    "elzup-vocab-n3-1291": {
+      "meaningCn": "竞赛"
+    },
+    "elzup-vocab-n3-1292": {
+      "meaningCn": "收集，收集"
+    },
+    "elzup-vocab-n3-1293": {
+      "meaningCn": "一份耕耘，一份收获"
+    },
+    "elzup-vocab-n3-1294": {
+      "meaningCn": "计划、政策"
+    },
+    "elzup-vocab-n3-1295": {
+      "meaningCn": "设备、装置、设施"
+    },
+    "elzup-vocab-n3-1296": {
+      "meaningCn": "破坏、灭绝"
+    },
+    "elzup-vocab-n3-1297": {
+      "meaningCn": "节约，节省"
+    },
+    "elzup-vocab-n3-1298": {
+      "meaningCn": "攻击，袭击"
+    },
+    "elzup-vocab-n3-1299": {
+      "meaningCn": "谴责、指责、批评"
+    },
+    "elzup-vocab-n3-1300": {
+      "meaningCn": "善、美德"
+    },
+    "elzup-vocab-n3-1301": {
+      "meaningCn": "全部，全部，全部"
+    },
+    "elzup-vocab-n3-1302": {
+      "meaningCn": "所有成员"
+    },
+    "elzup-vocab-n3-1303": {
+      "meaningCn": "主要科目、专题研究"
+    },
+    "elzup-vocab-n3-1304": {
+      "meaningCn": "全国、全国、全国"
+    },
+    "elzup-vocab-n3-1305": {
+      "meaningCn": "洗涤剂"
+    },
+    "elzup-vocab-n3-1306": {
+      "meaningCn": "前几天，几天前"
+    },
+    "elzup-vocab-n3-1307": {
+      "meaningCn": "前者"
+    },
+    "elzup-vocab-n3-1308": {
+      "meaningCn": "被选入球队的球员（通常是运动员）"
+    },
+    "elzup-vocab-n3-1309": {
+      "meaningCn": "全身，全身（肖像）"
+    },
+    "elzup-vocab-n3-1310": {
+      "meaningCn": "前进、推动、进步"
+    },
+    "elzup-vocab-n3-1311": {
+      "meaningCn": "中心"
+    },
+    "elzup-vocab-n3-1312": {
+      "meaningCn": "全部，全部，无论如何（是事情）"
+    },
+    "elzup-vocab-n3-1313": {
+      "meaningCn": "选择，选择"
+    },
+    "elzup-vocab-n3-1314": {
+      "meaningCn": "广告、宣传"
+    },
+    "elzup-vocab-n3-1315": {
+      "meaningCn": "大象"
+    },
+    "elzup-vocab-n3-1316": {
+      "meaningCn": "噪音"
+    },
+    "elzup-vocab-n3-1317": {
+      "meaningCn": "增加，添加"
+    },
+    "elzup-vocab-n3-1318": {
+      "meaningCn": "经营、管理、处理"
+    },
+    "elzup-vocab-n3-1319": {
+      "meaningCn": "想象、猜测"
+    },
+    "elzup-vocab-n3-1320": {
+      "meaningCn": "继承，继承"
+    },
+    "elzup-vocab-n3-1321": {
+      "meaningCn": "设备、装置、装置"
+    },
+    "elzup-vocab-n3-1322": {
+      "meaningCn": "相当地，相当地；值得~"
+    },
+    "elzup-vocab-n3-1323": {
+      "meaningCn": "速度，速率，比率"
+    },
+    "elzup-vocab-n3-1324": {
+      "meaningCn": "底部、鞋底"
+    },
+    "elzup-vocab-n3-1325": {
+      "meaningCn": "因此（连词），相应地"
+    },
+    "elzup-vocab-n3-1326": {
+      "meaningCn": "组织;结构;组织"
+    },
+    "elzup-vocab-n3-1327": {
+      "meaningCn": "进而"
+    },
+    "elzup-vocab-n3-1328": {
+      "meaningCn": "倒入（到）"
+    },
+    "elzup-vocab-n3-1329": {
+      "meaningCn": "被抚养长大，长大（长大）"
+    },
+    "elzup-vocab-n3-1330": {
+      "meaningCn": "的分裂图像；完全"
+    },
+    "elzup-vocab-n3-1331": {
+      "meaningCn": "轻轻地，轻轻地"
+    },
+    "elzup-vocab-n3-1332": {
+      "meaningCn": "袖子"
+    },
+    "elzup-vocab-n3-1333": {
+      "meaningCn": "准备、提供、储存"
+    },
+    "elzup-vocab-n3-1334": {
+      "meaningCn": "配备"
+    },
+    "elzup-vocab-n3-1335": {
+      "meaningCn": "此外，此外"
+    },
+    "elzup-vocab-n3-1336": {
+      "meaningCn": "不久之后，最终，迟早"
+    },
+    "elzup-vocab-n3-1337": {
+      "meaningCn": "没有改变，照原样（例如现在）"
+    },
+    "elzup-vocab-n3-1338": {
+      "meaningCn": "荞麦面（荞麦面）"
+    },
+    "elzup-vocab-n3-1339": {
+      "meaningCn": "沙发，沙发"
+    },
+    "elzup-vocab-n3-1340": {
+      "meaningCn": "卑微的、悲惨的、粗鲁的"
+    },
+    "elzup-vocab-n3-1341": {
+      "meaningCn": "每个，每个，分别"
+    },
+    "elzup-vocab-n3-1342": {
+      "meaningCn": "但是（仍然），然而，尽管如此"
+    },
+    "elzup-vocab-n3-1343": {
+      "meaningCn": "和"
+    },
+    "elzup-vocab-n3-1344": {
+      "meaningCn": "或者，或者否则"
+    },
+    "elzup-vocab-n3-1345": {
+      "meaningCn": "变得完整、平等"
+    },
+    "elzup-vocab-n3-1346": {
+      "meaningCn": "把事情整理好，安排好"
+    },
+    "elzup-vocab-n3-1347": {
+      "meaningCn": "损失，劣势"
+    },
+    "elzup-vocab-n3-1348": {
+      "meaningCn": "损坏、损失"
+    },
+    "elzup-vocab-n3-1349": {
+      "meaningCn": "尊重、崇敬、荣誉"
+    },
+    "elzup-vocab-n3-1350": {
+      "meaningCn": "存在，存在"
+    },
+    "elzup-vocab-n3-1351": {
+      "meaningCn": "尊重、尊敬、重视"
+    },
+    "elzup-vocab-n3-1352": {
+      "meaningCn": "稻田"
+    },
+    "elzup-vocab-n3-1353": {
+      "meaningCn": "其他（尤其是地点和事物）"
+    },
+    "elzup-vocab-n3-1354": {
+      "meaningCn": "一对, 一对, 一组"
+    },
+    "elzup-vocab-n3-1355": {
+      "meaningCn": "大的，伟大的"
+    },
+    "elzup-vocab-n3-1356": {
+      "meaningCn": "标题、主题、主题"
+    },
+    "elzup-vocab-n3-1357": {
+      "meaningCn": "体育、体操、田径"
+    },
+    "elzup-vocab-n3-1358": {
+      "meaningCn": "温度（身体）"
+    },
+    "elzup-vocab-n3-1359": {
+      "meaningCn": "大会、（大型）锦标赛、群众大会"
+    },
+    "elzup-vocab-n3-1360": {
+      "meaningCn": "气氛"
+    },
+    "elzup-vocab-n3-1361": {
+      "meaningCn": "价格、成本"
+    },
+    "elzup-vocab-n3-1362": {
+      "meaningCn": "乏味的，乏味的"
+    },
+    "elzup-vocab-n3-1363": {
+      "meaningCn": "停留，逗留"
+    },
+    "elzup-vocab-n3-1364": {
+      "meaningCn": "大使"
+    },
+    "elzup-vocab-n3-1365": {
+      "meaningCn": "重要的，伟大的，相当大的"
+    },
+    "elzup-vocab-n3-1366": {
+      "meaningCn": "（体重"
+    },
+    "elzup-vocab-n3-1367": {
+      "meaningCn": "目标;对象（崇拜、学习等）；主题（即税收）"
+    },
+    "elzup-vocab-n3-1368": {
+      "meaningCn": "对比，对立，比较"
+    },
+    "elzup-vocab-n3-1369": {
+      "meaningCn": "内阁部长"
+    },
+    "elzup-vocab-n3-1370": {
+      "meaningCn": "面对、面对、对抗"
+    },
+    "elzup-vocab-n3-1371": {
+      "meaningCn": "伟大的战争，伟大的战斗"
+    },
+    "elzup-vocab-n3-1372": {
+      "meaningCn": "态度、方式"
+    },
+    "elzup-vocab-n3-1373": {
+      "meaningCn": "总统"
+    },
+    "elzup-vocab-n3-1374": {
+      "meaningCn": "大多数，大多数，大部分"
+    },
+    "elzup-vocab-n3-1375": {
+      "meaningCn": "代表、代表团"
+    },
+    "elzup-vocab-n3-1376": {
+      "meaningCn": "大多数，大多数"
+    },
+    "elzup-vocab-n3-1377": {
+      "meaningCn": "打字机"
+    },
+    "elzup-vocab-n3-1378": {
+      "meaningCn": "逮捕、逮捕、捕获"
+    },
+    "elzup-vocab-n3-1379": {
+      "meaningCn": "标题"
+    },
+    "elzup-vocab-n3-1380": {
+      "meaningCn": "（铁路）时刻表；钻石"
+    },
+    "elzup-vocab-n3-1381": {
+      "meaningCn": "太阳"
+    },
+    "elzup-vocab-n3-1382": {
+      "meaningCn": "平整度、水平度、光滑度"
+    },
+    "elzup-vocab-n3-1383": {
+      "meaningCn": "代表, 代表, 代理人"
+    },
+    "elzup-vocab-n3-1384": {
+      "meaningCn": "大陆"
+    },
+    "elzup-vocab-n3-1385": {
+      "meaningCn": "摔倒，殴打"
+    },
+    "elzup-vocab-n3-1386": {
+      "meaningCn": "（手）毛巾"
+    },
+    "elzup-vocab-n3-1387": {
+      "meaningCn": "但是，但是"
+    },
+    "elzup-vocab-n3-1388": {
+      "meaningCn": "相互的，彼此的"
+    },
+    "elzup-vocab-n3-1389": {
+      "meaningCn": "提高，举起，提高"
+    },
+    "elzup-vocab-n3-1390": {
+      "meaningCn": "宝藏"
+    },
+    "elzup-vocab-n3-1391": {
+      "meaningCn": "房子，家"
+    },
+    "elzup-vocab-n3-1392": {
+      "meaningCn": "煮沸，煮"
+    },
+    "elzup-vocab-n3-1393": {
+      "meaningCn": "燃烧、点燃、生火"
+    },
+    "elzup-vocab-n3-1394": {
+      "meaningCn": "拥抱，拥抱"
+    },
+    "elzup-vocab-n3-1395": {
+      "meaningCn": "然而"
+    },
+    "elzup-vocab-n3-1396": {
+      "meaningCn": "肯定的，当然，如果我没记错的话"
+    },
+    "elzup-vocab-n3-1397": {
+      "meaningCn": "确定，确定"
+    },
+    "elzup-vocab-n3-1398": {
+      "meaningCn": "一点点（与少し (すこし) 相同）"
+    },
+    "elzup-vocab-n3-1399": {
+      "meaningCn": "被拯救； （某事）有帮助（v.i.）"
+    },
+    "elzup-vocab-n3-1400": {
+      "meaningCn": "帮助；拯救"
+    },
+    "elzup-vocab-n3-1401": {
+      "meaningCn": "免费；只是(~);只(~)"
+    },
+    "elzup-vocab-n3-1402": {
+      "meaningCn": "免费的，仅仅，仅"
+    },
+    "elzup-vocab-n3-1403": {
+      "meaningCn": "单纯的，唯一的，平淡的"
+    },
+    "elzup-vocab-n3-1404": {
+      "meaningCn": "战斗，战斗"
+    },
+    "elzup-vocab-n3-1405": {
+      "meaningCn": "去战斗，去竞争，去战斗"
+    },
+    "elzup-vocab-n3-1406": {
+      "meaningCn": "打击、殴打"
+    },
+    "elzup-vocab-n3-1407": {
+      "meaningCn": "立刻，立即"
+    },
+    "elzup-vocab-n3-1408": {
+      "meaningCn": "折叠（衣服）"
+    },
+    "elzup-vocab-n3-1409": {
+      "meaningCn": "站起来"
+    },
+    "elzup-vocab-n3-1410": {
+      "meaningCn": "立场、立场、情况"
+    },
+    "elzup-vocab-n3-1411": {
+      "meaningCn": "站立；建立 (v.i.), 建立, 建立"
+    },
+    "elzup-vocab-n3-1412": {
+      "meaningCn": "（时间）流逝"
+    },
+    "elzup-vocab-n3-1413": {
+      "meaningCn": "到达，到达"
+    },
+    "elzup-vocab-n3-1414": {
+      "meaningCn": "仅仅，仅仅"
+    },
+    "elzup-vocab-n3-1415": {
+      "meaningCn": "但是，因为，甚至"
+    },
+    "elzup-vocab-n3-1416": {
+      "meaningCn": "充分的，大量的，充分的"
+    },
+    "elzup-vocab-n3-1417": {
+      "meaningCn": "即使，无论如何，尽管"
+    },
+    "elzup-vocab-n3-1418": {
+      "meaningCn": "谷"
+    },
+    "elzup-vocab-n3-1419": {
+      "meaningCn": "不相干的人，陌生人"
+    },
+    "elzup-vocab-n3-1420": {
+      "meaningCn": "种子;材料;原因"
+    },
+    "elzup-vocab-n3-1421": {
+      "meaningCn": "束，束"
+    },
+    "elzup-vocab-n3-1422": {
+      "meaningCn": "日式袜子（分趾）"
+    },
+    "elzup-vocab-n3-1423": {
+      "meaningCn": "发生次数计数器"
+    },
+    "elzup-vocab-n3-1424": {
+      "meaningCn": "旅行，旅行，旅途"
+    },
+    "elzup-vocab-n3-1425": {
+      "meaningCn": "经常，反复，经常"
+    },
+    "elzup-vocab-n3-1426": {
+      "meaningCn": "球体、球体、硬币"
+    },
+    "elzup-vocab-n3-1427": {
+      "meaningCn": "地球仪, 球体, 球体"
+    },
+    "elzup-vocab-n3-1428": {
+      "meaningCn": "子弹，射击"
+    },
+    "elzup-vocab-n3-1429": {
+      "meaningCn": "偶数、情侣、朋友"
+    },
+    "elzup-vocab-n3-1430": {
+      "meaningCn": "欺骗、欺骗、欺骗"
+    },
+    "elzup-vocab-n3-1431": {
+      "meaningCn": "意外地, 意外地, 偶然地"
+    },
+    "elzup-vocab-n3-1432": {
+      "meaningCn": "无法忍受的, 无法忍受的, 难以忍受的"
+    },
+    "elzup-vocab-n3-1433": {
+      "meaningCn": "收集，聚集，积累"
+    },
+    "elzup-vocab-n3-1434": {
+      "meaningCn": "保持沉默"
+    },
+    "elzup-vocab-n3-1435": {
+      "meaningCn": "试验，测试"
+    },
+    "elzup-vocab-n3-1436": {
+      "meaningCn": "尝试，测试"
+    },
+    "elzup-vocab-n3-1437": {
+      "meaningCn": "积累，收集"
+    },
+    "elzup-vocab-n3-1438": {
+      "meaningCn": "新闻、信件、信件"
+    },
+    "elzup-vocab-n3-1439": {
+      "meaningCn": "依靠, 依靠, 依靠"
+    },
+    "elzup-vocab-n3-1440": {
+      "meaningCn": "台阶、台阶、等级"
+    },
+    "elzup-vocab-n3-1441": {
+      "meaningCn": "学分（学校课程）；单位、面额"
+    },
+    "elzup-vocab-n3-1442": {
+      "meaningCn": "单词;词汇"
+    },
+    "elzup-vocab-n3-1443": {
+      "meaningCn": "年轻人"
+    },
+    "elzup-vocab-n3-1444": {
+      "meaningCn": "简单"
+    },
+    "elzup-vocab-n3-1445": {
+      "meaningCn": "出生"
+    },
+    "elzup-vocab-n3-1446": {
+      "meaningCn": "舞蹈"
+    },
+    "elzup-vocab-n3-1447": {
+      "meaningCn": "组织、协会"
+    },
+    "elzup-vocab-n3-1448": {
+      "meaningCn": "（中）充电"
+    },
+    "elzup-vocab-n3-1449": {
+      "meaningCn": "单纯、简单、纯粹"
+    },
+    "elzup-vocab-n3-1450": {
+      "meaningCn": "简单地，仅仅"
+    },
+    "elzup-vocab-n3-1451": {
+      "meaningCn": "地球"
+    },
+    "elzup-vocab-n3-1452": {
+      "meaningCn": "（社会）地位，地位"
+    },
+    "elzup-vocab-n3-1453": {
+      "meaningCn": "地区、地区"
+    },
+    "elzup-vocab-n3-1454": {
+      "meaningCn": "奶酪"
+    },
+    "elzup-vocab-n3-1455": {
+      "meaningCn": "团队"
+    },
+    "elzup-vocab-n3-1456": {
+      "meaningCn": "智慧、机智、聪明才智"
+    },
+    "elzup-vocab-n3-1457": {
+      "meaningCn": "地下室，地下"
+    },
+    "elzup-vocab-n3-1458": {
+      "meaningCn": "差别，差异"
+    },
+    "elzup-vocab-n3-1459": {
+      "meaningCn": "（短语）当然，毫无疑问，肯定的"
+    },
+    "elzup-vocab-n3-1460": {
+      "meaningCn": "最近，最近，最近，现在"
+    },
+    "elzup-vocab-n3-1461": {
+      "meaningCn": "地球"
+    },
+    "elzup-vocab-n3-1462": {
+      "meaningCn": "区、区"
+    },
+    "elzup-vocab-n3-1463": {
+      "meaningCn": "迟到，迟到"
+    },
+    "elzup-vocab-n3-1464": {
+      "meaningCn": "都道府县知事"
+    },
+    "elzup-vocab-n3-1465": {
+      "meaningCn": "知识、信息"
+    },
+    "elzup-vocab-n3-1466": {
+      "meaningCn": "父亲"
+    },
+    "elzup-vocab-n3-1467": {
+      "meaningCn": "智力、大脑"
+    },
+    "elzup-vocab-n3-1468": {
+      "meaningCn": "地平线"
+    },
+    "elzup-vocab-n3-1469": {
+      "meaningCn": "区域、地方、地区"
+    },
+    "elzup-vocab-n3-1470": {
+      "meaningCn": "茶"
+    },
+    "elzup-vocab-n3-1471": {
+      "meaningCn": "机会，机会"
+    },
+    "elzup-vocab-n3-1472": {
+      "meaningCn": "完美地、正确地、准确地"
+    },
+    "elzup-vocab-n3-1473": {
+      "meaningCn": "里面、中间、中间"
+    },
+    "elzup-vocab-n3-1474": {
+      "meaningCn": "注释，解释性注释"
+    },
+    "elzup-vocab-n3-1475": {
+      "meaningCn": "中央，中心，中间"
+    },
+    "elzup-vocab-n3-1476": {
+      "meaningCn": "初中、初中"
+    },
+    "elzup-vocab-n3-1477": {
+      "meaningCn": "用过的，二手的"
+    },
+    "elzup-vocab-n3-1478": {
+      "meaningCn": "暂停、停止、终止"
+    },
+    "elzup-vocab-n3-1479": {
+      "meaningCn": "停车位（例如汽车）"
+    },
+    "elzup-vocab-n3-1480": {
+      "meaningCn": "午餐（与昼ご饭（ひるごはん）相同）"
+    },
+    "elzup-vocab-n3-1481": {
+      "meaningCn": "中心，核心"
+    },
+    "elzup-vocab-n3-1482": {
+      "meaningCn": "注意，注意，观察"
+    },
+    "elzup-vocab-n3-1483": {
+      "meaningCn": "订单、请求"
+    },
+    "elzup-vocab-n3-1484": {
+      "meaningCn": "长时间段"
+    },
+    "elzup-vocab-n3-1485": {
+      "meaningCn": "民意调查;调查"
+    },
+    "elzup-vocab-n3-1486": {
+      "meaningCn": "条件、状态、音调、音调"
+    },
+    "elzup-vocab-n3-1487": {
+      "meaningCn": "顶峰, 顶峰, 顶峰"
+    },
+    "elzup-vocab-n3-1488": {
+      "meaningCn": "-- ください的口语形式；通常由儿童或妇女使用——"
+    },
+    "elzup-vocab-n3-1489": {
+      "meaningCn": "（存款"
+    },
+    "elzup-vocab-n3-1490": {
+      "meaningCn": "直接的，立即的，直接的"
+    },
+    "elzup-vocab-n3-1491": {
+      "meaningCn": "作家，作家"
+    },
+    "elzup-vocab-n3-1492": {
+      "meaningCn": "驱散，驱散，散布"
+    },
+    "elzup-vocab-n3-1493": {
+      "meaningCn": "掉落、散落（例如，开花）"
+    },
+    "elzup-vocab-n3-1494": {
+      "meaningCn": "最后，最后"
+    },
+    "elzup-vocab-n3-1495": {
+      "meaningCn": "穿过，经过"
+    },
+    "elzup-vocab-n3-1496": {
+      "meaningCn": "货币"
+    },
+    "elzup-vocab-n3-1497": {
+      "meaningCn": "通勤去学校"
+    },
+    "elzup-vocab-n3-1498": {
+      "meaningCn": "上班通勤"
+    },
+    "elzup-vocab-n3-1499": {
+      "meaningCn": "通过，经过"
+    },
+    "elzup-vocab-n3-1500": {
+      "meaningCn": "跑向、引导、交流"
+    },
+    "elzup-vocab-n3-1501": {
+      "meaningCn": "信件、通讯"
+    },
+    "elzup-vocab-n3-1502": {
+      "meaningCn": "解释;口译员"
+    },
+    "elzup-vocab-n3-1503": {
+      "meaningCn": "被逮捕；被抓住"
+    },
+    "elzup-vocab-n3-1504": {
+      "meaningCn": "抓住，抓住，掌握"
+    },
+    "elzup-vocab-n3-1505": {
+      "meaningCn": "疲倦，疲劳"
+    },
+    "elzup-vocab-n3-1506": {
+      "meaningCn": "社会化；友谊;协会"
+    },
+    "elzup-vocab-n3-1507": {
+      "meaningCn": "与人交往，与人相处，与人相处"
+    },
+    "elzup-vocab-n3-1508": {
+      "meaningCn": "接连地，一一地"
+    },
+    "elzup-vocab-n3-1509": {
+      "meaningCn": "毗邻、依附、依附"
+    },
+    "elzup-vocab-n3-1510": {
+      "meaningCn": "安顿在（地方），采取（座位位置），学习（在老师的指导下）"
+    },
+    "elzup-vocab-n3-1511": {
+      "meaningCn": "猛击，猛击；戳"
+    },
+    "elzup-vocab-n3-1512": {
+      "meaningCn": "排在旁边, 排在后面"
+    },
+    "elzup-vocab-n3-1513": {
+      "meaningCn": "倒入（到）"
+    },
+    "elzup-vocab-n3-1514": {
+      "meaningCn": "附加、加入、添加"
+    },
+    "elzup-vocab-n3-1515": {
+      "meaningCn": "穿上，穿；制定"
+    },
+    "elzup-vocab-n3-1516": {
+      "meaningCn": "被传承，被传承"
+    },
+    "elzup-vocab-n3-1517": {
+      "meaningCn": "地球，土壤"
+    },
+    "elzup-vocab-n3-1518": {
+      "meaningCn": "续集，继续"
+    },
+    "elzup-vocab-n3-1519": {
+      "meaningCn": "捆绑，包裹"
+    },
+    "elzup-vocab-n3-1520": {
+      "meaningCn": "工作、就业"
+    },
+    "elzup-vocab-n3-1521": {
+      "meaningCn": "责任"
+    },
+    "elzup-vocab-n3-1522": {
+      "meaningCn": "与 相连，与 相关"
+    },
+    "elzup-vocab-n3-1523": {
+      "meaningCn": "打结，系紧，连接"
+    },
+    "elzup-vocab-n3-1524": {
+      "meaningCn": "连接"
+    },
+    "elzup-vocab-n3-1525": {
+      "meaningCn": "总是（与いつも相同）（书面表达）"
+    },
+    "elzup-vocab-n3-1526": {
+      "meaningCn": "翅膀"
+    },
+    "elzup-vocab-n3-1527": {
+      "meaningCn": "即；换句话说;简而言之"
+    },
+    "elzup-vocab-n3-1528": {
+      "meaningCn": "犯罪、过失、轻率行为"
+    },
+    "elzup-vocab-n3-1529": {
+      "meaningCn": "堆积起来，堆叠起来"
+    },
+    "elzup-vocab-n3-1530": {
+      "meaningCn": "打包、缩短、锻炼（细节）"
+    },
+    "elzup-vocab-n3-1531": {
+      "meaningCn": "堆积起来"
+    },
+    "elzup-vocab-n3-1532": {
+      "meaningCn": "雨季"
+    },
+    "elzup-vocab-n3-1533": {
+      "meaningCn": "痛苦的、心碎的"
+    },
+    "elzup-vocab-n3-1534": {
+      "meaningCn": "钓鱼"
+    },
+    "elzup-vocab-n3-1535": {
+      "meaningCn": "同伴、公司"
+    },
+    "elzup-vocab-n3-1536": {
+      "meaningCn": "流出、流出、毕业"
+    },
+    "elzup-vocab-n3-1537": {
+      "meaningCn": "相遇、会面、相遇"
+    },
+    "elzup-vocab-n3-1538": {
+      "meaningCn": "一次邂逅"
+    },
+    "elzup-vocab-n3-1539": {
+      "meaningCn": "偶然遇见, 偶然遇见, 偶然遇见"
+    },
+    "elzup-vocab-n3-1540": {
+      "meaningCn": "提案、提议、建议"
+    },
+    "elzup-vocab-n3-1541": {
+      "meaningCn": "固定期限"
+    },
+    "elzup-vocab-n3-1542": {
+      "meaningCn": "抵抗、反对"
+    },
+    "elzup-vocab-n3-1543": {
+      "meaningCn": "陈述、提交、归档"
+    },
+    "elzup-vocab-n3-1544": {
+      "meaningCn": "停电"
+    },
+    "elzup-vocab-n3-1545": {
+      "meaningCn": "程度、数量、水平"
+    },
+    "elzup-vocab-n3-1546": {
+      "meaningCn": "巴士或电车站"
+    },
+    "elzup-vocab-n3-1547": {
+      "meaningCn": "日期（仅在“社交参与”的意义上）"
+    },
+    "elzup-vocab-n3-1548": {
+      "meaningCn": "敌人，竞争对手"
+    },
+    "elzup-vocab-n3-1549": {
+      "meaningCn": "事件发生，事件"
+    },
+    "elzup-vocab-n3-1550": {
+      "meaningCn": "适合，适合"
+    },
+    "elzup-vocab-n3-1551": {
+      "meaningCn": "适当的、充分的、相关的"
+    },
+    "elzup-vocab-n3-1552": {
+      "meaningCn": "缓和"
+    },
+    "elzup-vocab-n3-1553": {
+      "meaningCn": "申请"
+    },
+    "elzup-vocab-n3-1554": {
+      "meaningCn": "如果可能的话…"
+    },
+    "elzup-vocab-n3-1555": {
+      "meaningCn": "变戏法、魔术"
+    },
+    "elzup-vocab-n3-1556": {
+      "meaningCn": "所以"
+    },
+    "elzup-vocab-n3-1557": {
+      "meaningCn": "铁"
+    },
+    "elzup-vocab-n3-1558": {
+      "meaningCn": "哲学"
+    },
+    "elzup-vocab-n3-1559": {
+      "meaningCn": "帮助，帮助者，助手"
+    },
+    "elzup-vocab-n3-1560": {
+      "meaningCn": "彻底性、完整性"
+    },
+    "elzup-vocab-n3-1561": {
+      "meaningCn": "铁路;铁路"
+    },
+    "elzup-vocab-n3-1562": {
+      "meaningCn": "熬夜，彻夜难眠"
+    },
+    "elzup-vocab-n3-1563": {
+      "meaningCn": "时间、劳动"
+    },
+    "elzup-vocab-n3-1564": {
+      "meaningCn": "演示，演示"
+    },
+    "elzup-vocab-n3-1565": {
+      "meaningCn": "类型、模式、原型"
+    },
+    "elzup-vocab-n3-1566": {
+      "meaningCn": "天气"
+    },
+    "elzup-vocab-n3-1567": {
+      "meaningCn": "电子;电子的"
+    },
+    "elzup-vocab-n3-1568": {
+      "meaningCn": "帐篷"
+    },
+    "elzup-vocab-n3-1569": {
+      "meaningCn": "传统、惯例"
+    },
+    "elzup-vocab-n3-1570": {
+      "meaningCn": "自然性、自发性"
+    },
+    "elzup-vocab-n3-1571": {
+      "meaningCn": "问题，询问"
+    },
+    "elzup-vocab-n3-1572": {
+      "meaningCn": "政党（政治）"
+    },
+    "elzup-vocab-n3-1573": {
+      "meaningCn": "塔、宝塔"
+    },
+    "elzup-vocab-n3-1574": {
+      "meaningCn": "试卷、考试稿"
+    },
+    "elzup-vocab-n3-1575": {
+      "meaningCn": "同一性、同一性、相似性"
+    },
+    "elzup-vocab-n3-1576": {
+      "meaningCn": "铜币"
+    },
+    "elzup-vocab-n3-1577": {
+      "meaningCn": "那时，那些日子（同そのころ）"
+    },
+    "elzup-vocab-n3-1578": {
+      "meaningCn": "动词"
+    },
+    "elzup-vocab-n3-1579": {
+      "meaningCn": "同时，同时"
+    },
+    "elzup-vocab-n3-1580": {
+      "meaningCn": "不惜一切代价，无论发生什么，无论多么努力"
+    },
+    "elzup-vocab-n3-1581": {
+      "meaningCn": "很高兴认识你"
+    },
+    "elzup-vocab-n3-1582": {
+      "meaningCn": "到达"
+    },
+    "elzup-vocab-n3-1583": {
+      "meaningCn": "德"
+    },
+    "elzup-vocab-n3-1584": {
+      "meaningCn": "投票，投票"
+    },
+    "elzup-vocab-n3-1585": {
+      "meaningCn": "东方"
+    },
+    "elzup-vocab-n3-1586": {
+      "meaningCn": "相同的，相同的（种类），像"
+    },
+    "elzup-vocab-n3-1587": {
+      "meaningCn": "儿歌、童谣"
+    },
+    "elzup-vocab-n3-1588": {
+      "meaningCn": "同事;同事"
+    },
+    "elzup-vocab-n3-1589": {
+      "meaningCn": "路"
+    },
+    "elzup-vocab-n3-1590": {
+      "meaningCn": "放过、忽视、继续"
+    },
+    "elzup-vocab-n3-1591": {
+      "meaningCn": "通过，通过"
+    },
+    "elzup-vocab-n3-1592": {
+      "meaningCn": "城市"
+    },
+    "elzup-vocab-n3-1593": {
+      "meaningCn": "溶解（油漆）"
+    },
+    "elzup-vocab-n3-1594": {
+      "meaningCn": "解开；回答，解决"
+    },
+    "elzup-vocab-n3-1595": {
+      "meaningCn": "撤退，后退，撤退"
+    },
+    "elzup-vocab-n3-1596": {
+      "meaningCn": "毒药，有毒物"
+    },
+    "elzup-vocab-n3-1597": {
+      "meaningCn": "骄傲、胜利、繁荣"
+    },
+    "elzup-vocab-n3-1598": {
+      "meaningCn": "阅读"
+    },
+    "elzup-vocab-n3-1599": {
+      "meaningCn": "单身，未婚"
+    },
+    "elzup-vocab-n3-1600": {
+      "meaningCn": "特征）;特征）;特质"
+    },
+    "elzup-vocab-n3-1601": {
+      "meaningCn": "长处，优点"
+    },
+    "elzup-vocab-n3-1602": {
+      "meaningCn": "独特性、独特性、特性"
+    },
+    "elzup-vocab-n3-1603": {
+      "meaningCn": "独立；自立"
+    },
+    "elzup-vocab-n3-1604": {
+      "meaningCn": "融化、解冻、溶解"
+    },
+    "elzup-vocab-n3-1605": {
+      "meaningCn": "解开, 分开"
+    },
+    "elzup-vocab-n3-1606": {
+      "meaningCn": "某处，任何地方"
+    },
+    "elzup-vocab-n3-1607": {
+      "meaningCn": "然而，同时，即使"
+    },
+    "elzup-vocab-n3-1608": {
+      "meaningCn": "顺便一提;即使"
+    },
+    "elzup-vocab-n3-1609": {
+      "meaningCn": "登山"
+    },
+    "elzup-vocab-n3-1610": {
+      "meaningCn": "城镇、城市、城市"
+    },
+    "elzup-vocab-n3-1611": {
+      "meaningCn": "几个月和几年"
+    },
+    "elzup-vocab-n3-1612": {
+      "meaningCn": "图书"
+    },
+    "elzup-vocab-n3-1613": {
+      "meaningCn": "老年人，老年人"
+    },
+    "elzup-vocab-n3-1614": {
+      "meaningCn": "闭上（例如，书本、眼睛）、闭上"
+    },
+    "elzup-vocab-n3-1615": {
+      "meaningCn": "只是（现在、此刻等）"
+    },
+    "elzup-vocab-n3-1616": {
+      "meaningCn": "土地、土地、土地"
+    },
+    "elzup-vocab-n3-1617": {
+      "meaningCn": "突然，突然，意外地"
+    },
+    "elzup-vocab-n3-1618": {
+      "meaningCn": "顶部"
+    },
+    "elzup-vocab-n3-1619": {
+      "meaningCn": "达到"
+    },
+    "elzup-vocab-n3-1620": {
+      "meaningCn": "无论如何，无论如何，无论如何"
+    },
+    "elzup-vocab-n3-1621": {
+      "meaningCn": "跳过，省略"
+    },
+    "elzup-vocab-n3-1622": {
+      "meaningCn": "跳出、冲出、飞出"
+    },
+    "elzup-vocab-n3-1623": {
+      "meaningCn": "扣紧、关闭、扣留"
+    },
+    "elzup-vocab-n3-1624": {
+      "meaningCn": "让某人留下来（过夜）（v.t.）"
+    },
+    "elzup-vocab-n3-1625": {
+      "meaningCn": "朋友, 同伴, 朋友"
+    },
+    "elzup-vocab-n3-1626": {
+      "meaningCn": "分享、参与"
+    },
+    "elzup-vocab-n3-1627": {
+      "meaningCn": "老虎"
+    },
+    "elzup-vocab-n3-1628": {
+      "meaningCn": "驾驶，驾驶"
+    },
+    "elzup-vocab-n3-1629": {
+      "meaningCn": "卡车; （跑步）跑道"
+    },
+    "elzup-vocab-n3-1630": {
+      "meaningCn": "戏剧"
+    },
+    "elzup-vocab-n3-1631": {
+      "meaningCn": "扑克牌（字面意思：王牌）"
+    },
+    "elzup-vocab-n3-1632": {
+      "meaningCn": "拿起，拿起；没收"
+    },
+    "elzup-vocab-n3-1633": {
+      "meaningCn": "极大的努力, 努力, 努力"
+    },
+    "elzup-vocab-n3-1634": {
+      "meaningCn": "训练"
+    },
+    "elzup-vocab-n3-1635": {
+      "meaningCn": "裙子"
+    },
+    "elzup-vocab-n3-1636": {
+      "meaningCn": "脱落，脱下"
+    },
+    "elzup-vocab-n3-1637": {
+      "meaningCn": "泥"
+    },
+    "elzup-vocab-n3-1638": {
+      "meaningCn": "吨（1000 磅）"
+    },
+    "elzup-vocab-n3-1639": {
+      "meaningCn": "太离谱了，没办法！"
+    },
+    "elzup-vocab-n3-1640": {
+      "meaningCn": "怎样，多少"
+    },
+    "elzup-vocab-n3-1641": {
+      "meaningCn": "隧道"
+    },
+    "elzup-vocab-n3-1642": {
+      "meaningCn": "姓名、声誉"
+    },
+    "elzup-vocab-n3-1643": {
+      "meaningCn": "主题、内容、细节"
+    },
+    "elzup-vocab-n3-1644": {
+      "meaningCn": "仍然，还"
+    },
+    "elzup-vocab-n3-1645": {
+      "meaningCn": "关系，关系"
+    },
+    "elzup-vocab-n3-1646": {
+      "meaningCn": "排干、漂浮、流出（例如血、泪）"
+    },
+    "elzup-vocab-n3-1647": {
+      "meaningCn": "中间，一半"
+    },
+    "elzup-vocab-n3-1648": {
+      "meaningCn": "公司、同事、同事、合伙人"
+    },
+    "elzup-vocab-n3-1649": {
+      "meaningCn": "内容）;物质"
+    },
+    "elzup-vocab-n3-1650": {
+      "meaningCn": "内容、内部、填充"
+    },
+    "elzup-vocab-n3-1651": {
+      "meaningCn": "场景;看法;前景;前景"
+    },
+    "elzup-vocab-n3-1652": {
+      "meaningCn": "观看，凝视"
+    },
+    "elzup-vocab-n3-1653": {
+      "meaningCn": "流、电流"
+    },
+    "elzup-vocab-n3-1654": {
+      "meaningCn": "流淌，被冲走"
+    },
+    "elzup-vocab-n3-1655": {
+      "meaningCn": "失去某人"
+    },
+    "elzup-vocab-n3-1656": {
+      "meaningCn": "罢工；打；打拳"
+    },
+    "elzup-vocab-n3-1657": {
+      "meaningCn": "没有"
+    },
+    "elzup-vocab-n3-1658": {
+      "meaningCn": "因为"
+    },
+    "elzup-vocab-n3-1659": {
+      "meaningCn": "谜语, 谜题, 谜语"
+    },
+    "elzup-vocab-n3-1660": {
+      "meaningCn": "同意、同意、理解"
+    },
+    "elzup-vocab-n3-1661": {
+      "meaningCn": "某物"
+    },
+    "elzup-vocab-n3-1662": {
+      "meaningCn": "没有什么"
+    },
+    "elzup-vocab-n3-1663": {
+      "meaningCn": "平底锅，锅"
+    },
+    "elzup-vocab-n3-1664": {
+      "meaningCn": "未加工的、未加工的"
+    },
+    "elzup-vocab-n3-1665": {
+      "meaningCn": "无所事事、忽视"
+    },
+    "elzup-vocab-n3-1666": {
+      "meaningCn": "海浪"
+    },
+    "elzup-vocab-n3-1667": {
+      "meaningCn": "撕"
+    },
+    "elzup-vocab-n3-1668": {
+      "meaningCn": "使苦恼，使烦恼"
+    },
+    "elzup-vocab-n3-1669": {
+      "meaningCn": "响铃, 发出声音"
+    },
+    "elzup-vocab-n3-1670": {
+      "meaningCn": "改变、有用、达到"
+    },
+    "elzup-vocab-n3-1671": {
+      "meaningCn": "结出果实"
+    },
+    "elzup-vocab-n3-1672": {
+      "meaningCn": "变得驯服，变得驯服"
+    },
+    "elzup-vocab-n3-1673": {
+      "meaningCn": "绳索"
+    },
+    "elzup-vocab-n3-1674": {
+      "meaningCn": "为什么、为什么"
+    },
+    "elzup-vocab-n3-1675": {
+      "meaningCn": "无论如何，一切"
+    },
+    "elzup-vocab-n3-1676": {
+      "meaningCn": "无论如何，无论如何，以某种方式或另一种方式"
+    },
+    "elzup-vocab-n3-1677": {
+      "meaningCn": "适合（人），匹配（衣服），（某物）成为（某人）"
+    },
+    "elzup-vocab-n3-1678": {
+      "meaningCn": "煮，煮，煮"
+    },
+    "elzup-vocab-n3-1679": {
+      "meaningCn": "不擅长；弱于；不喜欢"
+    },
+    "elzup-vocab-n3-1680": {
+      "meaningCn": "抓住、抓住、塑造寿司"
+    },
+    "elzup-vocab-n3-1681": {
+      "meaningCn": "天"
+    },
+    "elzup-vocab-n3-1682": {
+      "meaningCn": "普通的，常规的，日常的"
+    },
+    "elzup-vocab-n3-1683": {
+      "meaningCn": "阳光"
+    },
+    "elzup-vocab-n3-1684": {
+      "meaningCn": "白天，光天化日之下"
+    },
+    "elzup-vocab-n3-1685": {
+      "meaningCn": "甜甜地笑，微笑，咧嘴笑"
+    },
+    "elzup-vocab-n3-1686": {
+      "meaningCn": "日本"
+    },
+    "elzup-vocab-n3-1687": {
+      "meaningCn": "日本"
+    },
+    "elzup-vocab-n3-1688": {
+      "meaningCn": "入口, 入场, 进入"
+    },
+    "elzup-vocab-n3-1689": {
+      "meaningCn": "煮沸，煮"
+    },
+    "elzup-vocab-n3-1690": {
+      "meaningCn": "人气"
+    },
+    "elzup-vocab-n3-1691": {
+      "meaningCn": "人类，人"
+    },
+    "elzup-vocab-n3-1692": {
+      "meaningCn": "提取、省略、拔掉"
+    },
+    "elzup-vocab-n3-1693": {
+      "meaningCn": "出来，掉出，被遗漏"
+    },
+    "elzup-vocab-n3-1694": {
+      "meaningCn": "布"
+    },
+    "elzup-vocab-n3-1695": {
+      "meaningCn": "弄湿，浸泡"
+    },
+    "elzup-vocab-n3-1696": {
+      "meaningCn": "根"
+    },
+    "elzup-vocab-n3-1697": {
+      "meaningCn": "价值、价格、成本"
+    },
+    "elzup-vocab-n3-1698": {
+      "meaningCn": "愿望、愿望、请求"
+    },
+    "elzup-vocab-n3-1699": {
+      "meaningCn": "渴望、希望、要求"
+    },
+    "elzup-vocab-n3-1700": {
+      "meaningCn": "小鼠、大鼠"
+    },
+    "elzup-vocab-n3-1701": {
+      "meaningCn": "热带"
+    },
+    "elzup-vocab-n3-1702": {
+      "meaningCn": "热情、热情、狂热"
+    },
+    "elzup-vocab-n3-1703": {
+      "meaningCn": "年"
+    },
+    "elzup-vocab-n3-1704": {
+      "meaningCn": "几个月和几年"
+    },
+    "elzup-vocab-n3-1705": {
+      "meaningCn": "全年、始终、每天"
+    },
+    "elzup-vocab-n3-1706": {
+      "meaningCn": "年龄、时代、时期"
+    },
+    "elzup-vocab-n3-1707": {
+      "meaningCn": "年龄、岁数"
+    },
+    "elzup-vocab-n3-1708": {
+      "meaningCn": "场地"
+    },
+    "elzup-vocab-n3-1709": {
+      "meaningCn": "熟练地、很好地、正确地"
+    },
+    "elzup-vocab-n3-1710": {
+      "meaningCn": "农民、农场家庭"
+    },
+    "elzup-vocab-n3-1711": {
+      "meaningCn": "农业"
+    },
+    "elzup-vocab-n3-1712": {
+      "meaningCn": "农民，农民"
+    },
+    "elzup-vocab-n3-1713": {
+      "meaningCn": "能力、师资"
+    },
+    "elzup-vocab-n3-1714": {
+      "meaningCn": "不"
+    },
+    "elzup-vocab-n3-1715": {
+      "meaningCn": "檐"
+    },
+    "elzup-vocab-n3-1716": {
+      "meaningCn": "离开（落后、结束）、保存、保留"
+    },
+    "elzup-vocab-n3-1717": {
+      "meaningCn": "剩余的，剩下的"
+    },
+    "elzup-vocab-n3-1718": {
+      "meaningCn": "放在（某物）上，放在船上"
+    },
+    "elzup-vocab-n3-1719": {
+      "meaningCn": "放置在（某物）上；发布"
+    },
+    "elzup-vocab-n3-1720": {
+      "meaningCn": "往里看，往里看"
+    },
+    "elzup-vocab-n3-1721": {
+      "meaningCn": "除去、排除、除掉"
+    },
+    "elzup-vocab-n3-1722": {
+      "meaningCn": "希望、愿望、(a) 希望"
+    },
+    "elzup-vocab-n3-1723": {
+      "meaningCn": "渴望，渴望；查看"
+    },
+    "elzup-vocab-n3-1724": {
+      "meaningCn": "之后，从那时起"
+    },
+    "elzup-vocab-n3-1725": {
+      "meaningCn": "敲;真菌（棒球）"
+    },
+    "elzup-vocab-n3-1726": {
+      "meaningCn": "延伸，伸展，伸手"
+    },
+    "elzup-vocab-n3-1727": {
+      "meaningCn": "延伸，伸展，伸手"
+    },
+    "elzup-vocab-n3-1728": {
+      "meaningCn": "延伸、进步、成长"
+    },
+    "elzup-vocab-n3-1729": {
+      "meaningCn": "延长"
+    },
+    "elzup-vocab-n3-1730": {
+      "meaningCn": "陈述、表达、提及"
+    },
+    "elzup-vocab-n3-1731": {
+      "meaningCn": "上升，上升，爬升"
+    },
+    "elzup-vocab-n3-1732": {
+      "meaningCn": "兴起、上升、上升"
+    },
+    "elzup-vocab-n3-1733": {
+      "meaningCn": "出现（印刷），被记录"
+    },
+    "elzup-vocab-n3-1734": {
+      "meaningCn": "无忧无虑、闲暇时"
+    },
+    "elzup-vocab-n3-1735": {
+      "meaningCn": "地点、领域（物理）"
+    },
+    "elzup-vocab-n3-1736": {
+      "meaningCn": "（叹）"
+    },
+    "elzup-vocab-n3-1737": {
+      "meaningCn": "百分比"
+    },
+    "elzup-vocab-n3-1738": {
+      "meaningCn": "灰"
+    },
+    "elzup-vocab-n3-1739": {
+      "meaningCn": "雨季"
+    },
+    "elzup-vocab-n3-1740": {
+      "meaningCn": "小提琴"
+    },
+    "elzup-vocab-n3-1741": {
+      "meaningCn": "远足"
+    },
+    "elzup-vocab-n3-1742": {
+      "meaningCn": "交付、分配"
+    },
+    "elzup-vocab-n3-1743": {
+      "meaningCn": "管道;官方或其他渠道"
+    },
+    "elzup-vocab-n3-1744": {
+      "meaningCn": "演员、女演员、表演者"
+    },
+    "elzup-vocab-n3-1745": {
+      "meaningCn": "飞行员"
+    },
+    "elzup-vocab-n3-1746": {
+      "meaningCn": "成长，发芽；切断（牙齿）"
+    },
+    "elzup-vocab-n3-1747": {
+      "meaningCn": "坟墓，坟墓"
+    },
+    "elzup-vocab-n3-1748": {
+      "meaningCn": "傻瓜，白痴"
+    },
+    "elzup-vocab-n3-1749": {
+      "meaningCn": "博士，博士，博士"
+    },
+    "elzup-vocab-n3-1750": {
+      "meaningCn": "测量、称量、调查"
+    },
+    "elzup-vocab-n3-1751": {
+      "meaningCn": "测量、称量、调查"
+    },
+    "elzup-vocab-n3-1752": {
+      "meaningCn": "测量、称量、调查"
+    },
+    "elzup-vocab-n3-1753": {
+      "meaningCn": "扫荡、刷洗、收集"
+    },
+    "elzup-vocab-n3-1754": {
+      "meaningCn": "呕吐，呕吐"
+    },
+    "elzup-vocab-n3-1755": {
+      "meaningCn": "拍手、鼓掌"
+    },
+    "elzup-vocab-n3-1756": {
+      "meaningCn": "巨大的，广大的"
+    },
+    "elzup-vocab-n3-1757": {
+      "meaningCn": "爆炸, 爆炸, 喷发"
+    },
+    "elzup-vocab-n3-1758": {
+      "meaningCn": "博物馆"
+    },
+    "elzup-vocab-n3-1759": {
+      "meaningCn": "暴力的, 强烈的, 强烈的"
+    },
+    "elzup-vocab-n3-1760": {
+      "meaningCn": "剪刀"
+    },
+    "elzup-vocab-n3-1761": {
+      "meaningCn": "（个人）破产"
+    },
+    "elzup-vocab-n3-1762": {
+      "meaningCn": "末端（例如街道的末端）、边缘、边界"
+    },
+    "elzup-vocab-n3-1763": {
+      "meaningCn": "起源，开始"
+    },
+    "elzup-vocab-n3-1764": {
+      "meaningCn": "路径，通过（在游戏中）"
+    },
+    "elzup-vocab-n3-1765": {
+      "meaningCn": "解开，除去"
+    },
+    "elzup-vocab-n3-1766": {
+      "meaningCn": "护照"
+    },
+    "elzup-vocab-n3-1767": {
+      "meaningCn": "断开连接，脱离（例如，脱离齿轮）"
+    },
+    "elzup-vocab-n3-1768": {
+      "meaningCn": "旗帜"
+    },
+    "elzup-vocab-n3-1769": {
+      "meaningCn": "皮肤"
+    },
+    "elzup-vocab-n3-1770": {
+      "meaningCn": "裸体, 裸体"
+    },
+    "elzup-vocab-n3-1771": {
+      "meaningCn": "场、补丁"
+    },
+    "elzup-vocab-n3-1772": {
+      "meaningCn": "工作、劳动"
+    },
+    "elzup-vocab-n3-1773": {
+      "meaningCn": "包"
+    },
+    "elzup-vocab-n3-1774": {
+      "meaningCn": "发现, 发现, 发现"
+    },
+    "elzup-vocab-n3-1775": {
+      "meaningCn": "问题（出版物）"
+    },
+    "elzup-vocab-n3-1776": {
+      "meaningCn": "车辆离开"
+    },
+    "elzup-vocab-n3-1777": {
+      "meaningCn": "开火、射击、放电"
+    },
+    "elzup-vocab-n3-1778": {
+      "meaningCn": "惩罚，惩罚"
+    },
+    "elzup-vocab-n3-1779": {
+      "meaningCn": "发展、成长"
+    },
+    "elzup-vocab-n3-1780": {
+      "meaningCn": "（偶然）相遇"
+    },
+    "elzup-vocab-n3-1781": {
+      "meaningCn": "发展、成长、进步"
+    },
+    "elzup-vocab-n3-1782": {
+      "meaningCn": "公告;发布;推介会"
+    },
+    "elzup-vocab-n3-1783": {
+      "meaningCn": "发明"
+    },
+    "elzup-vocab-n3-1784": {
+      "meaningCn": "华而不实的, 华而不实的, 华而不实的"
+    },
+    "elzup-vocab-n3-1785": {
+      "meaningCn": "一起讨论，一起交谈"
+    },
+    "elzup-vocab-n3-1786": {
+      "meaningCn": "分开，分开"
+    },
+    "elzup-vocab-n3-1787": {
+      "meaningCn": "分开，释放"
+    },
+    "elzup-vocab-n3-1788": {
+      "meaningCn": "（某事、某人）分离；零件来自；分开"
+    },
+    "elzup-vocab-n3-1789": {
+      "meaningCn": "离开、获得自由、切断自己"
+    },
+    "elzup-vocab-n3-1790": {
+      "meaningCn": "翼"
+    },
+    "elzup-vocab-n3-1791": {
+      "meaningCn": "羽毛"
+    },
+    "elzup-vocab-n3-1792": {
+      "meaningCn": "宽度，宽度"
+    },
+    "elzup-vocab-n3-1793": {
+      "meaningCn": "母亲"
+    },
+    "elzup-vocab-n3-1794": {
+      "meaningCn": "省略，消除"
+    },
+    "elzup-vocab-n3-1795": {
+      "meaningCn": "场景、背景（例如小说的）"
+    },
+    "elzup-vocab-n3-1796": {
+      "meaningCn": "成为流行，成为时尚"
+    },
+    "elzup-vocab-n3-1797": {
+      "meaningCn": "腹部，肚子，肚子"
+    },
+    "elzup-vocab-n3-1798": {
+      "meaningCn": "田野、平原"
+    },
+    "elzup-vocab-n3-1799": {
+      "meaningCn": "平衡"
+    },
+    "elzup-vocab-n3-1800": {
+      "meaningCn": "针、手（例如时钟）"
+    },
+    "elzup-vocab-n3-1801": {
+      "meaningCn": "程度，范围，范围"
+    },
+    "elzup-vocab-n3-1802": {
+      "meaningCn": "反对，抵抗"
+    },
+    "elzup-vocab-n3-1803": {
+      "meaningCn": "犯罪"
+    },
+    "elzup-vocab-n3-1804": {
+      "meaningCn": "英俊的"
+    },
+    "elzup-vocab-n3-1805": {
+      "meaningCn": "反思、反思、遗憾"
+    },
+    "elzup-vocab-n3-1806": {
+      "meaningCn": "判断、决定"
+    },
+    "elzup-vocab-n3-1807": {
+      "meaningCn": "罪犯, 罪犯"
+    },
+    "elzup-vocab-n3-1808": {
+      "meaningCn": "销售、销售、营销"
+    },
+    "elzup-vocab-n3-1809": {
+      "meaningCn": "光"
+    },
+    "elzup-vocab-n3-1810": {
+      "meaningCn": "啤酒"
+    },
+    "elzup-vocab-n3-1811": {
+      "meaningCn": "损害"
+    },
+    "elzup-vocab-n3-1812": {
+      "meaningCn": "比较"
+    },
+    "elzup-vocab-n3-1813": {
+      "meaningCn": "野餐"
+    },
+    "elzup-vocab-n3-1814": {
+      "meaningCn": "悲剧"
+    },
+    "elzup-vocab-n3-1815": {
+      "meaningCn": "航空、飞行"
+    },
+    "elzup-vocab-n3-1816": {
+      "meaningCn": "膝、膝"
+    },
+    "elzup-vocab-n3-1817": {
+      "meaningCn": "紧急的, 异常的, 不寻常的"
+    },
+    "elzup-vocab-n3-1818": {
+      "meaningCn": "美丽的人（女人）"
+    },
+    "elzup-vocab-n3-1819": {
+      "meaningCn": "额头、眉毛"
+    },
+    "elzup-vocab-n3-1820": {
+      "meaningCn": "约会，约会"
+    },
+    "elzup-vocab-n3-1821": {
+      "meaningCn": "搬家、改变住所"
+    },
+    "elzup-vocab-n3-1822": {
+      "meaningCn": "绝望、疯狂、不可避免的结果"
+    },
+    "elzup-vocab-n3-1823": {
+      "meaningCn": "准确地、整齐地、尖锐地"
+    },
+    "elzup-vocab-n3-1824": {
+      "meaningCn": "拉、拉、拉"
+    },
+    "elzup-vocab-n3-1825": {
+      "meaningCn": "否定，否认"
+    },
+    "elzup-vocab-n3-1826": {
+      "meaningCn": "录像带;录像机"
+    },
+    "elzup-vocab-n3-1827": {
+      "meaningCn": "一个字"
+    },
+    "elzup-vocab-n3-1828": {
+      "meaningCn": "人群"
+    },
+    "elzup-vocab-n3-1829": {
+      "meaningCn": "平等的"
+    },
+    "elzup-vocab-n3-1830": {
+      "meaningCn": "单身，未婚"
+    },
+    "elzup-vocab-n3-1831": {
+      "meaningCn": "一个接一个地"
+    },
+    "elzup-vocab-n3-1832": {
+      "meaningCn": "批评"
+    },
+    "elzup-vocab-n3-1833": {
+      "meaningCn": "批评、评论、评论"
+    },
+    "elzup-vocab-n3-1834": {
+      "meaningCn": "秘密，秘密"
+    },
+    "elzup-vocab-n3-1835": {
+      "meaningCn": "精致的，微妙的"
+    },
+    "elzup-vocab-n3-1836": {
+      "meaningCn": "绳子，绳子"
+    },
+    "elzup-vocab-n3-1837": {
+      "meaningCn": "冷却，冷藏"
+    },
+    "elzup-vocab-n3-1838": {
+      "meaningCn": "成本，费用"
+    },
+    "elzup-vocab-n3-1839": {
+      "meaningCn": "表格（例如选项卡 1）、图表、列表"
+    },
+    "elzup-vocab-n3-1840": {
+      "meaningCn": "第二次（第 60 分钟）"
+    },
+    "elzup-vocab-n3-1841": {
+      "meaningCn": "评估，评价"
+    },
+    "elzup-vocab-n3-1842": {
+      "meaningCn": "表达、演示"
+    },
+    "elzup-vocab-n3-1843": {
+      "meaningCn": "表情"
+    },
+    "elzup-vocab-n3-1844": {
+      "meaningCn": "平等、公正、公平"
+    },
+    "elzup-vocab-n3-1845": {
+      "meaningCn": "名誉、声誉"
+    },
+    "elzup-vocab-n3-1846": {
+      "meaningCn": "表面、外面、表面"
+    },
+    "elzup-vocab-n3-1847": {
+      "meaningCn": "展开（向外）、延伸、延伸、到达、绕过"
+    },
+    "elzup-vocab-n3-1848": {
+      "meaningCn": "传播、扩展、扩大、扩展"
+    },
+    "elzup-vocab-n3-1849": {
+      "meaningCn": "扩大、传播"
+    },
+    "elzup-vocab-n3-1850": {
+      "meaningCn": "商品;品味、优雅"
+    },
+    "elzup-vocab-n3-1851": {
+      "meaningCn": "瓶子"
+    },
+    "elzup-vocab-n3-1852": {
+      "meaningCn": "方式，手段；航班"
+    },
+    "elzup-vocab-n3-1853": {
+      "meaningCn": "别针"
+    },
+    "elzup-vocab-n3-1854": {
+      "meaningCn": "否定前缀；非……；不……"
+    },
+    "elzup-vocab-n3-1855": {
+      "meaningCn": "否定前缀；非……；不……"
+    },
+    "elzup-vocab-n3-1856": {
+      "meaningCn": "什么都没有，没有，零，零"
+    },
+    "elzup-vocab-n3-1857": {
+      "meaningCn": "划分，部分"
+    },
+    "elzup-vocab-n3-1858": {
+      "meaningCn": "焦虑、不安"
+    },
+    "elzup-vocab-n3-1859": {
+      "meaningCn": "风景"
+    },
+    "elzup-vocab-n3-1860": {
+      "meaningCn": "已婚夫妇、丈夫和妻子"
+    },
+    "elzup-vocab-n3-1861": {
+      "meaningCn": "长笛、口哨"
+    },
+    "elzup-vocab-n3-1862": {
+      "meaningCn": "错误的、坏的、不可能的"
+    },
+    "elzup-vocab-n3-1863": {
+      "meaningCn": "加深"
+    },
+    "elzup-vocab-n3-1864": {
+      "meaningCn": "武器，武器"
+    },
+    "elzup-vocab-n3-1865": {
+      "meaningCn": "擦干、擦干"
+    },
+    "elzup-vocab-n3-1866": {
+      "meaningCn": "衣服，服饰"
+    },
+    "elzup-vocab-n3-1867": {
+      "meaningCn": "包含，包含"
+    },
+    "elzup-vocab-n3-1868": {
+      "meaningCn": "包括"
+    },
+    "elzup-vocab-n3-1869": {
+      "meaningCn": "袋，麻袋"
+    },
+    "elzup-vocab-n3-1870": {
+      "meaningCn": "不幸、悲伤、不幸"
+    },
+    "elzup-vocab-n3-1871": {
+      "meaningCn": "音调，音调，旋钮"
+    },
+    "elzup-vocab-n3-1872": {
+      "meaningCn": "安全、和平"
+    },
+    "elzup-vocab-n3-1873": {
+      "meaningCn": "神秘、好奇"
+    },
+    "elzup-vocab-n3-1874": {
+      "meaningCn": "不适、残疾、不便"
+    },
+    "elzup-vocab-n3-1875": {
+      "meaningCn": "妻子、夫人、女士"
+    },
+    "elzup-vocab-n3-1876": {
+      "meaningCn": "女人（与女性（じょせい）、女の人（おんなのひと）相同）"
+    },
+    "elzup-vocab-n3-1877": {
+      "meaningCn": "不公正，不公平"
+    },
+    "elzup-vocab-n3-1878": {
+      "meaningCn": "保卫（反对）、保护、防止"
+    },
+    "elzup-vocab-n3-1879": {
+      "meaningCn": "不足，短缺"
+    },
+    "elzup-vocab-n3-1880": {
+      "meaningCn": "舞台（剧院）"
+    },
+    "elzup-vocab-n3-1881": {
+      "meaningCn": "双胞胎，双胞胎"
+    },
+    "elzup-vocab-n3-1882": {
+      "meaningCn": "再一次，再一次，第二次"
+    },
+    "elzup-vocab-n3-1883": {
+      "meaningCn": "在日常情况下，通常，平常"
+    },
+    "elzup-vocab-n3-1884": {
+      "meaningCn": "边缘，边缘"
+    },
+    "elzup-vocab-n3-1885": {
+      "meaningCn": "击打，打击"
+    },
+    "elzup-vocab-n3-1886": {
+      "meaningCn": "封锁、中断、停止"
+    },
+    "elzup-vocab-n3-1887": {
+      "meaningCn": "（商品/消费者）价格"
+    },
+    "elzup-vocab-n3-1888": {
+      "meaningCn": "打击，碰撞"
+    },
+    "elzup-vocab-n3-1889": {
+      "meaningCn": "敲击、猛击、击打和攻击"
+    },
+    "elzup-vocab-n3-1890": {
+      "meaningCn": "材料，物质"
+    },
+    "elzup-vocab-n3-1891": {
+      "meaningCn": "物理"
+    },
+    "elzup-vocab-n3-1892": {
+      "meaningCn": "毛笔"
+    },
+    "elzup-vocab-n3-1893": {
+      "meaningCn": "突然，偶然，偶然"
+    },
+    "elzup-vocab-n3-1894": {
+      "meaningCn": "部分，部分，部分"
+    },
+    "elzup-vocab-n3-1895": {
+      "meaningCn": "抱怨、不满、不满"
+    },
+    "elzup-vocab-n3-1896": {
+      "meaningCn": "不满、不满、抱怨"
+    },
+    "elzup-vocab-n3-1897": {
+      "meaningCn": "增加 (v.t.), 添加到"
+    },
+    "elzup-vocab-n3-1898": {
+      "meaningCn": "增加, 增加到"
+    },
+    "elzup-vocab-n3-1899": {
+      "meaningCn": "加"
+    },
+    "elzup-vocab-n3-1900": {
+      "meaningCn": "塑料"
+    },
+    "elzup-vocab-n3-1901": {
+      "meaningCn": "计划"
+    },
+    "elzup-vocab-n3-1902": {
+      "meaningCn": "缺点，缺点"
+    },
+    "elzup-vocab-n3-1903": {
+      "meaningCn": "挥动，摇动；洒；选角（演员）"
+    },
+    "elzup-vocab-n3-1904": {
+      "meaningCn": "颤抖，颤抖，颤抖"
+    },
+    "elzup-vocab-n3-1905": {
+      "meaningCn": "刹车"
+    },
+    "elzup-vocab-n3-1906": {
+      "meaningCn": "触摸、感觉、侵犯"
+    },
+    "elzup-vocab-n3-1907": {
+      "meaningCn": "专业的"
+    },
+    "elzup-vocab-n3-1908": {
+      "meaningCn": "划分、部分、分段"
+    },
+    "elzup-vocab-n3-1909": {
+      "meaningCn": "句子"
+    },
+    "elzup-vocab-n3-1910": {
+      "meaningCn": "气氛（例如音乐）、心情、气氛"
+    },
+    "elzup-vocab-n3-1911": {
+      "meaningCn": "分析"
+    },
+    "elzup-vocab-n3-1912": {
+      "meaningCn": "文明"
+    },
+    "elzup-vocab-n3-1913": {
+      "meaningCn": "场、球体"
+    },
+    "elzup-vocab-n3-1914": {
+      "meaningCn": "墙、栅栏"
+    },
+    "elzup-vocab-n3-1915": {
+      "meaningCn": "平衡，平衡，平均"
+    },
+    "elzup-vocab-n3-1916": {
+      "meaningCn": "和平"
+    },
+    "elzup-vocab-n3-1917": {
+      "meaningCn": "（不）特别地，没什么"
+    },
+    "elzup-vocab-n3-1918": {
+      "meaningCn": "减少，减少"
+    },
+    "elzup-vocab-n3-1919": {
+      "meaningCn": "减少（大小或数量），减少"
+    },
+    "elzup-vocab-n3-1920": {
+      "meaningCn": "西服腰带"
+    },
+    "elzup-vocab-n3-1921": {
+      "meaningCn": "改变、变异、转变"
+    },
+    "elzup-vocab-n3-1922": {
+      "meaningCn": "画"
+    },
+    "elzup-vocab-n3-1923": {
+      "meaningCn": "改变、修改、修改"
+    },
+    "elzup-vocab-n3-1924": {
+      "meaningCn": "长椅"
+    },
+    "elzup-vocab-n3-1925": {
+      "meaningCn": "盒饭"
+    },
+    "elzup-vocab-n3-1926": {
+      "meaningCn": "边"
+    },
+    "elzup-vocab-n3-1927": {
+      "meaningCn": "法案（法律：X法案）"
+    },
+    "elzup-vocab-n3-1928": {
+      "meaningCn": "杆、杆、棒"
+    },
+    "elzup-vocab-n3-1929": {
+      "meaningCn": "风险、冒险、冒险"
+    },
+    "elzup-vocab-n3-1930": {
+      "meaningCn": "方向、路线、方式"
+    },
+    "elzup-vocab-n3-1931": {
+      "meaningCn": "报告、信息"
+    },
+    "elzup-vocab-n3-1932": {
+      "meaningCn": "宝石，宝石"
+    },
+    "elzup-vocab-n3-1933": {
+      "meaningCn": "包装，包装"
+    },
+    "elzup-vocab-n3-1934": {
+      "meaningCn": "丰富，大量"
+    },
+    "elzup-vocab-n3-1935": {
+      "meaningCn": "方法、手段、技巧"
+    },
+    "elzup-vocab-n3-1936": {
+      "meaningCn": "这里那里，到处"
+    },
+    "elzup-vocab-n3-1937": {
+      "meaningCn": "打电话、拜访"
+    },
+    "elzup-vocab-n3-1938": {
+      "meaningCn": "吠叫，嚎叫"
+    },
+    "elzup-vocab-n3-1939": {
+      "meaningCn": "搬运工;男生"
+    },
+    "elzup-vocab-n3-1940": {
+      "meaningCn": "划艇"
+    },
+    "elzup-vocab-n3-1941": {
+      "meaningCn": "平台;家"
+    },
+    "elzup-vocab-n3-1942": {
+      "meaningCn": "球;碗"
+    },
+    "elzup-vocab-n3-1943": {
+      "meaningCn": "其他（尤其是地点和事物）"
+    },
+    "elzup-vocab-n3-1944": {
+      "meaningCn": "自豪"
+    },
+    "elzup-vocab-n3-1945": {
+      "meaningCn": "灰尘"
+    },
+    "elzup-vocab-n3-1946": {
+      "meaningCn": "保证、保证、保证"
+    },
+    "elzup-vocab-n3-1947": {
+      "meaningCn": "保存，保存"
+    },
+    "elzup-vocab-n3-1948": {
+      "meaningCn": "走道"
+    },
+    "elzup-vocab-n3-1949": {
+      "meaningCn": "佛"
+    },
+    "elzup-vocab-n3-1950": {
+      "meaningCn": "骨"
+    },
+    "elzup-vocab-n3-1951": {
+      "meaningCn": "火焰"
+    },
+    "elzup-vocab-n3-1952": {
+      "meaningCn": "脸颊（脸的）"
+    },
+    "elzup-vocab-n3-1953": {
+      "meaningCn": "脸颊（脸的）"
+    },
+    "elzup-vocab-n3-1954": {
+      "meaningCn": "几乎，大致"
+    },
+    "elzup-vocab-n3-1955": {
+      "meaningCn": "微笑"
+    },
+    "elzup-vocab-n3-1956": {
+      "meaningCn": "护城河、运河"
+    },
+    "elzup-vocab-n3-1957": {
+      "meaningCn": "护城河"
+    },
+    "elzup-vocab-n3-1958": {
+      "meaningCn": "真相，现实"
+    },
+    "elzup-vocab-n3-1959": {
+      "meaningCn": "该人本人"
+    },
+    "elzup-vocab-n3-1960": {
+      "meaningCn": "正品"
+    },
+    "elzup-vocab-n3-1961": {
+      "meaningCn": "暗淡的, 微弱的, 模糊的"
+    },
+    "elzup-vocab-n3-1962": {
+      "meaningCn": "空间、房间、暂停"
+    },
+    "elzup-vocab-n3-1963": {
+      "meaningCn": "很好（在做出谦虚或犹豫的陈述时使用）"
+    },
+    "elzup-vocab-n3-1964": {
+      "meaningCn": "市场"
+    },
+    "elzup-vocab-n3-1965": {
+      "meaningCn": "麦克风"
+    },
+    "elzup-vocab-n3-1966": {
+      "meaningCn": "走失（流浪）的孩子"
+    },
+    "elzup-vocab-n3-1967": {
+      "meaningCn": "减"
+    },
+    "elzup-vocab-n3-1968": {
+      "meaningCn": "委托给他人，留给"
+    },
+    "elzup-vocab-n3-1969": {
+      "meaningCn": "卷绕，卷绕，卷起"
+    },
+    "elzup-vocab-n3-1970": {
+      "meaningCn": "播种（种子）"
+    },
+    "elzup-vocab-n3-1971": {
+      "meaningCn": "撒播、撒播、播种"
+    },
+    "elzup-vocab-n3-1972": {
+      "meaningCn": "帷幕，幕布，幕布（表演中）"
+    },
+    "elzup-vocab-n3-1973": {
+      "meaningCn": "失败，损失"
+    },
+    "elzup-vocab-n3-1974": {
+      "meaningCn": "孙子"
+    },
+    "elzup-vocab-n3-1975": {
+      "meaningCn": "绝不是"
+    },
+    "elzup-vocab-n3-1976": {
+      "meaningCn": "正确地、肯定地"
+    },
+    "elzup-vocab-n3-1977": {
+      "meaningCn": "混合, 混合在一起"
+    },
+    "elzup-vocab-n3-1978": {
+      "meaningCn": "混合, 混合在一起"
+    },
+    "elzup-vocab-n3-1979": {
+      "meaningCn": "混合, 混合在一起"
+    },
+    "elzup-vocab-n3-1980": {
+      "meaningCn": "混合, 混合在一起"
+    },
+    "elzup-vocab-n3-1981": {
+      "meaningCn": "增加，获得"
+    },
+    "elzup-vocab-n3-1982": {
+      "meaningCn": "贫穷的，有需要的"
+    },
+    "elzup-vocab-n3-1983": {
+      "meaningCn": "酒吧老板、硕士（例如艺术、科学）"
+    },
+    "elzup-vocab-n3-1984": {
+      "meaningCn": "越来越多（与もっと相同），越来越多"
+    },
+    "elzup-vocab-n3-1985": {
+      "meaningCn": "混合，搅拌"
+    },
+    "elzup-vocab-n3-1986": {
+      "meaningCn": "被混合，被混合"
+    },
+    "elzup-vocab-n3-1987": {
+      "meaningCn": "镇;街道、道路"
+    },
+    "elzup-vocab-n3-1988": {
+      "meaningCn": "错误"
+    },
+    "elzup-vocab-n3-1989": {
+      "meaningCn": "松树"
+    },
+    "elzup-vocab-n3-1990": {
+      "meaningCn": "深红色，（脸）潮红"
+    },
+    "elzup-vocab-n3-1991": {
+      "meaningCn": "真的、完全地"
+    },
+    "elzup-vocab-n3-1992": {
+      "meaningCn": "节日，盛宴"
+    },
+    "elzup-vocab-n3-1993": {
+      "meaningCn": "收集、整理、整理"
+    },
+    "elzup-vocab-n3-1994": {
+      "meaningCn": "整理、收集、得出结论"
+    },
+    "elzup-vocab-n3-1995": {
+      "meaningCn": "学习；学习"
+    },
+    "elzup-vocab-n3-1996": {
+      "meaningCn": "拟态、模仿、行为"
+    },
+    "elzup-vocab-n3-1997": {
+      "meaningCn": "邀请"
+    },
+    "elzup-vocab-n3-1998": {
+      "meaningCn": "耀眼的, 容光焕发的"
+    },
+    "elzup-vocab-n3-1999": {
+      "meaningCn": "栅栏、栅栏"
+    },
+    "elzup-vocab-n3-2000": {
+      "meaningCn": "分裂、撕裂、破裂"
+    },
+    "elzup-vocab-n3-2001": {
+      "meaningCn": "判断"
+    },
+    "elzup-vocab-n3-2002": {
+      "meaningCn": "氧化"
+    },
+    "elzup-vocab-n3-2003": {
+      "meaningCn": "死亡，死亡"
+    },
+    "elzup-vocab-n3-2004": {
+      "meaningCn": "资格、要求、能力"
+    },
+    "elzup-vocab-n3-2005": {
+      "meaningCn": "视觉、视觉"
+    },
+    "elzup-vocab-n3-2006": {
+      "meaningCn": "命令、方向"
+    },
+    "elzup-vocab-n3-2007": {
+      "meaningCn": "磁性"
+    },
+    "elzup-vocab-n3-2008": {
+      "meaningCn": "瓷器, 中国"
+    },
+    "elzup-vocab-n3-2009": {
+      "meaningCn": "自己，自己"
+    },
+    "elzup-vocab-n3-2010": {
+      "meaningCn": "字体、刻字"
+    },
+    "elzup-vocab-n3-2011": {
+      "meaningCn": "拒绝"
+    },
+    "elzup-vocab-n3-2012": {
+      "meaningCn": "意见、观点、视觉点"
+    },
+    "elzup-vocab-n3-2013": {
+      "meaningCn": "脂肪，油脂"
+    },
+    "elzup-vocab-n3-2014": {
+      "meaningCn": "愿望、愿望、野心"
+    },
+    "elzup-vocab-n3-2015": {
+      "meaningCn": "群众、人民"
+    },
+    "elzup-vocab-n3-2016": {
+      "meaningCn": "住宅，居住"
+    },
+    "elzup-vocab-n3-2017": {
+      "meaningCn": "装饰；修饰（克）"
+    },
+    "elzup-vocab-n3-2018": {
+      "meaningCn": "个人使用、私人企业"
+    },
+    "elzup-vocab-n3-2019": {
+      "meaningCn": "方式、方法、规格"
+    },
+    "elzup-vocab-n3-2020": {
+      "meaningCn": "感情、情感、激情"
+    },
+    "elzup-vocab-n3-2021": {
+      "meaningCn": "一个人的一生"
+    },
+    "elzup-vocab-n3-2022": {
+      "meaningCn": "某人的上级"
+    },
+    "elzup-vocab-n3-2023": {
+      "meaningCn": "自然形态、本色、本色"
+    },
+    "elzup-vocab-n3-2024": {
+      "meaningCn": "照明"
+    },
+    "elzup-vocab-n3-2025": {
+      "meaningCn": "多发性硬化症。"
+    },
+    "elzup-vocab-n3-2026": {
+      "meaningCn": "（克）粒子，后置"
+    },
+    "elzup-vocab-n3-2027": {
+      "meaningCn": "震惊"
+    },
+    "elzup-vocab-n3-2028": {
+      "meaningCn": "进步"
+    },
+    "elzup-vocab-n3-2029": {
+      "meaningCn": "兴起、发展、涌现"
+    },
+    "elzup-vocab-n3-2030": {
+      "meaningCn": "促进、鼓励"
+    },
+    "elzup-vocab-n3-2031": {
+      "meaningCn": "报告、声明"
+    },
+    "elzup-vocab-n3-2032": {
+      "meaningCn": "真相"
+    },
+    "elzup-vocab-n3-2033": {
+      "meaningCn": "冲水"
+    },
+    "elzup-vocab-n3-2034": {
+      "meaningCn": "压力"
+    },
+    "elzup-vocab-n3-2035": {
+      "meaningCn": "摩擦，擦伤"
+    },
+    "elzup-vocab-n3-2036": {
+      "meaningCn": "正规的、合法的"
+    },
+    "elzup-vocab-n3-2037": {
+      "meaningCn": "精巧的,精致的,精致的"
+    },
+    "elzup-vocab-n3-2038": {
+      "meaningCn": "精确计算、调整"
+    },
+    "elzup-vocab-n3-2039": {
+      "meaningCn": "大多数，成年年龄"
+    },
+    "elzup-vocab-n3-2040": {
+      "meaningCn": "声明，声明，公告"
+    },
+    "elzup-vocab-n3-2041": {
+      "meaningCn": "姓名"
+    },
+    "elzup-vocab-n3-2042": {
+      "meaningCn": "生理学、月经"
+    },
+    "elzup-vocab-n3-2043": {
+      "meaningCn": "当，如果；部分;条款"
+    },
+    "elzup-vocab-n3-2044": {
+      "meaningCn": "（小）桌子、托盘、餐食"
+    },
+    "elzup-vocab-n3-2045": {
+      "meaningCn": "禅）"
+    },
+    "elzup-vocab-n3-2046": {
+      "meaningCn": "选举"
+    },
+    "elzup-vocab-n3-2047": {
+      "meaningCn": "在前，先行"
+    },
+    "elzup-vocab-n3-2048": {
+      "meaningCn": "选择、筛选"
+    },
+    "elzup-vocab-n3-2049": {
+      "meaningCn": "方面、相位、表情"
+    },
+    "elzup-vocab-n3-2050": {
+      "meaningCn": "一起奔跑，跟随"
+    },
+    "elzup-vocab-n3-2051": {
+      "meaningCn": "陪伴，遵守"
+    },
+    "elzup-vocab-n3-2052": {
+      "meaningCn": "和尚、牧师"
+    },
+    "elzup-vocab-n3-2053": {
+      "meaningCn": "雕像、图像"
+    },
+    "elzup-vocab-n3-2054": {
+      "meaningCn": "搜查（尤其是刑事调查、调查）"
+    },
+    "elzup-vocab-n3-2055": {
+      "meaningCn": "管理、控制、操纵"
+    },
+    "elzup-vocab-n3-2056": {
+      "meaningCn": "创建"
+    },
+    "elzup-vocab-n3-2057": {
+      "meaningCn": "党、部队"
+    },
+    "elzup-vocab-n3-2058": {
+      "meaningCn": "辍学"
+    },
+    "elzup-vocab-n3-2059": {
+      "meaningCn": "标题"
+    },
+    "elzup-vocab-n3-2060": {
+      "meaningCn": "向下"
+    },
+    "elzup-vocab-n3-2061": {
+      "meaningCn": "上升；成长；安装 (v.i.)"
+    },
+    "elzup-vocab-n3-2062": {
+      "meaningCn": "切断，切断"
+    },
+    "elzup-vocab-n3-2063": {
+      "meaningCn": "盾"
+    },
+    "elzup-vocab-n3-2064": {
+      "meaningCn": "例子;虽然"
+    },
+    "elzup-vocab-n3-2065": {
+      "meaningCn": "钟声"
+    },
+    "elzup-vocab-n3-2066": {
+      "meaningCn": "挑战、反抗"
+    },
+    "elzup-vocab-n3-2067": {
+      "meaningCn": "医疗"
+    },
+    "elzup-vocab-n3-2068": {
+      "meaningCn": "一对, 一对, 一组"
+    },
+    "elzup-vocab-n3-2069": {
+      "meaningCn": "加入；拼凑起来；固定（骨头）；嫁接（树木）"
+    },
+    "elzup-vocab-n3-2070": {
+      "meaningCn": "成功（某企业或继承人"
+    },
+    "elzup-vocab-n3-2071": {
+      "meaningCn": "采摘、采摘、修剪"
+    },
+    "elzup-vocab-n3-2072": {
+      "meaningCn": "露"
+    },
+    "elzup-vocab-n3-2073": {
+      "meaningCn": "变得坚强，获得力量"
+    },
+    "elzup-vocab-n3-2074": {
+      "meaningCn": "加强，强调"
+    },
+    "elzup-vocab-n3-2075": {
+      "meaningCn": "数据"
+    },
+    "elzup-vocab-n3-2076": {
+      "meaningCn": "设计"
+    },
+    "elzup-vocab-n3-2077": {
+      "meaningCn": "甜点"
+    },
+    "elzup-vocab-n3-2078": {
+      "meaningCn": "转学"
+    },
+    "elzup-vocab-n3-2079": {
+      "meaningCn": "口头信息"
+    },
+    "elzup-vocab-n3-2080": {
+      "meaningCn": "和"
+    },
+    "elzup-vocab-n3-2081": {
+      "meaningCn": "询问，询问"
+    },
+    "elzup-vocab-n3-2082": {
+      "meaningCn": "(屋顶的屋脊"
+    },
+    "elzup-vocab-n3-2083": {
+      "meaningCn": "（公司）破产，资不抵债"
+    },
+    "elzup-vocab-n3-2084": {
+      "meaningCn": "彼此、同伴、同志"
+    },
+    "elzup-vocab-n3-2085": {
+      "meaningCn": "志同道合，志同道合，志同道合"
+    },
+    "elzup-vocab-n3-2086": {
+      "meaningCn": "明显的;自然的"
+    },
+    "elzup-vocab-n3-2087": {
+      "meaningCn": "扰动、颤振冲击"
+    },
+    "elzup-vocab-n3-2088": {
+      "meaningCn": "解释、提倡"
+    },
+    "elzup-vocab-n3-2089": {
+      "meaningCn": "绑定、归档"
+    },
+    "elzup-vocab-n3-2090": {
+      "meaningCn": "随行人员、陪同人员、陪伴人员、随行人员"
+    },
+    "elzup-vocab-n3-2091": {
+      "meaningCn": "中等（例如食物份量、质量、价格等）、普通"
+    },
+    "elzup-vocab-n3-2092": {
+      "meaningCn": "习惯"
+    },
+    "elzup-vocab-n3-2093": {
+      "meaningCn": "驯化，驯服"
+    },
+    "elzup-vocab-n3-2094": {
+      "meaningCn": "困难、困难、缺陷"
+    },
+    "elzup-vocab-n3-2095": {
+      "meaningCn": "声音、音符"
+    },
+    "elzup-vocab-n3-2096": {
+      "meaningCn": "年鉴"
+    },
+    "elzup-vocab-n3-2097": {
+      "meaningCn": "大脑、记忆"
+    },
+    "elzup-vocab-n3-2098": {
+      "meaningCn": "监视、面对、参加（功能）"
+    },
+    "elzup-vocab-n3-2099": {
+      "meaningCn": "肺"
+    },
+    "elzup-vocab-n3-2100": {
+      "meaningCn": "损失、失败的计数器"
+    },
+    "elzup-vocab-n3-2101": {
+      "meaningCn": "发光，看起来有吸引力，看起来漂亮"
+    },
+    "elzup-vocab-n3-2102": {
+      "meaningCn": "咨询，商议"
+    },
+    "elzup-vocab-n3-2103": {
+      "meaningCn": "策划、尝试、设计、设计、将 A 推荐给 B"
+    },
+    "elzup-vocab-n3-2104": {
+      "meaningCn": "成长、培养、留胡子"
+    },
+    "elzup-vocab-n3-2105": {
+      "meaningCn": "团体、党派、部门（百万）"
+    },
+    "elzup-vocab-n3-2106": {
+      "meaningCn": "（纸张或书籍的）尺寸"
+    },
+    "elzup-vocab-n3-2107": {
+      "meaningCn": "版"
+    },
+    "elzup-vocab-n3-2108": {
+      "meaningCn": "刻有铭文的石碑"
+    },
+    "elzup-vocab-n3-2109": {
+      "meaningCn": "违法行为、不当行为"
+    },
+    "elzup-vocab-n3-2110": {
+      "meaningCn": "标签、选票、标志"
+    },
+    "elzup-vocab-n3-2111": {
+      "meaningCn": "传播，传播"
+    },
+    "elzup-vocab-n3-2112": {
+      "meaningCn": "加深、加强、加强"
+    },
+    "elzup-vocab-n3-2113": {
+      "meaningCn": "福"
+    },
+    "elzup-vocab-n3-2114": {
+      "meaningCn": "风格、方式"
+    },
+    "elzup-vocab-n3-2115": {
+      "meaningCn": "过去、过去、经历"
+    },
+    "elzup-vocab-n3-2116": {
+      "meaningCn": "照顾、保护、庇护"
+    },
+    "elzup-vocab-n3-2117": {
+      "meaningCn": "保证、安全、保证"
+    },
+    "elzup-vocab-n3-2118": {
+      "meaningCn": "补偿、赔偿"
+    },
+    "elzup-vocab-n3-2119": {
+      "meaningCn": "感到放心"
+    },
+    "elzup-vocab-n3-2120": {
+      "meaningCn": "提前，预先，先前"
+    },
+    "elzup-vocab-n3-2121": {
+      "meaningCn": "膜，薄膜"
+    },
+    "elzup-vocab-n3-2122": {
+      "meaningCn": "大众传播"
+    },
+    "elzup-vocab-n3-2123": {
+      "meaningCn": "大腿、胯部"
+    },
+    "elzup-vocab-n3-2124": {
+      "meaningCn": "结束"
+    },
+    "elzup-vocab-n3-2125": {
+      "meaningCn": "按摩"
+    },
+    "elzup-vocab-n3-2126": {
+      "meaningCn": "碰巧看到；注意到；发现"
+    },
+    "elzup-vocab-n3-2127": {
+      "meaningCn": "翻页，翻书页"
+    },
+    "elzup-vocab-n3-2128": {
+      "meaningCn": "信息"
+    },
+    "elzup-vocab-n3-2129": {
+      "meaningCn": "反对党"
+    },
+    "elzup-vocab-n3-2130": {
+      "meaningCn": "优越性、高品位"
+    },
+    "elzup-vocab-n3-2131": {
+      "meaningCn": "有机的"
+    },
+    "elzup-vocab-n3-2132": {
+      "meaningCn": "世界、社会、一代"
+    },
+    "elzup-vocab-n3-2133": {
+      "meaningCn": "好，不错"
+    },
+    "elzup-vocab-n3-2134": {
+      "meaningCn": "期待、期待、预测"
+    },
+    "elzup-vocab-n3-2135": {
+      "meaningCn": "变得虚弱、消瘦、沮丧"
+    },
+    "elzup-vocab-n3-2136": {
+      "meaningCn": "削弱"
+    },
+    "elzup-vocab-n3-2137": {
+      "meaningCn": "标签"
+    },
+    "elzup-vocab-n3-2138": {
+      "meaningCn": "规则"
+    },
+    "elzup-vocab-n3-2139": {
+      "meaningCn": "框架、幻灯片"
+    }
+  }
+}

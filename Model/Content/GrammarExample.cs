@@ -5,6 +5,7 @@ namespace ToastFish.Model.Content
         public string contentId { get; set; }
         public string packId { get; set; }
         public string grammarId { get; set; }
+        public string grammarPattern { get; set; }
         public string jlptLevel { get; set; }
         public string sentenceJp { get; set; }
         public string sentenceKana { get; set; }

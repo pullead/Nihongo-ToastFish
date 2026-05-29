@@ -1,9 +1,12 @@
 using Microsoft.Toolkit.Uwp.Notifications;
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using ToastFish.Services.Japanese;
 using ToastFish.Services.Study;
+using Windows.UI.Notifications;
 
 namespace ToastFish.Services.Notifications
 {
@@ -16,7 +19,6 @@ namespace ToastFish.Services.Notifications
         public void ShowMessage(string message, string buttonText = "")
         {
             ToastContentBuilder builder = new ToastContentBuilder()
-                .AddText(AppTitle)
                 .AddText(message);
 
             if (!string.IsNullOrEmpty(buttonText))
@@ -27,7 +29,19 @@ namespace ToastFish.Services.Notifications
                     .SetBackgroundActivation());
             }
 
-            builder.Show();
+            try
+            {
+                ApplyExtendedToastDuration(builder);
+                builder.Show();
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                WriteNotificationLog(ex);
+            }
+            catch (Exception ex)
+            {
+                WriteNotificationLog(ex);
+            }
         }
 
         public void ShowFuriganaMessage(string plainText, string furiganaJson, string buttonText = "")
@@ -38,7 +52,87 @@ namespace ToastFish.Services.Notifications
 
         public void ShowStudyCard(StudyCard card, string buttonText = "")
         {
-            ShowMessage(studyCardFormatter.Format(card), buttonText);
+            ShowMessage(studyCardFormatter.FormatSummary(card), buttonText);
+        }
+
+        public Task<string> ShowStudyCardNavigationAndWaitAsync(
+            StudyCard card,
+            IObservable<string> hotKeyObservable = null,
+            Func<string, string> hotKeyActionMapper = null,
+            CancellationToken cancellationToken = default(CancellationToken))
+        {
+            ToastContentBuilder builder = new ToastContentBuilder()
+                .SetToastDuration(ToastDuration.Long)
+                .AddText(studyCardFormatter.FormatSummary(card))
+                .AddButton(new ToastButton()
+                    .SetContent("上一个")
+                    .AddArgument("action", NotificationAction.Previous)
+                    .SetBackgroundActivation())
+                .AddButton(new ToastButton()
+                    .SetContent("下一个")
+                    .AddArgument("action", NotificationAction.Next)
+                    .SetBackgroundActivation())
+                .AddButton(new ToastButton()
+                    .SetContent("详情")
+                    .AddArgument("action", NotificationAction.Details)
+                    .SetBackgroundActivation())
+                .AddButton(new ToastButton()
+                    .SetContent("笔记")
+                    .AddArgument("action", NotificationAction.AddNote)
+                    .SetBackgroundActivation())
+                .AddButton(new ToastButton()
+                    .SetContent("暂停")
+                    .AddArgument("action", NotificationAction.Cancel)
+                    .SetBackgroundActivation());
+
+            return ShowAndWaitForDismissibleActionAsync(
+                builder,
+                hotKeyObservable,
+                hotKeyActionMapper,
+                cancellationToken);
+        }
+
+        public Task<string> ShowQuestionAndWaitAsync(
+            string title,
+            string question,
+            IList<string> answerButtons,
+            IObservable<string> hotKeyObservable = null,
+            Func<string, string> hotKeyActionMapper = null,
+            CancellationToken cancellationToken = default(CancellationToken))
+        {
+            ToastContentBuilder builder = new ToastContentBuilder()
+                .SetToastDuration(ToastDuration.Long);
+
+            if (!string.IsNullOrWhiteSpace(title))
+                builder.AddText(title);
+            if (!string.IsNullOrWhiteSpace(question))
+                builder.AddText(question);
+
+            if (answerButtons != null)
+            {
+                for (int index = 0; index < answerButtons.Count; index++)
+                {
+                    builder.AddButton(new ToastButton()
+                        .SetContent(answerButtons[index])
+                        .AddArgument("action", index.ToString())
+                        .SetBackgroundActivation());
+                }
+            }
+
+            builder.AddButton(new ToastButton()
+                    .SetContent("上一个")
+                    .AddArgument("action", NotificationAction.Previous)
+                    .SetBackgroundActivation())
+                .AddButton(new ToastButton()
+                    .SetContent("下一个")
+                    .AddArgument("action", NotificationAction.Next)
+                    .SetBackgroundActivation());
+
+            return ShowAndWaitForDismissibleActionAsync(
+                builder,
+                hotKeyObservable,
+                hotKeyActionMapper,
+                cancellationToken);
         }
 
         public Task<string> WaitForActionAsync(
@@ -85,6 +179,84 @@ namespace ToastFish.Services.Notifications
                 cancellationRegistration.Dispose();
                 return task.Result;
             });
+        }
+
+        private Task<string> ShowAndWaitForDismissibleActionAsync(
+            ToastContentBuilder builder,
+            IObservable<string> hotKeyObservable,
+            Func<string, string> hotKeyActionMapper,
+            CancellationToken cancellationToken)
+        {
+            if (cancellationToken.IsCancellationRequested)
+                return Task.FromResult(NotificationAction.Cancel);
+
+            TaskCompletionSource<string> completion = new TaskCompletionSource<string>();
+            IDisposable hotKeySubscription = null;
+            CancellationTokenRegistration cancellationRegistration = default(CancellationTokenRegistration);
+
+            OnActivated toastHandler = toastArgs =>
+            {
+                string action = GetActionArgument(toastArgs);
+                completion.TrySetResult(string.IsNullOrEmpty(action) ? NotificationAction.Next : action);
+            };
+
+            ToastNotification notification = new ToastNotification(builder.GetXml());
+            notification.Dismissed += (sender, args) =>
+            {
+                completion.TrySetResult(NotificationAction.Cancel);
+            };
+            notification.Failed += (sender, args) =>
+            {
+                completion.TrySetResult(NotificationAction.Cancel);
+            };
+
+            ToastNotificationManagerCompat.OnActivated += toastHandler;
+            if (hotKeyObservable != null)
+            {
+                hotKeySubscription = hotKeyObservable.Subscribe(events =>
+                {
+                    string action = hotKeyActionMapper == null ? events : hotKeyActionMapper(events);
+                    if (!string.IsNullOrEmpty(action))
+                    {
+                        completion.TrySetResult(action);
+                    }
+                });
+            }
+
+            if (cancellationToken.CanBeCanceled)
+            {
+                cancellationRegistration = cancellationToken.Register(
+                    () => completion.TrySetResult(NotificationAction.Cancel));
+            }
+
+            try
+            {
+                ToastNotificationManagerCompat.History.Clear();
+                ToastNotificationManagerCompat.CreateToastNotifier().Show(notification);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                WriteNotificationLog(ex);
+                completion.TrySetResult(NotificationAction.Cancel);
+            }
+            catch (Exception ex)
+            {
+                WriteNotificationLog(ex);
+                completion.TrySetResult(NotificationAction.Cancel);
+            }
+
+            return completion.Task.ContinueWith(task =>
+            {
+                ToastNotificationManagerCompat.OnActivated -= toastHandler;
+                hotKeySubscription?.Dispose();
+                cancellationRegistration.Dispose();
+                return task.Result;
+            });
+        }
+
+        private void ApplyExtendedToastDuration(ToastContentBuilder builder)
+        {
+            builder.SetToastDuration(ToastDuration.Long);
         }
 
         public Task<NotificationInputResult> WaitForInputAsync(
@@ -141,6 +313,23 @@ namespace ToastFish.Services.Notifications
             catch
             {
                 return string.Empty;
+            }
+        }
+
+        private void WriteNotificationLog(Exception exception)
+        {
+            try
+            {
+                string logDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Log");
+                Directory.CreateDirectory(logDirectory);
+                File.AppendAllText(
+                    Path.Combine(logDirectory, "notification.log"),
+                    DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + Environment.NewLine +
+                    exception + Environment.NewLine + Environment.NewLine);
+            }
+            catch
+            {
+                // Notification logging must never become another startup failure.
             }
         }
     }

@@ -8,6 +8,7 @@ using Microsoft.Toolkit.Uwp.Notifications;
 using System.Speech.Synthesis;
 using System.Threading;
 using ToastFish.Model.Log;
+using ToastFish.Services.Notifications;
 
 namespace ToastFish.Model.PushControl
 {
@@ -133,6 +134,59 @@ namespace ToastFish.Model.PushControl
                    .SetBackgroundActivation())
                .Show();
             }
+        }
+
+        private async Task<string> PushOneTransQuestionAndWaitAsync(
+            JpWord currentWord,
+            string b,
+            string c,
+            CancellationToken cancellationToken)
+        {
+            string question = currentWord.tranCN;
+            string a = currentWord.headWord;
+            string[] choices = new string[3];
+
+            Random random = new Random();
+            int answerIndex = random.Next(3);
+            QUESTION_CURRENT_RIGHT_ANSWER = answerIndex;
+
+            if (answerIndex == 0)
+            {
+                choices[0] = "A." + a;
+                choices[1] = "B." + b;
+                choices[2] = "C." + c;
+            }
+            else if (answerIndex == 1)
+            {
+                choices[0] = "A." + b;
+                choices[1] = "B." + a;
+                choices[2] = "C." + c;
+            }
+            else
+            {
+                choices[0] = "A." + c;
+                choices[1] = "B." + b;
+                choices[2] = "C." + a;
+            }
+
+            return await notificationService.ShowQuestionAndWaitAsync(
+                "翻译",
+                question,
+                choices,
+                HotKeytObservable,
+                MapPracticeNavigationHotKey,
+                cancellationToken);
+        }
+
+        private string MapPracticeNavigationHotKey(string events)
+        {
+            if (events == NotificationAction.Previous)
+                return NotificationAction.Previous;
+            if (events == NotificationAction.Next)
+                return NotificationAction.Next;
+            if (events == NotificationAction.Cancel)
+                return NotificationAction.Cancel;
+            return string.Empty;
         }
 
         public static new void Recitation(Object Words)
@@ -291,6 +345,7 @@ namespace ToastFish.Model.PushControl
             Log.OutputExcel(LogName, TestList, "日语");
 
             JpWord CurrentWord = new JpWord();
+            int currentIndex = 0;
 
             while (TestList.Count != 0)
             {
@@ -299,39 +354,47 @@ namespace ToastFish.Model.PushControl
 
                 ToastNotificationManagerCompat.History.Clear();
                 Thread.Sleep(500);
-                CurrentWord = pushJpWords.GetRandomWord(TestList);
+                if (currentIndex < 0)
+                    currentIndex = TestList.Count - 1;
+                if (currentIndex >= TestList.Count)
+                    currentIndex = 0;
+
+                CurrentWord = TestList[currentIndex];
                 List<JpWord> FakeWordList = Query.GetRandomJpWords(2);
 
-                pushJpWords.PushOneTransQuestion(CurrentWord, FakeWordList[0].headWord, FakeWordList[1].headWord);
+                string action = pushJpWords.PushOneTransQuestionAndWaitAsync(
+                    CurrentWord,
+                    FakeWordList[0].headWord,
+                    FakeWordList[1].headWord,
+                    cancellationToken).Result;
 
-                pushJpWords.QUESTION_CURRENT_STATUS = 2;
-                while (pushJpWords.QUESTION_CURRENT_STATUS == 2)
+                if (action == NotificationAction.Cancel || action == string.Empty)
+                    return;
+                if (action == NotificationAction.Previous)
                 {
-                    if (cancellationToken.IsCancellationRequested)
-                        return;
-
-                    var task = pushJpWords.ProcessToastNotificationQuestion(cancellationToken);
-                    int result = task.Result;
-                    if (result == 1)
-                        pushJpWords.QUESTION_CURRENT_STATUS = 1;
-                    else if (result == 0)
-                        pushJpWords.QUESTION_CURRENT_STATUS = 0;
-                    else if (result == -1)
-                        pushJpWords.QUESTION_CURRENT_STATUS = -1;
+                    currentIndex--;
+                    continue;
+                }
+                if (action == NotificationAction.Next)
+                {
+                    currentIndex++;
+                    continue;
                 }
 
-                if (pushJpWords.QUESTION_CURRENT_STATUS == 1)
+                if (action == pushJpWords.QUESTION_CURRENT_RIGHT_ANSWER.ToString())
                 {
-                    TestList.Remove(CurrentWord);
+                    TestList.RemoveAt(currentIndex);
+                    if (currentIndex >= TestList.Count)
+                        currentIndex = 0;
                     Thread.Sleep(500);
                 }
-                else if (pushJpWords.QUESTION_CURRENT_STATUS == 0)
+                else
                 {
-                    //CopyList.Remove(CurrentWord);
                     new ToastContentBuilder()
                     .AddText("错误 正确答案：" + pushJpWords.AnswerDict[pushJpWords.QUESTION_CURRENT_RIGHT_ANSWER.ToString()] + '.' + CurrentWord.headWord)
                     .Show();
-                    Thread.Sleep(3000);
+                    Thread.Sleep(1200);
+                    currentIndex++;
                 }
             }
             ToastNotificationManagerCompat.History.Clear();

@@ -1,27 +1,66 @@
 {
-  "manifestVersion": "0.2.0",
-  "generatedAt": "2026-05-22T00:00:00Z",
+  "manifestVersion": "0.3.1",
+  "generatedAt": "2026-05-27T00:00:00Z",
   "baseUrl": "packs/",
   "packs": [
+    {
+      "packId": "builtin-gojuon-smoke",
+      "version": "0.1.0",
+      "jlptLevel": "gojuon",
+      "contentKind": "gojuon",
+      "displayName": "五十音入门样本",
+      "description": "用于验证内置五十音内容包格式的最小样本。",
+      "path": "gojuon-smoke.json",
+      "source": {
+        "sourceId": "nihongo-toastfish-first-party",
+        "name": "Nihongo ToastFish first-party content",
+        "notes": "Created for schema and importer validation."
+      },
+      "license": {
+        "name": "Nihongo ToastFish first-party sample license"
+      },
+      "sha256": "3d9f14d9dcca4a3bcd8f8735c7c967b985f492543b77a7218b987352f8e8fb9d"
+    },
     {
       "packId": "builtin-vocabulary-n5",
       "version": "2026.05.22",
       "jlptLevel": "N5",
       "contentKind": "vocabulary",
       "displayName": "N5 vocabulary reference pack",
-      "description": "N5 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "description": "N5 reference vocabulary imported from elzup/jlpt-word-list with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "vocabulary-n5.json",
-      "sha256": "bbf869326dd10b759bf31cb6728ca69b70eb314a8428c2cf24a24c6866165e95",
+      "sha256": "6dafe5c39358c5933cafecf2f31e703ad3060ab3e014c75edbc1e21454d95c4b",
       "source": {
         "sourceId": "elzup-jlpt-word-list",
         "name": "elzup/jlpt-word-list",
         "url": "https://github.com/elzup/jlpt-word-list",
         "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
-        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "MIT",
         "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-grammar-n5",
+      "version": "2026.05.22",
+      "jlptLevel": "N5",
+      "contentKind": "grammar",
+      "displayName": "N5 grammar reference pack",
+      "description": "N5 grammar points imported from hanabira.org Japanese content with Simplified Chinese explanations from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
+      "path": "grammar-n5.json",
+      "sha256": "210697743fa529c2a4839accb9404d76cc5dab0a4cb1eebed415e1c61c682b39",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
       }
     },
     {
@@ -30,15 +69,15 @@
       "jlptLevel": "N5",
       "contentKind": "example",
       "displayName": "N5 grammar example sentence reference pack",
-      "description": "N5 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "description": "N5 grammar example sentences imported from hanabira.org Japanese content with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "examples-n5.json",
-      "sha256": "8b8996cf408dc3c0e3cfd2e84562356be72054cd5e528485c0eb6eec4dc0ceda",
+      "sha256": "ef400329008d47ae76288bfb8d50078bab2b8f317ee8cee773da201e65c2fdc5",
       "source": {
         "sourceId": "hanabira-org-japanese-content",
         "name": "hanabira.org Japanese content",
         "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
         "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
-        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "Creative Commons License (variant not specified by source README)",
@@ -51,19 +90,40 @@
       "jlptLevel": "N4",
       "contentKind": "vocabulary",
       "displayName": "N4 vocabulary reference pack",
-      "description": "N4 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "description": "N4 reference vocabulary imported from elzup/jlpt-word-list with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "vocabulary-n4.json",
-      "sha256": "375b1e9a8a6418479b76643e787606113c574006c4dbf7b5eaf89e7fc95ce22e",
+      "sha256": "126005eccb6c175177ab29242b861ee1d9edc3bc751f8934ae829c0bfbebf047",
       "source": {
         "sourceId": "elzup-jlpt-word-list",
         "name": "elzup/jlpt-word-list",
         "url": "https://github.com/elzup/jlpt-word-list",
         "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
-        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "MIT",
         "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-grammar-n4",
+      "version": "2026.05.22",
+      "jlptLevel": "N4",
+      "contentKind": "grammar",
+      "displayName": "N4 grammar reference pack",
+      "description": "N4 grammar points imported from hanabira.org Japanese content with Simplified Chinese explanations from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
+      "path": "grammar-n4.json",
+      "sha256": "1f809b7710ee2d4f05a4447a345b6203a2b94f7112a1135f367c9cfb9e5d3aec",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
       }
     },
     {
@@ -72,15 +132,15 @@
       "jlptLevel": "N4",
       "contentKind": "example",
       "displayName": "N4 grammar example sentence reference pack",
-      "description": "N4 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "description": "N4 grammar example sentences imported from hanabira.org Japanese content with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "examples-n4.json",
-      "sha256": "b615c51e545aa006d76987c28ecc1bab106e6ad8acdc1765841fcf4d7ee9b759",
+      "sha256": "7e6e2288b75886aee6b0783be5a5886950836bc696e23a6953680d27bad4d5b4",
       "source": {
         "sourceId": "hanabira-org-japanese-content",
         "name": "hanabira.org Japanese content",
         "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
         "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
-        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "Creative Commons License (variant not specified by source README)",
@@ -93,19 +153,40 @@
       "jlptLevel": "N3",
       "contentKind": "vocabulary",
       "displayName": "N3 vocabulary reference pack",
-      "description": "N3 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "description": "N3 reference vocabulary imported from elzup/jlpt-word-list with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "vocabulary-n3.json",
-      "sha256": "778d1ab14f26c8b76774f1d8b3e841618e1fd85632a4c5207332e6a85ac1666d",
+      "sha256": "50204d048384621896440d214a15c8487759d769fb26acc89b5e5e58446d39c5",
       "source": {
         "sourceId": "elzup-jlpt-word-list",
         "name": "elzup/jlpt-word-list",
         "url": "https://github.com/elzup/jlpt-word-list",
         "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
-        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "MIT",
         "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-grammar-n3",
+      "version": "2026.05.22",
+      "jlptLevel": "N3",
+      "contentKind": "grammar",
+      "displayName": "N3 grammar reference pack",
+      "description": "N3 grammar points imported from hanabira.org Japanese content with Simplified Chinese explanations from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
+      "path": "grammar-n3.json",
+      "sha256": "8512c344d62a68b54e4475a8b665ec1d0fa0cfecc8cc45dc1a99108393dd618b",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
       }
     },
     {
@@ -114,15 +195,15 @@
       "jlptLevel": "N3",
       "contentKind": "example",
       "displayName": "N3 grammar example sentence reference pack",
-      "description": "N3 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "description": "N3 grammar example sentences imported from hanabira.org Japanese content with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "examples-n3.json",
-      "sha256": "7413bfc19e59f24caf64504ec69d78547ae5b4fd98a3ce9b4c08254ce1093396",
+      "sha256": "7fd90f2ae6151677052cdd774a58e1e4ec58b4b8dd342938ca7facfb3159e44a",
       "source": {
         "sourceId": "hanabira-org-japanese-content",
         "name": "hanabira.org Japanese content",
         "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
         "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
-        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "Creative Commons License (variant not specified by source README)",
@@ -135,19 +216,40 @@
       "jlptLevel": "N2",
       "contentKind": "vocabulary",
       "displayName": "N2 vocabulary reference pack",
-      "description": "N2 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "description": "N2 reference vocabulary imported from elzup/jlpt-word-list with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "vocabulary-n2.json",
-      "sha256": "3a7e3b7695bcb61ef3b18253dc3e3019a479387f4e87108d37e8c62b6e619d2f",
+      "sha256": "d90b1b39dad996102c45088939fb392020cdc1c51336ab5f5dc0baad0aee5d18",
       "source": {
         "sourceId": "elzup-jlpt-word-list",
         "name": "elzup/jlpt-word-list",
         "url": "https://github.com/elzup/jlpt-word-list",
         "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
-        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "MIT",
         "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-grammar-n2",
+      "version": "2026.05.22",
+      "jlptLevel": "N2",
+      "contentKind": "grammar",
+      "displayName": "N2 grammar reference pack",
+      "description": "N2 grammar points imported from hanabira.org Japanese content with Simplified Chinese explanations from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
+      "path": "grammar-n2.json",
+      "sha256": "7bf1a410e6dfa352cdbf60dcfcae92a60319ceff00cda19914292bece642bd36",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
       }
     },
     {
@@ -156,15 +258,15 @@
       "jlptLevel": "N2",
       "contentKind": "example",
       "displayName": "N2 grammar example sentence reference pack",
-      "description": "N2 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "description": "N2 grammar example sentences imported from hanabira.org Japanese content with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "examples-n2.json",
-      "sha256": "e3f837947d941575069b42d7411de0821eead66a636143c0f58b1195c264036b",
+      "sha256": "8ebe2ca85dd1979886671dac08f202a51d42dd2c1c6cb7b47f1fb6b3081a610e",
       "source": {
         "sourceId": "hanabira-org-japanese-content",
         "name": "hanabira.org Japanese content",
         "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
         "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
-        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "Creative Commons License (variant not specified by source README)",
@@ -177,19 +279,40 @@
       "jlptLevel": "N1",
       "contentKind": "vocabulary",
       "displayName": "N1 vocabulary reference pack",
-      "description": "N1 reference vocabulary imported from elzup/jlpt-word-list. Meanings are source English glosses pending Chinese localization.",
+      "description": "N1 reference vocabulary imported from elzup/jlpt-word-list with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "vocabulary-n1.json",
-      "sha256": "545f8a26035f8ada7aa23c07159683b7ca080d28e94491919954be7f918745dc",
+      "sha256": "7658d59c833ddfd616b75643fb649af148d90197f0d2b2c7769e62f6bc653073",
       "source": {
         "sourceId": "elzup-jlpt-word-list",
         "name": "elzup/jlpt-word-list",
         "url": "https://github.com/elzup/jlpt-word-list",
         "attribution": "Vocabulary data from elzup/jlpt-word-list; original deck data acknowledged by that project.",
-        "notes": "English glosses are stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "MIT",
         "url": "https://github.com/elzup/jlpt-word-list/blob/master/LICENSE"
+      }
+    },
+    {
+      "packId": "builtin-grammar-n1",
+      "version": "2026.05.22",
+      "jlptLevel": "N1",
+      "contentKind": "grammar",
+      "displayName": "N1 grammar reference pack",
+      "description": "N1 grammar points imported from hanabira.org Japanese content with Simplified Chinese explanations from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
+      "path": "grammar-n1.json",
+      "sha256": "6d1275f6b4eb7706e4c541ebe0fc81645721206200cf9c7a982c83ff43c76fec",
+      "source": {
+        "sourceId": "hanabira-org-japanese-content",
+        "name": "hanabira.org Japanese content",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+        "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
+      },
+      "license": {
+        "name": "Creative Commons License (variant not specified by source README)",
+        "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
       }
     },
     {
@@ -198,15 +321,15 @@
       "jlptLevel": "N1",
       "contentKind": "example",
       "displayName": "N1 grammar example sentence reference pack",
-      "description": "N1 grammar example sentences imported from hanabira.org Japanese content. Meanings are source English glosses pending Chinese localization.",
+      "description": "N1 grammar example sentences imported from hanabira.org Japanese content with Simplified Chinese meanings from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
       "path": "examples-n1.json",
-      "sha256": "c06d9ae44dfefd0ad15fe457cd7c8ed57a844c4e8c7374bb07de099da11cc4e9",
+      "sha256": "d63238eaafae57853baf3e7ec0a229eed9a23bc0c59b793411e1466a1e45b3c5",
       "source": {
         "sourceId": "hanabira-org-japanese-content",
         "name": "hanabira.org Japanese content",
         "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
         "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
-        "notes": "Example meanings are English source glosses stored in meaningCn until curated Chinese localization is added."
+        "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
       },
       "license": {
         "name": "Creative Commons License (variant not specified by source README)",

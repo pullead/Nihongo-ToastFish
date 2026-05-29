@@ -1,0 +1,2165 @@
+{
+  "locale": "zh-CN",
+  "packId": "builtin-vocabulary-n5",
+  "translationSource": {
+    "sourceId": "nihongo-toastfish-zh-cn-first-party",
+    "name": "Nihongo ToastFish first-party Simplified Chinese localization",
+    "notes": "Initial N5 Chinese vocabulary localization. Translations are project-authored and should be reviewed as the content pack expands."
+  },
+  "items": {
+    "elzup-vocab-n5-0001": {
+      "meaningCn": "啊！哦！"
+    },
+    "elzup-vocab-n5-0002": {
+      "meaningCn": "见面；看见"
+    },
+    "elzup-vocab-n5-0003": {
+      "meaningCn": "蓝色"
+    },
+    "elzup-vocab-n5-0004": {
+      "meaningCn": "蓝色的"
+    },
+    "elzup-vocab-n5-0005": {
+      "meaningCn": "红色"
+    },
+    "elzup-vocab-n5-0006": {
+      "meaningCn": "红色的"
+    },
+    "elzup-vocab-n5-0007": {
+      "meaningCn": "明亮的；开朗的"
+    },
+    "elzup-vocab-n5-0008": {
+      "meaningCn": "秋天"
+    },
+    "elzup-vocab-n5-0009": {
+      "meaningCn": "开；打开；变开"
+    },
+    "elzup-vocab-n5-0010": {
+      "meaningCn": "打开；开启"
+    },
+    "elzup-vocab-n5-0011": {
+      "meaningCn": "举起；提高"
+    },
+    "elzup-vocab-n5-0012": {
+      "meaningCn": "早晨"
+    },
+    "elzup-vocab-n5-0013": {
+      "meaningCn": "早饭；早餐"
+    },
+    "elzup-vocab-n5-0014": {
+      "meaningCn": "后天"
+    },
+    "elzup-vocab-n5-0015": {
+      "meaningCn": "脚；腿"
+    },
+    "elzup-vocab-n5-0016": {
+      "meaningCn": "明天"
+    },
+    "elzup-vocab-n5-0017": {
+      "meaningCn": "那里；那边"
+    },
+    "elzup-vocab-n5-0018": {
+      "meaningCn": "玩；游玩；消遣"
+    },
+    "elzup-vocab-n5-0019": {
+      "meaningCn": "温暖的"
+    },
+    "elzup-vocab-n5-0020": {
+      "meaningCn": "头"
+    },
+    "elzup-vocab-n5-0021": {
+      "meaningCn": "新的"
+    },
+    "elzup-vocab-n5-0022": {
+      "meaningCn": "这边；这里（礼貌说法）"
+    },
+    "elzup-vocab-n5-0023": {
+      "meaningCn": "热的；暖和的（天气）"
+    },
+    "elzup-vocab-n5-0024": {
+      "meaningCn": "热的（物体）"
+    },
+    "elzup-vocab-n5-0025": {
+      "meaningCn": "厚的；热情的；深厚的"
+    },
+    "elzup-vocab-n5-0026": {
+      "meaningCn": "那边；那里"
+    },
+    "elzup-vocab-n5-0027": {
+      "meaningCn": "以后；后来；剩余部分"
+    },
+    "elzup-vocab-n5-0028": {
+      "meaningCn": "你"
+    },
+    "elzup-vocab-n5-0029": {
+      "meaningCn": "家兄；自己的哥哥（谦称）"
+    },
+    "elzup-vocab-n5-0030": {
+      "meaningCn": "家姐；自己的姐姐（谦称）"
+    },
+    "elzup-vocab-n5-0031": {
+      "meaningCn": "公寓"
+    },
+    "elzup-vocab-n5-0032": {
+      "meaningCn": "那个；那样；嗯……"
+    },
+    "elzup-vocab-n5-0033": {
+      "meaningCn": "洗澡；淋浴"
+    },
+    "elzup-vocab-n5-0034": {
+      "meaningCn": "危险的；危急的"
+    },
+    "elzup-vocab-n5-0035": {
+      "meaningCn": "甜的；宽容的"
+    },
+    "elzup-vocab-n5-0036": {
+      "meaningCn": "不太；剩余"
+    },
+    "elzup-vocab-n5-0037": {
+      "meaningCn": "雨"
+    },
+    "elzup-vocab-n5-0038": {
+      "meaningCn": "糖果"
+    },
+    "elzup-vocab-n5-0039": {
+      "meaningCn": "洗"
+    },
+    "elzup-vocab-n5-0040": {
+      "meaningCn": "有；在（无生命物）"
+    },
+    "elzup-vocab-n5-0041": {
+      "meaningCn": "有；在（有生命物）"
+    },
+    "elzup-vocab-n5-0042": {
+      "meaningCn": "走路；步行"
+    },
+    "elzup-vocab-n5-0043": {
+      "meaningCn": "那个（远称）"
+    },
+    "elzup-vocab-n5-0044": {
+      "meaningCn": "好的；可以"
+    },
+    "elzup-vocab-n5-0045": {
+      "meaningCn": "不；完全不"
+    },
+    "elzup-vocab-n5-0046": {
+      "meaningCn": "说"
+    },
+    "elzup-vocab-n5-0047": {
+      "meaningCn": "家；房子"
+    },
+    "elzup-vocab-n5-0048": {
+      "meaningCn": "怎样；如何"
+    },
+    "elzup-vocab-n5-0049": {
+      "meaningCn": "去"
+    },
+    "elzup-vocab-n5-0050": {
+      "meaningCn": "几个；几岁"
+    },
+    "elzup-vocab-n5-0051": {
+      "meaningCn": "多少；多少钱"
+    },
+    "elzup-vocab-n5-0052": {
+      "meaningCn": "池塘"
+    },
+    "elzup-vocab-n5-0053": {
+      "meaningCn": "医生"
+    },
+    "elzup-vocab-n5-0054": {
+      "meaningCn": "椅子"
+    },
+    "elzup-vocab-n5-0055": {
+      "meaningCn": "忙的"
+    },
+    "elzup-vocab-n5-0056": {
+      "meaningCn": "疼的；痛的"
+    },
+    "elzup-vocab-n5-0057": {
+      "meaningCn": "一；一个"
+    },
+    "elzup-vocab-n5-0058": {
+      "meaningCn": "一天（时长）"
+    },
+    "elzup-vocab-n5-0059": {
+      "meaningCn": "最；第一"
+    },
+    "elzup-vocab-n5-0060": {
+      "meaningCn": "什么时候"
+    },
+    "elzup-vocab-n5-0061": {
+      "meaningCn": "五天；该月的第五天"
+    },
+    "elzup-vocab-n5-0062": {
+      "meaningCn": "一起"
+    },
+    "elzup-vocab-n5-0063": {
+      "meaningCn": "五件事"
+    },
+    "elzup-vocab-n5-0064": {
+      "meaningCn": "总是，通常，每次，从不（带否定动词）"
+    },
+    "elzup-vocab-n5-0065": {
+      "meaningCn": "狗"
+    },
+    "elzup-vocab-n5-0066": {
+      "meaningCn": "现在"
+    },
+    "elzup-vocab-n5-0067": {
+      "meaningCn": "意义，重要性"
+    },
+    "elzup-vocab-n5-0068": {
+      "meaningCn": "妹妹（卑微）"
+    },
+    "elzup-vocab-n5-0069": {
+      "meaningCn": "不愉快的, 令人厌恶的, 不愉快的"
+    },
+    "elzup-vocab-n5-0070": {
+      "meaningCn": "入口"
+    },
+    "elzup-vocab-n5-0071": {
+      "meaningCn": "（谦卑）成为（有生命）、存在"
+    },
+    "elzup-vocab-n5-0072": {
+      "meaningCn": "需要"
+    },
+    "elzup-vocab-n5-0073": {
+      "meaningCn": "放入"
+    },
+    "elzup-vocab-n5-0074": {
+      "meaningCn": "颜色"
+    },
+    "elzup-vocab-n5-0075": {
+      "meaningCn": "各种各样的"
+    },
+    "elzup-vocab-n5-0076": {
+      "meaningCn": "上面（上面、上面等）、在上面、在上面"
+    },
+    "elzup-vocab-n5-0077": {
+      "meaningCn": "后面，后面，后面"
+    },
+    "elzup-vocab-n5-0078": {
+      "meaningCn": "薄弱的"
+    },
+    "elzup-vocab-n5-0079": {
+      "meaningCn": "一首歌"
+    },
+    "elzup-vocab-n5-0080": {
+      "meaningCn": "唱歌"
+    },
+    "elzup-vocab-n5-0081": {
+      "meaningCn": "家;房子;我的地方"
+    },
+    "elzup-vocab-n5-0082": {
+      "meaningCn": "出生"
+    },
+    "elzup-vocab-n5-0083": {
+      "meaningCn": "海滩"
+    },
+    "elzup-vocab-n5-0084": {
+      "meaningCn": "出售（v.t.）"
+    },
+    "elzup-vocab-n5-0085": {
+      "meaningCn": "嘈杂;恼人的"
+    },
+    "elzup-vocab-n5-0086": {
+      "meaningCn": "外套，夹克"
+    },
+    "elzup-vocab-n5-0087": {
+      "meaningCn": "一幅画；一张图片；一张图"
+    },
+    "elzup-vocab-n5-0088": {
+      "meaningCn": "电影，电影"
+    },
+    "elzup-vocab-n5-0089": {
+      "meaningCn": "电影院, 电影院"
+    },
+    "elzup-vocab-n5-0090": {
+      "meaningCn": "英语）"
+    },
+    "elzup-vocab-n5-0091": {
+      "meaningCn": "是的"
+    },
+    "elzup-vocab-n5-0092": {
+      "meaningCn": "车站"
+    },
+    "elzup-vocab-n5-0093": {
+      "meaningCn": "电梯"
+    },
+    "elzup-vocab-n5-0094": {
+      "meaningCn": "日元"
+    },
+    "elzup-vocab-n5-0095": {
+      "meaningCn": "铅笔"
+    },
+    "elzup-vocab-n5-0096": {
+      "meaningCn": "尊贵的~（敬语）"
+    },
+    "elzup-vocab-n5-0097": {
+      "meaningCn": "美味的，美味的"
+    },
+    "elzup-vocab-n5-0098": {
+      "meaningCn": "许多;有很多"
+    },
+    "elzup-vocab-n5-0099": {
+      "meaningCn": "大，大"
+    },
+    "elzup-vocab-n5-0100": {
+      "meaningCn": "大的"
+    },
+    "elzup-vocab-n5-0101": {
+      "meaningCn": "很多人"
+    },
+    "elzup-vocab-n5-0102": {
+      "meaningCn": "母亲（正式）"
+    },
+    "elzup-vocab-n5-0103": {
+      "meaningCn": "糖果、糖果、零食"
+    },
+    "elzup-vocab-n5-0104": {
+      "meaningCn": "钱"
+    },
+    "elzup-vocab-n5-0105": {
+      "meaningCn": "起床（例如，从睡眠中起床）；发生"
+    },
+    "elzup-vocab-n5-0106": {
+      "meaningCn": "放;铺设；放置"
+    },
+    "elzup-vocab-n5-0107": {
+      "meaningCn": "（别人的）妻子（尊敬的）"
+    },
+    "elzup-vocab-n5-0108": {
+      "meaningCn": "清酒；酒精"
+    },
+    "elzup-vocab-n5-0109": {
+      "meaningCn": "盘子，盘子"
+    },
+    "elzup-vocab-n5-0110": {
+      "meaningCn": "叔叔，中年男子"
+    },
+    "elzup-vocab-n5-0111": {
+      "meaningCn": "祖父，男性老年人"
+    },
+    "elzup-vocab-n5-0112": {
+      "meaningCn": "教导、告知、指导"
+    },
+    "elzup-vocab-n5-0113": {
+      "meaningCn": "推、按、盖章（例如护照）"
+    },
+    "elzup-vocab-n5-0114": {
+      "meaningCn": "慢的; （迟到）"
+    },
+    "elzup-vocab-n5-0115": {
+      "meaningCn": "（绿茶"
+    },
+    "elzup-vocab-n5-0116": {
+      "meaningCn": "厕所，洗手间，浴室（字面意思是洗手的地方）"
+    },
+    "elzup-vocab-n5-0117": {
+      "meaningCn": "父亲（正式）"
+    },
+    "elzup-vocab-n5-0118": {
+      "meaningCn": "弟弟"
+    },
+    "elzup-vocab-n5-0119": {
+      "meaningCn": "男人，男性"
+    },
+    "elzup-vocab-n5-0120": {
+      "meaningCn": "男生"
+    },
+    "elzup-vocab-n5-0121": {
+      "meaningCn": "前天"
+    },
+    "elzup-vocab-n5-0122": {
+      "meaningCn": "前年"
+    },
+    "elzup-vocab-n5-0123": {
+      "meaningCn": "成人"
+    },
+    "elzup-vocab-n5-0124": {
+      "meaningCn": "胃"
+    },
+    "elzup-vocab-n5-0125": {
+      "meaningCn": "相同的，相同的"
+    },
+    "elzup-vocab-n5-0126": {
+      "meaningCn": "（别人的）哥哥（正式）"
+    },
+    "elzup-vocab-n5-0127": {
+      "meaningCn": "姐姐（正式）"
+    },
+    "elzup-vocab-n5-0128": {
+      "meaningCn": "阿姨"
+    },
+    "elzup-vocab-n5-0129": {
+      "meaningCn": "祖母，女老年人"
+    },
+    "elzup-vocab-n5-0130": {
+      "meaningCn": "洗澡"
+    },
+    "elzup-vocab-n5-0131": {
+      "meaningCn": "盒饭"
+    },
+    "elzup-vocab-n5-0132": {
+      "meaningCn": "学习，致力于记忆，记住，记住"
+    },
+    "elzup-vocab-n5-0133": {
+      "meaningCn": "警察（友好用语）"
+    },
+    "elzup-vocab-n5-0134": {
+      "meaningCn": "重的;严肃的"
+    },
+    "elzup-vocab-n5-0135": {
+      "meaningCn": "有趣的，有趣的"
+    },
+    "elzup-vocab-n5-0136": {
+      "meaningCn": "游泳"
+    },
+    "elzup-vocab-n5-0137": {
+      "meaningCn": "下车"
+    },
+    "elzup-vocab-n5-0138": {
+      "meaningCn": "结束，关闭"
+    },
+    "elzup-vocab-n5-0139": {
+      "meaningCn": "音乐"
+    },
+    "elzup-vocab-n5-0140": {
+      "meaningCn": "女人，女性"
+    },
+    "elzup-vocab-n5-0141": {
+      "meaningCn": "女孩"
+    },
+    "elzup-vocab-n5-0142": {
+      "meaningCn": "发生次数计数器（〜次）"
+    },
+    "elzup-vocab-n5-0143": {
+      "meaningCn": "建筑物楼层的柜台"
+    },
+    "elzup-vocab-n5-0144": {
+      "meaningCn": "外国;国外"
+    },
+    "elzup-vocab-n5-0145": {
+      "meaningCn": "外国人"
+    },
+    "elzup-vocab-n5-0146": {
+      "meaningCn": "公司，公司"
+    },
+    "elzup-vocab-n5-0147": {
+      "meaningCn": "楼梯"
+    },
+    "elzup-vocab-n5-0148": {
+      "meaningCn": "购物"
+    },
+    "elzup-vocab-n5-0149": {
+      "meaningCn": "买"
+    },
+    "elzup-vocab-n5-0150": {
+      "meaningCn": "归还某物"
+    },
+    "elzup-vocab-n5-0151": {
+      "meaningCn": "回去，回家，回来"
+    },
+    "elzup-vocab-n5-0152": {
+      "meaningCn": "脸（身体的一部分）"
+    },
+    "elzup-vocab-n5-0153": {
+      "meaningCn": "它需要（时间、金钱）（v.i.）"
+    },
+    "elzup-vocab-n5-0154": {
+      "meaningCn": "一把锁；一把钥匙"
+    },
+    "elzup-vocab-n5-0155": {
+      "meaningCn": "写"
+    },
+    "elzup-vocab-n5-0156": {
+      "meaningCn": "学生"
+    },
+    "elzup-vocab-n5-0157": {
+      "meaningCn": "（数）月"
+    },
+    "elzup-vocab-n5-0158": {
+      "meaningCn": "戴上（例如眼镜）；悬挂（例如，挂在墙上）"
+    },
+    "elzup-vocab-n5-0159": {
+      "meaningCn": "拨打/呼叫（例如，电话）；坐下来"
+    },
+    "elzup-vocab-n5-0160": {
+      "meaningCn": "雨伞，阳伞"
+    },
+    "elzup-vocab-n5-0161": {
+      "meaningCn": "借出"
+    },
+    "elzup-vocab-n5-0162": {
+      "meaningCn": "风，微风"
+    },
+    "elzup-vocab-n5-0163": {
+      "meaningCn": "感冒、流感"
+    },
+    "elzup-vocab-n5-0164": {
+      "meaningCn": "-- 人的敬语形式 (ひと) --;做事的方式"
+    },
+    "elzup-vocab-n5-0165": {
+      "meaningCn": "家庭，家庭成员"
+    },
+    "elzup-vocab-n5-0166": {
+      "meaningCn": "片假名"
+    },
+    "elzup-vocab-n5-0167": {
+      "meaningCn": "一年中的月份"
+    },
+    "elzup-vocab-n5-0168": {
+      "meaningCn": "一所学校"
+    },
+    "elzup-vocab-n5-0169": {
+      "meaningCn": "杯子"
+    },
+    "elzup-vocab-n5-0170": {
+      "meaningCn": "家;家庭"
+    },
+    "elzup-vocab-n5-0171": {
+      "meaningCn": "角落（例如桌子、人行道）"
+    },
+    "elzup-vocab-n5-0172": {
+      "meaningCn": "袋子、篮子"
+    },
+    "elzup-vocab-n5-0173": {
+      "meaningCn": "（花）花瓶"
+    },
+    "elzup-vocab-n5-0174": {
+      "meaningCn": "戴、戴上（例如，头上戴帽子）"
+    },
+    "elzup-vocab-n5-0175": {
+      "meaningCn": "纸"
+    },
+    "elzup-vocab-n5-0176": {
+      "meaningCn": "相机"
+    },
+    "elzup-vocab-n5-0177": {
+      "meaningCn": "周二"
+    },
+    "elzup-vocab-n5-0178": {
+      "meaningCn": "辛辣；咸"
+    },
+    "elzup-vocab-n5-0179": {
+      "meaningCn": "身体;健康"
+    },
+    "elzup-vocab-n5-0180": {
+      "meaningCn": "借、欠"
+    },
+    "elzup-vocab-n5-0181": {
+      "meaningCn": "感觉"
+    },
+    "elzup-vocab-n5-0182": {
+      "meaningCn": "轻微的、不严重的、轻微的"
+    },
+    "elzup-vocab-n5-0183": {
+      "meaningCn": "咖喱（咖喱和米饭的缩写）"
+    },
+    "elzup-vocab-n5-0184": {
+      "meaningCn": "日历"
+    },
+    "elzup-vocab-n5-0185": {
+      "meaningCn": "河"
+    },
+    "elzup-vocab-n5-0186": {
+      "meaningCn": "〜侧面"
+    },
+    "elzup-vocab-n5-0187": {
+      "meaningCn": "可爱的，可爱的"
+    },
+    "elzup-vocab-n5-0188": {
+      "meaningCn": "汉字；汉字"
+    },
+    "elzup-vocab-n5-0189": {
+      "meaningCn": "树, 木头, 木材"
+    },
+    "elzup-vocab-n5-0190": {
+      "meaningCn": "黄色的"
+    },
+    "elzup-vocab-n5-0191": {
+      "meaningCn": "黄色的"
+    },
+    "elzup-vocab-n5-0192": {
+      "meaningCn": "消失，消失"
+    },
+    "elzup-vocab-n5-0193": {
+      "meaningCn": "去听、去听、去问"
+    },
+    "elzup-vocab-n5-0194": {
+      "meaningCn": "北"
+    },
+    "elzup-vocab-n5-0195": {
+      "meaningCn": "吉他"
+    },
+    "elzup-vocab-n5-0196": {
+      "meaningCn": "肮脏的，不洁的，肮脏的"
+    },
+    "elzup-vocab-n5-0197": {
+      "meaningCn": "咖啡店"
+    },
+    "elzup-vocab-n5-0198": {
+      "meaningCn": "邮政（邮资）邮票"
+    },
+    "elzup-vocab-n5-0199": {
+      "meaningCn": "一张票"
+    },
+    "elzup-vocab-n5-0200": {
+      "meaningCn": "昨天"
+    },
+    "elzup-vocab-n5-0201": {
+      "meaningCn": "九"
+    },
+    "elzup-vocab-n5-0202": {
+      "meaningCn": "牛肉"
+    },
+    "elzup-vocab-n5-0203": {
+      "meaningCn": "牛奶"
+    },
+    "elzup-vocab-n5-0204": {
+      "meaningCn": "今天，这一天"
+    },
+    "elzup-vocab-n5-0205": {
+      "meaningCn": "课堂"
+    },
+    "elzup-vocab-n5-0206": {
+      "meaningCn": "兄弟姐妹（卑微的），兄弟姐妹"
+    },
+    "elzup-vocab-n5-0207": {
+      "meaningCn": "去年"
+    },
+    "elzup-vocab-n5-0208": {
+      "meaningCn": "不喜欢"
+    },
+    "elzup-vocab-n5-0209": {
+      "meaningCn": "切割；挂断（电话）"
+    },
+    "elzup-vocab-n5-0210": {
+      "meaningCn": "穿上（腰部以上的衣服）；穿"
+    },
+    "elzup-vocab-n5-0211": {
+      "meaningCn": "漂亮、干净、整洁"
+    },
+    "elzup-vocab-n5-0212": {
+      "meaningCn": "公斤；千克"
+    },
+    "elzup-vocab-n5-0213": {
+      "meaningCn": "（缩写）公斤（公里）"
+    },
+    "elzup-vocab-n5-0214": {
+      "meaningCn": "银行"
+    },
+    "elzup-vocab-n5-0215": {
+      "meaningCn": "星期五"
+    },
+    "elzup-vocab-n5-0216": {
+      "meaningCn": "九"
+    },
+    "elzup-vocab-n5-0217": {
+      "meaningCn": "药品"
+    },
+    "elzup-vocab-n5-0218": {
+      "meaningCn": "请为我做……"
+    },
+    "elzup-vocab-n5-0219": {
+      "meaningCn": "水果"
+    },
+    "elzup-vocab-n5-0220": {
+      "meaningCn": "职位空缺；嘴"
+    },
+    "elzup-vocab-n5-0221": {
+      "meaningCn": "鞋子，鞋类"
+    },
+    "elzup-vocab-n5-0222": {
+      "meaningCn": "袜子"
+    },
+    "elzup-vocab-n5-0223": {
+      "meaningCn": "国家;产地"
+    },
+    "elzup-vocab-n5-0224": {
+      "meaningCn": "多云天气, 多云天气"
+    },
+    "elzup-vocab-n5-0225": {
+      "meaningCn": "变得多云，变得暗淡"
+    },
+    "elzup-vocab-n5-0226": {
+      "meaningCn": "黑暗，阴沉"
+    },
+    "elzup-vocab-n5-0227": {
+      "meaningCn": "大约（数量）"
+    },
+    "elzup-vocab-n5-0228": {
+      "meaningCn": "一个班级"
+    },
+    "elzup-vocab-n5-0229": {
+      "meaningCn": "克"
+    },
+    "elzup-vocab-n5-0230": {
+      "meaningCn": "来"
+    },
+    "elzup-vocab-n5-0231": {
+      "meaningCn": "汽车，车辆"
+    },
+    "elzup-vocab-n5-0232": {
+      "meaningCn": "黑色的"
+    },
+    "elzup-vocab-n5-0233": {
+      "meaningCn": "黑色的;黑暗的"
+    },
+    "elzup-vocab-n5-0234": {
+      "meaningCn": "警官"
+    },
+    "elzup-vocab-n5-0235": {
+      "meaningCn": "今晨"
+    },
+    "elzup-vocab-n5-0236": {
+      "meaningCn": "擦除、删除、关闭电源"
+    },
+    "elzup-vocab-n5-0237": {
+      "meaningCn": "灿烂;足够的，可以忍受的"
+    },
+    "elzup-vocab-n5-0238": {
+      "meaningCn": "结婚（结婚）"
+    },
+    "elzup-vocab-n5-0239": {
+      "meaningCn": "周一"
+    },
+    "elzup-vocab-n5-0240": {
+      "meaningCn": "入口（房屋或建筑物的）"
+    },
+    "elzup-vocab-n5-0241": {
+      "meaningCn": "健康（y），精力充沛"
+    },
+    "elzup-vocab-n5-0242": {
+      "meaningCn": "小件物品柜台（例如水果、杯子）"
+    },
+    "elzup-vocab-n5-0243": {
+      "meaningCn": "五"
+    },
+    "elzup-vocab-n5-0244": {
+      "meaningCn": "词、语言"
+    },
+    "elzup-vocab-n5-0245": {
+      "meaningCn": "一个公园"
+    },
+    "elzup-vocab-n5-0246": {
+      "meaningCn": "路口"
+    },
+    "elzup-vocab-n5-0247": {
+      "meaningCn": "红茶"
+    },
+    "elzup-vocab-n5-0248": {
+      "meaningCn": "警察岗亭"
+    },
+    "elzup-vocab-n5-0249": {
+      "meaningCn": "嗓音"
+    },
+    "elzup-vocab-n5-0250": {
+      "meaningCn": "外套;球场（例如网球）"
+    },
+    "elzup-vocab-n5-0251": {
+      "meaningCn": "咖啡"
+    },
+    "elzup-vocab-n5-0252": {
+      "meaningCn": "这里，这个地方"
+    },
+    "elzup-vocab-n5-0253": {
+      "meaningCn": "下午，P.M."
+    },
+    "elzup-vocab-n5-0254": {
+      "meaningCn": "九天；该月的第九天"
+    },
+    "elzup-vocab-n5-0255": {
+      "meaningCn": "九件事"
+    },
+    "elzup-vocab-n5-0256": {
+      "meaningCn": "早上，A.M."
+    },
+    "elzup-vocab-n5-0257": {
+      "meaningCn": "回答，答复"
+    },
+    "elzup-vocab-n5-0258": {
+      "meaningCn": "这个人（有礼貌）；这边（礼貌）"
+    },
+    "elzup-vocab-n5-0259": {
+      "meaningCn": "这个人；这个方向；这边"
+    },
+    "elzup-vocab-n5-0260": {
+      "meaningCn": "一个玻璃杯；一杯"
+    },
+    "elzup-vocab-n5-0261": {
+      "meaningCn": "今年"
+    },
+    "elzup-vocab-n5-0262": {
+      "meaningCn": "语言;字）;表达式"
+    },
+    "elzup-vocab-n5-0263": {
+      "meaningCn": "孩子们）"
+    },
+    "elzup-vocab-n5-0264": {
+      "meaningCn": "这"
+    },
+    "elzup-vocab-n5-0265": {
+      "meaningCn": "米饭（煮熟的）；一顿饭"
+    },
+    "elzup-vocab-n5-0266": {
+      "meaningCn": "复制"
+    },
+    "elzup-vocab-n5-0267": {
+      "meaningCn": "受到困扰，遇到困难"
+    },
+    "elzup-vocab-n5-0268": {
+      "meaningCn": "这个"
+    },
+    "elzup-vocab-n5-0269": {
+      "meaningCn": "大约、大约、大约（时间）"
+    },
+    "elzup-vocab-n5-0270": {
+      "meaningCn": "本月"
+    },
+    "elzup-vocab-n5-0271": {
+      "meaningCn": "本星期"
+    },
+    "elzup-vocab-n5-0272": {
+      "meaningCn": "这样，这样"
+    },
+    "elzup-vocab-n5-0273": {
+      "meaningCn": "今晚，这个晚上"
+    },
+    "elzup-vocab-n5-0274": {
+      "meaningCn": "现在来吧，好吧"
+    },
+    "elzup-vocab-n5-0275": {
+      "meaningCn": "〜岁"
+    },
+    "elzup-vocab-n5-0276": {
+      "meaningCn": "钱包"
+    },
+    "elzup-vocab-n5-0277": {
+      "meaningCn": "鱼"
+    },
+    "elzup-vocab-n5-0278": {
+      "meaningCn": "未来;最近的、以前的"
+    },
+    "elzup-vocab-n5-0279": {
+      "meaningCn": "开花"
+    },
+    "elzup-vocab-n5-0280": {
+      "meaningCn": "散文;作品"
+    },
+    "elzup-vocab-n5-0281": {
+      "meaningCn": "举起（伸出）手，举起（例如，雨伞）"
+    },
+    "elzup-vocab-n5-0282": {
+      "meaningCn": "书籍柜台"
+    },
+    "elzup-vocab-n5-0283": {
+      "meaningCn": "杂志、期刊"
+    },
+    "elzup-vocab-n5-0284": {
+      "meaningCn": "糖"
+    },
+    "elzup-vocab-n5-0285": {
+      "meaningCn": "冷（指天气）"
+    },
+    "elzup-vocab-n5-0286": {
+      "meaningCn": "后年"
+    },
+    "elzup-vocab-n5-0287": {
+      "meaningCn": "先生~女士~"
+    },
+    "elzup-vocab-n5-0288": {
+      "meaningCn": "三"
+    },
+    "elzup-vocab-n5-0289": {
+      "meaningCn": "散步，漫步"
+    },
+    "elzup-vocab-n5-0290": {
+      "meaningCn": "四"
+    },
+    "elzup-vocab-n5-0291": {
+      "meaningCn": "〜点（时间）"
+    },
+    "elzup-vocab-n5-0292": {
+      "meaningCn": "盐"
+    },
+    "elzup-vocab-n5-0293": {
+      "meaningCn": "然而;但"
+    },
+    "elzup-vocab-n5-0294": {
+      "meaningCn": "时间"
+    },
+    "elzup-vocab-n5-0295": {
+      "meaningCn": "〜小时"
+    },
+    "elzup-vocab-n5-0296": {
+      "meaningCn": "工作、工作、职业、就业"
+    },
+    "elzup-vocab-n5-0297": {
+      "meaningCn": "字典"
+    },
+    "elzup-vocab-n5-0298": {
+      "meaningCn": "安静，平静"
+    },
+    "elzup-vocab-n5-0299": {
+      "meaningCn": "在下，在下，在下"
+    },
+    "elzup-vocab-n5-0300": {
+      "meaningCn": "七"
+    },
+    "elzup-vocab-n5-0301": {
+      "meaningCn": "问题，询问"
+    },
+    "elzup-vocab-n5-0302": {
+      "meaningCn": "自行车"
+    },
+    "elzup-vocab-n5-0303": {
+      "meaningCn": "汽车"
+    },
+    "elzup-vocab-n5-0304": {
+      "meaningCn": "去死"
+    },
+    "elzup-vocab-n5-0305": {
+      "meaningCn": "字典"
+    },
+    "elzup-vocab-n5-0306": {
+      "meaningCn": "我自己，我自己"
+    },
+    "elzup-vocab-n5-0307": {
+      "meaningCn": "关闭，关闭"
+    },
+    "elzup-vocab-n5-0308": {
+      "meaningCn": "关闭，关闭"
+    },
+    "elzup-vocab-n5-0309": {
+      "meaningCn": "打结，系紧，拉紧"
+    },
+    "elzup-vocab-n5-0310": {
+      "meaningCn": "好吧，那么"
+    },
+    "elzup-vocab-n5-0311": {
+      "meaningCn": "一张图片；一张照片"
+    },
+    "elzup-vocab-n5-0312": {
+      "meaningCn": "衬衫"
+    },
+    "elzup-vocab-n5-0313": {
+      "meaningCn": "淋浴"
+    },
+    "elzup-vocab-n5-0314": {
+      "meaningCn": "十"
+    },
+    "elzup-vocab-n5-0315": {
+      "meaningCn": "期间，同时"
+    },
+    "elzup-vocab-n5-0316": {
+      "meaningCn": "〜周"
+    },
+    "elzup-vocab-n5-0317": {
+      "meaningCn": "（学校的）一个班级"
+    },
+    "elzup-vocab-n5-0318": {
+      "meaningCn": "家庭作业"
+    },
+    "elzup-vocab-n5-0319": {
+      "meaningCn": "擅长，熟练"
+    },
+    "elzup-vocab-n5-0320": {
+      "meaningCn": "坚固、坚固、耐用"
+    },
+    "elzup-vocab-n5-0321": {
+      "meaningCn": "酱油"
+    },
+    "elzup-vocab-n5-0322": {
+      "meaningCn": "食堂、食堂"
+    },
+    "elzup-vocab-n5-0323": {
+      "meaningCn": "知道、理解"
+    },
+    "elzup-vocab-n5-0324": {
+      "meaningCn": "白色的"
+    },
+    "elzup-vocab-n5-0325": {
+      "meaningCn": "白色的"
+    },
+    "elzup-vocab-n5-0326": {
+      "meaningCn": "人柜台"
+    },
+    "elzup-vocab-n5-0327": {
+      "meaningCn": "报纸"
+    },
+    "elzup-vocab-n5-0328": {
+      "meaningCn": "周三"
+    },
+    "elzup-vocab-n5-0329": {
+      "meaningCn": "吸气，吸吮"
+    },
+    "elzup-vocab-n5-0330": {
+      "meaningCn": "裙子"
+    },
+    "elzup-vocab-n5-0331": {
+      "meaningCn": "喜欢、喜爱、爱"
+    },
+    "elzup-vocab-n5-0332": {
+      "meaningCn": "过去的;超过，〜太多"
+    },
+    "elzup-vocab-n5-0333": {
+      "meaningCn": "一点;几个"
+    },
+    "elzup-vocab-n5-0334": {
+      "meaningCn": "立即，很快"
+    },
+    "elzup-vocab-n5-0335": {
+      "meaningCn": "很少，很少"
+    },
+    "elzup-vocab-n5-0336": {
+      "meaningCn": "凉爽、清爽（指天气）"
+    },
+    "elzup-vocab-n5-0337": {
+      "meaningCn": "一次"
+    },
+    "elzup-vocab-n5-0338": {
+      "meaningCn": "加热器（点燃：炉子）"
+    },
+    "elzup-vocab-n5-0339": {
+      "meaningCn": "勺子"
+    },
+    "elzup-vocab-n5-0340": {
+      "meaningCn": "运动的）"
+    },
+    "elzup-vocab-n5-0341": {
+      "meaningCn": "裤子"
+    },
+    "elzup-vocab-n5-0342": {
+      "meaningCn": "居住，居住在"
+    },
+    "elzup-vocab-n5-0343": {
+      "meaningCn": "去做，尝试；佩戴小物品（例如领带、手表等）"
+    },
+    "elzup-vocab-n5-0344": {
+      "meaningCn": "坐"
+    },
+    "elzup-vocab-n5-0345": {
+      "meaningCn": "（的）身高、身材"
+    },
+    "elzup-vocab-n5-0346": {
+      "meaningCn": "学生;瞳孔"
+    },
+    "elzup-vocab-n5-0347": {
+      "meaningCn": "毛衣"
+    },
+    "elzup-vocab-n5-0348": {
+      "meaningCn": "肥皂"
+    },
+    "elzup-vocab-n5-0349": {
+      "meaningCn": "男士西装"
+    },
+    "elzup-vocab-n5-0350": {
+      "meaningCn": "狭窄的;不宽敞"
+    },
+    "elzup-vocab-n5-0351": {
+      "meaningCn": "零"
+    },
+    "elzup-vocab-n5-0352": {
+      "meaningCn": "千"
+    },
+    "elzup-vocab-n5-0353": {
+      "meaningCn": "上个月"
+    },
+    "elzup-vocab-n5-0354": {
+      "meaningCn": "上星期"
+    },
+    "elzup-vocab-n5-0355": {
+      "meaningCn": "教师、教授；掌握;医生"
+    },
+    "elzup-vocab-n5-0356": {
+      "meaningCn": "洗涤、洗衣服"
+    },
+    "elzup-vocab-n5-0357": {
+      "meaningCn": "全部，全部，整个"
+    },
+    "elzup-vocab-n5-0358": {
+      "meaningCn": "是的;看来，情况确实如此"
+    },
+    "elzup-vocab-n5-0359": {
+      "meaningCn": "清洁、扫地"
+    },
+    "elzup-vocab-n5-0360": {
+      "meaningCn": "并且，像那样"
+    },
+    "elzup-vocab-n5-0361": {
+      "meaningCn": "那个地方，那里；底部、鞋底"
+    },
+    "elzup-vocab-n5-0362": {
+      "meaningCn": "在那边"
+    },
+    "elzup-vocab-n5-0363": {
+      "meaningCn": "在那边"
+    },
+    "elzup-vocab-n5-0364": {
+      "meaningCn": "外面的，外面的"
+    },
+    "elzup-vocab-n5-0365": {
+      "meaningCn": "那"
+    },
+    "elzup-vocab-n5-0366": {
+      "meaningCn": "靠近，接近，旁边；日本传统荞麦面"
+    },
+    "elzup-vocab-n5-0367": {
+      "meaningCn": "天空"
+    },
+    "elzup-vocab-n5-0368": {
+      "meaningCn": "那个"
+    },
+    "elzup-vocab-n5-0369": {
+      "meaningCn": "然后，在那之后"
+    },
+    "elzup-vocab-n5-0370": {
+      "meaningCn": "在这种情况下，那么……"
+    },
+    "elzup-vocab-n5-0371": {
+      "meaningCn": "车辆柜台；机器"
+    },
+    "elzup-vocab-n5-0372": {
+      "meaningCn": "大学;大学"
+    },
+    "elzup-vocab-n5-0373": {
+      "meaningCn": "大使馆"
+    },
+    "elzup-vocab-n5-0374": {
+      "meaningCn": "没关系（好吧）；无需担心；一切尽在掌握"
+    },
+    "elzup-vocab-n5-0375": {
+      "meaningCn": "非常喜欢，非常喜欢"
+    },
+    "elzup-vocab-n5-0376": {
+      "meaningCn": "重要的"
+    },
+    "elzup-vocab-n5-0377": {
+      "meaningCn": "厨房"
+    },
+    "elzup-vocab-n5-0378": {
+      "meaningCn": "非常;困难的，困难的"
+    },
+    "elzup-vocab-n5-0379": {
+      "meaningCn": "高，高；昂贵的"
+    },
+    "elzup-vocab-n5-0380": {
+      "meaningCn": "仅仅〜，只是〜，作为〜"
+    },
+    "elzup-vocab-n5-0381": {
+      "meaningCn": "很多很多"
+    },
+    "elzup-vocab-n5-0382": {
+      "meaningCn": "出租车"
+    },
+    "elzup-vocab-n5-0383": {
+      "meaningCn": "取出（某物）；交出（某物）"
+    },
+    "elzup-vocab-n5-0384": {
+      "meaningCn": "复数后缀"
+    },
+    "elzup-vocab-n5-0385": {
+      "meaningCn": "站起来"
+    },
+    "elzup-vocab-n5-0386": {
+      "meaningCn": "长度、高度"
+    },
+    "elzup-vocab-n5-0387": {
+      "meaningCn": "建筑"
+    },
+    "elzup-vocab-n5-0388": {
+      "meaningCn": "愉快的，有趣的"
+    },
+    "elzup-vocab-n5-0389": {
+      "meaningCn": "请求，要求（帮忙）"
+    },
+    "elzup-vocab-n5-0390": {
+      "meaningCn": "烟草，香烟"
+    },
+    "elzup-vocab-n5-0391": {
+      "meaningCn": "也许，可能，或许"
+    },
+    "elzup-vocab-n5-0392": {
+      "meaningCn": "食物"
+    },
+    "elzup-vocab-n5-0393": {
+      "meaningCn": "吃饭"
+    },
+    "elzup-vocab-n5-0394": {
+      "meaningCn": "蛋"
+    },
+    "elzup-vocab-n5-0395": {
+      "meaningCn": "谁"
+    },
+    "elzup-vocab-n5-0396": {
+      "meaningCn": "某人"
+    },
+    "elzup-vocab-n5-0397": {
+      "meaningCn": "生日"
+    },
+    "elzup-vocab-n5-0398": {
+      "meaningCn": "逐渐地, 逐渐地"
+    },
+    "elzup-vocab-n5-0399": {
+      "meaningCn": "小，小"
+    },
+    "elzup-vocab-n5-0400": {
+      "meaningCn": "小，小"
+    },
+    "elzup-vocab-n5-0401": {
+      "meaningCn": "近，靠近，短"
+    },
+    "elzup-vocab-n5-0402": {
+      "meaningCn": "与众不同；有所不同；错误的"
+    },
+    "elzup-vocab-n5-0403": {
+      "meaningCn": "附近;在附近"
+    },
+    "elzup-vocab-n5-0404": {
+      "meaningCn": "地铁, 地铁"
+    },
+    "elzup-vocab-n5-0405": {
+      "meaningCn": "一张地图"
+    },
+    "elzup-vocab-n5-0406": {
+      "meaningCn": "（我的父亲"
+    },
+    "elzup-vocab-n5-0407": {
+      "meaningCn": "棕色的"
+    },
+    "elzup-vocab-n5-0408": {
+      "meaningCn": "饭碗"
+    },
+    "elzup-vocab-n5-0409": {
+      "meaningCn": "期间；同时"
+    },
+    "elzup-vocab-n5-0410": {
+      "meaningCn": "恰好、正确、完全"
+    },
+    "elzup-vocab-n5-0411": {
+      "meaningCn": "一点点，有点；只是一点点，有点"
+    },
+    "elzup-vocab-n5-0412": {
+      "meaningCn": "一天;该月的第一天"
+    },
+    "elzup-vocab-n5-0413": {
+      "meaningCn": "使用"
+    },
+    "elzup-vocab-n5-0414": {
+      "meaningCn": "变得疲倦；变得疲倦"
+    },
+    "elzup-vocab-n5-0415": {
+      "meaningCn": "下一个"
+    },
+    "elzup-vocab-n5-0416": {
+      "meaningCn": "到达，到达"
+    },
+    "elzup-vocab-n5-0417": {
+      "meaningCn": "桌子"
+    },
+    "elzup-vocab-n5-0418": {
+      "meaningCn": "制造、创造"
+    },
+    "elzup-vocab-n5-0419": {
+      "meaningCn": "打开（例如，一盏灯）；采取"
+    },
+    "elzup-vocab-n5-0420": {
+      "meaningCn": "工作（为）"
+    },
+    "elzup-vocab-n5-0421": {
+      "meaningCn": "乏味的，沉闷的；微不足道"
+    },
+    "elzup-vocab-n5-0422": {
+      "meaningCn": "冷（事物、人）"
+    },
+    "elzup-vocab-n5-0423": {
+      "meaningCn": "强大的，强大的"
+    },
+    "elzup-vocab-n5-0424": {
+      "meaningCn": "手"
+    },
+    "elzup-vocab-n5-0425": {
+      "meaningCn": "磁带"
+    },
+    "elzup-vocab-n5-0426": {
+      "meaningCn": "录音机"
+    },
+    "elzup-vocab-n5-0427": {
+      "meaningCn": "桌子"
+    },
+    "elzup-vocab-n5-0428": {
+      "meaningCn": "出去；离开"
+    },
+    "elzup-vocab-n5-0429": {
+      "meaningCn": "信"
+    },
+    "elzup-vocab-n5-0430": {
+      "meaningCn": "能够（完成）"
+    },
+    "elzup-vocab-n5-0431": {
+      "meaningCn": "一个出口"
+    },
+    "elzup-vocab-n5-0432": {
+      "meaningCn": "测试"
+    },
+    "elzup-vocab-n5-0433": {
+      "meaningCn": "那么，那么，那么"
+    },
+    "elzup-vocab-n5-0434": {
+      "meaningCn": "(缩写) 百货商店"
+    },
+    "elzup-vocab-n5-0435": {
+      "meaningCn": "但是，但是"
+    },
+    "elzup-vocab-n5-0436": {
+      "meaningCn": "出现、离开"
+    },
+    "elzup-vocab-n5-0437": {
+      "meaningCn": "电视，电视"
+    },
+    "elzup-vocab-n5-0438": {
+      "meaningCn": "天气"
+    },
+    "elzup-vocab-n5-0439": {
+      "meaningCn": "电，（电）光"
+    },
+    "elzup-vocab-n5-0440": {
+      "meaningCn": "电动火车"
+    },
+    "elzup-vocab-n5-0441": {
+      "meaningCn": "一部电话"
+    },
+    "elzup-vocab-n5-0442": {
+      "meaningCn": "门（日式）"
+    },
+    "elzup-vocab-n5-0443": {
+      "meaningCn": "发生次数计数器； ～度； ～点"
+    },
+    "elzup-vocab-n5-0444": {
+      "meaningCn": "门（西式）"
+    },
+    "elzup-vocab-n5-0445": {
+      "meaningCn": "浴室;洗手间"
+    },
+    "elzup-vocab-n5-0446": {
+      "meaningCn": "怎样，以什么方式"
+    },
+    "elzup-vocab-n5-0447": {
+      "meaningCn": "为什么，出于什么原因"
+    },
+    "elzup-vocab-n5-0448": {
+      "meaningCn": "拜托，请无论如何"
+    },
+    "elzup-vocab-n5-0449": {
+      "meaningCn": "动物"
+    },
+    "elzup-vocab-n5-0450": {
+      "meaningCn": "谢谢;不知何故；无论多么努力"
+    },
+    "elzup-vocab-n5-0451": {
+      "meaningCn": "十 (~)"
+    },
+    "elzup-vocab-n5-0452": {
+      "meaningCn": "远（远），遥远"
+    },
+    "elzup-vocab-n5-0453": {
+      "meaningCn": "十天；该月的第十天"
+    },
+    "elzup-vocab-n5-0454": {
+      "meaningCn": "当时~"
+    },
+    "elzup-vocab-n5-0455": {
+      "meaningCn": "有时"
+    },
+    "elzup-vocab-n5-0456": {
+      "meaningCn": "一块手表；一个时钟"
+    },
+    "elzup-vocab-n5-0457": {
+      "meaningCn": "哪里，什么地方"
+    },
+    "elzup-vocab-n5-0458": {
+      "meaningCn": "地方"
+    },
+    "elzup-vocab-n5-0459": {
+      "meaningCn": "年份、年龄"
+    },
+    "elzup-vocab-n5-0460": {
+      "meaningCn": "图书馆"
+    },
+    "elzup-vocab-n5-0461": {
+      "meaningCn": "哪个（一）（方式）；哪里（礼貌）"
+    },
+    "elzup-vocab-n5-0462": {
+      "meaningCn": "哪一个，哪条路"
+    },
+    "elzup-vocab-n5-0463": {
+      "meaningCn": "非常（很多），极大，极其"
+    },
+    "elzup-vocab-n5-0464": {
+      "meaningCn": "谁"
+    },
+    "elzup-vocab-n5-0465": {
+      "meaningCn": "旁边, 隔壁"
+    },
+    "elzup-vocab-n5-0466": {
+      "meaningCn": "哪个"
+    },
+    "elzup-vocab-n5-0467": {
+      "meaningCn": "飞翔、跳跃"
+    },
+    "elzup-vocab-n5-0468": {
+      "meaningCn": "停下来"
+    },
+    "elzup-vocab-n5-0469": {
+      "meaningCn": "朋友"
+    },
+    "elzup-vocab-n5-0470": {
+      "meaningCn": "周六"
+    },
+    "elzup-vocab-n5-0471": {
+      "meaningCn": "鸡（字面意思，鸟）"
+    },
+    "elzup-vocab-n5-0472": {
+      "meaningCn": "鸡肉"
+    },
+    "elzup-vocab-n5-0473": {
+      "meaningCn": "参加（一堂课）；获得（等级）"
+    },
+    "elzup-vocab-n5-0474": {
+      "meaningCn": "拍（照片），拍（电影）"
+    },
+    "elzup-vocab-n5-0475": {
+      "meaningCn": "哪一个"
+    },
+    "elzup-vocab-n5-0476": {
+      "meaningCn": "什么，什么样的"
+    },
+    "elzup-vocab-n5-0477": {
+      "meaningCn": "没有，没有"
+    },
+    "elzup-vocab-n5-0478": {
+      "meaningCn": "刀"
+    },
+    "elzup-vocab-n5-0479": {
+      "meaningCn": "里面、中间、中间"
+    },
+    "elzup-vocab-n5-0480": {
+      "meaningCn": "长长的"
+    },
+    "elzup-vocab-n5-0481": {
+      "meaningCn": "发出声音（动物）"
+    },
+    "elzup-vocab-n5-0482": {
+      "meaningCn": "失去某物"
+    },
+    "elzup-vocab-n5-0483": {
+      "meaningCn": "为什么（与どうして相同）"
+    },
+    "elzup-vocab-n5-0484": {
+      "meaningCn": "夏天"
+    },
+    "elzup-vocab-n5-0485": {
+      "meaningCn": "暑假"
+    },
+    "elzup-vocab-n5-0486": {
+      "meaningCn": "等等"
+    },
+    "elzup-vocab-n5-0487": {
+      "meaningCn": "七件事"
+    },
+    "elzup-vocab-n5-0488": {
+      "meaningCn": "什么"
+    },
+    "elzup-vocab-n5-0489": {
+      "meaningCn": "七日； （该月的第七天）"
+    },
+    "elzup-vocab-n5-0490": {
+      "meaningCn": "姓名"
+    },
+    "elzup-vocab-n5-0491": {
+      "meaningCn": "学习"
+    },
+    "elzup-vocab-n5-0492": {
+      "meaningCn": "排队，站成一排 (v.i.)"
+    },
+    "elzup-vocab-n5-0493": {
+      "meaningCn": "将（事物）并排放置；排队"
+    },
+    "elzup-vocab-n5-0494": {
+      "meaningCn": "成为"
+    },
+    "elzup-vocab-n5-0495": {
+      "meaningCn": "什么样的~"
+    },
+    "elzup-vocab-n5-0496": {
+      "meaningCn": "二"
+    },
+    "elzup-vocab-n5-0497": {
+      "meaningCn": "热闹, 忙碌"
+    },
+    "elzup-vocab-n5-0498": {
+      "meaningCn": "肉"
+    },
+    "elzup-vocab-n5-0499": {
+      "meaningCn": "西方"
+    },
+    "elzup-vocab-n5-0500": {
+      "meaningCn": "~ 一个月中的某天，持续 ~ 天"
+    },
+    "elzup-vocab-n5-0501": {
+      "meaningCn": "星期日"
+    },
+    "elzup-vocab-n5-0502": {
+      "meaningCn": "行李;行李"
+    },
+    "elzup-vocab-n5-0503": {
+      "meaningCn": "消息"
+    },
+    "elzup-vocab-n5-0504": {
+      "meaningCn": "花园"
+    },
+    "elzup-vocab-n5-0505": {
+      "meaningCn": "人柜台"
+    },
+    "elzup-vocab-n5-0506": {
+      "meaningCn": "脱掉（衣服）"
+    },
+    "elzup-vocab-n5-0507": {
+      "meaningCn": "温"
+    },
+    "elzup-vocab-n5-0508": {
+      "meaningCn": "领带，领带"
+    },
+    "elzup-vocab-n5-0509": {
+      "meaningCn": "猫"
+    },
+    "elzup-vocab-n5-0510": {
+      "meaningCn": "睡觉；去睡觉；去睡觉"
+    },
+    "elzup-vocab-n5-0511": {
+      "meaningCn": "〜年"
+    },
+    "elzup-vocab-n5-0512": {
+      "meaningCn": "笔记本"
+    },
+    "elzup-vocab-n5-0513": {
+      "meaningCn": "攀登"
+    },
+    "elzup-vocab-n5-0514": {
+      "meaningCn": "饮料，饮料"
+    },
+    "elzup-vocab-n5-0515": {
+      "meaningCn": "喝"
+    },
+    "elzup-vocab-n5-0516": {
+      "meaningCn": "上车，乘车，上车"
+    },
+    "elzup-vocab-n5-0517": {
+      "meaningCn": "齿"
+    },
+    "elzup-vocab-n5-0518": {
+      "meaningCn": "聚会"
+    },
+    "elzup-vocab-n5-0519": {
+      "meaningCn": "是的"
+    },
+    "elzup-vocab-n5-0520": {
+      "meaningCn": "杯子柜台"
+    },
+    "elzup-vocab-n5-0521": {
+      "meaningCn": "烟灰缸"
+    },
+    "elzup-vocab-n5-0522": {
+      "meaningCn": "进入、容纳、持有"
+    },
+    "elzup-vocab-n5-0523": {
+      "meaningCn": "明信片"
+    },
+    "elzup-vocab-n5-0524": {
+      "meaningCn": "穿上（腰部以下的物品）"
+    },
+    "elzup-vocab-n5-0525": {
+      "meaningCn": "盒子"
+    },
+    "elzup-vocab-n5-0526": {
+      "meaningCn": "桥"
+    },
+    "elzup-vocab-n5-0527": {
+      "meaningCn": "筷子"
+    },
+    "elzup-vocab-n5-0528": {
+      "meaningCn": "（某事）开始"
+    },
+    "elzup-vocab-n5-0529": {
+      "meaningCn": "开始，开始"
+    },
+    "elzup-vocab-n5-0530": {
+      "meaningCn": "首次"
+    },
+    "elzup-vocab-n5-0531": {
+      "meaningCn": "运行"
+    },
+    "elzup-vocab-n5-0532": {
+      "meaningCn": "公共汽车;洗澡;低音"
+    },
+    "elzup-vocab-n5-0533": {
+      "meaningCn": "黄油"
+    },
+    "elzup-vocab-n5-0534": {
+      "meaningCn": "20岁"
+    },
+    "elzup-vocab-n5-0535": {
+      "meaningCn": "去工作"
+    },
+    "elzup-vocab-n5-0536": {
+      "meaningCn": "八"
+    },
+    "elzup-vocab-n5-0537": {
+      "meaningCn": "二十天，二十号（每月的一天）"
+    },
+    "elzup-vocab-n5-0538": {
+      "meaningCn": "花"
+    },
+    "elzup-vocab-n5-0539": {
+      "meaningCn": "鼻子"
+    },
+    "elzup-vocab-n5-0540": {
+      "meaningCn": "谈话（聊天）、故事"
+    },
+    "elzup-vocab-n5-0541": {
+      "meaningCn": "说话"
+    },
+    "elzup-vocab-n5-0542": {
+      "meaningCn": "（我的母亲"
+    },
+    "elzup-vocab-n5-0543": {
+      "meaningCn": "早期的"
+    },
+    "elzup-vocab-n5-0544": {
+      "meaningCn": "快，快"
+    },
+    "elzup-vocab-n5-0545": {
+      "meaningCn": "春天"
+    },
+    "elzup-vocab-n5-0546": {
+      "meaningCn": "发帖；粘贴；附加"
+    },
+    "elzup-vocab-n5-0547": {
+      "meaningCn": "天气晴朗"
+    },
+    "elzup-vocab-n5-0548": {
+      "meaningCn": "阳光明媚"
+    },
+    "elzup-vocab-n5-0549": {
+      "meaningCn": "半（例如，にじはん | 两点半）"
+    },
+    "elzup-vocab-n5-0550": {
+      "meaningCn": "晚上"
+    },
+    "elzup-vocab-n5-0551": {
+      "meaningCn": "第一；最好的"
+    },
+    "elzup-vocab-n5-0552": {
+      "meaningCn": "面包"
+    },
+    "elzup-vocab-n5-0553": {
+      "meaningCn": "手帕"
+    },
+    "elzup-vocab-n5-0554": {
+      "meaningCn": "数字，一系列数字"
+    },
+    "elzup-vocab-n5-0555": {
+      "meaningCn": "晚餐，晚餐"
+    },
+    "elzup-vocab-n5-0556": {
+      "meaningCn": "一半"
+    },
+    "elzup-vocab-n5-0557": {
+      "meaningCn": "东方"
+    },
+    "elzup-vocab-n5-0558": {
+      "meaningCn": "小动物柜台"
+    },
+    "elzup-vocab-n5-0559": {
+      "meaningCn": "拉，拉；减去"
+    },
+    "elzup-vocab-n5-0560": {
+      "meaningCn": "演奏（弦乐器或钢琴）"
+    },
+    "elzup-vocab-n5-0561": {
+      "meaningCn": "短、​​低"
+    },
+    "elzup-vocab-n5-0562": {
+      "meaningCn": "飞机"
+    },
+    "elzup-vocab-n5-0563": {
+      "meaningCn": "左手边"
+    },
+    "elzup-vocab-n5-0564": {
+      "meaningCn": "男人，人"
+    },
+    "elzup-vocab-n5-0565": {
+      "meaningCn": "一件事"
+    },
+    "elzup-vocab-n5-0566": {
+      "meaningCn": "一个月"
+    },
+    "elzup-vocab-n5-0567": {
+      "meaningCn": "一个人"
+    },
+    "elzup-vocab-n5-0568": {
+      "meaningCn": "空闲时间，休闲"
+    },
+    "elzup-vocab-n5-0569": {
+      "meaningCn": "百"
+    },
+    "elzup-vocab-n5-0570": {
+      "meaningCn": "医院"
+    },
+    "elzup-vocab-n5-0571": {
+      "meaningCn": "疾病;疾病"
+    },
+    "elzup-vocab-n5-0572": {
+      "meaningCn": "平假名"
+    },
+    "elzup-vocab-n5-0573": {
+      "meaningCn": "中午，白天"
+    },
+    "elzup-vocab-n5-0574": {
+      "meaningCn": "午餐，中午饭"
+    },
+    "elzup-vocab-n5-0575": {
+      "meaningCn": "宽敞；宽的;广阔"
+    },
+    "elzup-vocab-n5-0576": {
+      "meaningCn": "胶片（卷）"
+    },
+    "elzup-vocab-n5-0577": {
+      "meaningCn": "信封"
+    },
+    "elzup-vocab-n5-0578": {
+      "meaningCn": "游泳池"
+    },
+    "elzup-vocab-n5-0579": {
+      "meaningCn": "叉"
+    },
+    "elzup-vocab-n5-0580": {
+      "meaningCn": "吹（风等）"
+    },
+    "elzup-vocab-n5-0581": {
+      "meaningCn": "衣服"
+    },
+    "elzup-vocab-n5-0582": {
+      "meaningCn": "两件事"
+    },
+    "elzup-vocab-n5-0583": {
+      "meaningCn": "猪肉"
+    },
+    "elzup-vocab-n5-0584": {
+      "meaningCn": "两个人"
+    },
+    "elzup-vocab-n5-0585": {
+      "meaningCn": "两天；该月的第二天"
+    },
+    "elzup-vocab-n5-0586": {
+      "meaningCn": "肥厚的"
+    },
+    "elzup-vocab-n5-0587": {
+      "meaningCn": "冬天"
+    },
+    "elzup-vocab-n5-0588": {
+      "meaningCn": "沉淀、下落（例如雨、雪等）"
+    },
+    "elzup-vocab-n5-0589": {
+      "meaningCn": "老（指物体，而不是人），年老的，古老的"
+    },
+    "elzup-vocab-n5-0590": {
+      "meaningCn": "〜分钟"
+    },
+    "elzup-vocab-n5-0591": {
+      "meaningCn": "句子、文字"
+    },
+    "elzup-vocab-n5-0592": {
+      "meaningCn": "一页"
+    },
+    "elzup-vocab-n5-0593": {
+      "meaningCn": "不熟练的，贫穷的"
+    },
+    "elzup-vocab-n5-0594": {
+      "meaningCn": "床"
+    },
+    "elzup-vocab-n5-0595": {
+      "meaningCn": "宠物"
+    },
+    "elzup-vocab-n5-0596": {
+      "meaningCn": "一个房间"
+    },
+    "elzup-vocab-n5-0597": {
+      "meaningCn": "地区、附近地区"
+    },
+    "elzup-vocab-n5-0598": {
+      "meaningCn": "笔"
+    },
+    "elzup-vocab-n5-0599": {
+      "meaningCn": "学习"
+    },
+    "elzup-vocab-n5-0600": {
+      "meaningCn": "方便的，方便的"
+    },
+    "elzup-vocab-n5-0601": {
+      "meaningCn": "帽子;帽"
+    },
+    "elzup-vocab-n5-0602": {
+      "meaningCn": "圆珠笔"
+    },
+    "elzup-vocab-n5-0603": {
+      "meaningCn": "其他的，其余的"
+    },
+    "elzup-vocab-n5-0604": {
+      "meaningCn": "口袋"
+    },
+    "elzup-vocab-n5-0605": {
+      "meaningCn": "想要、需要"
+    },
+    "elzup-vocab-n5-0606": {
+      "meaningCn": "邮箱;职位、职位"
+    },
+    "elzup-vocab-n5-0607": {
+      "meaningCn": "薄、细、细"
+    },
+    "elzup-vocab-n5-0608": {
+      "meaningCn": "按钮"
+    },
+    "elzup-vocab-n5-0609": {
+      "meaningCn": "酒店"
+    },
+    "elzup-vocab-n5-0610": {
+      "meaningCn": "书"
+    },
+    "elzup-vocab-n5-0611": {
+      "meaningCn": "长圆柱形物体计数器"
+    },
+    "elzup-vocab-n5-0612": {
+      "meaningCn": "书架"
+    },
+    "elzup-vocab-n5-0613": {
+      "meaningCn": "真实的，真实的"
+    },
+    "elzup-vocab-n5-0614": {
+      "meaningCn": "扁平物品柜台"
+    },
+    "elzup-vocab-n5-0615": {
+      "meaningCn": "每天早上"
+    },
+    "elzup-vocab-n5-0616": {
+      "meaningCn": "每个月，每月"
+    },
+    "elzup-vocab-n5-0617": {
+      "meaningCn": "每周"
+    },
+    "elzup-vocab-n5-0618": {
+      "meaningCn": "每天"
+    },
+    "elzup-vocab-n5-0619": {
+      "meaningCn": "每年，每年，每年"
+    },
+    "elzup-vocab-n5-0620": {
+      "meaningCn": "每天晚上"
+    },
+    "elzup-vocab-n5-0621": {
+      "meaningCn": "之前，在前面"
+    },
+    "elzup-vocab-n5-0622": {
+      "meaningCn": "前面~"
+    },
+    "elzup-vocab-n5-0623": {
+      "meaningCn": "转动，弯曲"
+    },
+    "elzup-vocab-n5-0624": {
+      "meaningCn": "可怕的（指食物），令人倒胃口的，不愉快的（味道）"
+    },
+    "elzup-vocab-n5-0625": {
+      "meaningCn": "和;此外"
+    },
+    "elzup-vocab-n5-0626": {
+      "meaningCn": "然而，仍然，此外"
+    },
+    "elzup-vocab-n5-0627": {
+      "meaningCn": "镇;城市"
+    },
+    "elzup-vocab-n5-0628": {
+      "meaningCn": "等待"
+    },
+    "elzup-vocab-n5-0629": {
+      "meaningCn": "直行（前方），直接"
+    },
+    "elzup-vocab-n5-0630": {
+      "meaningCn": "匹配"
+    },
+    "elzup-vocab-n5-0631": {
+      "meaningCn": "窗户"
+    },
+    "elzup-vocab-n5-0632": {
+      "meaningCn": "圆的，圆的"
+    },
+    "elzup-vocab-n5-0633": {
+      "meaningCn": "万"
+    },
+    "elzup-vocab-n5-0634": {
+      "meaningCn": "钢笔"
+    },
+    "elzup-vocab-n5-0635": {
+      "meaningCn": "刷牙；抛光"
+    },
+    "elzup-vocab-n5-0636": {
+      "meaningCn": "右手边"
+    },
+    "elzup-vocab-n5-0637": {
+      "meaningCn": "短（长度）"
+    },
+    "elzup-vocab-n5-0638": {
+      "meaningCn": "水"
+    },
+    "elzup-vocab-n5-0639": {
+      "meaningCn": "商店，商店"
+    },
+    "elzup-vocab-n5-0640": {
+      "meaningCn": "展示，展示"
+    },
+    "elzup-vocab-n5-0641": {
+      "meaningCn": "道路、街道；方式、方向"
+    },
+    "elzup-vocab-n5-0642": {
+      "meaningCn": "三天，该月的第三天"
+    },
+    "elzup-vocab-n5-0643": {
+      "meaningCn": "三件事"
+    },
+    "elzup-vocab-n5-0644": {
+      "meaningCn": "绿色的"
+    },
+    "elzup-vocab-n5-0645": {
+      "meaningCn": "你们所有人，所有人"
+    },
+    "elzup-vocab-n5-0646": {
+      "meaningCn": "南"
+    },
+    "elzup-vocab-n5-0647": {
+      "meaningCn": "耳朵"
+    },
+    "elzup-vocab-n5-0648": {
+      "meaningCn": "去看，去看"
+    },
+    "elzup-vocab-n5-0649": {
+      "meaningCn": "所有人，所有人，所有人"
+    },
+    "elzup-vocab-n5-0650": {
+      "meaningCn": "六天；每月的第六天"
+    },
+    "elzup-vocab-n5-0651": {
+      "meaningCn": "那边，那边"
+    },
+    "elzup-vocab-n5-0652": {
+      "meaningCn": "难的"
+    },
+    "elzup-vocab-n5-0653": {
+      "meaningCn": "六件事"
+    },
+    "elzup-vocab-n5-0654": {
+      "meaningCn": "村庄"
+    },
+    "elzup-vocab-n5-0655": {
+      "meaningCn": "眼睛"
+    },
+    "elzup-vocab-n5-0656": {
+      "meaningCn": "仪表"
+    },
+    "elzup-vocab-n5-0657": {
+      "meaningCn": "眼镜"
+    },
+    "elzup-vocab-n5-0658": {
+      "meaningCn": "已经;再次;更多的"
+    },
+    "elzup-vocab-n5-0659": {
+      "meaningCn": "周四"
+    },
+    "elzup-vocab-n5-0660": {
+      "meaningCn": "你好？ （在手机上使用）"
+    },
+    "elzup-vocab-n5-0661": {
+      "meaningCn": "持有，携带；拥有"
+    },
+    "elzup-vocab-n5-0662": {
+      "meaningCn": "更多的"
+    },
+    "elzup-vocab-n5-0663": {
+      "meaningCn": "事物（具体物体）"
+    },
+    "elzup-vocab-n5-0664": {
+      "meaningCn": "门"
+    },
+    "elzup-vocab-n5-0665": {
+      "meaningCn": "一个问题"
+    },
+    "elzup-vocab-n5-0666": {
+      "meaningCn": "〜商店"
+    },
+    "elzup-vocab-n5-0667": {
+      "meaningCn": "蔬菜水果商"
+    },
+    "elzup-vocab-n5-0668": {
+      "meaningCn": "蔬菜"
+    },
+    "elzup-vocab-n5-0669": {
+      "meaningCn": "简单、简单、简单"
+    },
+    "elzup-vocab-n5-0670": {
+      "meaningCn": "便宜；便宜（东西）"
+    },
+    "elzup-vocab-n5-0671": {
+      "meaningCn": "假期;休息日；缺席"
+    },
+    "elzup-vocab-n5-0672": {
+      "meaningCn": "休息, 休息一下, 休息一下"
+    },
+    "elzup-vocab-n5-0673": {
+      "meaningCn": "八件事"
+    },
+    "elzup-vocab-n5-0674": {
+      "meaningCn": "山"
+    },
+    "elzup-vocab-n5-0675": {
+      "meaningCn": "去做；给予（给宠物、父母、兄弟姐妹等）"
+    },
+    "elzup-vocab-n5-0676": {
+      "meaningCn": "下午晚些时候（通常在晚餐时间之前）、晚上"
+    },
+    "elzup-vocab-n5-0677": {
+      "meaningCn": "晚餐，晚餐，晚餐"
+    },
+    "elzup-vocab-n5-0678": {
+      "meaningCn": "邮局"
+    },
+    "elzup-vocab-n5-0679": {
+      "meaningCn": "昨夜"
+    },
+    "elzup-vocab-n5-0680": {
+      "meaningCn": "著名的"
+    },
+    "elzup-vocab-n5-0681": {
+      "meaningCn": "雪"
+    },
+    "elzup-vocab-n5-0682": {
+      "meaningCn": "慢慢地、轻松地"
+    },
+    "elzup-vocab-n5-0683": {
+      "meaningCn": "八天；该月的第八天"
+    },
+    "elzup-vocab-n5-0684": {
+      "meaningCn": "西式服装"
+    },
+    "elzup-vocab-n5-0685": {
+      "meaningCn": "经常，经常（很多）；好，熟练地"
+    },
+    "elzup-vocab-n5-0686": {
+      "meaningCn": "旁;边;宽度"
+    },
+    "elzup-vocab-n5-0687": {
+      "meaningCn": "四天；该月的第四天"
+    },
+    "elzup-vocab-n5-0688": {
+      "meaningCn": "四件事"
+    },
+    "elzup-vocab-n5-0689": {
+      "meaningCn": "称呼（某人的名字）；邀请"
+    },
+    "elzup-vocab-n5-0690": {
+      "meaningCn": "阅读"
+    },
+    "elzup-vocab-n5-0691": {
+      "meaningCn": "晚上，晚上"
+    },
+    "elzup-vocab-n5-0692": {
+      "meaningCn": "虚弱的"
+    },
+    "elzup-vocab-n5-0693": {
+      "meaningCn": "下个月"
+    },
+    "elzup-vocab-n5-0694": {
+      "meaningCn": "下周"
+    },
+    "elzup-vocab-n5-0695": {
+      "meaningCn": "明年"
+    },
+    "elzup-vocab-n5-0696": {
+      "meaningCn": "收音机"
+    },
+    "elzup-vocab-n5-0697": {
+      "meaningCn": "收音机"
+    },
+    "elzup-vocab-n5-0698": {
+      "meaningCn": "精彩的，精美的"
+    },
+    "elzup-vocab-n5-0699": {
+      "meaningCn": "国际学生"
+    },
+    "elzup-vocab-n5-0700": {
+      "meaningCn": "父母（字面意思是父母双方）"
+    },
+    "elzup-vocab-n5-0701": {
+      "meaningCn": "烹饪;美食"
+    },
+    "elzup-vocab-n5-0702": {
+      "meaningCn": "旅行，旅行"
+    },
+    "elzup-vocab-n5-0703": {
+      "meaningCn": "零，无"
+    },
+    "elzup-vocab-n5-0704": {
+      "meaningCn": "冰箱"
+    },
+    "elzup-vocab-n5-0705": {
+      "meaningCn": "记录"
+    },
+    "elzup-vocab-n5-0706": {
+      "meaningCn": "餐厅"
+    },
+    "elzup-vocab-n5-0707": {
+      "meaningCn": "（）练习"
+    },
+    "elzup-vocab-n5-0708": {
+      "meaningCn": "走廊"
+    },
+    "elzup-vocab-n5-0709": {
+      "meaningCn": "六"
+    },
+    "elzup-vocab-n5-0710": {
+      "meaningCn": "衬衫（亮白衬衫）、商务衬衫"
+    },
+    "elzup-vocab-n5-0711": {
+      "meaningCn": "年轻的"
+    },
+    "elzup-vocab-n5-0712": {
+      "meaningCn": "去理解"
+    },
+    "elzup-vocab-n5-0713": {
+      "meaningCn": "忘记"
+    },
+    "elzup-vocab-n5-0714": {
+      "meaningCn": "我，我自己"
+    },
+    "elzup-vocab-n5-0715": {
+      "meaningCn": "我（正式），我自己，私人事务"
+    },
+    "elzup-vocab-n5-0716": {
+      "meaningCn": "移交（某物）；移交（v.t.）；跨越"
+    },
+    "elzup-vocab-n5-0717": {
+      "meaningCn": "跨越，跨越"
+    },
+    "elzup-vocab-n5-0718": {
+      "meaningCn": "坏的，有罪的；下"
+    }
+  }
+}

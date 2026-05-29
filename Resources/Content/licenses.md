@@ -25,7 +25,7 @@ License: [MIT](https://github.com/elzup/jlpt-word-list/blob/master/LICENSE).
 Notes:
 
 - The source project acknowledges original deck data from `chyyran/jlpt-anki-decks`, based on decks from tanos.co.uk and forked from `jamsinclair/open-anki-jlpt-decks`.
-- Meanings are source English glosses stored in `meaningCn` until curated Chinese localization is added.
+- Meanings are generated with Simplified Chinese localization overlays in `Resources/Content/localization/zh-cn/`.
 - JLPT levels are reference labels, not official complete modern JLPT lists.
 
 ## Built-In JLPT Reference Example Sentences
@@ -45,5 +45,36 @@ License: Creative Commons License, variant not specified by the source README. T
 Notes:
 
 - Example sentences are extracted from `grammar_json/grammar_ja_N*_full_alphabetical_0001.json`.
-- Meanings are source English glosses stored in `meaningCn` until curated Chinese localization is added.
+- Meanings and prompts are generated with Simplified Chinese localization overlays in `Resources/Content/localization/zh-cn/`.
 - These are grammar usage examples grouped by JLPT reference level.
+
+## Simplified Chinese Localization Overlays
+
+Files:
+
+- `Resources/Content/localization/zh-cn/builtin-vocabulary-n5.json`
+- `Resources/Content/localization/zh-cn/builtin-vocabulary-n4.json`
+- `Resources/Content/localization/zh-cn/builtin-vocabulary-n3.json`
+- `Resources/Content/localization/zh-cn/builtin-vocabulary-n2.json`
+- `Resources/Content/localization/zh-cn/builtin-vocabulary-n1.json`
+- `Resources/Content/localization/zh-cn/builtin-grammar-n5.json`
+- `Resources/Content/localization/zh-cn/builtin-grammar-n4.json`
+- `Resources/Content/localization/zh-cn/builtin-grammar-n3.json`
+- `Resources/Content/localization/zh-cn/builtin-grammar-n2.json`
+- `Resources/Content/localization/zh-cn/builtin-grammar-n1.json`
+- `Resources/Content/localization/zh-cn/builtin-examples-n5.json`
+- `Resources/Content/localization/zh-cn/builtin-examples-n4.json`
+- `Resources/Content/localization/zh-cn/builtin-examples-n3.json`
+- `Resources/Content/localization/zh-cn/builtin-examples-n2.json`
+- `Resources/Content/localization/zh-cn/builtin-examples-n1.json`
+
+Source: Nihongo ToastFish first-party Simplified Chinese localization, including machine-assisted draft translations from existing English source fields and project-authored manual corrections.
+
+License: first-party project content.
+
+Notes:
+
+- These files override selected `meaningCn`, `promptCn`, `formation`, and `usageNote` fields during content pack generation.
+- Run `scripts/check_content_localization.py` after generation to verify all generated packs have Chinese `meaningCn` and `promptCn` coverage.
+- Machine-assisted Chinese draft text should be reviewed and improved over time, especially for nuance-sensitive grammar explanations and example sentence translations.
+- Do not import Chinese explanations or example translations from third-party websites unless their redistribution license is compatible and recorded here.

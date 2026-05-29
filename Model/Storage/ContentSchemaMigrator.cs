@@ -101,12 +101,36 @@ namespace ToastFish.Model.Storage
                     lapses INTEGER NOT NULL DEFAULT 0,
                     UNIQUE(contentId, contentKind)
                 )",
+                @"CREATE TABLE IF NOT EXISTS StudySessionState (
+                    stateKey TEXT PRIMARY KEY,
+                    studySource TEXT NOT NULL,
+                    legacyTableName TEXT,
+                    contentKind TEXT,
+                    jlptLevel TEXT,
+                    lastContentId TEXT,
+                    updatedAt TEXT NOT NULL
+                )",
+                @"CREATE TABLE IF NOT EXISTS StudyNotebookItem (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    contentKind TEXT NOT NULL,
+                    jlptLevel TEXT,
+                    contentId TEXT NOT NULL,
+                    title TEXT,
+                    primaryText TEXT,
+                    secondaryText TEXT,
+                    detailText TEXT,
+                    promptText TEXT,
+                    correctAnswer TEXT,
+                    createdAt TEXT NOT NULL,
+                    UNIQUE(contentKind, contentId)
+                )",
                 "CREATE INDEX IF NOT EXISTS IX_ContentPack_LevelKind ON ContentPack(jlptLevel, contentKind)",
                 "CREATE INDEX IF NOT EXISTS IX_VocabularyItem_Pack ON VocabularyItem(packId)",
                 "CREATE INDEX IF NOT EXISTS IX_GrammarPoint_Pack ON GrammarPoint(packId)",
                 "CREATE INDEX IF NOT EXISTS IX_GrammarExample_Pack ON GrammarExample(packId)",
                 "CREATE INDEX IF NOT EXISTS IX_GojuonItem_Pack ON GojuonItem(packId)",
-                "CREATE INDEX IF NOT EXISTS IX_ReviewCard_Due ON ReviewCard(dueAt, status)"
+                "CREATE INDEX IF NOT EXISTS IX_ReviewCard_Due ON ReviewCard(dueAt, status)",
+                "CREATE INDEX IF NOT EXISTS IX_StudyNotebookItem_Kind ON StudyNotebookItem(contentKind, createdAt)"
             };
 
             foreach (string commandText in commands)

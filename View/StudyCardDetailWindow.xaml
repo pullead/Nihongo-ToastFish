@@ -1,0 +1,84 @@
+<Window x:Class="ToastFish.StudyCardDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="学习内容详情"
+        Height="560"
+        Width="720"
+        MinHeight="420"
+        MinWidth="560"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="TitleText"
+                   FontSize="20"
+                   FontWeight="SemiBold"
+                   TextWrapping="Wrap"
+                   Margin="0,0,0,12" />
+
+        <ScrollViewer Grid.Row="1"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled">
+            <StackPanel>
+                <TextBlock x:Name="LevelText"
+                           FontSize="13"
+                           Foreground="#666666"
+                           Margin="0,0,0,12" />
+
+                <TextBlock Text="主要内容"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,4" />
+                <TextBlock x:Name="PrimaryText"
+                           TextWrapping="Wrap"
+                           FontSize="15"
+                           Margin="0,0,0,14" />
+
+                <TextBlock Text="释义 / 提示"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,4" />
+                <TextBlock x:Name="SecondaryText"
+                           TextWrapping="Wrap"
+                           FontSize="15"
+                           Margin="0,0,0,14" />
+
+                <TextBlock x:Name="PromptLabel"
+                           Text="题目"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,4" />
+                <TextBlock x:Name="PromptText"
+                           TextWrapping="Wrap"
+                           FontSize="15"
+                           Margin="0,0,0,14" />
+
+                <TextBlock x:Name="DetailLabel"
+                           Text="说明 / 例句"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,4" />
+                <TextBlock x:Name="DetailText"
+                           TextWrapping="Wrap"
+                           FontSize="15"
+                           Margin="0,0,0,14" />
+
+                <TextBlock x:Name="ChoicesLabel"
+                           Text="选项"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,4" />
+                <TextBlock x:Name="ChoicesText"
+                           TextWrapping="Wrap"
+                           FontSize="15"
+                           Margin="0,0,0,14" />
+
+                <TextBlock x:Name="AnswerLabel"
+                           Text="答案"
+                           FontWeight="SemiBold"
+                           Margin="0,0,0,4" />
+                <TextBlock x:Name="AnswerText"
+                           TextWrapping="Wrap"
+                           FontSize="15" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

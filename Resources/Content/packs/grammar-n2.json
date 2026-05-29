@@ -1,0 +1,1360 @@
+{
+  "pack": {
+    "packId": "builtin-grammar-n2",
+    "version": "2026.05.22",
+    "jlptLevel": "N2",
+    "contentKind": "grammar",
+    "displayName": "N2 grammar reference pack",
+    "description": "N2 grammar points imported from hanabira.org Japanese content with Simplified Chinese explanations from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
+    "source": {
+      "sourceId": "hanabira-org-japanese-content",
+      "name": "hanabira.org Japanese content",
+      "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+      "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+      "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
+    },
+    "license": {
+      "name": "Creative Commons License (variant not specified by source README)",
+      "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
+    }
+  },
+  "items": [
+    {
+      "contentId": "hanabira-grammar-n2-0001",
+      "pattern": "A あるいは B (A aruiwa B)",
+      "meaningCn": "表示替代方案； “A 或 B”、“A 或 B”。",
+      "formation": "乐句 A + あるいは + 乐句 B",
+      "usageNote": "あるいは语法点用于表示替代项或选项，类似于英语中的“A或B”或“A或B”。它强调了在一种情况下有不止一种选择的可能性。它可以与动词、形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0002",
+      "pattern": "A。おまけに B。(~omake ni)",
+      "meaningCn": "表示除了A之外，还有B； “而且”、“此外”、“不仅”、“而且”。",
+      "formation": "句子A + おまけに + 句子B",
+      "usageNote": "A。おまけに B。语法点用于表达除了第一个陈述A之外，还有第二个陈述B，通常强调情况的消极方面或困难。在英语中它可以被翻译为“此外”、“除了”、“不仅”或“而且”。该结构与两个句子一起使用，在这两个句子之间放置おまけに。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0003",
+      "pattern": "A。さて B。(A. Sate B.)",
+      "meaningCn": "表示主题或情况突然改变或转移； ‘那么’、‘好吧’、‘所以’。",
+      "formation": "A+さて+B",
+      "usageNote": "さて语法点用于表示主题或情况的突然变化或转移。它通常表达一种继续进行下一个主题或动作的感觉，充当句子之间的连接器。在英语中，它可以被粗略地翻译为“现在然后”、“好吧”或“所以”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0004",
+      "pattern": "A。しかも B。(A. Shikamo B.)",
+      "meaningCn": "表达附加信息； “而且”、“此外”、“而且”。",
+      "formation": "陈述A + 。しかも + 陈述B。",
+      "usageNote": "しかも语法点用于表达附加信息，补充或强调前面提到的内容。它在英语中可以翻译为“此外”、“此外”或“进一步”。 A和B都是独立的陈述，用しかも连接。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0005",
+      "pattern": "A。したがって B。(A. Shitagatte B.)",
+      "meaningCn": "表达因果关系； “因此”、“因此”、“因此”。",
+      "formation": "A+したがって+B",
+      "usageNote": "したがって语法点用于表达两个句子之间的因果关系，其中“A”是原因，“B”是效果、结果或结论。在英语中它可以被翻译为“因此”、“因此”或“所以”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0006",
+      "pattern": "A すなわち B。 (A sunawachi B)",
+      "meaningCn": "表示A与B等价； ‘换句话说’、‘即’、‘也就是说’。",
+      "formation": "短语A + すなわち + 短语B",
+      "usageNote": "语法点A すなわち B 用于表示两个短语是等价的或者第二个短语是第一个短语的进一步解释、澄清或真实含义。这在英语中可以翻译为“换句话说”、“即”或“也就是说”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0007",
+      "pattern": "A。すると B。(~suruto)",
+      "meaningCn": "表示当动作A完成后，接着进行动作或事件B； '那么'，'当'，'如果'。",
+      "formation": "A（句子）+ すると + B（句子）",
+      "usageNote": "A。すると B。语法点用于表达当动作 A 完成或发生时，动作或事件 B 随之而来。它在英语中可以翻译为“then”、“when”或“if”。它用于显示动作 A 的自然后果或结果。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0008",
+      "pattern": "A。そういえば B。(~souieba)",
+      "meaningCn": "回忆起与A有关的事情； “说到这里”、“顺便说一句”、“既然你提到了”。",
+      "formation": "A+そういえば+B",
+      "usageNote": "A。そういえば B。语法点用于回忆或提出与 A 相关的事物。在英语中它可以被翻译为“说到其中”、“顺便说一下”或“既然你提到了”。它通常用于连接对话中两个相关的主题或想法，并表示焦点的变化。该结构由两个子句组成：第一个为 A，第二个为 B，中间以“そういえば”作为连接词。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0009",
+      "pattern": "A。そこで B。(~sokode)",
+      "meaningCn": "表示“因此”或“因为那样”。",
+      "formation": "A+そこで+B",
+      "usageNote": "A。そこで B。语法点用于描述A部分中动作或情况的原因以及B部分中做出的结果或决定。它在英语中可以翻译为“因此”或“因为那样”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0010",
+      "pattern": "A。それがB。(~sorega)",
+      "meaningCn": "表达“这正是A；换句话说，B'。",
+      "formation": "A (陈述)。それが B (A 的重述或解释)。",
+      "usageNote": "语法点A。それがB。可以用来重述或澄清B正是A的意思。它通过陈述B来强调A的本质或定义。它可以被翻译为“这就是A”、“这正是A/B”或“换句话说，B”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0011",
+      "pattern": "A。それで B。 (~sore de)",
+      "meaningCn": "表达一系列事件或因果关系； '然后'，'所以'，'因为那样'。",
+      "formation": "句子A+。それで+句子B。",
+      "usageNote": "A。それで B。语法点用于连接两个句子或事件，表达一系列事件或根据第一个事件解释第二个事件的原因。本质上，它在英语中的意思是“然后”、“所以”或“因为那样”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0012",
+      "pattern": "A。それでも B。(~sore demo)",
+      "meaningCn": "表达“即便如此”、“尽管如此”、“仍然”或“但是”；用于对比两个陈述。",
+      "formation": "A（情况）+。それでも+B（行动或想法）",
+      "usageNote": "A。それでも B。语法点用于显示两个语句之间的对比。第一个陈述 (A) 提出了一种情况，第二个陈述 (B) 提出了可能出乎意料或与初始情况相反的行动或想法。在英语中它可以被翻译为“即便如此”、“尽管如此”、“仍然”或“但是”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0013",
+      "pattern": "A。それなのに B。(~sorenanoni)",
+      "meaningCn": "表达两种情况或事实之间的对比或矛盾； “尽管”、“尽管”、“但仍然”。",
+      "formation": "A。それなのに B。",
+      "usageNote": "A。それなのにB。语法点用于表达两种情况或事实之间的对比、矛盾或意外。它在英语中可以翻译为“即使”、“尽管”或“但仍然”。构成很简单，A和B代表两个对比或矛盾的陈述。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0014",
+      "pattern": "A。それなら B。(A. Sore nara B.)",
+      "meaningCn": "表达“如果是这样的话”；用于显示基于给定情况的逻辑结果或决定。",
+      "formation": "情况A（句子）+。それなら+情况B（句子）",
+      "usageNote": "A。それなら B。语法点用于表达基于句子第一部分（A）中给定情况的逻辑结果或决定。短语“それなら”在英语中可以翻译为“如果是这样的话”、“那样的话”或“那么”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0015",
+      "pattern": "A それはそうと B。 (A Sore wa sou to B)",
+      "meaningCn": "改变话题； “顺便说一下”，“说到这里”。",
+      "formation": "句子A + それはそうと + 句子B",
+      "usageNote": "语法点 A それはそうと B 用于在对话中改变话题或提出新的话题。它在英语中可以翻译为“顺便说一句”或“说到其中”。它用于连接两个不相关的句子或想法，A是原始主题，B是提出的新主题。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0016",
+      "pattern": "A。だが B。(~daga)",
+      "meaningCn": "表达相反的想法或陈述； '但是'，'然而'。",
+      "formation": "句子A + だが + 句子B",
+      "usageNote": "A。だが B。语法点用于表达对比的想法或陈述。它连接两个具有对比意义的句子或短语。它在英语中可以翻译为“但是”或“但是”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0017",
+      "pattern": "A。ただB。(~tada)",
+      "meaningCn": "表达两种情况的对比； ‘虽然’、‘但是’、‘然而’。",
+      "formation": "句子A + ただ + 句子B",
+      "usageNote": "ただ语法点用于表达两种情况或事实之间的对比。在英语中它通常可以被翻译为“虽然”、“但是”或“但是”。它用于显示矛盾或情况的不同方面。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0018",
+      "pattern": "A。ただしB。 (A. Tadashi B)",
+      "meaningCn": "向语句添加条件或例外； “但是”、“假设”、“但仅当”。",
+      "formation": "陈述A+ただし+条件B",
+      "usageNote": "语法点A。ただしB用于为前面的语句添加条件或例外。在英语中它可以被翻译为“然而”、“假设”或“但仅当”。该结构由两部分组成：A（语句）和B（条件/异常）。ただし这个词用来连接这两个部分。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0019",
+      "pattern": "A。だって B。(Datte~)",
+      "meaningCn": "用于给出理由、表达原因或提出话题； “因为”、“因为”、“就是这样”。",
+      "formation": "动词休闲 + だって、い-形容词 + だって、な-形容词 + だって、名词 + だって",
+      "usageNote": "A.だって B.语法点用于以随意的方式给出理由、表达原因或引入主题。它可以被翻译为“因为”、“因为”或“仅此而已”。 A 是原因，B 是由于该原因而产生的陈述。它可以与动词、い形容词、な形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0020",
+      "pattern": "A。ちなみに B。(A. Chinamini B.)",
+      "meaningCn": "用于提供有关该主题的附加信息； ‘顺便’、‘顺便’。",
+      "formation": "A。ちなみに B。",
+      "usageNote": "ちなみに语法点用于提供有关前面提到的主题的附加信息或旁注。它在英语中可以翻译为“顺便”或“顺便”。该语法点通常用于提供进一步的上下文、背景信息或主题的细微变化。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0021",
+      "pattern": "A。ということは B。 (A. To iu koto wa B.)",
+      "meaningCn": "表达“如果 A，则意味着 B”或“A 意味着 B”的含义。",
+      "formation": "A+ということは+B",
+      "usageNote": "A。ということは B。语法点用于表达逻辑结论：如果A为真，则B也一定为真。英语中可以翻译为“如果A，那就意味着B”或“A意味着B”。当说话者想要根据 A 提供的信息推断或推论 B 时，可以使用此模式。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0022",
+      "pattern": "A。というのは B。(Toiu no wa~)",
+      "meaningCn": "用于对A作出解释或提供附加信息； '也就是说'，'换句话说'。",
+      "formation": "[陈述A]。というのは、[陈述B]。",
+      "usageNote": "语法点A。というのは B。用于提供关于陈述A的解释、定义或进一步信息。在英语中可以翻译为“也就是说”、“换句话说”或“即”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0023",
+      "pattern": "A。なおB。(A. Nao B.)",
+      "meaningCn": "提供附加信息； ‘而且’、‘此外’、‘此外’。",
+      "formation": "A（句子）+なお+B（句子）",
+      "usageNote": "なお语法点用于提供附加信息或强调现有事实。它在英语中可以翻译为“此外”、“此外”或“另外”。 なお放在两个句子之间，连接两个句子并提供补充信息。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0024",
+      "pattern": "A。もっとも B。(Motto mo ~)",
+      "meaningCn": "表达相反的意见或事实； ‘虽然’、‘但是’、‘然而’。",
+      "formation": "条款A+もっとも+条款B",
+      "usageNote": "A.もっとも B.语法点用于表达相反的观点或事实。它在英语中可以翻译为“虽然”、“但是”或“但是”。这种结构连接两个子句并突出它们之间的对比。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0025",
+      "pattern": "A。要するに B。(A. Yousuru ni B.)",
+      "meaningCn": "当将 A 重述或总结为 B 时，表达“简而言之”、“简而言之”或“总结”。",
+      "formation": "A。要するに B。",
+      "usageNote": "A。要するに B。语法点用于将A中提供的信息更简洁地重述或总结为B。在英语中可以翻译为“简而言之”、“简而言之”或“总结”。该结构由两个句子或陈述 A 和 B 组成，中间有要するに (yousuru ni)，表示 A 的总结或重述为 B。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0026",
+      "pattern": "Noun につき (〜ni tsuki)",
+      "meaningCn": "表示某事的理由、原因或条件； “由于”、“关于”、“根据”。",
+      "formation": "名词+につき",
+      "usageNote": "につき语法点用于表达事件或情况的原因、原因或条件。在英语中，它可以翻译为“由于”、“关于”、“每个”或“对于每个”。它可以与名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0027",
+      "pattern": "Noun にて (Noun nite)",
+      "meaningCn": "表示地点或方式； “在”、“在”、“通过”、“与”。",
+      "formation": "名词+にて",
+      "usageNote": "にて语法点用于表示动作的地点、手段或方法。它在英语中可以翻译为“at”、“in”、“by”或“with”。它的功能与助词“で”类似，但“にて”更为正式，常用于书面语言、正式演讲和公告中。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0028",
+      "pattern": "Noun の ことだから (Noun no koto dakara)",
+      "meaningCn": "用于根据某人对名词的了解提供原因或解释； “因为”、“因为”、“知道”。",
+      "formation": "名词+のことだから",
+      "usageNote": "の ことだから（no koto dakara）语法点用于根据个人对特定人或事物的知识或理解给出原因或解释。它通常意味着“鉴于这就是这样的人/事”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0029",
+      "pattern": "Noun を はじめ (Noun wo hajime)",
+      "meaningCn": "意思是“开始于”、“包括”、“不仅......而且”。",
+      "formation": "名词+をはじめ",
+      "usageNote": "语法点名词をはじめ用于表示除了所提到的名词之外还包含其他事物或人。它可用于提供示例、指示代表项或列表项。在英语中，这可以翻译为“开始于”、“包括”或“不仅......而且......”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0030",
+      "pattern": "Noun を はじめとして (Noun wo hajime to shite)",
+      "meaningCn": "表示“开始于”、“开始于”或“包括”。",
+      "formation": "名词+をはじめとして",
+      "usageNote": "语法点名词をはじめとして用于与其他项目或示例一起强调。它在英语中翻译为“开始于”、“开始于”或“包括”。它用于呈现具体案例并暗示还有更多相关项目。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0031",
+      "pattern": "Noun を はじめとする Noun (Noun o hajime to suru Noun)",
+      "meaningCn": "表示一个群体的代表性例子； “开始于”、“包括”、“例如”。",
+      "formation": "名词1 をはじめとする 名词2",
+      "usageNote": "语法模式“名词をはじめとする名词”用于表示一组的代表性示例，并表明除了所提到的示例之外还有其他事物。在英语中它可以被翻译为“开始于”、“包括”或“例如”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0032",
+      "pattern": "Noun を めぐって (Noun wo megutte)",
+      "meaningCn": "有关;关于;关于",
+      "formation": "名词+を+めぐって",
+      "usageNote": "语法点名词をめぐって用于表达某事物与某个名词有关、关于或关于某个名词。它涵盖了讨论或情况的核心主题或问题。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0033",
+      "pattern": "Noun を めぐる Noun (Noun o meguru Noun)",
+      "meaningCn": "表示围绕特定名词的情况或事件； “关于”、“关于”、“关于”。",
+      "formation": "名词1 + を + めぐる + 名词2",
+      "usageNote": "名词をめぐる名词语法点用于表达以特定名词为中心的情况或事件。它在英语中可以被翻译为“关于”、“关于”或“关于”。该结构由位于两个名词之间的助词“を”和第一个名词后面的动词“めぐる”（围绕）组成。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0034",
+      "pattern": "Noun を もとに (Noun o moto ni)",
+      "meaningCn": "基于；借鉴自；用作参考。",
+      "formation": "名词+をもとに",
+      "usageNote": "语法点名词をもとに用于表达某事物基于、源自或使用名词作为参考。当一件事物被用作其他事物的基础、信息来源或灵感时，通常会使用它。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0035",
+      "pattern": "Noun を もとにして (Noun wo moto ni shite)",
+      "meaningCn": "基于；使用;利用。",
+      "formation": "名词+をもとにして",
+      "usageNote": "“名词をもとにして”语法点用于表达某件事是基于、使用或利用该名词而完成的。它表明该名词是动作或陈述的基础、来源或基础。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0036",
+      "pattern": "Verb ことなく (~kotonaku)",
+      "meaningCn": "意思是“没有做”、“没有做”或“没有发生”。",
+      "formation": "动词词干 + ことなく",
+      "usageNote": "语法点ことなく加在动词的词干上，表示某事没有发生或没有完成。可译为“没有做”、“没有做”或“没有发生”。其构成取决于它是否与动词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0037",
+      "pattern": "Verb ないことには Verb ない (~nai koto ni wa ~ nai)",
+      "meaningCn": "表示不满足一定条件就不能做某事。",
+      "formation": "动词-ない + ことには + 动词-ない",
+      "usageNote": "ないことには语法点用于表示除非满足特定条件，否则某事无法完成或实现。这种模式是通过将ないことには附加到动词的否定形式上，然后是否定结果陈述来形成的。它经常出现为V-ない + ことには + V-ない 或否定表达。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0038",
+      "pattern": "～あげく (~ageku)",
+      "meaningCn": "表达一系列动作或事件的结果； '最后'、'最终'、'之后'。",
+      "formation": "动词-た + あげく / 名词 + の + あげく",
+      "usageNote": "～あげく语法点用于表达一系列动作或事件后的结果或结果。它通常可以翻译成英语，如“最后”、“最后”或“之后”。典型的构成是在动词的过去式（Verb-た）后面加上あげく，或者在名词后面加上のあげく。这表明，经过漫长的过程或多次尝试后，达到了某个最终结果——通常感觉需要付出相当大的努力或时间。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0039",
+      "pattern": "～あまり (〜amari)",
+      "meaningCn": "表示做某事过度或超过某一点的结果。",
+      "formation": "动词ます词干 + あまり，い-形容词 + あまり，な-形容词 + のあまり，名词 + のあまり",
+      "usageNote": "～あまり语法点用于表达由于过度或超出某一点而导致的负面或不良结果。它通常跟在动词、形容词和名词后面，通常被翻译为“这么多”、“太多”或“到了程度”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0040",
+      "pattern": "～うちに (〜uchi ni)",
+      "meaningCn": "表示在某种条件仍然成立的情况下做某事； “同时”、“之前”、“只要”。",
+      "formation": "动词休闲 + うちに，い-形容词 + うちに，な-形容词 + なうちに，名词 + のうちに",
+      "usageNote": "～うちに语法点用于表示在某种条件仍然存在或情况发生变化之前应该执行的动作。在英语中它可以被翻译为“同时”、“之前”或“只要”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0041",
+      "pattern": "～がい (〜gai)",
+      "meaningCn": "表示动词“值得做”。",
+      "formation": "动词词干+がい",
+      "usageNote": "～がい语法点用于表达某个动作值得做或强调做某事的价值和重要性。它以词干形式附加在动词上，在英语中可以翻译为“值得做”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0042",
+      "pattern": "～かいがあって (〜kaiga atte)",
+      "meaningCn": "用于表示付出的努力是值得的或有价值的； “值得付出努力”或“得到回报”。",
+      "formation": "动词过去式 + かいがあって / 名词 + の + かいがあって",
+      "usageNote": "～かいがあって语法点用于表达某项行动或努力是值得的，或者它具有价值的想法。在英语中，它通常被翻译为“值得付出努力”或“得到回报”。它通常与导致成功或理想结果的行动或努力相关。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0043",
+      "pattern": "～かいもなく (〜kai mo naku)",
+      "meaningCn": "表达“毫无价值”、“徒然”、“无果”的意思。",
+      "formation": "动词た + かいもなく / 名词 + の + かいもなく",
+      "usageNote": "～かいもなく语法点用来表示某件事做了没有价值、徒劳或毫无结果。它经常以“动词-た+かいもなく”或“名词+の+かいもなく”的形式出现，表示努力没有产生期望的结果。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0044",
+      "pattern": "～かける (〜kakeru)",
+      "meaningCn": "表示进程或操作“正在进行”或“进行中”。",
+      "formation": "动词词干 + かける",
+      "usageNote": "～かける语法点用于描述正在进行、中途或尚未完成的过程或动作。它可以附加在动词上，以暗示动作仍在进行中或某事物处于部分完成的某种状态。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0045",
+      "pattern": "～がち (〜gachi)",
+      "meaningCn": "表示某事经常或习惯性地发生。",
+      "formation": "动词-ます词干 + がち / い-形容词词干 + がち / な-形容词词干 + がち",
+      "usageNote": "～がち语法点用来表示某事有频繁发生或习惯性发生的倾向。它可以附加在动词和形容词后面，表示该动作或状态往往经常发生。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0046",
+      "pattern": "～か～ないかのうちに (〜ka〜naika no uchi ni)",
+      "meaningCn": "表示一个动作紧接着另一个动作发生； “一旦”、“不早于”、“那一刻”。",
+      "formation": "动词随意 + か + 动词否定形式 + かのうちに",
+      "usageNote": "～か～ないかのうちに语法点用于表示一个动作紧接着另一个动作发生。在英语中，它可以翻译为“一旦”、“不早于”或“那一刻”。这个语法点与动词一起使用，以か和ないか表示动词的肯定和否定形式，后面跟のうちに。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0047",
+      "pattern": "～かねない (〜kane nai)",
+      "meaningCn": "表达负面结果或后果的可能性。",
+      "formation": "动词词干+かねない",
+      "usageNote": "～かねない语法点用于表达负面结果或后果的可能性或可​​能性，通常在对结果感到担忧时使用。它通常与动词的词干形式一起使用，可以理解为“可能（有一个坏结果）”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0048",
+      "pattern": "～かねる (〜kaneru)",
+      "meaningCn": "表达没有能力或不可能采取某项行动（通常作为礼貌的拒绝）。",
+      "formation": "动词-ます词干 + かねる",
+      "usageNote": "～かねる语法点用于表达某人不能做某事或某事不可能做。它通常具有不情愿或礼貌拒绝的细微差别，是通过在动词的ます词干上添加かねる而形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0049",
+      "pattern": "～かのようだ (〜ka no you da)",
+      "meaningCn": "表达相似或比较； “好像”、“好像”、“好像”。",
+      "formation": "动词休闲 + かのようだ、い 形容词 + かのようだ、な-形容词 + であるかのようだ、名词 + であるかのようだ",
+      "usageNote": "～かのようだ语法点用于表达两个事物或情况之间的相似或比较。英语中可译为“好像”、“好像”或“好像”。标准模式根据是否与动词、い形容词、な形容词或名词一起使用而有所不同。对于な形容词和名词，我们通常在かのようだ之前插入である。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0050",
+      "pattern": "～か～まいか (〜ka 〜maika)",
+      "meaningCn": "用于表达两个选项或行动之间的困境或犹豫不决。",
+      "formation": "动词意志 + か + 动词意志 + まいか、い-形容词 + であるか + い-形容词 + であるまいか、な-形容词 + であるか + な-形容词 +であるまいか，名词 + であるか + 名词 + であるまいか",
+      "usageNote": "～か～まいか语法点表达不确定或犹豫不决，通常带有更正式或文学的感觉。通常，它与意志形式的动词加上まい（否定意志）一起出现。在更学术或僵硬的写作中，い／な-形容词和名词加上である也可以出现在まいか之前。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0051",
+      "pattern": "～からこそ (〜kara koso)",
+      "meaningCn": "表达对原因的强调； ‘正是因为’，‘正是因为’。",
+      "formation": "动词休闲 + からこそ，い-形容词 + からこそ，な-形容词 + だからこそ，名词 + だからこそ",
+      "usageNote": "～からこそ语法点用于强调某种情况的原因或原因，通常暗示效果特别显着甚至令人惊讶。它可以翻译为“正是因为”或“正是因为”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0052",
+      "pattern": "〜からして (〜kara shite)",
+      "meaningCn": "表达基于特定方面或点的某件事是例外的、不寻常的或消极的。",
+      "formation": "名词+からして",
+      "usageNote": "当你想要得出结论或强调某件事从某个方面或起点来看是例外的（通常是负面的或令人惊讶的）时，可以使用〜からして语法点。からして之前的部分作为判断的依据或线索。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0053",
+      "pattern": "～からすると (〜kara suru to)",
+      "meaningCn": "根据一定的标准表达判断或评价； “从这个角度来看”、“考虑”、“判断”。",
+      "formation": "名词+からすると",
+      "usageNote": "～からすると语法点用于根据某种准则、观点或标准做出判断或评价。在英语中可以翻译为“从这个角度来看”、“考虑”或“判断”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0054",
+      "pattern": "～からといって (〜kara to itte)",
+      "meaningCn": "表达“只是因为……并不意味着”或“即使……不一定”。",
+      "formation": "动词休闲 + からといって，い-形容词 + からといって，な-形容词 + だからといって，名词 + だからといって",
+      "usageNote": "～からといって语法点用来表达即使某件事是真的，但并不一定意味着一定会发生。它可以被翻译为“只是因为……并不意味着”或“即使……不一定”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0055",
+      "pattern": "～から～にかけて (〜kara 〜ni kakete)",
+      "meaningCn": "表达时间、空间或数量的范围； “从...到”、“在...之间”、“结束”。",
+      "formation": "名词 1 + から + 名词 2 + にかけて",
+      "usageNote": "～から～にかけて语法模式用于表示范围或范围——通常在时间或空间上。在英语中它可以被翻译为“从...到”、“介于...和”或“之上”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0056",
+      "pattern": "～からには (〜kara niwa)",
+      "meaningCn": "表达责任感或决心； “因为”、“现在”、“如果”。",
+      "formation": "名词 + だ + からには、な-形容词 + だ + からには、い-形容词 + からには、动词休闲 + からには",
+      "usageNote": "～からには语法点用于表示满足某种条件后的责任感或强烈的决心。它可以被翻译为“自从”、“现在”或“如果”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0057",
+      "pattern": "～から見ると (〜kara miru to)",
+      "meaningCn": "表达观点或观点； “从……的角度”、“就……而言”、“从……的角度”。",
+      "formation": "名词 + から见ると",
+      "usageNote": "～から见ると语法点用于表达特定的观点或观点。在英语中，它翻译为“从……的立场”、“从……的角度”或“根据……”。它通常与表示观点的名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0058",
+      "pattern": "～から言うと (〜kara iuto)",
+      "meaningCn": "根据特定标准表达判断或意见； “从…说起”、“就…而言”、“从…的观点来看”。",
+      "formation": "名词 + から言うと（常见），[动词休闲/形容词 + から言って]（不太常见）",
+      "usageNote": "～から言うと语法点用于表达基于特定标准或方面的判断或意见。在英语中它可以被翻译为“从……说话”、“以……而言”或“从……的观点来看”。它最常与名词一起使用，尽管您偶尔可能会看到其他形式（例如形容词）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0059",
+      "pattern": "～くせに (〜kuse ni)",
+      "meaningCn": "用于批评某人所做的事情与人们对其本性或情况的期望相反。",
+      "formation": "动词（随意）+ くせに / い-形容词 + くせに / な-形容词 + な（或の）+ くせに / 名词 + の + くせに",
+      "usageNote": "语法点～くせに用于表达对某人所做的与其预期性质、角色或先前陈述相矛盾的事情的批评或反对。它用于相当随意或口语的环境中，听起来可能相当批评或指责。请注意，有一个口语变体～くせして，但～くせに是大多数参考文献中教授的标准形式。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0060",
+      "pattern": "～ことから (〜koto kara)",
+      "meaningCn": "表示某事的原因或依据； “因为”、“因为”、“由于”。",
+      "formation": "动词休闲 + ことから / い 形容词 + ことから / な-形容词 + なことから / 名词 + のことから",
+      "usageNote": "～ことから语法点用于表示结论、事实或前提的原因或基础。它在英语中可以翻译为“because”、“since”或“due to”。无论是动词、形容词还是名词（带有适当的こと或の），都使用相同的模式。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0061",
+      "pattern": "～ことに (〜koto ni)",
+      "meaningCn": "用于表达对情况、行动或结果的感受或情绪。",
+      "formation": "动词休闲 + ことに / い-形容词 + ことに / な-形容词 + なことに / 名词 + のことに",
+      "usageNote": "～ことに语法点用于强调说话者对情况、行动或结果的感受或情绪反应。常出现在惊いたことに、残念なことに、不思议なことに等结构中。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0062",
+      "pattern": "～ことになっている (〜koto ni natte iru)",
+      "meaningCn": "表示某事应该或已经决定（规则、计划、习俗）。",
+      "formation": "动词普通形式 + ことになっている / い形容词 + ことになっている / な形容词 + だ + ことになっている / 名词 + だ +ことになっている",
+      "usageNote": "～ことになっている语法点用于当某事已经决定、计划或有每个人都遵循的规则/习俗时。它可以被翻译为“应该是”、“已决定”或“这是惯例”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0063",
+      "pattern": "～さえ～ば (〜sae ~ba)",
+      "meaningCn": "表示只要满足一定的条件，就会有其他的事情发生； ‘如果’、‘只要这样就好了’。",
+      "formation": "名词+さえ+动词条件/动词-ます词干+さえすれば/等（因词性而异）",
+      "usageNote": "～さえ～ば语法点用于表示，如果满足某个单一条件，则其他一切都会好起来，或者会出现某种结果。它通常翻译为“只要……”或“只要……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0064",
+      "pattern": "～ざるを得ない (〜zaru wo enai)",
+      "meaningCn": "别无选择，只能；忍不住。",
+      "formation": "动词ない形式 (drop ない) + ざるを得ない",
+      "usageNote": "～ざるを得ない语法点用来表示别无选择，只能做某事或无法避免做某事。它由否定形式（ない）构成，但用ざる代替ない，然后是を得ない。 （注：する → せざるを得ない。）"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0065",
+      "pattern": "～ずにはいられない (〜zu ni wa irarenai)",
+      "meaningCn": "情不自禁；无法抗拒做；一种不可抗拒的冲动。",
+      "formation": "动词ない形式（ない）+ずにはいられない",
+      "usageNote": "～ずにはいられない语法点表示无法抗拒或帮助做某事。换句话说，就是有一种无法抑制的强烈冲动。它由动词的否定词干加上ずにはいられない构成。 （注：する → せずにはいられない。）"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0066",
+      "pattern": "～そうにない (〜sou ni nai)",
+      "meaningCn": "表达某事发生的可能性； “不太可能”、“似乎没有”。",
+      "formation": "动词词干 + そうにない / い-形容词 (drop い) + そうにない / な-形容词 + そうにない",
+      "usageNote": "～そうにない语法点用于表示某事似乎不太可能发生。通常被翻译为“看起来不像”或“不太可能......”。将そうにない附加到动词词干或形容词词干上。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0067",
+      "pattern": "～たかと思ったら (〜ta ka to omottara)",
+      "meaningCn": "表达一系列快速连续发生的事件； “一旦”、“不早于”。",
+      "formation": "动词た形式 + かと思ったら",
+      "usageNote": "～たかと思ったら语法点表示一个动作几乎紧接着另一个动作发生，通常表达对它发生的速度感到惊讶。它经常被翻译为“一旦……”或“不早于……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0068",
+      "pattern": "～たきり (〜takiri)",
+      "meaningCn": "表达“从那时起”或“之后”；用于表示某个动作发生过一次并且没有重复，或者自某个事件或时间以来状态一直持续。",
+      "formation": "动词过去式+きり",
+      "usageNote": "～たきり语法点用于表示某个动作发生过一次并且没有重复过，或者表示自某个事件或时间以来一直持续的情况或状态。在英语中它可以被翻译为“从那时起”、“之后”或“仅一次”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0069",
+      "pattern": "～だけあって (〜dake atte)",
+      "meaningCn": "表示某事符合预期或值得其声誉。",
+      "formation": "动词休闲 + だけあって，い-形容词 + だけあって，な-形容词 + なだけあって，名词 + だけあって",
+      "usageNote": "～だけあって语法点用于表示基于某些事实或品质，某事物符合预期或值得其声誉。在英语中它可以被翻译为“难怪”、“正如预期的那样”或“这是自然的”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0070",
+      "pattern": "～だけましだ (〜dake mashi da)",
+      "meaningCn": "表示虽然情况不理想，但可能会更糟； “这不是很好，但至少……”。",
+      "formation": "动词休闲 + だけましだ，い-形容词 + だけましだ，な-形容词 + だけましだ，名词 + だけましだ",
+      "usageNote": "～だけましだ语法点用于比较两种不理想或不太理想的情况，表示其中一种不好，但仍比更差的更好。它通常被翻译为“至少（只是……）”或“可能会更糟”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0071",
+      "pattern": "～たところ (〜ta tokoro)",
+      "meaningCn": "用于描述刚刚完成的动作，通常紧随其后的是结果或观察结果。",
+      "formation": "动词过去式+ところ",
+      "usageNote": "当一个动作刚刚完成并且说话者想要描述随后的观察或结果时，使用～たところ语法点。它可以翻译为“刚刚完成某事”或“一旦（我做了某事）......”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0072",
+      "pattern": "～たとたん (〜ta totan)",
+      "meaningCn": "表达某事发生的那一刻； '一旦'，'刚刚'。",
+      "formation": "动词过去式+たとたん",
+      "usageNote": "～たとたん语法点用于表达一个动作或事件与另一个动作或事件发生的同一时刻发生。它可以被翻译为“一旦”或“刚刚”。它需要动词的过去式。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0073",
+      "pattern": "～だらけ (〜darake)",
+      "meaningCn": "表示某物充满或覆盖着某种（通常是负面的）特征。",
+      "formation": "名词+だらけ",
+      "usageNote": "～だらけ语法点用于表达某物充满、覆盖或充满某种特征。它经常具有负面或不受欢迎的细微差别。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0074",
+      "pattern": "～っこない (〜kkonai)",
+      "meaningCn": "表示某事发生的不可能或可能性极低； ‘不可能’、‘不可能’。",
+      "formation": "动词否定词干 + っこない",
+      "usageNote": "～っこない语法点用于表达某事不可能或极不可能。它是通过将～っこない附加在动词的否定词干上而形成的。它可以被翻译为“不可能”、“没有机会”或“不可能”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0075",
+      "pattern": "～つつ (〜tsutsu)",
+      "meaningCn": "显示同时发生或对比发生的两个动作； '虽然'，'虽然'。",
+      "formation": "动词词干+つつ",
+      "usageNote": "～つつ语法点用于表达同时发生的两个动作，或显示正在进行的动作与另一个因素之间的对比。它可以被翻译为“同时”或“虽然”。它以其词干形式附加在动词上。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0076",
+      "pattern": "～つつある (〜tsutsu aru)",
+      "meaningCn": "表达一个持续的过程或逐渐的变化。",
+      "formation": "动词词干 + つつある",
+      "usageNote": "～つつある语法点用于描述处于逐渐变化或发展过程中的事物。它可以翻译为“（某物）正在处理中”。最常见的用法是动词词干加つつある。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0077",
+      "pattern": "～っぱなし (〜ppanashi)",
+      "meaningCn": "表达连续的动作或状态； “保持原样”、“不间断”。",
+      "formation": "动词-ます词干 + っぱなし",
+      "usageNote": "～っぱなし语法点用于表示某物长时间处于某种状态或动作持续不断。它附着在动词的ます词干上。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0078",
+      "pattern": "～っぽい (〜ppoi)",
+      "meaningCn": "表示某事物具有其他事物的外观、特征或行为。",
+      "formation": "名词 + っぽい、动词休闲 + っぽい、い-形容词 + っぽい、な-形容词 + っぽい",
+      "usageNote": "～っぽい语法点用于当某物或某人看起来具有与其他事物相似的特征、特质或氛围时。它可以表示“看起来像”、“看起来像”或“具有……的品质”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0079",
+      "pattern": "～ていられない (〜te irarenai)",
+      "meaningCn": "表示一个人无力做某事； “无法继续”，“无法继续”。",
+      "formation": "动词て形式+いられない",
+      "usageNote": "～ていられない语法点用来表达无法继续做某事或停留在某种状态的感觉。它在英语中可以翻译为“can't keep on”、“unable to continue”或“can’t pay to”。所有动词类型​​的构成都是相同的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0080",
+      "pattern": "～てかなわない (〜te kanawanai)",
+      "meaningCn": "表示某事不能忍受、容忍或难以忍受。",
+      "formation": "形容词 (〜く / 〜で) + て + かなわない / 动词短语 (改写为形容词/否定) + て + かなわない",
+      "usageNote": "〜てかなわない语法点通常与〜て形式的形容词（或改写的动词）一起使用，以表示难以忍受的情况或感觉。这意味着你“无法忍受”或“无法忍受”某事。常与「暑くてかなわない」「うるさくてかなわない」等表达方式一起出现。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0081",
+      "pattern": "～てからでないと (〜te kara denai to)",
+      "meaningCn": "表示在某个动作完成之前不能做某事； “不直到”、“仅在之后”。",
+      "formation": "动词て + からでないと",
+      "usageNote": "～てからでないと语法点用于表示一个动作在另一个动作完成之前不能完成。它在英语中可以翻译为“不直到”或“仅在之后”。它附加在て形式的动词上，加上からでないと。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0082",
+      "pattern": "～てこそ (〜te koso)",
+      "meaningCn": "强调条件； “仅当”、“正是因为”。",
+      "formation": "动词て形式 + こそ / い-形容词 + くてこそ / な-形容词 + でこそ / 名词 + でこそ",
+      "usageNote": "～てこそ语法点用于强调“只有当”或“正是因为”所规定的条件得到满足，某种结果或意义才会出现。对于名词和形容词，会出现类似的形式（例如，名词+でこそ、い-形容词くてこそ、な-形容词でこそ）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0083",
+      "pattern": "～でしょうがない (〜deshou ga nai)",
+      "meaningCn": "表达强烈的情绪或身体状态； “非常”、“忍不住”。",
+      "formation": "い-形容词(く) + てしょうがない / な-形容词 + で(は)しょうがない / 动词-て形式 + しょうがない",
+      "usageNote": "～(て)しょうがない（或〜でしょうがない）表示一种强烈到几乎被“克服”的状况或感觉。它经常与情绪一起使用（例如退屈で(しょうがない)、嬉しくてしょうがない、寒くてしょうがない)。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0084",
+      "pattern": "～でたまらない (〜de tamaranai)",
+      "meaningCn": "表达极其强烈的感受或感觉； ‘无法忍受’、‘难以忍受’。",
+      "formation": "い-形容词 (く) + てたまらない / な-形容词 + でたまらない / 动词-て形式 + たまらない",
+      "usageNote": "～でたまらない语法点用于表达非常强烈的情感或感觉——强烈到几乎难以忍受。常见的表达方式有“暑くてたまらない”、“うれしくてたまらない”等。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0085",
+      "pattern": "～でならない (〜de naranai)",
+      "meaningCn": "表示无法控制的情绪或感觉； “忍不住”、“压倒性”。",
+      "formation": "な-形容词 + でならない / い-形容词 (く) + てならない / 动词-て + ならない",
+      "usageNote": "～でならない语法模式表达了一种非常强烈的、常常是不由自主的感觉——例如，“不思议でならない”（太神秘了，我忍不住想它），“残念でならない”（我很失望），“心配でならない”（我非常担心）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0086",
+      "pattern": "～でばかりはいられない (〜de bakari wa irarenai)",
+      "meaningCn": "不能只做某事；不能总是依赖它。",
+      "formation": "动词て形式 + ばかりはいられない / 名词 + ばかりはいられない（带有适当的助词）",
+      "usageNote": "～でばかりはいられない语法点用于当一个人意识到他们不能只做那一件事或不能总是依赖于某种情况时。它意味着需要采取其他行动或承担责任。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0087",
+      "pattern": "～ではないか (〜de wa nai ka)",
+      "meaningCn": "用于表达强烈的主张或强调某人的观点； “不是吗？”、“不是吗？”、“对吧？”。",
+      "formation": "名词 + ではないか / い-形容词 + ではないか / な-形容词 + ではないか / 动词休闲 + ではないか",
+      "usageNote": "～ではないか语法点用在句末，表示反问句或强烈强调的陈述。它通常被翻译为“不是吗……？” “你不是……吗？”或“你不说……？”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0088",
+      "pattern": "～てはならない (〜te wa naranai)",
+      "meaningCn": "明示禁止； “不可以”、“不能”、“不应该”。",
+      "formation": "动词て形式+はならない",
+      "usageNote": "～てはならない语法点用于表达强烈的禁止。它通常更正式或更严格，可以翻译为“不得”、“不能”或“不应该”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0089",
+      "pattern": "～てまで (〜te made)",
+      "meaningCn": "表达某人为了实现某事而付出的努力； “到了”、“甚至”、“到目前为止”。",
+      "formation": "动词て形式+まで",
+      "usageNote": "～てまで语法点用于表达某人为了实现某件事而付出的努力程度，强调一个人为了某个目的而采取的行动或做出的牺牲。在英语中它可以被翻译为“to the point of”、“even”或“so far as”。它与动词一起使用，而不是与形容词或名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0090",
+      "pattern": "～て当然だ (〜te tōzen da)",
+      "meaningCn": "表示某事是自然的或预期的。",
+      "formation": "动词て形式+当然だ",
+      "usageNote": "～て当然だ语法点用来表示某件事是自然的、明显的或在某种情况下是预期的。在英语中它可以被翻译为“这是自然的”、“正如预期的那样”或“难怪”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0091",
+      "pattern": "～というものだ (〜to iu mono da)",
+      "meaningCn": "表达一般规则或常识。",
+      "formation": "句子+というものだ",
+      "usageNote": "～というものだ语法点用于强调一般规则、常识或无可争议的事实。它经常出现在对普遍接受的真实事物的评论或观察中。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0092",
+      "pattern": "どうにか～ないものか (dō ni ka ~ nai mono ka)",
+      "meaningCn": "表达强烈的愿望或希望某事成为可能。",
+      "formation": "どうにか + 动词否定形式 + ないものか",
+      "usageNote": "どうにか～ないものか用于表达强烈的愿望或希望某件事能够得到解决或成为可能。它大致可翻译为“难道没有办法……吗？”、“我们不能以某种方式……吗？”或“没有办法……吗？”"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0093",
+      "pattern": "～とおり (〜toori)",
+      "meaningCn": "表达按照指示做某事或描述某事如何符合规则或指南； ‘如’、‘根据’。",
+      "formation": "动词休闲 + とおり，い-形容词 + とおり，な-形容词 + だとおり，名词 + だとおり",
+      "usageNote": "～とおり语法点用于表达完全按照指示做某事或描述某事如何符合指南或完全按照人们听到/预期的方式进行。它可以被翻译为“作为”、“根据”或“以同样的方式......”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0094",
+      "pattern": "～とか (〜to ka)",
+      "meaningCn": "用于列出例子或表达不确定性； “例如”、“像”、“或类似的事情”。",
+      "formation": "动词休闲 + とか，い-形容词 + とか，な-形容词 + だとか，名词 + だとか",
+      "usageNote": "～とか语法点可用于列出示例或表达对项目/活动的有点模糊的提及。它可以被翻译为“例如”、“像”或“或类似的东西”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0095",
+      "pattern": "～ところ (〜tokoro)",
+      "meaningCn": "表达特定的时间点或状态； “当”、“大约”或“中间”。",
+      "formation": "动词休闲 + ところ，い-形容词 + ところ，な-形容词 + なところ，名词 + のところ",
+      "usageNote": "～ところ语法点用于描述特定的时间点或动作阶段。根据动词时态，它可以表示“即将做某事”、“正在做某事”或“刚刚做了某事”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0096",
+      "pattern": "～どころか (〜dokoro ka)",
+      "meaningCn": "表达“远离”、“不只是”、“不仅”或“更不用说”。",
+      "formation": "动词休闲 + どころか，い-形容词 + どころか，な-形容词 + どころか，名词 + どころか",
+      "usageNote": "～どころか语法点用于强调现实与人们的预期相去甚远，或者某件事不仅是一种方式，而且实际上超出了它。它可以被翻译为“远离”、“不仅仅是”或“更不用说”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0097",
+      "pattern": "～どころではない (〜dokoro de wa nai)",
+      "meaningCn": "不是时间/地点；远离；不可能。",
+      "formation": "动词休闲 + どころではない，い-形容词 + どころではない，な-形容词 + どころではない，名词 + どころではな",
+      "usageNote": "～どころではない语法点用于表达情况使得某件事不可能或不合适——手头有一个更大的问题。它也可以在比喻意义上表示“远离”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0098",
+      "pattern": "～としたら (〜to shitara)",
+      "meaningCn": "表达假设的情况； “如果”、“假设”、“假定”。",
+      "formation": "动词休闲 + としたら，い-形容词 + としたら，な-形容词 + だとしたら，名词 + だとしたら",
+      "usageNote": "～としたら语法点用于表达假设的情况或假设。它在英语中可以翻译为“如果”、“假设”或“假设”。其结构根据是否与动词、形容词或名词一起使用而有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0099",
+      "pattern": "～としても (〜to shite mo)",
+      "meaningCn": "即使，尽管，尽管",
+      "formation": "动词休闲 + としても，い-形容词 + としても，な-形容词 + だとしても，名词 + だとしても",
+      "usageNote": "～としても语法点用于表示“即使……”或“即使假设……”，后面通常是结论或立场。与～ても类似，但更强调假设性的假设或观点。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0100",
+      "pattern": "～と～ともに (〜to 〜tomoni)",
+      "meaningCn": "表示“一起”或“连同”；用于描述同时或并行发生的两个事件或动作。",
+      "formation": "动词休闲 + とともに，い-形容词 + とともに，な-形容词 + とともに，名词 + とともに",
+      "usageNote": "～と～ともに语法点用于表达两个事件或动作同时或并行发生。它在英语中被翻译为“一起”或“连同”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0101",
+      "pattern": "～とは限らない (〜to wa kagiranai)",
+      "meaningCn": "表示某事不一定是真的； “并不总是”、“不一定”。",
+      "formation": "动词休闲 + とは限らない，い-形容词 + とは限らない，な-形容词 + だとは限らない，名词 + だとは限らない",
+      "usageNote": "～とは限らない语法点用于表达某事不一定是真的或并不总是发生。英文可译为“不总是”或“不一定”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0102",
+      "pattern": "～ないことはない (〜nai koto wa nai)",
+      "meaningCn": "表达某事并非不可能，这意味着它是可能的或可以做到的。",
+      "formation": "动词ない形式 + ことはない",
+      "usageNote": "～ないことはない语法点用于表达双重否定，意思是某事并非不可能，暗示这是可能的或可以做到的。从本质上讲，它淡化了做某事的可能性或能力，但仍然承认它是可能的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0103",
+      "pattern": "～ないこともない (〜nai koto mo nai)",
+      "meaningCn": "用于表达某种行为或状态“并非不可能”，但强调不情愿或怀疑。",
+      "formation": "动词ない形式 + こともない，い形容词 + こともない",
+      "usageNote": "～ないこともない语法点用于表达某件事并非不可能，但说话者不愿意、有疑问或认为这是一个不太有利的选择。它可以被翻译为“并非不可能”、“并非不可能”或“这并非不可能”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0104",
+      "pattern": "～ないではいられない (〜nai de wa irarenai)",
+      "meaningCn": "情不自禁；无法避免；无法抑制。",
+      "formation": "动词ない形式 + ではいられない 或 じゃいられない",
+      "usageNote": "～ないではいられない语法点用于表达强烈的感觉、冲动或无法控制的行为，某人无法抗拒或帮助做，即使这可能是不受欢迎的。它在英语中可以被翻译为“忍不住”、“无法避免”或“无法克制”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0105",
+      "pattern": "～ながら (〜nagara)",
+      "meaningCn": "表示同时或同时做两件事。",
+      "formation": "动词词干+ながら",
+      "usageNote": "～ながら语法点用来表达同时或同时做两件事的概念。在英语中，它可以翻译为“while”、“as”或“during”。 ～ながら可以附加在动词的词干上来表达这个意思。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0106",
+      "pattern": "～にあたり (〜ni atari)",
+      "meaningCn": "表达“在……时”、“在……上”、“在……上”或“在……上”的含义。",
+      "formation": "名词+にあたり",
+      "usageNote": "～にあたり语法点用于描述特定时刻发生的重要事件或情况。在英语中它可以被翻译为“at the time of”、“in”、“on”或“upon”。其构成非常简单，只需要在其前面加一个名词即可。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0107",
+      "pattern": "～において (〜ni oite)",
+      "meaningCn": "表示动作或事件发生的地点、时间或上下文； “在”、“在”、“在”、“关于”。",
+      "formation": "名词+において",
+      "usageNote": "～において语法点用于表示动作或事件发生的地点、时间或上下文。它在英语中可以翻译为“in”、“at”、“on”或“regarding”。它通常用于正式场合，在非正式场合可以用更随意的等价词代替，例如“で”、“に”或“は”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0108",
+      "pattern": "～にかかわらず (〜ni kakawarazu)",
+      "meaningCn": "不管;不论； （经常用作）“是否”。",
+      "formation": "动词字典形式 + にかかわらず，い形容词 + にかかわらず，な形容词 + にかかわらず，名词 + にかかわらず",
+      "usageNote": "～にかかわらず语法点用于表达某事发生或为真，无论特定事实、条件或情况如何。可译为“无论”、“无论”、“无论”。它可以与动词、い形容词、な形容词或名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0109",
+      "pattern": "～にかけては (〜ni kakete wa)",
+      "meaningCn": "表示某人或某物擅长的特定领域或方面。",
+      "formation": "名词+にかけては",
+      "usageNote": "语法点～にかけては用于强调某人或某物擅长或例外的特定领域或方面。这种结构通常带有关于主体的专业知识或杰出品质的积极含义。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0110",
+      "pattern": "～にしたがって (〜ni shitagatte)",
+      "meaningCn": "表达自然结果或根据其他事物发生的变化； “如”、“与”、“按照”。",
+      "formation": "名词+にしたがって",
+      "usageNote": "～にしたがって语法点用于表达自然结果或根据其他事物发生的变化。它在英语中可以被翻译为“as”、“with”或“inconvenient to”。这个语法点与名词一起使用，可以用来表示比例或按照规则或原则的变化。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0111",
+      "pattern": "～にしたら (〜ni shitara)",
+      "meaningCn": "表达观点； “从”、“如果我是”的角度来看。",
+      "formation": "名词+にしたら，代词+にしたら",
+      "usageNote": "～にしたら语法点用于从别人的角度表达观点或意见。在英语中它可以被翻译为“从……的角度来看”或“如果我是”。其构成因是否与名词或代词一起使用而有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0112",
+      "pattern": "～にしろ～にしろ (〜ni shiro 〜ni shiro)",
+      "meaningCn": "表达“无论如何”、“无论如何”、“就这样……”，在提出两种选择时使用。",
+      "formation": "动词（字典形式或否定形式）+にしろ、い形容词+にしろ、な-形容词+にしろ、名词+にしろ",
+      "usageNote": "～にしろ～にしろ语法点用于呈现两种选择，并强调无论选择或发生哪一种，结果或结论都是一样的。它可以被翻译为“无论如何”、“无论如何”或“就这样……”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0113",
+      "pattern": "～につけ～につけ (〜ni tsuke 〜ni tsuke)",
+      "meaningCn": "表达“每当”、“每次”、“是否...或”。",
+      "formation": "动词休闲 + につけ，い-形容词 + につけ，な-形容词 + につけ，名词 + につけ",
+      "usageNote": "～につけ～につけ语法点用于表示“每次”或“每当”某个事件或情况发生时某事发生，也可以表示“是否...或”。这个语法点表示无论以下哪种情况发生，都会发生相同的事件或感觉。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0114",
+      "pattern": "～につれて (〜ni tsurete)",
+      "meaningCn": "表达这样的想法：当一件事发生变化时，另一件事也会发生变化； “作为”、“随着”、“同时”。",
+      "formation": "动词（字典形式）+につれて，名词+につれて",
+      "usageNote": "～につれて语法点用于表达当一件事改变或进展时，另一件事同时改变或进展的想法。在英语中，它可以翻译为“as”、“along with”或“while”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0115",
+      "pattern": "～にともなって (〜ni tomonatte)",
+      "meaningCn": "表达“随着”或“由于”；表示一个事件与另一事件同时发生。",
+      "formation": "名词（事件）+ にともなって，动词休闲 + にともなって",
+      "usageNote": "～にともなって语法点用于表示一个事件与另一个事件一起发生，或者作为另一个事件的结果。在英语中它可以被翻译为“连同”、“由于”或“根据”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0116",
+      "pattern": "～にほかならない (〜ni hoka naranai)",
+      "meaningCn": "表达某物“只不过是”或“不过是”。",
+      "formation": "普通动词 + にほかならない、い-形容词 + にほかならない、な-形容词 + にほかならない、名词 + にほかいならな",
+      "usageNote": "～にほかならない语法点用于强调某事物不大于或不小于指定的内容。它可以被视为表达某物“只不过是”或“不过是”的有力方式。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0117",
+      "pattern": "～にもかかわらず (〜ni mo kakawarazu)",
+      "meaningCn": "表示“尽管”、“尽管”或“尽管”。",
+      "formation": "动词（任何时态/形式）+ にもかかわらず、い-形容词 + にもかかわらず、な-形容词（或名词）+ であるにもかかわらず",
+      "usageNote": "～にもかかわらず语法点用于表达尽管存在对比或不利的情况，但某事发生或存在某种情况。它在英语中可以被翻译为“尽管”、“尽管”或“尽管”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0118",
+      "pattern": "～により (〜ni yori)",
+      "meaningCn": "表明某事发生的原因、方法或手段； “由于”、“通过”、“由于”。",
+      "formation": "名词+により，动词+により",
+      "usageNote": "～により语法点用于表示某事发生或完成的原因、方法或手段。在英语中，它通常可以被翻译为“by”、“through”或“due to”。它可以直接附加到简单形式的名词或动词上。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0119",
+      "pattern": "～にわたって (〜ni watatte)",
+      "meaningCn": "表示范围或范围； “经过”、“贯穿”、“跨越”。",
+      "formation": "名词+にわたって",
+      "usageNote": "～にわたって语法点用于表达特定动作、事件或情况的范围或程度。在英语中它可以被翻译为“over”、“throughout”或“cross”。这种结构可以与各种类型的单词一起使用，例如时间、距离和数量。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0120",
+      "pattern": "～に先立ち (〜ni sakidachi)",
+      "meaningCn": "表达发生在另一个动作或事件之前的动作或事件； “之前”、“之前”、“之前”。",
+      "formation": "名词 + に先立ち / 动词词典形式 + に先立って",
+      "usageNote": "～に先立ち语法点用于表示某个动作或事件发生在另一个动作或事件之前。在英语中它可以被翻译为“之前”、“之前”或“之前”。它经常与名词（名词+に先立ち）或字典形式动词（动词字典形式+に先立って）一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0121",
+      "pattern": "～に反して (〜ni hanshite)",
+      "meaningCn": "反对、反对、尽管",
+      "formation": "名词+に反して",
+      "usageNote": "～に反して语法点用于表达某事与期望或信念相反或相反。它在英语中可以被翻译为“相反”、“反对”或“尽管”。一般与名词连用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0122",
+      "pattern": "～に基づいて (〜ni motozuite)",
+      "meaningCn": "基于、根据、取决于",
+      "formation": "名词+に基づいて",
+      "usageNote": "～に基づいて语法点用于表达某事物基于、根据或取决于某个来源或基础。它可以与代表来源、规则、原则或标准的名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0123",
+      "pattern": "～に対して (〜ni taishite)",
+      "meaningCn": "表达“朝向”、“反对”、“对比”或“响应”。",
+      "formation": "名词+に対して",
+      "usageNote": "～に対して语法点用于表示方向或目标，表示对某事或某人的动作或态度。它还可以用来显示两种情况之间的对比或表达“响应”某种行为或情况。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0124",
+      "pattern": "～に応えて (〜ni kotaete)",
+      "meaningCn": "回应；不辜负;会议。",
+      "formation": "名词+に応えて",
+      "usageNote": "～に応えて语法点用于表达响应某事（期望、请求或情况）的动作。它在英语中可以被翻译为“响应”、“满足”或“会议”。该语法点通常与名词或名词短语一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0125",
+      "pattern": "～に応じて (〜ni oujite)",
+      "meaningCn": "依照，依据，响应。",
+      "formation": "名词+に応じて",
+      "usageNote": "～に応じて语法点用于表达根据某种条件而变化或对变化做出反应的事物。它在英语中可以翻译为“根据”、“取决于”或“响应”。该结构与名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0126",
+      "pattern": "～に決まっている (〜ni kimatte iru)",
+      "meaningCn": "表达确定性； “这是显而易见的”、“一定是”、“毫无疑问”。",
+      "formation": "动词休闲 + に决まっている，い-形容词 + に决まっている，な-形容词 + だに决まっている，名词 + だに决まっている",
+      "usageNote": "～に决まっている语法点用于表达对某种情况或事件的确定性或强烈信念。它可以被翻译成英语“这是显而易见的”、“它必须是”或“毫无疑问”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0127",
+      "pattern": "～に沿って (〜ni sotte)",
+      "meaningCn": "连同；依据;下列的",
+      "formation": "名词 + に沿って",
+      "usageNote": "～に沿って语法点用于表达某事随着、按照或遵循特定的路线、路径或指南而发生或完成。它经常用于说明或解释中。に沿って附加在代表线、路径或引导线的名词上。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0128",
+      "pattern": "～に過ぎない (〜ni suginai)",
+      "meaningCn": "表示某事“只是”或“只不过是”； ‘仅仅’、‘仅仅’、‘仅仅’。",
+      "formation": "动词休闲 + に过ぎない、い-形容词 + に过ぎない、な-形容词 + に过ぎない、名词 + に过ぎない",
+      "usageNote": "～に过ぎない语法点用于表示某事物“正好”或“只不过是”所规定的质量或条件。它意味着这件事并不像乍一看那么重要。这个语法点在英语中可以翻译为“仅仅”、“仅仅”或“简单地”。它可以与动词、い形容词、な形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0129",
+      "pattern": "～に関わって (〜ni kakawatte)",
+      "meaningCn": "表示某事与某件事或因素有关或受其影响； “关于”、“与……有关”、“关于”。",
+      "formation": "动词休闲 + に关わって，い-形容词 + に关わって，な-形容词 + に关わって，名词 + に关わって",
+      "usageNote": "～に关わって语法点用于表达某事物与某件事或因素有关、受其影响或有联系。在英语中它可以被翻译为“关于”、“与……有关”或“关于”。其构成取决于它是否与动词、い形容词、な形容词或名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0130",
+      "pattern": "～に限り (〜ni kagiri)",
+      "meaningCn": "表示限制； “仅”、“限于”、“专有”。",
+      "formation": "名词 + に限り",
+      "usageNote": "～に限り语法点用于表示某事物仅限于或排他于某种条件或情况。它在英语中可以翻译为“仅”、“仅限于”或“独家”。构成简单，可与名词连用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0131",
+      "pattern": "～に際して (〜ni saishite)",
+      "meaningCn": "用于表达动作的时刻或场合； “在……的时候”、“当”、“当”。",
+      "formation": "名词+に际して",
+      "usageNote": "～に际して语法点描述在特定事件、场合或某件事发生时发生的动作。它可以翻译成英语，如“at the time of”、“upon”、“when”或“in the event of”。该语法与名词一起使用来描述动作发生的上下文或情况。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0132",
+      "pattern": "～ねばならない (〜neba naranai)",
+      "meaningCn": "表示义务或必要性； ‘必须’、‘必须’、‘需要’。",
+      "formation": "动词ない形式→（去掉い）→ね + ばならない",
+      "usageNote": "～ねばならない语法点用于表达义务或必要性。它在英语中可以翻译为“必须”、“必须”或“需要”。该语法点主要与动词连用，表示该动作必须要做。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0133",
+      "pattern": "～のみならず～も (〜nomi narazu 〜mo)",
+      "meaningCn": "不仅……而且；也。",
+      "formation": "动词休闲 + のみならず + (も)、い 形容词 + のみならず + (も)、な-形容词 + のみならず + (も)、名词 + のみならず + (も)",
+      "usageNote": "～のみならず～も语法点用来表示某事物不仅适用于一件事，也适用于另一件事。这可以翻译为英语中的“不仅……而且”或“以及”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0134",
+      "pattern": "～のももっともだ (〜no mo mottomo da)",
+      "meaningCn": "表达某事是可以理解的或合理的。",
+      "formation": "动词休闲 + のももっともだ，い 形容词 + のももっともだ，な-形容词 + なのももっともだ，名词 + なのももっともだ",
+      "usageNote": "～のももっともだ语法点用于表达考虑到具体情况，某种情况、动作或感觉是可以理解的或合理的。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0135",
+      "pattern": "〜の上では (〜no ue de wa)",
+      "meaningCn": "表示“基于”、“根据”或“从…的观点”。",
+      "formation": "名词或短语+の上では",
+      "usageNote": "〜の上では语法点用于表示你正在根据特定的立场或观点表达观点或做出判断。它可以翻译为“基于”、“根据”或“从...的立场”。其构成很简单，只需将〜の上では附加到名词或短语上即可。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0136",
+      "pattern": "～の下で (〜no shita de)",
+      "meaningCn": "在以下情况或条件下；在下面。",
+      "formation": "动词休闲 + の下で、い-形容词 + の下で、な-形容词 + の下で、名词 + の下で",
+      "usageNote": "～の下で语法点用于表示某件事在特定的上下文、条件或情况下发生。在英语中可以翻译为“under”或“in”。结构很简单，可以与动词、い形容词、な形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0137",
+      "pattern": "～ばかりか〜も (〜bakari ka 〜 mo)",
+      "meaningCn": "表达“不仅……而且”；强调某事的程度。",
+      "formation": "名词/动词/形容词 + ばかりか + 名词/动词/形容词 + も",
+      "usageNote": "～ばかりか〜も语法点用于在句子中表达“不仅...而且”的想法。它强调某事物适用的程度，表明某个组成部分或因素并不是唯一相关的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0138",
+      "pattern": "～ばかりだ (〜bakari da)",
+      "meaningCn": "表达持续的状态或消极倾向； ‘只是’、‘只是’、‘总是’。",
+      "formation": "动词て形 + ばかりだ、い-形容词 + ばかりだ、な-形容词 + ばかりだ、名词 + ばかりだ",
+      "usageNote": "～ばかりだ语法点用于表达持续或不变的状态，通常强调消极或不受欢迎的倾向。它在英语中可以翻译为“只是”、“只是”或“总是”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0139",
+      "pattern": "～ばかりに (〜bakari ni)",
+      "meaningCn": "表达由某事引起的不受欢迎的情况或结果； “仅仅因为”、“由于”、“由于”。",
+      "formation": "动词休闲 + ばかりに，い-形容词 + ばかりに，な-形容词 + なばかりに，名词 + なばかりに",
+      "usageNote": "～ばかりに语法点用于表达仅仅因为某些因素而出现的不受欢迎的情况或结果。在英语中它可以被翻译为“仅仅因为”、“由于”或“由于”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0140",
+      "pattern": "～ば～というものでもない (〜ba 〜to iu mono demo nai)",
+      "meaningCn": "如果 A，则 B 不一定正确。",
+      "formation": "动词ば形式+というものでもない",
+      "usageNote": "～ば～というものでもない语法点用来表示即使满足某个条件，某件事也不一定是真的。换句话说，如果A发生，并不总是意味着B也会发生。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0141",
+      "pattern": "～はともかく～は (〜wa tomokaku 〜wa)",
+      "meaningCn": "用于比较或对比两个元素； '至于...'。",
+      "formation": "名词1 はともかく 名词2 は",
+      "usageNote": "语法点～はともかく～は用于比较或对比句子中的两个元素。这意味着第一要素可以被搁置，或者与第二要素相比不太重要。它通常翻译为“把A放在一边，B......”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0142",
+      "pattern": "～はまだしも (〜wa mada shimo)",
+      "meaningCn": "表示虽然第一项在某种程度上可以接受，但第二项则不然。",
+      "formation": "名词1 + はまだしも + 名词2",
+      "usageNote": "～はまだしも语法点用于显示对比，其中第一个项目或情况可能仍然可以理解或容忍，而第二个项目或情况则更难以接受。它通常被翻译为“X 是一回事，但 Y...”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0143",
+      "pattern": "～はもとより (〜wa moto yori)",
+      "meaningCn": "表示某事是显而易见的，同时还有别的事。",
+      "formation": "名词1 + はもとより, 名词2 + も",
+      "usageNote": "～はもとより语法点用于强调某件事是显而易见的或给定的，除此之外，还有另一个方面需要考虑。它可翻译为“不仅……而且……”或“当然……而且……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0144",
+      "pattern": "～は抜きにして (〜wa nuki ni shite)",
+      "meaningCn": "撇开，排除。",
+      "formation": "名词+は抜きにして",
+      "usageNote": "～は抜きにして语法点用于表达“撇开”或“排除”某个方面的想法。它通常用于通过忽略省略的要点来将讨论或判断集中在其他事情上。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0145",
+      "pattern": "～べきではない (〜beki dewa nai)",
+      "meaningCn": "表示不应该采取某项行动； “不应该”、“不应该”。",
+      "formation": "动词词典形式+べき+ではない",
+      "usageNote": "～べきではない语法点用于表示不推荐或不应该执行的操作。英文可译为“不应该”或“不应该”。典型的构成是“动词词典形式+べきではない”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0146",
+      "pattern": "～まい (〜mai)",
+      "meaningCn": "表达否定的猜想或决心； “可能不会”或“我不会”。",
+      "formation": "动词词典形式+まい",
+      "usageNote": "～まい语法点用于表达否定的猜想或不做某事的强烈决心。在现代用法中，一般与动词的字典形式一起使用（来る→来るまい、する→するまい等）。它在英语中可以翻译为“可能不会”或“我不会”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0147",
+      "pattern": "～まで～て (〜made 〜te)",
+      "meaningCn": "表示做某事直到某个时间或条件； ‘直到’、‘到’。",
+      "formation": "时间/名词 + まで + 动词（て形式）",
+      "usageNote": "～まで～て语法点用于表示动作持续到特定时间或条件。在您的示例中，时间表达式（例如 9 时）后跟 まで，然后是て形式的动作。它可以被翻译为“直到”或“直到何时/何地”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0148",
+      "pattern": "～ままに (〜mama ni)",
+      "meaningCn": "根据；保持原样；不变。",
+      "formation": "动词-て+まま，い-形容词+のまま，な-形容词+なまま，名词+のまま",
+      "usageNote": "～ままに语法点用于表达让某事保持当前状态或完全按原样做某事。它还可以意味着自然地或不改变环境地做某事。根据词性，使用不同的助词：动词て + まま、い-形容词 + のまま、な-形容词 + なまま、名词 + のまま。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0149",
+      "pattern": "～もかまわず (〜mo kamawazu)",
+      "meaningCn": "表示冷漠或无视； “毫不犹豫”、“毫不担心”。",
+      "formation": "动词字典形式+もかまわず，名词+もかまわず",
+      "usageNote": "～もかまわず语法点用于表达对可能的后果或外部因素的冷漠或无视。可译为“毫不犹豫”、“不用担心”或“不管”。它附加在字典形式的动词或名词上。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0150",
+      "pattern": "～ものか (〜mono ka)",
+      "meaningCn": "绝对不是；决不;没有机会。",
+      "formation": "动词休闲 + ものか、い 形容词 + ものか、な-形容词 + (な)ものか、名词 + (な)ものか",
+      "usageNote": "～ものか语法点用于表达强烈的否认、拒绝或惊讶。常与反问句语气以随意的形式出现，如动词（词典/意志/～たい）+ものか，形容词+ものか，或名词+ものか，意思是“不可能……”，“好像我曾经……”等。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0151",
+      "pattern": "～ものがある (〜mono ga aru)",
+      "meaningCn": "表达强烈的印象或感觉； “有一些关于它的事情……”",
+      "formation": "动词休闲 + ものがある，い-形容词 + ものがある，な-形容词 + なものがある",
+      "usageNote": "「～ものがある」用来表达说话者无法忽视的某种无形的品质或强烈的感觉。它经常与动词（普通形式）、い形容词或な形容词+な一起使用，表示一个人“强烈地感觉到……”或“有一些关于它的东西……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0152",
+      "pattern": "～ものだ (〜mono da)",
+      "meaningCn": "表达自然的或预期的东西； “这是正常的……”、“应该”、“应该”。",
+      "formation": "动词字典形式+ものだ，な-形容词+なものだ，（另：动词た形式+ものだ用于回忆）",
+      "usageNote": "「～ものだ」可以表示某事被视为一般真理、常识或自然行为。它还可以表达强烈的情感或情感。过去时（动词た形式+ものだ），常表现出怀旧或回忆（“我曾经……”）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0153",
+      "pattern": "～ものだから (〜mono dakara)",
+      "meaningCn": "表达某事的理由或起因； “因为”、“因为”、“由于”。",
+      "formation": "动词+ものだから，い形容词+ものだから，な-形容词+なものだから，名词+なものだから",
+      "usageNote": "「～ものだから」用于从说话者的角度解释原因或原因。它可以被翻译为“因为”、“因为”或“由于”。它通常带有“你看，这就是为什么......”的细微差别。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0154",
+      "pattern": "～ものではない (〜mono dewa nai)",
+      "meaningCn": "表达强烈的否定建议或禁止：“不应该”、“不得”。",
+      "formation": "动词词典形式+ものではない",
+      "usageNote": "「～ものではない」用来表示不应该或绝对不能做的事情。它经常出现在书面或正式的语境中，意思是“不适合……”或“你不应该……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0155",
+      "pattern": "～ものなら (〜mono nara)",
+      "meaningCn": "表达有条件的愿望或不太可能的可能性； “如果可以的话”、“如果可能的话”。",
+      "formation": "动词（潜在/普通）形式+ものなら等",
+      "usageNote": "「～ものなら」用于在假设的或困难的情况下表达强烈的愿望。它通常意味着满足这个条件不太可能或非常困难，但“如果它能够发生，那么……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0156",
+      "pattern": "～ものの、～ (〜mono no、～)",
+      "meaningCn": "表示两个子句之间的对比或矛盾； ‘虽然’、‘但是’。",
+      "formation": "动词休闲 + ものの、い 形容词 + ものの、な-形容词 + なものの、名词 + であるものの",
+      "usageNote": "「～ものの」用于连接句子的两个部分，其中第一部分是正确的，但第二部分却显示出对比或意想不到的结果。可译为“尽管”、“尽管”、“但仍然”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0157",
+      "pattern": "～も～ば～も～ (〜mo〜ba〜mo〜)",
+      "meaningCn": "列出适用于同一主题的多个属性或操作：“两者……并且……”、“不仅……而且……”。",
+      "formation": "名词/动词/形容词 + も +（动词/形容词ば形式）+ も +（动词/形容词）",
+      "usageNote": "「～も～ば～も～」用于描述多个特征或动作时。常与条件式ば加も一起出现，表示“A为真，B也为真”。例如，“他可以做 X，他也可以做​​ Y”。它与“～ば～ほど”不同，后者的意思是“越……越……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0158",
+      "pattern": "～も同然だ (〜mo douzen da)",
+      "meaningCn": "表示与某物“一样好”、“几乎”或“实际上”相同。",
+      "formation": "名词+(も)同然だ、动词休闲+(も)同然だ等",
+      "usageNote": "「～も同然だ」的意思是与（X）几乎相同的东西。它强调，虽然字面上可能不完全相同，但实际上几乎没有任何差异。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0159",
+      "pattern": "～やら～やら (〜yara〜yara)",
+      "meaningCn": "表达各种项目或动作，“诸如……之类的事情”。",
+      "formation": "动词休闲 + やら、い-形容词 + やら、な-形容词 + やら、名词 + やら",
+      "usageNote": "「～やら～やら」用于以某种非详尽的方式列出多个事物或动作。它可以翻译为“像A和B这样的东西”或“A、B等等”。语法通常是动词随意+やら、名词+やら、い形容词+やら等。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0160",
+      "pattern": "～ようがない (〜you ga nai)",
+      "meaningCn": "表示没有办法（方法）做某事；这是不可能的。",
+      "formation": "动词-ます词干 + ようがない",
+      "usageNote": "「～ようがない」与动词的ます词干连用，表示没有手段或方法来执行该动作。它传达了这样一种感觉：做某事是不可能的，或者绝对没有办法实现它。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0161",
+      "pattern": "～よりほかない (〜yori hoka nai)",
+      "meaningCn": "表示没有其他选择； “别无选择”，“除了”别无选择。",
+      "formation": "动词词典形式+よりほかない",
+      "usageNote": "～よりほかない语法点用于表达在给定情况下没有其他选择或替代方案。它可以被翻译为“别无选择，只能……”、“只能……”或“只能……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0162",
+      "pattern": "～わけがない (〜wake ga nai)",
+      "meaningCn": "表示“没有办法”或“不可能”，表示高度确定。",
+      "formation": "动词休闲 + わけがない，い-形容词 + わけがない，な-形容词 + なわけがない，名词 + のわけがない",
+      "usageNote": "～わけがない语法点用于表达某事极不可能或不可能。它可以被翻译为“没有办法”或“这是不可能的”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0163",
+      "pattern": "～わけだ (〜wake da)",
+      "meaningCn": "表达逻辑结论或理由； “这意味着”、“难怪”、“原因是”。",
+      "formation": "动词休闲 + わけだ，い-形容词 + わけだ，な-形容词 + なわけだ，名词 + のわけだ",
+      "usageNote": "～わけだ语法点用于表达逻辑结论或理由。它可以被翻译为“这意味着……”、“难怪……”或“这解释了为什么……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0164",
+      "pattern": "～わけではない (〜wake dewa nai)",
+      "meaningCn": "未必;不是这个意思~。",
+      "formation": "动词原语 + わけではない，い形容词 + わけではない，な形容词 + だわけではない，名词 + だわけではない",
+      "usageNote": "～わけではない语法点用于表达某事不一定是这样或“这并不意味着......”它否定了广泛的假设或概括。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0165",
+      "pattern": "～わけにはいかない (〜wake ni wa ikanai)",
+      "meaningCn": "表示由于责任、社会压力等原因不能（或不得）做某事。",
+      "formation": "动词词典形式+わけにはいかない",
+      "usageNote": "～わけにはいかない语法点用来表达你无力做某事或不被允许做某事。它通常意味着责任感、道德/社会义务或阻止你这样做的外部压力。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0166",
+      "pattern": "～をきっかけに (〜wo kikkake ni)",
+      "meaningCn": "表示某事充当另一个动作/事件的触发器或起点。",
+      "formation": "名词+をきっかけに",
+      "usageNote": "「～をきっかけに」与名词连用，表示事件、事物或情况成为导致新的发展或行动的触发因素或动机。它可以翻译为“将……作为一个机会”、“由于……”或“受到……的启发”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0167",
+      "pattern": "～を～として (〜wo〜toshite)",
+      "meaningCn": "表达“作为”、“以……的能力”或“将某物视为……”。",
+      "formation": "名词1 + を + 名词2 + として",
+      "usageNote": "语法模式「～を～として」与名词连用，表示将一事物“当作”或“扮演”另一事物。它显示了如何看待或使用某个名词。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0168",
+      "pattern": "～を中心に (〜wo chuushin ni)",
+      "meaningCn": "表示某件事围绕或集中在一个主要主题或领域。",
+      "formation": "名词+を中心に",
+      "usageNote": "「～を中心に」与名词连用，表示某个动作或情况主要或主要与指定名词有关。它可以被翻译为“以……为中心”、“集中于”或“以……为主要焦点”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0169",
+      "pattern": "～を問わず (〜wo towazu)",
+      "meaningCn": "意思是“不管”或“不管”。",
+      "formation": "名词+を问わず",
+      "usageNote": "「～を问わず」用来表示某事物适用或可用，与所陈述的名词/条件没有任何区别。它的意思是“不管……”或“不管……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0170",
+      "pattern": "～を込めて (〜wo komete)",
+      "meaningCn": "表达某件事是出于某种感觉、意图或情感而完成的。",
+      "formation": "感觉/情感/意图 名词 + を + 込めて + 动词",
+      "usageNote": "～を込めて语法点用于表达带着某种感觉、意图或情感而完成的动作。它在英语中可以翻译为“with”或“filled with”。 ～を込めて通常用于说话者希望通过他们的行为传达的感受或情绪。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0171",
+      "pattern": "～を通じて (〜wo tsuujite)",
+      "meaningCn": "表达“通过”、“贯穿”或“期间”。",
+      "formation": "名词+を通じて",
+      "usageNote": "～を通じて语法点用于表达在特定时期、媒介或方法中发生的动作或情况。它在英语中可以翻译为“通过”、“贯穿”或“期间”。它是通过将“を通じて”附加到表示时间、地点或方法的名词上而形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0172",
+      "pattern": "～を頼りに (〜wo tayori ni)",
+      "meaningCn": "依赖或依靠某物或某人。",
+      "formation": "名词+を頼りに",
+      "usageNote": "～を頼りに语法点用于表达某人依赖或依靠某物或某人。它在英语中可以翻译为“依靠”、“依靠”或“依靠”。该短语与充当支持或帮助来源的名词（人或物体）一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0173",
+      "pattern": "～一方 (〜ippou)",
+      "meaningCn": "表示当一个动作或情况正在发生时，另一种动作或情况也在发生或相反。",
+      "formation": "动词休闲 + 一方(で)、い-形容词 + 一方(で)、な-形容词 + な/である 一方(で)、名词 + である 一方(で)",
+      "usageNote": "～一个语法点用于表示当一种行为或情况正在发生时，另一种行为或情况同时或相反地发生。由“一方”连接的从句常常表现出同时的动作、相反的特征或平行的发展。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0174",
+      "pattern": "～一方だ (〜ippou da)",
+      "meaningCn": "表示一种情况或状况继续朝一个方向增加或减少。",
+      "formation": "动词词典形式+一方だ",
+      "usageNote": "～一侧だ语法点用于当某事物随着时间的推移朝单一方向发展，通常是增加或恶化时。它强调这一趋势持续朝一个方向发展。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0175",
+      "pattern": "～上で (〜ue de)",
+      "meaningCn": "用于表示某件事是在另一件事之后或在另一件事的基础上完成的； ‘之后’、‘之上’。",
+      "formation": "动词-ます词干+上で，名词+の上で",
+      "usageNote": "～上で语法点用于表示一个动作或决定是在另一个动作或条件之后做出的，或者基于某些信息而做出的。它可以被翻译为“做某事之后”或“基于……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0176",
+      "pattern": "～上に (〜ue ni)",
+      "meaningCn": "表达“此外”、“此外”、“不仅……而且”。",
+      "formation": "动词+上に，い-形容词+上に，な-形容词+な上に，名词+の上に",
+      "usageNote": "～上に语法点用于表示除了第一个之外还有额外的信息或情况。它可以被翻译为“除了”、“除了”或“不仅……而且”。它可以与动词、い形容词、な形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0177",
+      "pattern": "～上は (～ue wa)",
+      "meaningCn": "表达“现在”、“自从”或“曾经”。",
+      "formation": "动词休闲+上は，い-形容词+上は，な-形容词+な上は，名词+の上は",
+      "usageNote": "～上は语法点用于表示由于某种条件或情况存在，因此发生某种动作或结果。在英语中它可以被翻译为“现在”、“自从”或“曾经”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0178",
+      "pattern": "～以上 (〜ijou)",
+      "meaningCn": "用于条件语境，表示“既然……、只要……”。",
+      "formation": "动词休闲 + 以上、い-形容词 + 以上、な-形容词 + な以上、名词 + の以上",
+      "usageNote": "～以上语法点用于表达条件或要求，可译为“since”、“as long as”或“if”。它常常强调，如果满足一定的条件，就会发生一定的行动或结果。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0179",
+      "pattern": "～以来 (〜irai)",
+      "meaningCn": "表示“自”、“从此以后”或“之后”某个特定时间发生的事情。",
+      "formation": "动词过去式 + 以来、い-形容词 + 以来、名词 + 以来",
+      "usageNote": "～以来语法点用于表达从过去某个点开始不间断地持续的一段时间。它可以被翻译为“自从”、“自从”或“之后”。其构成因是否与动词、形容词或名词一起使用而有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0180",
+      "pattern": "～切る (〜kiru)",
+      "meaningCn": "彻底或彻底地做某事。",
+      "formation": "动词词干+切る",
+      "usageNote": "～切る语法点加在动词词干（masu形）上，表示完全或彻底地做某事，通常暗示强烈的完成或用尽一切的感觉。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0181",
+      "pattern": "～反面 (〜hanmen)",
+      "meaningCn": "表达两个方面的对比； '一方面'，'另一方面'。",
+      "formation": "动词休闲 + 反面、い 形容词 + 反面、な-形容词 + である反面、名词 + である反面",
+      "usageNote": "～反面语法点用于表示事物的两个方面之间的对比。可译为“一方面”或“另一方面”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0182",
+      "pattern": "～向け (〜muke)",
+      "meaningCn": "表明目标或预期受众。",
+      "formation": "名词+向け",
+      "usageNote": "～向け语法点用于指示产品、服务或事件的目标或预期受众。它可以被翻译为“为了”、“旨在”或“旨在”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0183",
+      "pattern": "～恐れがある (〜osore ga aru)",
+      "meaningCn": "表达对可能发生不良事件的担忧或恐惧。",
+      "formation": "动词词典形式 + 恐れがある",
+      "usageNote": "～恐れがある语法点表示担心或担心可能发生不受欢迎或负面的事情。常用于潜在的问题或风险，可译为“有风险”或“有可能性”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0184",
+      "pattern": "～折には (〜ori ni wa)",
+      "meaningCn": "表达“当”或“如果”特定情况或时间。",
+      "formation": "动词词典形式+折には、动词た形式+折には、い形容词+折には、な形容词+な折には、名词+の折には",
+      "usageNote": "～折には语法点用于强调特定的时刻或情况（通常不是很频繁）。可译为“当（场合出现）”或“万一”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0185",
+      "pattern": "～末 (～sue)",
+      "meaningCn": "表达一段时间或一系列行动后的结果； “之后”、“由于”。",
+      "formation": "名词+末",
+      "usageNote": "～末语法点用于表示经过一段时间、努力或一系列行动后的结果或结果。它可以被翻译为“之后”、“由于”或“跟随”。它通常与名词一起使用（例如“相谈の末”、“努力の末”）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0186",
+      "pattern": "～次第 (〜shidai)",
+      "meaningCn": "表达“一旦”（与动词ます词干一起使用时）或“取决于”（与名词一起使用时）。",
+      "formation": "动词-ます词干 + 次第，名词 + 次第",
+      "usageNote": "语法模式～次第与ます词干中的动词一起使用时可表示“一旦”，与名词一起使用时可表示“取决于”。例如，仕事が终わり次第（工作完成后）或天気次第（取决于天气）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0187",
+      "pattern": "～次第で (〜shidai de)",
+      "meaningCn": "表示“依赖于；”基于'某种因素或情况。",
+      "formation": "名词+次第で",
+      "usageNote": "～次第で模式通常跟在名词后面，表示某件事“取决于”该因素而决定或改变。它可以被翻译为“基于……”或“取决于……”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0188",
+      "pattern": "～次第です (〜shidai desu)",
+      "meaningCn": "一种礼貌/正式的说法，表示“这取决于……”或“一旦……”，通常用于结论性陈述中。",
+      "formation": "动词ます词干 + 次第です（或名词 + 次第です）",
+      "usageNote": "「～次第です」经常用在更正式的语境中，要么表示某件事取决于某些条件，要么表示一旦其他事情完成就会发生某个动作。它也用作固定短语来结束书面解释。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0189",
+      "pattern": "～気味 (〜gimi)",
+      "meaningCn": "表示对某种特定状态的轻微感觉或倾向。",
+      "formation": "名词 + 気味（例如，风邪気味、睡眠不足気味、紧张気味）",
+      "usageNote": "后缀～気味一般附加在名词（或名词化词）上，表达对某种特定状态的轻微感觉、倾向或倾向。它通常在英语中翻译为“-ish”或“a bit”（例如“sleep-deprived-ish”、“nervous-ish”）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0190",
+      "pattern": "～限り (〜kagiri)",
+      "meaningCn": "表达“只要”、“同时”或“在某种程度上”某个条件成立。",
+      "formation": "动词休闲 + 限り、い-形容词 + 限り、な-形容词 + な限り、名词 + の限り",
+      "usageNote": "短语～限り用于表示“只要”或“同时”满足某个条件，某件事就会继续或为真。它也可以表示“在某种程度上”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n2-0191",
+      "pattern": "～際に (〜sai ni)",
+      "meaningCn": "意思是“当”、“同时”或“在……之际”某个事件或情况。",
+      "formation": "动词休闲 + 际に、い-形容词 + 际に、な-形容词 + な际に、名词 + の际に",
+      "usageNote": "～际に用于指定某事发生的时间或场合。它比简单的“とき”更正式，经常出现在公告或礼貌的指示中。"
+    }
+  ]
+}

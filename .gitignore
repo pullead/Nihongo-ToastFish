@@ -3,6 +3,7 @@ bin/
 packages/
 .local/
 /Log/
+Mp3Cache/
 token.txt
 .vs/
 ToastFish-upstream/

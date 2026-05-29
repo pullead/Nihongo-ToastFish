@@ -1,0 +1,3067 @@
+{
+  "locale": "zh-CN",
+  "packId": "builtin-examples-n2",
+  "translationSource": {
+    "sourceId": "nihongo-toastfish-zh-cn-machine-assisted",
+    "name": "Nihongo ToastFish machine-assisted Simplified Chinese localization",
+    "notes": "Machine-assisted first-party draft localization. Requires human review."
+  },
+  "items": {
+    "hanabira-example-n2-0001": {
+      "meaningCn": "今天，我计划要么看电影，要么去购物。",
+      "promptCn": "今天，我计划要么看电影，要么去购物。"
+    },
+    "hanabira-example-n2-0002": {
+      "meaningCn": "她会说英语或德语。",
+      "promptCn": "她会说英语或德语。"
+    },
+    "hanabira-example-n2-0003": {
+      "meaningCn": "我们喜欢喝咖啡或茶。",
+      "promptCn": "我们喜欢喝咖啡或茶。"
+    },
+    "hanabira-example-n2-0004": {
+      "meaningCn": "您可以作为全职员工或合同工从事这份工作。",
+      "promptCn": "您可以作为全职员工或合同工从事这份工作。"
+    },
+    "hanabira-example-n2-0005": {
+      "meaningCn": "他迟到了。而且，他忘了做作业。",
+      "promptCn": "他迟到了。而且，他忘了做作业。"
+    },
+    "hanabira-example-n2-0006": {
+      "meaningCn": "这间公寓很小。此外，房租也很高。",
+      "promptCn": "这间公寓很小。此外，房租也很高。"
+    },
+    "hanabira-example-n2-0007": {
+      "meaningCn": "她工作很忙。不仅如此，她的孩子也很小。",
+      "promptCn": "她工作很忙。不仅如此，她的孩子也很小。"
+    },
+    "hanabira-example-n2-0008": {
+      "meaningCn": "昨天下雨了。此外，风很大。",
+      "promptCn": "昨天下雨了。此外，风很大。"
+    },
+    "hanabira-example-n2-0009": {
+      "meaningCn": "今天的工作就完成了。那么，我们回家吧？",
+      "promptCn": "今天的工作就完成了。那么，我们回家吧？"
+    },
+    "hanabira-example-n2-0010": {
+      "meaningCn": "谈话变得有点冗长了。那么，请多告诉我一些关于纪美子的事。",
+      "promptCn": "谈话变得有点冗长了。那么，请多告诉我一些关于纪美子的事。"
+    },
+    "hanabira-example-n2-0011": {
+      "meaningCn": "看电影很有趣。那么，我们去吃什么呢？",
+      "promptCn": "看电影很有趣。那么，我们去吃什么呢？"
+    },
+    "hanabira-example-n2-0012": {
+      "meaningCn": "马拉松结束了！那么，我们先休息一下，然后去洗澡吧。",
+      "promptCn": "马拉松结束了！那么，我们先休息一下，然后去洗澡吧。"
+    },
+    "hanabira-example-n2-0013": {
+      "meaningCn": "这道菜很好吃。而且，它很便宜。",
+      "promptCn": "这道菜很好吃。而且，它很便宜。"
+    },
+    "hanabira-example-n2-0014": {
+      "meaningCn": "他是一名优秀的学生。此外，他还擅长运动。",
+      "promptCn": "他是一名优秀的学生。此外，他还擅长运动。"
+    },
+    "hanabira-example-n2-0015": {
+      "meaningCn": "她擅长唱歌。此外，她还擅长跳舞。",
+      "promptCn": "她擅长唱歌。此外，她还擅长跳舞。"
+    },
+    "hanabira-example-n2-0016": {
+      "meaningCn": "这家咖啡馆气氛很好。此外，咖啡也很美味。",
+      "promptCn": "这家咖啡馆气氛很好。此外，咖啡也很美味。"
+    },
+    "hanabira-example-n2-0017": {
+      "meaningCn": "今天下雨了。因此，我们带上雨伞吧。",
+      "promptCn": "今天下雨了。因此，我们带上雨伞吧。"
+    },
+    "hanabira-example-n2-0018": {
+      "meaningCn": "他很忙。所以，我们还是不要联系他了。",
+      "promptCn": "他很忙。所以，我们还是不要联系他了。"
+    },
+    "hanabira-example-n2-0019": {
+      "meaningCn": "那家餐厅很受欢迎。因此，如果不预约的话，可能会没有座位。",
+      "promptCn": "那家餐厅很受欢迎。因此，如果不预约的话，可能会没有座位。"
+    },
+    "hanabira-example-n2-0020": {
+      "meaningCn": "考试马上就要到了。因此，让我们集中精力学习。",
+      "promptCn": "考试马上就要到了。因此，让我们集中精力学习。"
+    },
+    "hanabira-example-n2-0021": {
+      "meaningCn": "我想要取得伟大的成果，换句话说，我想要成功。",
+      "promptCn": "我想要取得伟大的成果，换句话说，我想要成功。"
+    },
+    "hanabira-example-n2-0022": {
+      "meaningCn": "他无言以对，也就是说，他什么也说不出来。",
+      "promptCn": "他无言以对，也就是说，他什么也说不出来。"
+    },
+    "hanabira-example-n2-0023": {
+      "meaningCn": "她一直在为自己的目标而努力，也就是说，她正在非常努力。",
+      "promptCn": "她一直在为自己的目标而努力，也就是说，她正在非常努力。"
+    },
+    "hanabira-example-n2-0024": {
+      "meaningCn": "这家店最看重顾客的满意度，换句话说，它的服务很好。",
+      "promptCn": "这家店最看重顾客的满意度，换句话说，它的服务很好。"
+    },
+    "hanabira-example-n2-0025": {
+      "meaningCn": "当我打电话时，她接听了。",
+      "promptCn": "当我打电话时，她接听了。"
+    },
+    "hanabira-example-n2-0026": {
+      "meaningCn": "如果你按下这个按钮，门就会打开。",
+      "promptCn": "如果你按下这个按钮，门就会打开。"
+    },
+    "hanabira-example-n2-0027": {
+      "meaningCn": "当我去便利店时，碰巧遇见了我的朋友。",
+      "promptCn": "当我去便利店时，碰巧遇见了我的朋友。"
+    },
+    "hanabira-example-n2-0028": {
+      "meaningCn": "他一出门，天就下雨了。",
+      "promptCn": "他一出门，天就下雨了。"
+    },
+    "hanabira-example-n2-0029": {
+      "meaningCn": "电影。说起来，他在一家电影院工作。",
+      "promptCn": "电影。说起来，他在一家电影院工作。"
+    },
+    "hanabira-example-n2-0030": {
+      "meaningCn": "山田女士。顺便说一句，她这个周末要去旅行。",
+      "promptCn": "山田女士。顺便说一句，她这个周末要去旅行。"
+    },
+    "hanabira-example-n2-0031": {
+      "meaningCn": "那个餐厅。既然你提到了，下周末那里有一个聚会。",
+      "promptCn": "那个餐厅。既然你提到了，下周末那里有一个聚会。"
+    },
+    "hanabira-example-n2-0032": {
+      "meaningCn": "是冷的。说起来，明天好像要下雪了。",
+      "promptCn": "是冷的。说起来，明天好像要下雪了。"
+    },
+    "hanabira-example-n2-0033": {
+      "meaningCn": "明天有考试。因此，我打算今晚学习。",
+      "promptCn": "明天有考试。因此，我打算今晚学习。"
+    },
+    "hanabira-example-n2-0034": {
+      "meaningCn": "这家餐厅很拥挤。所以，我们换个地方吃午饭吧。",
+      "promptCn": "这家餐厅很拥挤。所以，我们换个地方吃午饭吧。"
+    },
+    "hanabira-example-n2-0035": {
+      "meaningCn": "她有过敏症。所以，我会为她做一道不同的菜。",
+      "promptCn": "她有过敏症。所以，我会为她做一道不同的菜。"
+    },
+    "hanabira-example-n2-0036": {
+      "meaningCn": "我没有伞。所以，我会等到雨停。",
+      "promptCn": "我没有伞。所以，我会等到雨停。"
+    },
+    "hanabira-example-n2-0037": {
+      "meaningCn": "他可以好好学习。这就是你所谓的天才。",
+      "promptCn": "他可以好好学习。这就是你所谓的天才。"
+    },
+    "hanabira-example-n2-0038": {
+      "meaningCn": "我做美味的食物。这是我的爱好。",
+      "promptCn": "我做美味的食物。这是我的爱好。"
+    },
+    "hanabira-example-n2-0039": {
+      "meaningCn": "她帮助我。这就是朋友。",
+      "promptCn": "她帮助我。这就是朋友。"
+    },
+    "hanabira-example-n2-0040": {
+      "meaningCn": "长时间独自旅行。这就是自由。",
+      "promptCn": "长时间独自旅行。这就是自由。"
+    },
+    "hanabira-example-n2-0041": {
+      "meaningCn": "昨天下雨了。所以，我没有去公园。",
+      "promptCn": "昨天下雨了。所以，我没有去公园。"
+    },
+    "hanabira-example-n2-0042": {
+      "meaningCn": "我考试不及格。所以，我必须重新考试。",
+      "promptCn": "我考试不及格。所以，我必须重新考试。"
+    },
+    "hanabira-example-n2-0043": {
+      "meaningCn": "房间很冷。于是，我打开了暖气。",
+      "promptCn": "房间很冷。于是，我打开了暖气。"
+    },
+    "hanabira-example-n2-0044": {
+      "meaningCn": "今天是假期。所以，我要去看电影。",
+      "promptCn": "今天是假期。所以，我要去看电影。"
+    },
+    "hanabira-example-n2-0045": {
+      "meaningCn": "今天是星期天。尽管如此，我还是得去上班。",
+      "promptCn": "今天是星期天。尽管如此，我还是得去上班。"
+    },
+    "hanabira-example-n2-0046": {
+      "meaningCn": "他很年轻。即便如此，他的经验还是很丰富的。",
+      "promptCn": "他很年轻。即便如此，他的经验还是很丰富的。"
+    },
+    "hanabira-example-n2-0047": {
+      "meaningCn": "下雨了。尽管如此，我还是想去散步。",
+      "promptCn": "下雨了。尽管如此，我还是想去散步。"
+    },
+    "hanabira-example-n2-0048": {
+      "meaningCn": "考试成绩不好。但我不会放弃。",
+      "promptCn": "考试成绩不好。但我不会放弃。"
+    },
+    "hanabira-example-n2-0049": {
+      "meaningCn": "他很聪明。尽管如此，他还是没能通过考试。",
+      "promptCn": "他很聪明。尽管如此，他还是没能通过考试。"
+    },
+    "hanabira-example-n2-0050": {
+      "meaningCn": "我很早就醒了。即便如此，我还是迟到了公共汽车。",
+      "promptCn": "我很早就醒了。即便如此，我还是迟到了公共汽车。"
+    },
+    "hanabira-example-n2-0051": {
+      "meaningCn": "昨天天气晴朗。尽管如此，他还是有一把雨伞。",
+      "promptCn": "昨天天气晴朗。尽管如此，他还是有一把雨伞。"
+    },
+    "hanabira-example-n2-0052": {
+      "meaningCn": "她不擅长运动。尽管如此，她还是决定跑马拉松。",
+      "promptCn": "她不擅长运动。尽管如此，她还是决定跑马拉松。"
+    },
+    "hanabira-example-n2-0053": {
+      "meaningCn": "考试马上就要到了。既然如此，我就必须多学习。",
+      "promptCn": "考试马上就要到了。既然如此，我就必须多学习。"
+    },
+    "hanabira-example-n2-0054": {
+      "meaningCn": "明天可能会下雨。既然如此，我们就带把伞吧。",
+      "promptCn": "明天可能会下雨。既然如此，我们就带把伞吧。"
+    },
+    "hanabira-example-n2-0055": {
+      "meaningCn": "他们已经离开了。既然如此，我也回家吧。",
+      "promptCn": "他们已经离开了。既然如此，我也回家吧。"
+    },
+    "hanabira-example-n2-0056": {
+      "meaningCn": "那家餐厅的预订已满。既然如此，我们就另寻一个地方吧。",
+      "promptCn": "那家餐厅的预订已满。既然如此，我们就另寻一个地方吧。"
+    },
+    "hanabira-example-n2-0057": {
+      "meaningCn": "顺便说一句，今天天气很好，不是吗？",
+      "promptCn": "顺便说一句，今天天气很好，不是吗？"
+    },
+    "hanabira-example-n2-0058": {
+      "meaningCn": "这部电影很有趣。说起来，这家店的拉面很好吃。",
+      "promptCn": "这部电影很有趣。说起来，这家店的拉面很好吃。"
+    },
+    "hanabira-example-n2-0059": {
+      "meaningCn": "明天就开始放暑假了啊？顺便说一句，好像有一家新咖啡馆开业了。",
+      "promptCn": "明天就开始放暑假了啊？顺便说一句，好像有一家新咖啡馆开业了。"
+    },
+    "hanabira-example-n2-0060": {
+      "meaningCn": "昨天的考试很难。说到这里，你知道这个周末有一个聚会吗？",
+      "promptCn": "昨天的考试很难。说到这里，你知道这个周末有一个聚会吗？"
+    },
+    "hanabira-example-n2-0061": {
+      "meaningCn": "这家餐厅很贵。但是，味道却非常好。",
+      "promptCn": "这家餐厅很贵。但是，味道却非常好。"
+    },
+    "hanabira-example-n2-0062": {
+      "meaningCn": "他累了。不过，不完成工作他是不会休息的。",
+      "promptCn": "他累了。不过，不完成工作他是不会休息的。"
+    },
+    "hanabira-example-n2-0063": {
+      "meaningCn": "昨天很冷。不过，今天很暖和。",
+      "promptCn": "昨天很冷。不过，今天很暖和。"
+    },
+    "hanabira-example-n2-0064": {
+      "meaningCn": "她的外表很朴素。然而，她有一个美妙的个性。",
+      "promptCn": "她的外表很朴素。然而，她有一个美妙的个性。"
+    },
+    "hanabira-example-n2-0065": {
+      "meaningCn": "他很聪明；然而，他并没有付出太多努力。",
+      "promptCn": "他很聪明；然而，他并没有付出太多努力。"
+    },
+    "hanabira-example-n2-0066": {
+      "meaningCn": "外面下着雨，但我在家很无聊。",
+      "promptCn": "外面下着雨，但我在家很无聊。"
+    },
+    "hanabira-example-n2-0067": {
+      "meaningCn": "那家餐馆很贵；不过，服务还是不错的。",
+      "promptCn": "那家餐馆很贵；不过，服务还是不错的。"
+    },
+    "hanabira-example-n2-0068": {
+      "meaningCn": "考试成绩不好，但还有机会重考。",
+      "promptCn": "考试成绩不好，但还有机会重考。"
+    },
+    "hanabira-example-n2-0069": {
+      "meaningCn": "你可以使用这个房间。但使用后请务必清理干净。",
+      "promptCn": "你可以使用这个房间。但使用后请务必清理干净。"
+    },
+    "hanabira-example-n2-0070": {
+      "meaningCn": "从明天开始我将出差。不过，如果有紧急情况，请通过我的手机与我联系。",
+      "promptCn": "从明天开始我将出差。不过，如果有紧急情况，请通过我的手机与我联系。"
+    },
+    "hanabira-example-n2-0071": {
+      "meaningCn": "公司将承担全部餐费。但酒水费用将由个人承担。",
+      "promptCn": "公司将承担全部餐费。但酒水费用将由个人承担。"
+    },
+    "hanabira-example-n2-0072": {
+      "meaningCn": "您可以从图书馆借书。但是，您必须在截止日期内归还它们。",
+      "promptCn": "您可以从图书馆借书。但是，您必须在截止日期内归还它们。"
+    },
+    "hanabira-example-n2-0073": {
+      "meaningCn": "既然有空，我们就去看电影吧。",
+      "promptCn": "既然有空，我们就去看电影吧。"
+    },
+    "hanabira-example-n2-0074": {
+      "meaningCn": "因为天气冷，请穿外套。",
+      "promptCn": "因为天气冷，请穿外套。"
+    },
+    "hanabira-example-n2-0075": {
+      "meaningCn": "既然累了，最好还是休息一下。",
+      "promptCn": "既然累了，最好还是休息一下。"
+    },
+    "hanabira-example-n2-0076": {
+      "meaningCn": "因为她擅长做饭，所以大家都很期待她的菜。",
+      "promptCn": "因为她擅长做饭，所以大家都很期待她的菜。"
+    },
+    "hanabira-example-n2-0077": {
+      "meaningCn": "今天没有课。顺便说一句，明天也是休息日。",
+      "promptCn": "今天没有课。顺便说一句，明天也是休息日。"
+    },
+    "hanabira-example-n2-0078": {
+      "meaningCn": "这家店的拉面很好吃。顺便说一下，他们家的饺子也很推荐。",
+      "promptCn": "这家店的拉面很好吃。顺便说一下，他们家的饺子也很推荐。"
+    },
+    "hanabira-example-n2-0079": {
+      "meaningCn": "他今天迟到了。顺便说一句，他昨天缺席了。",
+      "promptCn": "他今天迟到了。顺便说一句，他昨天缺席了。"
+    },
+    "hanabira-example-n2-0080": {
+      "meaningCn": "这部电影很有趣。顺便说一句，原作更好。",
+      "promptCn": "这部电影很有趣。顺便说一句，原作更好。"
+    },
+    "hanabira-example-n2-0081": {
+      "meaningCn": "她在哭。这意味着一定发生了悲伤的事情。",
+      "promptCn": "她在哭。这意味着一定发生了悲伤的事情。"
+    },
+    "hanabira-example-n2-0082": {
+      "meaningCn": "这个蛋糕是剩下的。我想这意味着每个人都已经吃饱了。",
+      "promptCn": "这个蛋糕是剩下的。我想这意味着每个人都已经吃饱了。"
+    },
+    "hanabira-example-n2-0083": {
+      "meaningCn": "道路很拥堵。这意味着可能发生了事故。",
+      "promptCn": "道路很拥堵。这意味着可能发生了事故。"
+    },
+    "hanabira-example-n2-0084": {
+      "meaningCn": "他通过了考试。这说明他学习一定很努力。",
+      "promptCn": "他通过了考试。这说明他学习一定很努力。"
+    },
+    "hanabira-example-n2-0085": {
+      "meaningCn": "他很累。也就是说，因为他昨晚坐车走了很远的路。",
+      "promptCn": "他很累。也就是说，因为他昨晚坐车走了很远的路。"
+    },
+    "hanabira-example-n2-0086": {
+      "meaningCn": "我推荐这家餐厅。也就是说，因为食物很美味，气氛也很好。",
+      "promptCn": "我推荐这家餐厅。也就是说，因为食物很美味，气氛也很好。"
+    },
+    "hanabira-example-n2-0087": {
+      "meaningCn": "我考试不及格。换句话说，是因为我学习不够。",
+      "promptCn": "我考试不及格。换句话说，是因为我学习不够。"
+    },
+    "hanabira-example-n2-0088": {
+      "meaningCn": "她有一个独特的爱好。即昆虫采集。",
+      "promptCn": "她有一个独特的爱好。即昆虫采集。"
+    },
+    "hanabira-example-n2-0089": {
+      "meaningCn": "明天是假期。此外，周一也是假期。",
+      "promptCn": "明天是假期。此外，周一也是假期。"
+    },
+    "hanabira-example-n2-0090": {
+      "meaningCn": "他很聪明，而且也擅长运动。",
+      "promptCn": "他很聪明。此外，他还擅长运动。"
+    },
+    "hanabira-example-n2-0091": {
+      "meaningCn": "这本书很有趣。此外，它很便宜。",
+      "promptCn": "这本书很有趣。此外，它很便宜。"
+    },
+    "hanabira-example-n2-0092": {
+      "meaningCn": "我正在学习日语。另外，我也在学习韩语。",
+      "promptCn": "我正在学习日语。另外，我也在学习韩语。"
+    },
+    "hanabira-example-n2-0093": {
+      "meaningCn": "他很聪明。不过，学习也很重要。",
+      "promptCn": "他很聪明。不过，学习也很重要。"
+    },
+    "hanabira-example-n2-0094": {
+      "meaningCn": "这家餐厅很好吃。但是，价格很高。",
+      "promptCn": "这家餐厅很好吃。但是，价格很高。"
+    },
+    "hanabira-example-n2-0095": {
+      "meaningCn": "她很漂亮。虽然，她的性格很不好。",
+      "promptCn": "她很漂亮。虽然，她的性格很不好。"
+    },
+    "hanabira-example-n2-0096": {
+      "meaningCn": "日本是一个有趣的国家。不过，居住起来似乎很困难。",
+      "promptCn": "日本是一个有趣的国家。不过，居住起来似乎很困难。"
+    },
+    "hanabira-example-n2-0097": {
+      "meaningCn": "这个项目很成功。简而言之，我们的团队做得很好。",
+      "promptCn": "这个项目很成功。简而言之，我们的团队做得很好。"
+    },
+    "hanabira-example-n2-0098": {
+      "meaningCn": "他擅长做饭。简而言之，他是一位出色的厨师。",
+      "promptCn": "他擅长做饭。简而言之，他是一位出色的厨师。"
+    },
+    "hanabira-example-n2-0099": {
+      "meaningCn": "昨天很忙。总而言之，我整天都在工作。",
+      "promptCn": "昨天很忙。总而言之，我整天都在工作。"
+    },
+    "hanabira-example-n2-0100": {
+      "meaningCn": "她喜欢她的新工作。总之，她很满意。",
+      "promptCn": "她喜欢她的新工作。总之，她很满意。"
+    },
+    "hanabira-example-n2-0101": {
+      "meaningCn": "今天要考试了，请保持安静。",
+      "promptCn": "今天要考试了，请保持安静。"
+    },
+    "hanabira-example-n2-0102": {
+      "meaningCn": "由于施工，该地区禁止通行。",
+      "promptCn": "由于施工，该地区禁止通行。"
+    },
+    "hanabira-example-n2-0103": {
+      "meaningCn": "由于维修，博物馆免费入场。",
+      "promptCn": "由于维修，博物馆免费入场。"
+    },
+    "hanabira-example-n2-0104": {
+      "meaningCn": "每件商品可享受 1,000 日元的折扣。",
+      "promptCn": "每件商品可享受 1,000 日元的折扣。"
+    },
+    "hanabira-example-n2-0105": {
+      "meaningCn": "车站广场将举办活动。",
+      "promptCn": "车站广场将举办活动。"
+    },
+    "hanabira-example-n2-0106": {
+      "meaningCn": "会议将在酒店举行。",
+      "promptCn": "会议将在酒店举行。"
+    },
+    "hanabira-example-n2-0107": {
+      "meaningCn": "我在邮局收到了包裹。",
+      "promptCn": "我在邮局收到了包裹。"
+    },
+    "hanabira-example-n2-0108": {
+      "meaningCn": "我在网上搜索并找到了答案。",
+      "promptCn": "我在网上搜索并找到了答案。"
+    },
+    "hanabira-example-n2-0109": {
+      "meaningCn": "既然他擅长做饭，说不定会做出美味的食物。",
+      "promptCn": "既然他擅长做饭，说不定会做出美味的食物。"
+    },
+    "hanabira-example-n2-0110": {
+      "meaningCn": "因为她总是迟到，今天可能又迟到了。",
+      "promptCn": "因为她总是迟到，今天可能又迟到了。"
+    },
+    "hanabira-example-n2-0111": {
+      "meaningCn": "既然是便宜店，应该卖得很多。",
+      "promptCn": "既然是便宜店，应该卖得很多。"
+    },
+    "hanabira-example-n2-0112": {
+      "meaningCn": "知道他喜欢戏剧，谈论最新的节目会很好。",
+      "promptCn": "知道他喜欢戏剧，谈论最新的节目会很好。"
+    },
+    "hanabira-example-n2-0113": {
+      "meaningCn": "您可以在这家餐厅享用日本料理等各种菜肴。",
+      "promptCn": "您可以在这家餐厅享用日本料理等各种菜肴。"
+    },
+    "hanabira-example-n2-0114": {
+      "meaningCn": "他不仅收藏绘画，还收藏雕塑和照片。",
+      "promptCn": "他不仅收藏绘画，还收藏雕塑和照片。"
+    },
+    "hanabira-example-n2-0115": {
+      "meaningCn": "包括京都在内的日本多个城市都会举办传统节日。",
+      "promptCn": "包括京都在内的日本多个城市都会举办传统节日。"
+    },
+    "hanabira-example-n2-0116": {
+      "meaningCn": "太阳系中不仅包括太阳，还包括地球、火星等行星。",
+      "promptCn": "太阳系中不仅包括太阳，还包括地球、火星等行星。"
+    },
+    "hanabira-example-n2-0117": {
+      "meaningCn": "以东京为首，日本有很多旅游胜地。",
+      "promptCn": "以东京为首，日本有很多旅游胜地。"
+    },
+    "hanabira-example-n2-0118": {
+      "meaningCn": "他会演奏多种乐器，从钢琴开始。",
+      "promptCn": "他会演奏多种乐器，从钢琴开始。"
+    },
+    "hanabira-example-n2-0119": {
+      "meaningCn": "这本书充满了有用的生活窍门，包括如何制作手工纱布口罩。",
+      "promptCn": "这本书充满了有用的生活窍门，包括如何制作手工纱布口罩。"
+    },
+    "hanabira-example-n2-0120": {
+      "meaningCn": "那个购物中心聚集了包括某服装品牌在内的许多品牌。",
+      "promptCn": "那个购物中心聚集了包括某服装品牌在内的许多品牌。"
+    },
+    "hanabira-example-n2-0121": {
+      "meaningCn": "他会说外语，首先是法语。",
+      "promptCn": "他会说外语，首先是法语。"
+    },
+    "hanabira-example-n2-0122": {
+      "meaningCn": "这场音乐会预计将邀请包括防弹少年团在内的流行艺人参加。",
+      "promptCn": "这场音乐会预计将邀请包括防弹少年团在内的流行艺人参加。"
+    },
+    "hanabira-example-n2-0123": {
+      "meaningCn": "她喜欢海鲜，首先是鱼。",
+      "promptCn": "她喜欢海鲜，首先是鱼。"
+    },
+    "hanabira-example-n2-0124": {
+      "meaningCn": "这个图书馆有各种类型的书籍，包括儿童书籍。",
+      "promptCn": "这个图书馆有各种类型的书籍，包括儿童书籍。"
+    },
+    "hanabira-example-n2-0125": {
+      "meaningCn": "许多讨论都涉及环境问题。",
+      "promptCn": "许多讨论都涉及环境问题。"
+    },
+    "hanabira-example-n2-0126": {
+      "meaningCn": "关于他的死，出现了几种阴谋论。",
+      "promptCn": "关于他的死，出现了几种阴谋论。"
+    },
+    "hanabira-example-n2-0127": {
+      "meaningCn": "公司和工会正在讨论加薪事宜。",
+      "promptCn": "公司和工会正在讨论加薪事宜。"
+    },
+    "hanabira-example-n2-0128": {
+      "meaningCn": "这部电影既有优点也有缺点。",
+      "promptCn": "这部电影既有优点也有缺点。"
+    },
+    "hanabira-example-n2-0129": {
+      "meaningCn": "关于这一事件的争论仍在继续。",
+      "promptCn": "关于这一事件的争论仍在继续。"
+    },
+    "hanabira-example-n2-0130": {
+      "meaningCn": "将召开有关环境问题的国际会议。",
+      "promptCn": "将召开有关环境问题的国际会议。"
+    },
+    "hanabira-example-n2-0131": {
+      "meaningCn": "关于他突然辞职的谣言四起。",
+      "promptCn": "关于他突然辞职的谣言四起。"
+    },
+    "hanabira-example-n2-0132": {
+      "meaningCn": "围绕电影节的活动不断增多。",
+      "promptCn": "围绕电影节的活动不断增多。"
+    },
+    "hanabira-example-n2-0133": {
+      "meaningCn": "这部电影是根据真实故事拍摄的。",
+      "promptCn": "这部电影是根据真实故事拍摄的。"
+    },
+    "hanabira-example-n2-0134": {
+      "meaningCn": "需要根据他的经验提供建议。",
+      "promptCn": "需要根据他的经验提供建议。"
+    },
+    "hanabira-example-n2-0135": {
+      "meaningCn": "我根据数据进行了分析。",
+      "promptCn": "我根据数据进行了分析。"
+    },
+    "hanabira-example-n2-0136": {
+      "meaningCn": "我根据世界各地的艺术画廊创建了一个收藏。",
+      "promptCn": "我根据世界各地的艺术画廊创建了一个收藏。"
+    },
+    "hanabira-example-n2-0137": {
+      "meaningCn": "根据他的意见，我们改变了计划。",
+      "promptCn": "根据他的意见，我们改变了计划。"
+    },
+    "hanabira-example-n2-0138": {
+      "meaningCn": "这部小说是根据真实故事写成的。",
+      "promptCn": "这部小说是根据真实故事写成的。"
+    },
+    "hanabira-example-n2-0139": {
+      "meaningCn": "我根据材料创建了报告。",
+      "promptCn": "我根据材料创建了报告。"
+    },
+    "hanabira-example-n2-0140": {
+      "meaningCn": "我们计划根据过去的成功案例继续开展新项目。",
+      "promptCn": "我们计划根据过去的成功案例继续开展新项目。"
+    },
+    "hanabira-example-n2-0141": {
+      "meaningCn": "她没有哭就回家了。",
+      "promptCn": "她没有哭就回家了。"
+    },
+    "hanabira-example-n2-0142": {
+      "meaningCn": "他突然离开，没有任何警告。",
+      "promptCn": "他突然离开，没有任何警告。"
+    },
+    "hanabira-example-n2-0143": {
+      "meaningCn": "山田先生没有与任何人交谈就退出了公司。",
+      "promptCn": "山田先生没有与任何人交谈就退出了公司。"
+    },
+    "hanabira-example-n2-0144": {
+      "meaningCn": "我已经工作20年了，没有生过病。",
+      "promptCn": "我已经工作20年了，没有生过病。"
+    },
+    "hanabira-example-n2-0145": {
+      "meaningCn": "不吃药的话，病就不会好。",
+      "promptCn": "不吃药的话，病就不会好。"
+    },
+    "hanabira-example-n2-0146": {
+      "meaningCn": "这个问题除非你仔细思考，否则无法解决。",
+      "promptCn": "这个问题除非你仔细思考，否则无法解决。"
+    },
+    "hanabira-example-n2-0147": {
+      "meaningCn": "除非你练习，否则你的技能不会提高。",
+      "promptCn": "除非你练习，否则你的技能不会提高。"
+    },
+    "hanabira-example-n2-0148": {
+      "meaningCn": "如果不办理手续，就拿不到新护照。",
+      "promptCn": "如果不办理手续，就拿不到新护照。"
+    },
+    "hanabira-example-n2-0149": {
+      "meaningCn": "等了好久，最后火车还是没有来。",
+      "promptCn": "等了好久，最后火车还是没有来。"
+    },
+    "hanabira-example-n2-0150": {
+      "meaningCn": "经过尝试各种方法，我终于成功了。",
+      "promptCn": "经过尝试各种方法，我终于成功了。"
+    },
+    "hanabira-example-n2-0151": {
+      "meaningCn": "最终，在失败之后，他决定退出公司。",
+      "promptCn": "最终，在失败之后，他决定退出公司。"
+    },
+    "hanabira-example-n2-0152": {
+      "meaningCn": "担心了很久，她最终拒绝了这份工作。",
+      "promptCn": "担心了很久，她最终拒绝了这份工作。"
+    },
+    "hanabira-example-n2-0153": {
+      "meaningCn": "昨天我太累了，一觉睡到早上。",
+      "promptCn": "昨天我太累了，一觉睡到早上。"
+    },
+    "hanabira-example-n2-0154": {
+      "meaningCn": "她太高兴了，最后哭了。",
+      "promptCn": "她太高兴了，最后哭了。"
+    },
+    "hanabira-example-n2-0155": {
+      "meaningCn": "他非常担心安全，多次检查门。",
+      "promptCn": "他非常担心安全，多次检查门。"
+    },
+    "hanabira-example-n2-0156": {
+      "meaningCn": "天气太冷了，他无法停止颤抖。",
+      "promptCn": "天气太冷了，他无法停止颤抖。"
+    },
+    "hanabira-example-n2-0157": {
+      "meaningCn": "趁健康的时候，享受旅行的乐趣。",
+      "promptCn": "趁健康的时候，享受旅行的乐趣。"
+    },
+    "hanabira-example-n2-0158": {
+      "meaningCn": "人在年轻的时候就应该多学一些东西。",
+      "promptCn": "人在年轻的时候就应该多学一些东西。"
+    },
+    "hanabira-example-n2-0159": {
+      "meaningCn": "我们趁孩子们睡觉的时候准备晚餐吧。",
+      "promptCn": "我们趁孩子们睡觉的时候准备晚餐吧。"
+    },
+    "hanabira-example-n2-0160": {
+      "meaningCn": "我们在下雨之前回家吧。",
+      "promptCn": "我们在下雨之前回家吧。"
+    },
+    "hanabira-example-n2-0161": {
+      "meaningCn": "这本书值得一读。",
+      "promptCn": "这本书值得一读。"
+    },
+    "hanabira-example-n2-0162": {
+      "meaningCn": "我认为早起是值得的。",
+      "promptCn": "我认为早起是值得的。"
+    },
+    "hanabira-example-n2-0163": {
+      "meaningCn": "这是一项值得花很长时间的工作。",
+      "promptCn": "这是一项值得花很长时间的工作。"
+    },
+    "hanabira-example-n2-0164": {
+      "meaningCn": "值得和他谈谈。",
+      "promptCn": "值得和他谈谈。"
+    },
+    "hanabira-example-n2-0165": {
+      "meaningCn": "每天的学习得到了回报——我通过了考试。",
+      "promptCn": "每天的学习得到了回报——我通过了考试。"
+    },
+    "hanabira-example-n2-0166": {
+      "meaningCn": "练习得到了回报，我们赢得了比赛。",
+      "promptCn": "练习得到了回报，我们赢得了比赛。"
+    },
+    "hanabira-example-n2-0167": {
+      "meaningCn": "在雨中奔跑是值得的，因为我准时​​到达了火车。",
+      "promptCn": "在雨中奔跑是值得的，因为我准时​​到达了火车。"
+    },
+    "hanabira-example-n2-0168": {
+      "meaningCn": "早起打扫卫生得到了回报；房间现在一尘不染。",
+      "promptCn": "早起打扫卫生得到了回报；房间现在一尘不染。"
+    },
+    "hanabira-example-n2-0169": {
+      "meaningCn": "我挣扎了很长时间，但最终一切都是徒劳，我失败了。",
+      "promptCn": "我挣扎了很长时间，但最终一切都是徒劳，我失败了。"
+    },
+    "hanabira-example-n2-0170": {
+      "meaningCn": "我在这个项目上花了很多时间，但无果而终。",
+      "promptCn": "我在这个项目上花了很多时间，但无果而终。"
+    },
+    "hanabira-example-n2-0171": {
+      "meaningCn": "他请求帮助，但没有人来，所以没有结果。",
+      "promptCn": "他请求帮助，但没有人来，所以没有结果。"
+    },
+    "hanabira-example-n2-0172": {
+      "meaningCn": "我尝试了各种节食方法，但都是徒劳——我没有减掉任何体重。",
+      "promptCn": "我尝试了各种节食方法，但都是徒劳——我没有减掉任何体重。"
+    },
+    "hanabira-example-n2-0173": {
+      "meaningCn": "她留下一个吃了一半的苹果就出去了。",
+      "promptCn": "她留下一个吃了一半的苹果就出去了。"
+    },
+    "hanabira-example-n2-0174": {
+      "meaningCn": "孩子们把完成一半的作业留在了桌子上。",
+      "promptCn": "孩子们把完成一半的作业留在了桌子上。"
+    },
+    "hanabira-example-n2-0175": {
+      "meaningCn": "我寻找夜幕降临后开始阅读的那本书。",
+      "promptCn": "我寻找夜幕降临后开始阅读的那本书。"
+    },
+    "hanabira-example-n2-0176": {
+      "meaningCn": "办公室里有很多文件正在创建过程中。",
+      "promptCn": "办公室里有很多文件正在创建过程中。"
+    },
+    "hanabira-example-n2-0177": {
+      "meaningCn": "他很容易感冒。",
+      "promptCn": "他很容易感冒。"
+    },
+    "hanabira-example-n2-0178": {
+      "meaningCn": "这个地区经常下很多雨。",
+      "promptCn": "这个地区经常下很多雨。"
+    },
+    "hanabira-example-n2-0179": {
+      "meaningCn": "她很容易忘记事情。",
+      "promptCn": "她很容易忘记事情。"
+    },
+    "hanabira-example-n2-0180": {
+      "meaningCn": "我经常迟到，所以我需要早点起床。",
+      "promptCn": "我经常迟到，所以我需要早点起床。"
+    },
+    "hanabira-example-n2-0181": {
+      "meaningCn": "刚到车站，天就下雨了。",
+      "promptCn": "刚到车站，天就下雨了。"
+    },
+    "hanabira-example-n2-0182": {
+      "meaningCn": "当我决定购买这款手机时，一款新型号就发布了。",
+      "promptCn": "当我决定购买这款手机时，一款新型号就发布了。"
+    },
+    "hanabira-example-n2-0183": {
+      "meaningCn": "他刚走出家门，电话就响了。",
+      "promptCn": "他刚走出家门，电话就响了。"
+    },
+    "hanabira-example-n2-0184": {
+      "meaningCn": "聚会一开始，她就哭了。",
+      "promptCn": "聚会一开始，她就哭了。"
+    },
+    "hanabira-example-n2-0185": {
+      "meaningCn": "他太不负责任了，以至于他可能会违背诺言。",
+      "promptCn": "他太不负责任了，以至于他可能会违背诺言。"
+    },
+    "hanabira-example-n2-0186": {
+      "meaningCn": "如果不注意，可能会引发事故。",
+      "promptCn": "如果不注意，可能会引发事故。"
+    },
+    "hanabira-example-n2-0187": {
+      "meaningCn": "由于这个应用程序有很多错误，它可能会崩溃。",
+      "promptCn": "由于这个应用程序有很多错误，它可能会崩溃。"
+    },
+    "hanabira-example-n2-0188": {
+      "meaningCn": "她太紧张了，生怕自己会失败。",
+      "promptCn": "她太紧张了，生怕自己会失败。"
+    },
+    "hanabira-example-n2-0189": {
+      "meaningCn": "因为这个问题很难，所以我无法解决。",
+      "promptCn": "因为这个问题很难，所以我无法解决。"
+    },
+    "hanabira-example-n2-0190": {
+      "meaningCn": "我无法判断他说的是真是假。",
+      "promptCn": "我无法判断他说的是真是假。"
+    },
+    "hanabira-example-n2-0191": {
+      "meaningCn": "我无法立即知道她是否会来。",
+      "promptCn": "我无法立即知道她是否会来。"
+    },
+    "hanabira-example-n2-0192": {
+      "meaningCn": "我无法解释细节。",
+      "promptCn": "我无法解释细节。"
+    },
+    "hanabira-example-n2-0193": {
+      "meaningCn": "他看起来好像很怕狗。",
+      "promptCn": "他看起来好像很怕狗。"
+    },
+    "hanabira-example-n2-0194": {
+      "meaningCn": "这个房间感觉好像很冷。",
+      "promptCn": "这个房间感觉好像很冷。"
+    },
+    "hanabira-example-n2-0195": {
+      "meaningCn": "她的举止就好像她是名人一样。",
+      "promptCn": "她的举止就好像她是名人一样。"
+    },
+    "hanabira-example-n2-0196": {
+      "meaningCn": "他表现得就像个孩子一样。",
+      "promptCn": "他表现得就像个孩子一样。"
+    },
+    "hanabira-example-n2-0197": {
+      "meaningCn": "我还没有决定是否接受这个项目。",
+      "promptCn": "我还没有决定是否接受这个项目。"
+    },
+    "hanabira-example-n2-0198": {
+      "meaningCn": "他能否成功目前还无法预测。",
+      "promptCn": "他能否成功目前还无法预测。"
+    },
+    "hanabira-example-n2-0199": {
+      "meaningCn": "对于这个问题是简单还是困难，意见不一。",
+      "promptCn": "对于这个问题是简单还是困难，意见不一。"
+    },
+    "hanabira-example-n2-0200": {
+      "meaningCn": "他应该自己选择是领导者还是追随者。",
+      "promptCn": "他应该自己选择是领导者还是追随者。"
+    },
+    "hanabira-example-n2-0201": {
+      "meaningCn": "正是因为失败，我才懂得了成功的意义。",
+      "promptCn": "正是因为失败，我才懂得了成功的意义。"
+    },
+    "hanabira-example-n2-0202": {
+      "meaningCn": "正是因为经历了磨难，才有了今天的我。",
+      "promptCn": "正是因为经历了磨难，才有了今天的我。"
+    },
+    "hanabira-example-n2-0203": {
+      "meaningCn": "他之所以受欢迎，正是因为他善良。",
+      "promptCn": "他之所以受欢迎，正是因为他善良。"
+    },
+    "hanabira-example-n2-0204": {
+      "meaningCn": "我之所以能很好地理解这个问题，正是因为我有过往的经验。",
+      "promptCn": "我之所以能很好地理解这个问题，正是因为我有过往的经验。"
+    },
+    "hanabira-example-n2-0205": {
+      "meaningCn": "从他的表情来看，肯定是发生了什么不好的事情。",
+      "promptCn": "从他的表情来看，肯定是发生了什么不好的事情。"
+    },
+    "hanabira-example-n2-0206": {
+      "meaningCn": "从这道菜的外观来看，看起来并不好吃。",
+      "promptCn": "从这道菜的外观来看，看起来并不好吃。"
+    },
+    "hanabira-example-n2-0207": {
+      "meaningCn": "考虑到她的考试成绩，她想通过也很难。",
+      "promptCn": "考虑到她的考试成绩，她想通过也很难。"
+    },
+    "hanabira-example-n2-0208": {
+      "meaningCn": "从电影的标题来看，我觉得没什么意思。",
+      "promptCn": "从电影的标题来看，我觉得没什么意思。"
+    },
+    "hanabira-example-n2-0209": {
+      "meaningCn": "考虑到他们的经验，这项工作可能会很困难。",
+      "promptCn": "考虑到他们的经验，这项工作可能会很困难。"
+    },
+    "hanabira-example-n2-0210": {
+      "meaningCn": "从口碑来看，那家餐厅非常好吃。",
+      "promptCn": "从口碑来看，那家餐厅非常好吃。"
+    },
+    "hanabira-example-n2-0211": {
+      "meaningCn": "考虑到价格，该产品的质量似乎很高。",
+      "promptCn": "考虑到价格，该产品的质量似乎很高。"
+    },
+    "hanabira-example-n2-0212": {
+      "meaningCn": "对于这个区域来说，考虑到交通便利，还是方便的。",
+      "promptCn": "对于这个区域来说，考虑到交通便利，还是方便的。"
+    },
+    "hanabira-example-n2-0213": {
+      "meaningCn": "下雨并不意味着比赛就会取消。",
+      "promptCn": "下雨并不意味着比赛就会取消。"
+    },
+    "hanabira-example-n2-0214": {
+      "meaningCn": "仅仅因为他出名并不意味着他的观点总是正确的。",
+      "promptCn": "仅仅因为他出名并不意味着他的观点总是正确的。"
+    },
+    "hanabira-example-n2-0215": {
+      "meaningCn": "仅仅因为这汤辣并不意味着每个人都会觉得辣。",
+      "promptCn": "仅仅因为这汤辣并不意味着每个人都会觉得辣。"
+    },
+    "hanabira-example-n2-0216": {
+      "meaningCn": "她哭并不一定意味着她很伤心。",
+      "promptCn": "她哭并不一定意味着她很伤心。"
+    },
+    "hanabira-example-n2-0217": {
+      "meaningCn": "我从早上九点工作到晚上五点。",
+      "promptCn": "我从早上九点工作到晚上五点。"
+    },
+    "hanabira-example-n2-0218": {
+      "meaningCn": "子弹头列车从东京开往大阪。",
+      "promptCn": "子弹头列车从东京开往大阪。"
+    },
+    "hanabira-example-n2-0219": {
+      "meaningCn": "许多花在春天和夏天之间绽放。",
+      "promptCn": "许多花在春天和夏天之间绽放。"
+    },
+    "hanabira-example-n2-0220": {
+      "meaningCn": "对于很多人来说，20岁到30岁之间大学毕业并开始工作是很常见的。",
+      "promptCn": "对于很多人来说，20岁到30岁之间大学毕业并开始工作是很常见的。"
+    },
+    "hanabira-example-n2-0221": {
+      "meaningCn": "自从我通过了考试，我就必须努力工作。",
+      "promptCn": "自从我通过了考试，我就必须努力工作。"
+    },
+    "hanabira-example-n2-0222": {
+      "meaningCn": "既然我做出了承诺，我就必须遵守。",
+      "promptCn": "既然我做出了承诺，我就必须遵守。"
+    },
+    "hanabira-example-n2-0223": {
+      "meaningCn": "因为这部电影很有趣，所以我也想给我的朋友们看。",
+      "promptCn": "因为这部电影很有趣，所以我也想给我的朋友们看。"
+    },
+    "hanabira-example-n2-0224": {
+      "meaningCn": "既然她求我帮忙，我就必须帮她。",
+      "promptCn": "既然她求我帮忙，我就必须帮她。"
+    },
+    "hanabira-example-n2-0225": {
+      "meaningCn": "就成本而言，这个计划很划算。",
+      "promptCn": "就成本而言，这个计划很划算。"
+    },
+    "hanabira-example-n2-0226": {
+      "meaningCn": "在她看来，总统的决定是可以理解的。",
+      "promptCn": "在她看来，总统的决定是可以理解的。"
+    },
+    "hanabira-example-n2-0227": {
+      "meaningCn": "论能力，他是队里最好的。",
+      "promptCn": "论能力，他是队里最好的。"
+    },
+    "hanabira-example-n2-0228": {
+      "meaningCn": "从健康角度来说，这种食物并不好。",
+      "promptCn": "从健康角度来说，这种食物并不好。"
+    },
+    "hanabira-example-n2-0229": {
+      "meaningCn": "从价格上来说，这款产品是最划算的。",
+      "promptCn": "从价格上来说，这款产品是最划算的。"
+    },
+    "hanabira-example-n2-0230": {
+      "meaningCn": "就口味而言，我觉得这家餐厅很好吃。",
+      "promptCn": "就口味而言，我觉得这家餐厅很好吃。"
+    },
+    "hanabira-example-n2-0231": {
+      "meaningCn": "从方便的角度来说，这套公寓的位置是最好的。",
+      "promptCn": "从方便的角度来说，这套公寓的位置是最好的。"
+    },
+    "hanabira-example-n2-0232": {
+      "meaningCn": "从健康的角度来看，每天锻炼身体很重要。",
+      "promptCn": "从健康的角度来看，每天锻炼身体很重要。"
+    },
+    "hanabira-example-n2-0233": {
+      "meaningCn": "他总是迟到，但他讨厌被人等。",
+      "promptCn": "他总是迟到，但他讨厌被人等。"
+    },
+    "hanabira-example-n2-0234": {
+      "meaningCn": "他说他很抱歉，但他还是继续做同样的事情。",
+      "promptCn": "他说他很抱歉，但他还是继续做同样的事情。"
+    },
+    "hanabira-example-n2-0235": {
+      "meaningCn": "尽管个子很高，但他的篮球能力却很差。",
+      "promptCn": "尽管个子很高，但他的篮球能力却很差。"
+    },
+    "hanabira-example-n2-0236": {
+      "meaningCn": "这家店虽然名气很大，但是服务却很差。",
+      "promptCn": "这家店虽然名气很大，但是服务却很差。"
+    },
+    "hanabira-example-n2-0237": {
+      "meaningCn": "因为他每天坚持锻炼，所以身体很强壮。",
+      "promptCn": "因为他每天坚持锻炼，所以身体很强壮。"
+    },
+    "hanabira-example-n2-0238": {
+      "meaningCn": "这家店因为服务好所以总是人满为患。",
+      "promptCn": "这家店因为服务好所以总是人满为患。"
+    },
+    "hanabira-example-n2-0239": {
+      "meaningCn": "她因为善良而受到大家的喜爱。",
+      "promptCn": "她因为善良而受到大家的喜爱。"
+    },
+    "hanabira-example-n2-0240": {
+      "meaningCn": "因为那家公司的声誉很好，所以作为工作场所很受欢迎。",
+      "promptCn": "因为那家公司的声誉很好，所以作为工作场所很受欢迎。"
+    },
+    "hanabira-example-n2-0241": {
+      "meaningCn": "我很惊讶他突然回国了。",
+      "promptCn": "我很惊讶他突然回国了。"
+    },
+    "hanabira-example-n2-0242": {
+      "meaningCn": "她获得冠军让我很感动。",
+      "promptCn": "她获得冠军让我很感动。"
+    },
+    "hanabira-example-n2-0243": {
+      "meaningCn": "我很生气他总是迟到。",
+      "promptCn": "我很生气他总是迟到。"
+    },
+    "hanabira-example-n2-0244": {
+      "meaningCn": "我没有意识到她有多美丽。",
+      "promptCn": "我没有意识到她有多美丽。"
+    },
+    "hanabira-example-n2-0245": {
+      "meaningCn": "在日本，人们决定靠左侧行驶。",
+      "promptCn": "在日本，人们决定靠左侧行驶。"
+    },
+    "hanabira-example-n2-0246": {
+      "meaningCn": "根据公司规定，我们必须穿制服。",
+      "promptCn": "根据公司规定，我们必须穿制服。"
+    },
+    "hanabira-example-n2-0247": {
+      "meaningCn": "她预计明天就要结婚了。",
+      "promptCn": "她预计明天就要结婚了。"
+    },
+    "hanabira-example-n2-0248": {
+      "meaningCn": "据说（或普遍认为）该产品质量很高。",
+      "promptCn": "据说（或普遍认为）该产品质量很高。"
+    },
+    "hanabira-example-n2-0249": {
+      "meaningCn": "只要我有钱，我就快乐。",
+      "promptCn": "只要我有钱，我就快乐。"
+    },
+    "hanabira-example-n2-0250": {
+      "meaningCn": "只要我通过考试，我就能毕业。",
+      "promptCn": "只要我通过考试，我就能毕业。"
+    },
+    "hanabira-example-n2-0251": {
+      "meaningCn": "只要我多吃蔬菜，妈妈就会高兴。",
+      "promptCn": "只要我多吃蔬菜，妈妈就会高兴。"
+    },
+    "hanabira-example-n2-0252": {
+      "meaningCn": "只要能支付我的交通费，我就可以去任何地方。",
+      "promptCn": "只要能支付我的交通费，我就可以去任何地方。"
+    },
+    "hanabira-example-n2-0253": {
+      "meaningCn": "由于截止日期临近，我只好加班。",
+      "promptCn": "由于截止日期临近，我只好加班。"
+    },
+    "hanabira-example-n2-0254": {
+      "meaningCn": "由于火车晚点，我只好打车。",
+      "promptCn": "由于火车晚点，我只好打车。"
+    },
+    "hanabira-example-n2-0255": {
+      "meaningCn": "我实在无法接受她的解释，但现在我别无选择，只能相信她。",
+      "promptCn": "我实在无法接受她的解释，但现在我别无选择，只能相信她。"
+    },
+    "hanabira-example-n2-0256": {
+      "meaningCn": "在这种情况下，我们别无选择，只能修改新的计划。",
+      "promptCn": "在这种情况下，我们别无选择，只能修改新的计划。"
+    },
+    "hanabira-example-n2-0257": {
+      "meaningCn": "当我听到这首歌时，我会情不自禁地唱起来。",
+      "promptCn": "当我听到这首歌时，我会情不自禁地唱起来。"
+    },
+    "hanabira-example-n2-0258": {
+      "meaningCn": "当我看到她哭的时候，我忍不住去安慰她。",
+      "promptCn": "当我看到她哭的时候，我忍不住去安慰她。"
+    },
+    "hanabira-example-n2-0259": {
+      "meaningCn": "这本小说太有趣了，我忍不住读起来。",
+      "promptCn": "这本小说太有趣了，我忍不住读起来。"
+    },
+    "hanabira-example-n2-0260": {
+      "meaningCn": "当他面对美味的食物时，他会忍不住去吃。",
+      "promptCn": "当他面对美味的食物时，他会忍不住去吃。"
+    },
+    "hanabira-example-n2-0261": {
+      "meaningCn": "看来这场雨不会停。",
+      "promptCn": "看来这场雨不会停。"
+    },
+    "hanabira-example-n2-0262": {
+      "meaningCn": "看起来他不会通过考试。",
+      "promptCn": "看起来他不会通过考试。"
+    },
+    "hanabira-example-n2-0263": {
+      "meaningCn": "这道菜看起来不太好吃。",
+      "promptCn": "这道菜看起来不太好吃。"
+    },
+    "hanabira-example-n2-0264": {
+      "meaningCn": "这个房间看起来不太干净。",
+      "promptCn": "这个房间看起来不太干净。"
+    },
+    "hanabira-example-n2-0265": {
+      "meaningCn": "我刚打过去，她就接了。",
+      "promptCn": "我刚打过去，她就接了。"
+    },
+    "hanabira-example-n2-0266": {
+      "meaningCn": "我们一起飞，飞机就开始摇晃。",
+      "promptCn": "我们一起飞，飞机就开始摇晃。"
+    },
+    "hanabira-example-n2-0267": {
+      "meaningCn": "我刚去购物，就开始下雨了。",
+      "promptCn": "我刚去购物，就开始下雨了。"
+    },
+    "hanabira-example-n2-0268": {
+      "meaningCn": "我一结束工作，老板就带来了更多的任务。",
+      "promptCn": "我一结束工作，老板就带来了更多的任务。"
+    },
+    "hanabira-example-n2-0269": {
+      "meaningCn": "自从他离开公司后，就再没有联系过。",
+      "promptCn": "自从他离开公司后，就再没有联系过。"
+    },
+    "hanabira-example-n2-0270": {
+      "meaningCn": "我昨天早上发了邮件，到现在还没有回复。",
+      "promptCn": "我昨天早上发了邮件，到现在还没有回复。"
+    },
+    "hanabira-example-n2-0271": {
+      "meaningCn": "距离我小时候最后一次出海已经有20年了。",
+      "promptCn": "距离我小时候最后一次出海已经有20年了。"
+    },
+    "hanabira-example-n2-0272": {
+      "meaningCn": "自从和她分手后，我就不再想她了。",
+      "promptCn": "自从和她分手后，我就不再想她了。"
+    },
+    "hanabira-example-n2-0273": {
+      "meaningCn": "不愧是他的日语能力不错，能像当地人一样说话。",
+      "promptCn": "不愧是他的日语能力不错，能像当地人一样说话。"
+    },
+    "hanabira-example-n2-0274": {
+      "meaningCn": "难怪这家餐厅很有名；食物非常美味。",
+      "promptCn": "难怪这家餐厅很有名；食物非常美味。"
+    },
+    "hanabira-example-n2-0275": {
+      "meaningCn": "她经验丰富，这是理所当然的。她轻松地解决了这个问题。",
+      "promptCn": "她经验丰富，这是理所当然的。她轻松地解决了这个问题。"
+    },
+    "hanabira-example-n2-0276": {
+      "meaningCn": "作为一个优秀的学生，他总是在考试中取得高分。",
+      "promptCn": "作为一个优秀的学生，他总是在考试中取得高分。"
+    },
+    "hanabira-example-n2-0277": {
+      "meaningCn": "至少我们只是失败了——情况可能会更糟。",
+      "promptCn": "至少我们只是失败了——情况可能会更糟。"
+    },
+    "hanabira-example-n2-0278": {
+      "meaningCn": "至少我只是迟到了。总比根本来不了要好。",
+      "promptCn": "至少我只是迟到了。总比根本来不了要好。"
+    },
+    "hanabira-example-n2-0279": {
+      "meaningCn": "至少我们有一个小房间；这比根本没有空间好。",
+      "promptCn": "至少我们有一个小房间；这比根本没有空间好。"
+    },
+    "hanabira-example-n2-0280": {
+      "meaningCn": "至少他不会结婚——事情可能会变得复杂。",
+      "promptCn": "至少他不会结婚——事情可能会变得复杂。"
+    },
+    "hanabira-example-n2-0281": {
+      "meaningCn": "我刚刚打扫完，房间现在干净多了。",
+      "promptCn": "我刚刚打扫完，房间现在干净多了。"
+    },
+    "hanabira-example-n2-0282": {
+      "meaningCn": "我刚刚问过他，他似乎也不知道答案。",
+      "promptCn": "我刚刚问过他，他似乎也不知道答案。"
+    },
+    "hanabira-example-n2-0283": {
+      "meaningCn": "我一交作业，老师就发现了一个错误。",
+      "promptCn": "我一交作业，老师就发现了一个错误。"
+    },
+    "hanabira-example-n2-0284": {
+      "meaningCn": "吃完午饭后，我开始感觉好多了。",
+      "promptCn": "吃完午饭后，我开始感觉好多了。"
+    },
+    "hanabira-example-n2-0285": {
+      "meaningCn": "我一打开门，就下雨了。",
+      "promptCn": "我一打开门，就下雨了。"
+    },
+    "hanabira-example-n2-0286": {
+      "meaningCn": "正当我打电话时，电池没电了。",
+      "promptCn": "正当我打电话时，电池没电了。"
+    },
+    "hanabira-example-n2-0287": {
+      "meaningCn": "我一见到她，一首怀旧的歌曲就开始播放。",
+      "promptCn": "我一见到她，一首怀旧的歌曲就开始播放。"
+    },
+    "hanabira-example-n2-0288": {
+      "meaningCn": "考试一结束，我就放松了。",
+      "promptCn": "考试一结束，我就放松了。"
+    },
+    "hanabira-example-n2-0289": {
+      "meaningCn": "他的房间里满是垃圾。",
+      "promptCn": "他的房间里满是垃圾。"
+    },
+    "hanabira-example-n2-0290": {
+      "meaningCn": "这个海滩布满了岩石，很难游泳。",
+      "promptCn": "这个海滩布满了岩石，很难游泳。"
+    },
+    "hanabira-example-n2-0291": {
+      "meaningCn": "他的脸上布满了皱纹。",
+      "promptCn": "他的脸上布满了皱纹。"
+    },
+    "hanabira-example-n2-0292": {
+      "meaningCn": "这个苹果布满了虫洞。",
+      "promptCn": "这个苹果布满了虫洞。"
+    },
+    "hanabira-example-n2-0293": {
+      "meaningCn": "雪下得这么大，我们不可能按时到学校了。",
+      "promptCn": "雪下得这么大，我们不可能按时到学校了。"
+    },
+    "hanabira-example-n2-0294": {
+      "meaningCn": "由于他不会游泳，所以他不可能游到泳池的另一边。",
+      "promptCn": "由于他不会游泳，所以他不可能游到泳池的另一边。"
+    },
+    "hanabira-example-n2-0295": {
+      "meaningCn": "她太胆小了，晚上不可能一个人去公园。",
+      "promptCn": "她太胆小了，晚上不可能一个人去公园。"
+    },
+    "hanabira-example-n2-0296": {
+      "meaningCn": "在这么短的时间内读完整本书是不可能的。",
+      "promptCn": "在这么短的时间内读完整本书是不可能的。"
+    },
+    "hanabira-example-n2-0297": {
+      "meaningCn": "他一边看电视一边做作业。",
+      "promptCn": "他一边看电视一边做作业。"
+    },
+    "hanabira-example-n2-0298": {
+      "meaningCn": "虽然这几天感觉很忙，但我还是每天坚持锻炼。",
+      "promptCn": "虽然这几天感觉很忙，但我还是每天坚持锻炼。"
+    },
+    "hanabira-example-n2-0299": {
+      "meaningCn": "她哭着，但脸上仍带着微笑说再见。",
+      "promptCn": "她哭着，但脸上仍带着微笑说再见。"
+    },
+    "hanabira-example-n2-0300": {
+      "meaningCn": "尽管被雨淋湿了，他仍继续前行。",
+      "promptCn": "尽管被雨淋湿了，他仍继续前行。"
+    },
+    "hanabira-example-n2-0301": {
+      "meaningCn": "全球变暖正在进行中。",
+      "promptCn": "全球变暖正在进行中。"
+    },
+    "hanabira-example-n2-0302": {
+      "meaningCn": "这个城镇正在迅速发展。",
+      "promptCn": "这个城镇正在迅速发展。"
+    },
+    "hanabira-example-n2-0303": {
+      "meaningCn": "孩子们正在长大。",
+      "promptCn": "孩子们正在长大。"
+    },
+    "hanabira-example-n2-0304": {
+      "meaningCn": "经济正在复苏。",
+      "promptCn": "经济正在复苏。"
+    },
+    "hanabira-example-n2-0305": {
+      "meaningCn": "我把窗户开着，房间里很冷。",
+      "promptCn": "我把窗户开着，房间里很冷。"
+    },
+    "hanabira-example-n2-0306": {
+      "meaningCn": "他喜欢听音乐，总是戴着耳机。",
+      "promptCn": "他喜欢听音乐，总是戴着耳机。"
+    },
+    "hanabira-example-n2-0307": {
+      "meaningCn": "孩子把玩具留在地板上，没有收起来。",
+      "promptCn": "孩子把玩具留在地板上，没有收起来。"
+    },
+    "hanabira-example-n2-0308": {
+      "meaningCn": "昨晚我很忙，所以我打开电视就睡着了。",
+      "promptCn": "昨晚我很忙，所以我打开电视就睡着了。"
+    },
+    "hanabira-example-n2-0309": {
+      "meaningCn": "她穿着看起来成熟的衣服。",
+      "promptCn": "她穿着看起来成熟的衣服。"
+    },
+    "hanabira-example-n2-0310": {
+      "meaningCn": "这个解释似乎很难理解。",
+      "promptCn": "这个解释似乎很难理解。"
+    },
+    "hanabira-example-n2-0311": {
+      "meaningCn": "他的脸看起来很疲惫。",
+      "promptCn": "他的脸看起来很疲惫。"
+    },
+    "hanabira-example-n2-0312": {
+      "meaningCn": "这个房间感觉有点冷。",
+      "promptCn": "这个房间感觉有点冷。"
+    },
+    "hanabira-example-n2-0313": {
+      "meaningCn": "我太忙了，根本没时间去玩。",
+      "promptCn": "我太忙了，根本没时间去玩。"
+    },
+    "hanabira-example-n2-0314": {
+      "meaningCn": "天气太冷了；我不能一直在外面等着。",
+      "promptCn": "天气太冷了；我不能一直在外面等着。"
+    },
+    "hanabira-example-n2-0315": {
+      "meaningCn": "这个问题太重要了，不容忽视。",
+      "promptCn": "这个问题太重要了，不容忽视。"
+    },
+    "hanabira-example-n2-0316": {
+      "meaningCn": "我无法忍受她的态度，所以我不能保持沉默。",
+      "promptCn": "我无法忍受她的态度，所以我不能保持沉默。"
+    },
+    "hanabira-example-n2-0317": {
+      "meaningCn": "我受不了这么热。",
+      "promptCn": "我受不了这么热。"
+    },
+    "hanabira-example-n2-0318": {
+      "meaningCn": "他的言论太粗鲁了，我无法忍受。",
+      "promptCn": "他的言论太粗鲁了，我无法忍受。"
+    },
+    "hanabira-example-n2-0319": {
+      "meaningCn": "这部电影太感人了，我无法忍受它如何留在我的脑海里。",
+      "promptCn": "这部电影太感人了，我无法忍受它如何留在我的脑海里。"
+    },
+    "hanabira-example-n2-0320": {
+      "meaningCn": "她的笑容是如此耀眼，令人无法抗拒。",
+      "promptCn": "她的笑容是如此耀眼，令人无法抗拒。"
+    },
+    "hanabira-example-n2-0321": {
+      "meaningCn": "完成作业之前你不能去玩。",
+      "promptCn": "完成作业之前你不能去玩。"
+    },
+    "hanabira-example-n2-0322": {
+      "meaningCn": "饭后才能吃甜点。",
+      "promptCn": "饭后才能吃甜点。"
+    },
+    "hanabira-example-n2-0323": {
+      "meaningCn": "买票后才能观看电影。",
+      "promptCn": "买票后才能观看电影。"
+    },
+    "hanabira-example-n2-0324": {
+      "meaningCn": "考试结束之前你不能请假。",
+      "promptCn": "考试结束之前你不能请假。"
+    },
+    "hanabira-example-n2-0325": {
+      "meaningCn": "只有学习才能通过考试。",
+      "promptCn": "只有学习才能通过考试。"
+    },
+    "hanabira-example-n2-0326": {
+      "meaningCn": "只有诚实，才能理解对方的感受。",
+      "promptCn": "只有诚实，才能理解对方的感受。"
+    },
+    "hanabira-example-n2-0327": {
+      "meaningCn": "只有在安静中，心才能平静。",
+      "promptCn": "只有在安静中，心才能平静。"
+    },
+    "hanabira-example-n2-0328": {
+      "meaningCn": "正因为我们是朋友，所以互相帮助是理所当然的。",
+      "promptCn": "正因为我们是朋友，所以互相帮助是理所当然的。"
+    },
+    "hanabira-example-n2-0329": {
+      "meaningCn": "我今天非常无聊。",
+      "promptCn": "我今天非常无聊。"
+    },
+    "hanabira-example-n2-0330": {
+      "meaningCn": "我很着急，因为考试快到了。",
+      "promptCn": "我很着急，因为考试快到了。"
+    },
+    "hanabira-example-n2-0331": {
+      "meaningCn": "我头疼得受不了——我想早点走。",
+      "promptCn": "我头疼得受不了——我想早点走。"
+    },
+    "hanabira-example-n2-0332": {
+      "meaningCn": "我忍不住继续思考新游戏。",
+      "promptCn": "我忍不住继续思考新游戏。"
+    },
+    "hanabira-example-n2-0333": {
+      "meaningCn": "这热度是绝对无法忍受的。",
+      "promptCn": "这热度是绝对无法忍受的。"
+    },
+    "hanabira-example-n2-0334": {
+      "meaningCn": "我太喜欢她了，简直无法忍受。",
+      "promptCn": "我太喜欢她了，简直无法忍受。"
+    },
+    "hanabira-example-n2-0335": {
+      "meaningCn": "这个房间冷得令人难以忍受。",
+      "promptCn": "这个房间冷得令人难以忍受。"
+    },
+    "hanabira-example-n2-0336": {
+      "meaningCn": "看到他的态度，我感到非常愤怒。",
+      "promptCn": "看到他的态度，我感到非常愤怒。"
+    },
+    "hanabira-example-n2-0337": {
+      "meaningCn": "我不禁对他的精彩表演感到惊讶。",
+      "promptCn": "我不禁对他的精彩表演感到惊讶。"
+    },
+    "hanabira-example-n2-0338": {
+      "meaningCn": "我无法停止担心考试结果。",
+      "promptCn": "我无法停止担心考试结果。"
+    },
+    "hanabira-example-n2-0339": {
+      "meaningCn": "我的朋友搬走了，我感到难以忍受的孤独。",
+      "promptCn": "我的朋友搬走了，我感到难以忍受的孤独。"
+    },
+    "hanabira-example-n2-0340": {
+      "meaningCn": "这是我第一次出国旅行，心里非常着急。",
+      "promptCn": "这是我第一次出国旅行，心里非常着急。"
+    },
+    "hanabira-example-n2-0341": {
+      "meaningCn": "我不能一直让别人帮助我。",
+      "promptCn": "我不能一直让别人帮助我。"
+    },
+    "hanabira-example-n2-0342": {
+      "meaningCn": "我不能只做我喜欢的工作。",
+      "promptCn": "我不能只做我喜欢的工作。"
+    },
+    "hanabira-example-n2-0343": {
+      "meaningCn": "我不能永远依赖父母。",
+      "promptCn": "我不能永远依赖父母。"
+    },
+    "hanabira-example-n2-0344": {
+      "meaningCn": "我不能一直休息；我也有工作要做。",
+      "promptCn": "我不能一直休息；我也有工作要做。"
+    },
+    "hanabira-example-n2-0345": {
+      "meaningCn": "他不是一个优秀的学生吗？",
+      "promptCn": "他不是一个优秀的学生吗？"
+    },
+    "hanabira-example-n2-0346": {
+      "meaningCn": "这道菜不好吃吗？",
+      "promptCn": "这道菜不好吃吗？"
+    },
+    "hanabira-example-n2-0347": {
+      "meaningCn": "你不是她的朋友吗？",
+      "promptCn": "你不是她的朋友吗？"
+    },
+    "hanabira-example-n2-0348": {
+      "meaningCn": "明天休息一天，对吗？",
+      "promptCn": "明天休息一天，对吗？"
+    },
+    "hanabira-example-n2-0349": {
+      "meaningCn": "你不可以在这里吸烟。",
+      "promptCn": "你不可以在这里吸烟。"
+    },
+    "hanabira-example-n2-0350": {
+      "meaningCn": "你不能将这个秘密透露给别人。",
+      "promptCn": "你不能将这个秘密透露给别人。"
+    },
+    "hanabira-example-n2-0351": {
+      "meaningCn": "你不能进入这个房间。",
+      "promptCn": "你不能进入这个房间。"
+    },
+    "hanabira-example-n2-0352": {
+      "meaningCn": "您不得酒后驾车。",
+      "promptCn": "您不得酒后驾车。"
+    },
+    "hanabira-example-n2-0353": {
+      "meaningCn": "为了通过考试，他学习到熬夜的程度。",
+      "promptCn": "为了通过考试，他学习到熬夜的程度。"
+    },
+    "hanabira-example-n2-0354": {
+      "meaningCn": "我非常想要这个产品，以至于我早起排队购买。",
+      "promptCn": "我非常想要这个产品，以至于我早起排队购买。"
+    },
+    "hanabira-example-n2-0355": {
+      "meaningCn": "为了帮助他，她甚至借钱支付手术费。",
+      "promptCn": "为了帮助他，她甚至借钱支付手术费。"
+    },
+    "hanabira-example-n2-0356": {
+      "meaningCn": "为了使项目取得成功，经理甚至在节假日也加班。",
+      "promptCn": "为了使项目取得成功，经理甚至在节假日也加班。"
+    },
+    "hanabira-example-n2-0357": {
+      "meaningCn": "既然他每天都在学习，那么通过考试也是理所当然的事情。",
+      "promptCn": "既然他每天都在学习，那么通过考试也是理所当然的事情。"
+    },
+    "hanabira-example-n2-0358": {
+      "meaningCn": "因为那家饭馆的饭菜很好吃，难怪总是爆满。",
+      "promptCn": "因为那家饭馆的饭菜很好吃，难怪总是爆满。"
+    },
+    "hanabira-example-n2-0359": {
+      "meaningCn": "她每天晚上都练习，自然熟练了。",
+      "promptCn": "她每天晚上都练习，自然熟练了。"
+    },
+    "hanabira-example-n2-0360": {
+      "meaningCn": "他的工作很成功，所以他变得富有是理所当然的。",
+      "promptCn": "他的工作很成功，所以他变得富有是理所当然的。"
+    },
+    "hanabira-example-n2-0361": {
+      "meaningCn": "年轻人的热情是值得尊重的。",
+      "promptCn": "年轻人的热情是值得尊重的。"
+    },
+    "hanabira-example-n2-0362": {
+      "meaningCn": "如果你跳过一天的学习，你就会落后，就是这样。",
+      "promptCn": "如果你跳过一天的学习，你就会落后，就是这样。"
+    },
+    "hanabira-example-n2-0363": {
+      "meaningCn": "要想成功，就必须面对困难，事情就是这样。",
+      "promptCn": "要想成功，就必须面对困难，事情就是这样。"
+    },
+    "hanabira-example-n2-0364": {
+      "meaningCn": "有人说，友谊是用金钱买不来的。",
+      "promptCn": "有人说，友谊是用金钱买不来的。"
+    },
+    "hanabira-example-n2-0365": {
+      "meaningCn": "难道就没有什么办法可以完成这个工作吗？",
+      "promptCn": "难道就没有什么办法可以完成这个工作吗？"
+    },
+    "hanabira-example-n2-0366": {
+      "meaningCn": "下一次考试我们就不能通过吗？",
+      "promptCn": "下一次考试我们就不能通过吗？"
+    },
+    "hanabira-example-n2-0367": {
+      "meaningCn": "难道就没有办法登上拥挤的火车吗？",
+      "promptCn": "难道就没有办法登上拥挤的火车吗？"
+    },
+    "hanabira-example-n2-0368": {
+      "meaningCn": "难道就没有什么办法可以和她和解吗？",
+      "promptCn": "难道就没有什么办法可以和她和解吗？"
+    },
+    "hanabira-example-n2-0369": {
+      "meaningCn": "我完全按照老师说的做作业。",
+      "promptCn": "我完全按照老师说的做作业。"
+    },
+    "hanabira-example-n2-0370": {
+      "meaningCn": "请按照这张地图步行。",
+      "promptCn": "请按照这张地图步行。"
+    },
+    "hanabira-example-n2-0371": {
+      "meaningCn": "他总是遵守规则。",
+      "promptCn": "他总是遵守规则。"
+    },
+    "hanabira-example-n2-0372": {
+      "meaningCn": "据我所知，那条街晚上和白天一样热闹。",
+      "promptCn": "据我所知，那条街晚上和白天一样热闹。"
+    },
+    "hanabira-example-n2-0373": {
+      "meaningCn": "在休息日，我会做一些事情，比如看电影或去购物。",
+      "promptCn": "在休息日，我会做一些事情，比如看电影或去购物。"
+    },
+    "hanabira-example-n2-0374": {
+      "meaningCn": "她想去澳大利亚或新西兰等地。",
+      "promptCn": "她想去澳大利亚或新西兰等地。"
+    },
+    "hanabira-example-n2-0375": {
+      "meaningCn": "听说今天的天气有时晴有时阴。",
+      "promptCn": "听说今天的天气有时晴有时阴。"
+    },
+    "hanabira-example-n2-0376": {
+      "meaningCn": "他把时间花在打棒球和踢足球等上。",
+      "promptCn": "他把时间花在打棒球和踢足球等上。"
+    },
+    "hanabira-example-n2-0377": {
+      "meaningCn": "我正要出去。",
+      "promptCn": "我正要出去。"
+    },
+    "hanabira-example-n2-0378": {
+      "meaningCn": "我正在看电影。",
+      "promptCn": "我正在看电影。"
+    },
+    "hanabira-example-n2-0379": {
+      "meaningCn": "我打算在一个好（美味）的地方吃饭。",
+      "promptCn": "我打算在一个好（美味）的地方吃饭。"
+    },
+    "hanabira-example-n2-0380": {
+      "meaningCn": "他在自己忙的时候帮助了我。",
+      "promptCn": "他在自己忙的时候帮助了我。"
+    },
+    "hanabira-example-n2-0381": {
+      "meaningCn": "他不仅擅长唱歌，听起来还像一位专业歌手。",
+      "promptCn": "他不仅擅长唱歌，听起来还像一位专业歌手。"
+    },
+    "hanabira-example-n2-0382": {
+      "meaningCn": "这道菜不仅美味，而且绝对是最好的。",
+      "promptCn": "这道菜不仅美味，而且绝对是最好的。"
+    },
+    "hanabira-example-n2-0383": {
+      "meaningCn": "她不仅仅是一个朋友；她不仅仅是一个朋友。她是我最好的朋友。",
+      "promptCn": "她不仅仅是一个朋友；她不仅仅是一个朋友。她是我最好的朋友。"
+    },
+    "hanabira-example-n2-0384": {
+      "meaningCn": "他不仅会说英语，还会说其他三种语言。",
+      "promptCn": "他不仅会说英语，还会说其他三种语言。"
+    },
+    "hanabira-example-n2-0385": {
+      "meaningCn": "现在不是嘲笑他的错误的时候——我们正在犯同样的错误。",
+      "promptCn": "现在不是嘲笑他的错误的时候——我们正在犯同样的错误。"
+    },
+    "hanabira-example-n2-0386": {
+      "meaningCn": "当你生病卧床时，就远不是玩耍的时候了。",
+      "promptCn": "当你生病卧床时，就远不是玩耍的时候了。"
+    },
+    "hanabira-example-n2-0387": {
+      "meaningCn": "由于考试快到了，我不可能看电影了。",
+      "promptCn": "由于考试快到了，我不可能看电影了。"
+    },
+    "hanabira-example-n2-0388": {
+      "meaningCn": "工作太忙，根本没有时间去旅行。",
+      "promptCn": "工作太忙，根本没有时间去旅行。"
+    },
+    "hanabira-example-n2-0389": {
+      "meaningCn": "如果明天下雨，我们就带伞吧。",
+      "promptCn": "如果明天下雨，我们就带伞吧。"
+    },
+    "hanabira-example-n2-0390": {
+      "meaningCn": "如果这个蛋糕不好吃，可能没有人会吃它。",
+      "promptCn": "如果这个蛋糕不好吃，可能没有人会吃它。"
+    },
+    "hanabira-example-n2-0391": {
+      "meaningCn": "如果他生病了，他需要尽快去医院。",
+      "promptCn": "如果他生病了，他需要尽快去医院。"
+    },
+    "hanabira-example-n2-0392": {
+      "meaningCn": "如果她是学生，这家餐厅可能会有折扣。",
+      "promptCn": "如果她是学生，这家餐厅可能会有折扣。"
+    },
+    "hanabira-example-n2-0393": {
+      "meaningCn": "即使下雨，我们也不会取消比赛。",
+      "promptCn": "即使下雨，我们也不会取消比赛。"
+    },
+    "hanabira-example-n2-0394": {
+      "meaningCn": "即使这个蛋糕不好吃，我也打算吃它。",
+      "promptCn": "即使这个蛋糕不好吃，我也打算吃它。"
+    },
+    "hanabira-example-n2-0395": {
+      "meaningCn": "即使她迟到了，我们也会继续等待。",
+      "promptCn": "即使她迟到了，我们也会继续等待。"
+    },
+    "hanabira-example-n2-0396": {
+      "meaningCn": "即使我很忙，我也要遵守对朋友的承诺。",
+      "promptCn": "即使我很忙，我也要遵守对朋友的承诺。"
+    },
+    "hanabira-example-n2-0397": {
+      "meaningCn": "他一到，聚会就开始了。",
+      "promptCn": "他一到，聚会就开始了。"
+    },
+    "hanabira-example-n2-0398": {
+      "meaningCn": "随着季节的变化，服装时尚也在发生变化。",
+      "promptCn": "随着季节的变化，服装时尚也在发生变化。"
+    },
+    "hanabira-example-n2-0399": {
+      "meaningCn": "随着你的成长，获得各种经验很重要。",
+      "promptCn": "随着你的成长，获得各种经验很重要。"
+    },
+    "hanabira-example-n2-0400": {
+      "meaningCn": "随着技术的进步，便捷的应用程序数量不断增加。",
+      "promptCn": "随着技术的进步，便捷的应用程序数量不断增加。"
+    },
+    "hanabira-example-n2-0401": {
+      "meaningCn": "我在学习并不总是正确的。",
+      "promptCn": "我在学习并不总是正确的。"
+    },
+    "hanabira-example-n2-0402": {
+      "meaningCn": "贵的产品不一定是好产品。",
+      "promptCn": "贵的产品不一定是好产品。"
+    },
+    "hanabira-example-n2-0403": {
+      "meaningCn": "他不一定是对的。",
+      "promptCn": "他不一定是对的。"
+    },
+    "hanabira-example-n2-0404": {
+      "meaningCn": "不一定会下雨。",
+      "promptCn": "不一定会下雨。"
+    },
+    "hanabira-example-n2-0405": {
+      "meaningCn": "他不是不会来（他有可能会来）。",
+      "promptCn": "他不是不会来（他有可能会来）。"
+    },
+    "hanabira-example-n2-0406": {
+      "meaningCn": "解决这个问题并非不可能（可以解决）。",
+      "promptCn": "解决这个问题并非不可能（可以解决）。"
+    },
+    "hanabira-example-n2-0407": {
+      "meaningCn": "这项工作并非没有困难（它有一些困难）。",
+      "promptCn": "这项工作并非没有困难（它有一些困难）。"
+    },
+    "hanabira-example-n2-0408": {
+      "meaningCn": "她是对的并非不可能（她可能是对的）。",
+      "promptCn": "她是对的并非不可能（她可能是对的）。"
+    },
+    "hanabira-example-n2-0409": {
+      "meaningCn": "这个问题不是解决不了，而是很难。",
+      "promptCn": "这个问题不是解决不了，而是很难。"
+    },
+    "hanabira-example-n2-0410": {
+      "meaningCn": "不是不能见面，而是没有太多时间说话。",
+      "promptCn": "不是不能见面，而是没有太多时间说话。"
+    },
+    "hanabira-example-n2-0411": {
+      "meaningCn": "不是没钱，而是存起来比较好。",
+      "promptCn": "不是没钱，而是存起来比较好。"
+    },
+    "hanabira-example-n2-0412": {
+      "meaningCn": "不是这个游戏不有趣，而是其他游戏更好玩。",
+      "promptCn": "不是这个游戏不有趣，而是其他游戏更好玩。"
+    },
+    "hanabira-example-n2-0413": {
+      "meaningCn": "这部电影太感人了，我忍不住哭了。",
+      "promptCn": "这部电影太感人了，我忍不住哭了。"
+    },
+    "hanabira-example-n2-0414": {
+      "meaningCn": "当我看到她的笑容时，我就忍不住笑了。",
+      "promptCn": "当我看到她的笑容时，我就忍不住笑了。"
+    },
+    "hanabira-example-n2-0415": {
+      "meaningCn": "这房间太冷了，我不禁打了个冷颤。",
+      "promptCn": "这房间太冷了，我不禁打了个冷颤。"
+    },
+    "hanabira-example-n2-0416": {
+      "meaningCn": "他的故事很无聊，但我忍不住听。",
+      "promptCn": "他的故事很无聊，但我忍不住听。"
+    },
+    "hanabira-example-n2-0417": {
+      "meaningCn": "我一边看电视一边做作业。",
+      "promptCn": "我一边看电视一边做作业。"
+    },
+    "hanabira-example-n2-0418": {
+      "meaningCn": "她一边做饭一边唱歌。",
+      "promptCn": "她一边做饭一边唱歌。"
+    },
+    "hanabira-example-n2-0419": {
+      "meaningCn": "有很多人站在火车上看书。",
+      "promptCn": "有很多人站在火车上看书。"
+    },
+    "hanabira-example-n2-0420": {
+      "meaningCn": "我一边走路一边使用智能手机。",
+      "promptCn": "我一边走路一边使用智能手机。"
+    },
+    "hanabira-example-n2-0421": {
+      "meaningCn": "请在入学时准备必要的材料。",
+      "promptCn": "请在入学时准备必要的材料。"
+    },
+    "hanabira-example-n2-0422": {
+      "meaningCn": "许多人在新年之际制定目标。",
+      "promptCn": "许多人在新年之际制定目标。"
+    },
+    "hanabira-example-n2-0423": {
+      "meaningCn": "结婚后，双方家庭都会举行重要的仪式。",
+      "promptCn": "结婚后，双方家庭都会举行重要的仪式。"
+    },
+    "hanabira-example-n2-0424": {
+      "meaningCn": "开始新工作时，准备工作是必要的。",
+      "promptCn": "开始新工作时，准备工作是必要的。"
+    },
+    "hanabira-example-n2-0425": {
+      "meaningCn": "在这所大学里，英语课最受欢迎。",
+      "promptCn": "在这所大学里，英语课最受欢迎。"
+    },
+    "hanabira-example-n2-0426": {
+      "meaningCn": "在他的研究中，又有了新的发现。",
+      "promptCn": "在他的研究中，又有了新的发现。"
+    },
+    "hanabira-example-n2-0427": {
+      "meaningCn": "在体育节上，他表现得异常出色。",
+      "promptCn": "在体育节上，他表现得异常出色。"
+    },
+    "hanabira-example-n2-0428": {
+      "meaningCn": "对于环境问题，每个人都应该承担责任并采取相应行动。",
+      "promptCn": "对于环境问题，每个人都应该承担责任并采取相应行动。"
+    },
+    "hanabira-example-n2-0429": {
+      "meaningCn": "无论天气如何，今天的比赛都将举行。",
+      "promptCn": "无论天气如何，今天的比赛都将举行。"
+    },
+    "hanabira-example-n2-0430": {
+      "meaningCn": "无论年龄多大，他都在不断学习新事物。",
+      "promptCn": "无论年龄多大，他都在不断学习新事物。"
+    },
+    "hanabira-example-n2-0431": {
+      "meaningCn": "无论工作困难与否，她都继续努力。",
+      "promptCn": "无论工作困难与否，她都继续努力。"
+    },
+    "hanabira-example-n2-0432": {
+      "meaningCn": "无论经验如何，任何人都可以使用该程序。",
+      "promptCn": "无论经验如何，任何人都可以使用该程序。"
+    },
+    "hanabira-example-n2-0433": {
+      "meaningCn": "论厨艺，她是首屈一指的。",
+      "promptCn": "论厨艺，她是首屈一指的。"
+    },
+    "hanabira-example-n2-0434": {
+      "meaningCn": "就这个小镇而言，他的店里卖的拉面是最好吃的。",
+      "promptCn": "就这个小镇而言，他的店里卖的拉面是最好吃的。"
+    },
+    "hanabira-example-n2-0435": {
+      "meaningCn": "说到音乐知识，他是我们当中最懂的。",
+      "promptCn": "说到音乐知识，他是我们当中最懂的。"
+    },
+    "hanabira-example-n2-0436": {
+      "meaningCn": "说到体育，他在任何比赛中都表现出色。",
+      "promptCn": "说到体育，他在任何比赛中都表现出色。"
+    },
+    "hanabira-example-n2-0437": {
+      "meaningCn": "随着它的生长，这种植物的叶子变得更大。",
+      "promptCn": "随着它的生长，这种植物的叶子变得更大。"
+    },
+    "hanabira-example-n2-0438": {
+      "meaningCn": "请按照说明组装家具。",
+      "promptCn": "请按照说明组装家具。"
+    },
+    "hanabira-example-n2-0439": {
+      "meaningCn": "随着人年龄的增长，体力会下降。",
+      "promptCn": "随着人年龄的增长，体力会下降。"
+    },
+    "hanabira-example-n2-0440": {
+      "meaningCn": "心率随着运动而增加是很常见的。",
+      "promptCn": "心率随着运动而增加是很常见的。"
+    },
+    "hanabira-example-n2-0441": {
+      "meaningCn": "从他的角度来看，他可能想早点回家。",
+      "promptCn": "从他的角度来看，他可能想早点回家。"
+    },
+    "hanabira-example-n2-0442": {
+      "meaningCn": "如果我是孩子们，这个故事可能会很无聊。",
+      "promptCn": "如果我是孩子们，这个故事可能会很无聊。"
+    },
+    "hanabira-example-n2-0443": {
+      "meaningCn": "从我的角度来看，我认为这个礼物很棒。",
+      "promptCn": "从我的角度来看，我认为这个礼物很棒。"
+    },
+    "hanabira-example-n2-0444": {
+      "meaningCn": "如果我是她，我不会喜欢这部电影。",
+      "promptCn": "如果我是她，我不会喜欢这部电影。"
+    },
+    "hanabira-example-n2-0445": {
+      "meaningCn": "不管怎样，去还是不去，请尽快决定。",
+      "promptCn": "不管怎样，去还是不去，请尽快决定。"
+    },
+    "hanabira-example-n2-0446": {
+      "meaningCn": "不管他来不来，我们都以某种方式开始聚会吧。",
+      "promptCn": "不管他来不来，我们都以某种方式开始聚会吧。"
+    },
+    "hanabira-example-n2-0447": {
+      "meaningCn": "不管怎样，无论下雨还是不下雨，最好带把雨伞。",
+      "promptCn": "不管怎样，无论下雨还是不下雨，最好带把雨伞。"
+    },
+    "hanabira-example-n2-0448": {
+      "meaningCn": "无论如何，这家餐厅无论贵还是便宜，食物都很美味。",
+      "promptCn": "无论如何，这家餐厅无论贵还是便宜，食物都很美味。"
+    },
+    "hanabira-example-n2-0449": {
+      "meaningCn": "无论是出国还是读书，总会遇到语言障碍。",
+      "promptCn": "无论是出国还是读书，总会遇到语言障碍。"
+    },
+    "hanabira-example-n2-0450": {
+      "meaningCn": "每当我与他交谈或听到他的想法时，我总是对他的知识感到惊讶。",
+      "promptCn": "每当我与他交谈或听到他的想法时，我总是对他的知识感到惊讶。"
+    },
+    "hanabira-example-n2-0451": {
+      "meaningCn": "每次我在这个公园里玩耍或散步，都会让我想起我的童年。",
+      "promptCn": "每次我在这个公园里玩耍或散步，都会让我想起我的童年。"
+    },
+    "hanabira-example-n2-0452": {
+      "meaningCn": "无论春天还是秋天，他都会拜访母校。",
+      "promptCn": "无论春天还是秋天，他都会拜访母校。"
+    },
+    "hanabira-example-n2-0453": {
+      "meaningCn": "随着年龄的增长，你必须更加关注自己的健康。",
+      "promptCn": "随着年龄的增长，你必须更加关注自己的健康。"
+    },
+    "hanabira-example-n2-0454": {
+      "meaningCn": "随着春天的临近，气温逐渐升高。",
+      "promptCn": "随着春天的临近，气温逐渐升高。"
+    },
+    "hanabira-example-n2-0455": {
+      "meaningCn": "随着我的学习，我逐渐明白了。",
+      "promptCn": "随着我的学习，我逐渐明白了。"
+    },
+    "hanabira-example-n2-0456": {
+      "meaningCn": "随着你的经验增加，你的信心也会增加。",
+      "promptCn": "随着你的经验增加，你的信心也会增加。"
+    },
+    "hanabira-example-n2-0457": {
+      "meaningCn": "随着人口的增加，交通拥堵也越来越严重。",
+      "promptCn": "随着人口的增加，交通拥堵也越来越严重。"
+    },
+    "hanabira-example-n2-0458": {
+      "meaningCn": "随着季节的变化，身材更容易走样。",
+      "promptCn": "随着季节的变化，身材更容易走样。"
+    },
+    "hanabira-example-n2-0459": {
+      "meaningCn": "随着经济的增长，就业机会也会增加。",
+      "promptCn": "随着经济的增长，就业机会也会增加。"
+    },
+    "hanabira-example-n2-0460": {
+      "meaningCn": "由于他的晋升，我们决定搬家。",
+      "promptCn": "由于他的晋升，我们决定搬家。"
+    },
+    "hanabira-example-n2-0461": {
+      "meaningCn": "他的成功无非就是努力。",
+      "promptCn": "他的成功无非就是努力。"
+    },
+    "hanabira-example-n2-0462": {
+      "meaningCn": "这种疼痛只不过是寒冷而已。",
+      "promptCn": "这种疼痛只不过是寒冷而已。"
+    },
+    "hanabira-example-n2-0463": {
+      "meaningCn": "他失败的原因无非就是过度自信。",
+      "promptCn": "他失败的原因无非就是过度自信。"
+    },
+    "hanabira-example-n2-0464": {
+      "meaningCn": "她的笑容无非是灿烂。",
+      "promptCn": "她的笑容无非是灿烂。"
+    },
+    "hanabira-example-n2-0465": {
+      "meaningCn": "尽管工作很忙，他还是每天坚持锻炼。",
+      "promptCn": "尽管工作很忙，他还是每天坚持锻炼。"
+    },
+    "hanabira-example-n2-0466": {
+      "meaningCn": "尽管下着雨，她还是去散步了。",
+      "promptCn": "尽管下着雨，她还是去散步了。"
+    },
+    "hanabira-example-n2-0467": {
+      "meaningCn": "尽管车子已经很旧了，但仍然运转良好。",
+      "promptCn": "尽管车子已经很旧了，但仍然运转良好。"
+    },
+    "hanabira-example-n2-0468": {
+      "meaningCn": "尽管成绩不佳，他仍继续尽力而为。",
+      "promptCn": "尽管成绩不佳，他仍继续尽力而为。"
+    },
+    "hanabira-example-n2-0469": {
+      "meaningCn": "这起事故的发生是由于驾驶员的疏忽造成的。",
+      "promptCn": "这起事故的发生是由于驾驶员的疏忽造成的。"
+    },
+    "hanabira-example-n2-0470": {
+      "meaningCn": "这部电影是根据小说制作的。",
+      "promptCn": "这部电影是根据小说制作的。"
+    },
+    "hanabira-example-n2-0471": {
+      "meaningCn": "罪犯被警方逮捕。",
+      "promptCn": "罪犯被警方逮捕。"
+    },
+    "hanabira-example-n2-0472": {
+      "meaningCn": "公司的成长是通过员工的努力实现的。",
+      "promptCn": "公司的成长是通过员工的努力实现的。"
+    },
+    "hanabira-example-n2-0473": {
+      "meaningCn": "她学习日语一年多了。",
+      "promptCn": "她学习日语一年多了。"
+    },
+    "hanabira-example-n2-0474": {
+      "meaningCn": "该项目将建设道路50公里。",
+      "promptCn": "该项目将建设道路50公里。"
+    },
+    "hanabira-example-n2-0475": {
+      "meaningCn": "他的著作在许多国家被阅读。",
+      "promptCn": "他的著作在许多国家被阅读。"
+    },
+    "hanabira-example-n2-0476": {
+      "meaningCn": "这个秘密被世代相传。",
+      "promptCn": "这个秘密被世代相传。"
+    },
+    "hanabira-example-n2-0477": {
+      "meaningCn": "会议之前，我们先检查一下材料。",
+      "promptCn": "会议之前，我们先检查一下材料。"
+    },
+    "hanabira-example-n2-0478": {
+      "meaningCn": "出发前，我整理了行李。",
+      "promptCn": "出发前，我整理了行李。"
+    },
+    "hanabira-example-n2-0479": {
+      "meaningCn": "睡觉前，我刷牙。",
+      "promptCn": "睡觉前，我刷牙。"
+    },
+    "hanabira-example-n2-0480": {
+      "meaningCn": "电影放映前，先播放预告片。",
+      "promptCn": "电影放映前，先播放预告片。"
+    },
+    "hanabira-example-n2-0481": {
+      "meaningCn": "与天气预报相反，今天下雨了。",
+      "promptCn": "与天气预报相反，今天下雨了。"
+    },
+    "hanabira-example-n2-0482": {
+      "meaningCn": "与他的预测相反，我们赢得了比赛。",
+      "promptCn": "与他的预测相反，我们赢得了比赛。"
+    },
+    "hanabira-example-n2-0483": {
+      "meaningCn": "我不顾父母的反对嫁给了他。",
+      "promptCn": "我不顾父母的反对嫁给了他。"
+    },
+    "hanabira-example-n2-0484": {
+      "meaningCn": "与评论家的评价相反，这部电影大受欢迎。",
+      "promptCn": "与评论家的评价相反，这部电影大受欢迎。"
+    },
+    "hanabira-example-n2-0485": {
+      "meaningCn": "根据研究结果开发了一种新的治疗方法。",
+      "promptCn": "根据研究结果开发了一种新的治疗方法。"
+    },
+    "hanabira-example-n2-0486": {
+      "meaningCn": "该犯罪分子已被依法逮捕。",
+      "promptCn": "该犯罪分子已被依法逮捕。"
+    },
+    "hanabira-example-n2-0487": {
+      "meaningCn": "我们可以根据这些数据得出结论。",
+      "promptCn": "我们可以根据这些数据得出结论。"
+    },
+    "hanabira-example-n2-0488": {
+      "meaningCn": "将根据客户的要求进行产品改进。",
+      "promptCn": "将根据客户的要求进行产品改进。"
+    },
+    "hanabira-example-n2-0489": {
+      "meaningCn": "我对日本文化有一种尊重的感觉。",
+      "promptCn": "我对日本文化有一种尊重的感觉。"
+    },
+    "hanabira-example-n2-0490": {
+      "meaningCn": "请不要对他有粗鲁的态度。",
+      "promptCn": "请不要对他有粗鲁的态度。"
+    },
+    "hanabira-example-n2-0491": {
+      "meaningCn": "对于老师的问题，她立即回答。",
+      "promptCn": "对于老师的问题，她立即回答。"
+    },
+    "hanabira-example-n2-0492": {
+      "meaningCn": "与男性相比，同样的工作女性的工资较低。",
+      "promptCn": "与男性相比，同样的工作女性的工资较低。"
+    },
+    "hanabira-example-n2-0493": {
+      "meaningCn": "为了满足顾客的要求，我们创建了一个新的菜单。",
+      "promptCn": "为了满足顾客的要求，我们创建了一个新的菜单。"
+    },
+    "hanabira-example-n2-0494": {
+      "meaningCn": "他没有辜负球队的期望，展现了出色的表现。",
+      "promptCn": "他没有辜负球队的期望，展现了出色的表现。"
+    },
+    "hanabira-example-n2-0495": {
+      "meaningCn": "政府响应人民的呼声颁布了一项新法律。",
+      "promptCn": "政府响应人民的呼声颁布了一项新法律。"
+    },
+    "hanabira-example-n2-0496": {
+      "meaningCn": "为了应对环境问题，企业正在开发环保产品。",
+      "promptCn": "为了应对环境问题，企业正在开发环保产品。"
+    },
+    "hanabira-example-n2-0497": {
+      "meaningCn": "工资根据工作量而变化。",
+      "promptCn": "工资根据工作量而变化。"
+    },
+    "hanabira-example-n2-0498": {
+      "meaningCn": "根据季节选择衣服。",
+      "promptCn": "根据季节选择衣服。"
+    },
+    "hanabira-example-n2-0499": {
+      "meaningCn": "我们根据客户的意愿提出计划。",
+      "promptCn": "我们根据客户的意愿提出计划。"
+    },
+    "hanabira-example-n2-0500": {
+      "meaningCn": "健康检查项目因年龄而异。",
+      "promptCn": "健康检查项目因年龄而异。"
+    },
+    "hanabira-example-n2-0501": {
+      "meaningCn": "很明显，在这么热的天锻炼，你肯定会出汗。",
+      "promptCn": "很明显，在这么热的天锻炼，你肯定会出汗。"
+    },
+    "hanabira-example-n2-0502": {
+      "meaningCn": "如果他考试不及格，显然他会感到失望。",
+      "promptCn": "如果他考试不及格，显然他会感到失望。"
+    },
+    "hanabira-example-n2-0503": {
+      "meaningCn": "她总是迟到，所以很明显她今天也会迟到。",
+      "promptCn": "她总是迟到，所以很明显她今天也会迟到。"
+    },
+    "hanabira-example-n2-0504": {
+      "meaningCn": "可见这个游戏很好玩。",
+      "promptCn": "可见这个游戏很好玩。"
+    },
+    "hanabira-example-n2-0505": {
+      "meaningCn": "如果你沿着河走，你会看到一座桥。",
+      "promptCn": "如果你沿着河走，你会看到一座桥。"
+    },
+    "hanabira-example-n2-0506": {
+      "meaningCn": "如果你按照这个食谱做菜，就不会出现任何错误。",
+      "promptCn": "如果你按照这个食谱做菜，就不会出现任何错误。"
+    },
+    "hanabira-example-n2-0507": {
+      "meaningCn": "我们必须按照规则行事。",
+      "promptCn": "我们必须按照规则行事。"
+    },
+    "hanabira-example-n2-0508": {
+      "meaningCn": "顺着山路走，就能看到一个小神社。",
+      "promptCn": "顺着山路走，就能看到一个小神社。"
+    },
+    "hanabira-example-n2-0509": {
+      "meaningCn": "他的失败只不过是一个错误。",
+      "promptCn": "他的失败只不过是一个错误。"
+    },
+    "hanabira-example-n2-0510": {
+      "meaningCn": "这个测试只不过是一个简单的问题。",
+      "promptCn": "这个测试只不过是一个简单的问题。"
+    },
+    "hanabira-example-n2-0511": {
+      "meaningCn": "她只不过是一个朋友。",
+      "promptCn": "她只不过是一个朋友。"
+    },
+    "hanabira-example-n2-0512": {
+      "meaningCn": "这句话不过是个玩笑而已。",
+      "promptCn": "这句话不过是个玩笑而已。"
+    },
+    "hanabira-example-n2-0513": {
+      "meaningCn": "我有一个关于考试内容的问题想问老师。",
+      "promptCn": "我有一个关于考试内容的问题想问老师。"
+    },
+    "hanabira-example-n2-0514": {
+      "meaningCn": "如果您对本项目有什么意见，欢迎提出。",
+      "promptCn": "如果您对本项目有什么意见，欢迎提出。"
+    },
+    "hanabira-example-n2-0515": {
+      "meaningCn": "对于健康来说，饮食习惯非常重要。",
+      "promptCn": "对于健康来说，饮食习惯非常重要。"
+    },
+    "hanabira-example-n2-0516": {
+      "meaningCn": "他也被怀疑与这起事件有关。",
+      "promptCn": "他也被怀疑与这起事件有关。"
+    },
+    "hanabira-example-n2-0517": {
+      "meaningCn": "仅今天，该产品半价。",
+      "promptCn": "仅今天，该产品半价。"
+    },
+    "hanabira-example-n2-0518": {
+      "meaningCn": "此优惠券仅在本店有效。",
+      "promptCn": "此优惠券仅在本店有效。"
+    },
+    "hanabira-example-n2-0519": {
+      "meaningCn": "只有会员才能免费使用此服务。",
+      "promptCn": "只有会员才能免费使用此服务。"
+    },
+    "hanabira-example-n2-0520": {
+      "meaningCn": "此福利仅限前10人。",
+      "promptCn": "此福利仅限前10人。"
+    },
+    "hanabira-example-n2-0521": {
+      "meaningCn": "毕业典礼上，校长致辞。",
+      "promptCn": "毕业典礼上，校长致辞。"
+    },
+    "hanabira-example-n2-0522": {
+      "meaningCn": "做这项工作时，责任感很重要。",
+      "promptCn": "做这项工作时，责任感很重要。"
+    },
+    "hanabira-example-n2-0523": {
+      "meaningCn": "出国留学时需要办理签证手续。",
+      "promptCn": "出国留学时需要办理签证手续。"
+    },
+    "hanabira-example-n2-0524": {
+      "meaningCn": "婚礼的时候，我向父母表达了我的谢意。",
+      "promptCn": "婚礼的时候，我向父母表达了我的谢意。"
+    },
+    "hanabira-example-n2-0525": {
+      "meaningCn": "为了通过考试，我必须更多地学习。",
+      "promptCn": "为了通过考试，我必须更多地学习。"
+    },
+    "hanabira-example-n2-0526": {
+      "meaningCn": "为了赶飞机，我必须快点。",
+      "promptCn": "为了赶飞机，我必须快点。"
+    },
+    "hanabira-example-n2-0527": {
+      "meaningCn": "我必须在六点之前回家。",
+      "promptCn": "我必须在六点之前回家。"
+    },
+    "hanabira-example-n2-0528": {
+      "meaningCn": "我需要在今天结束之前完成这项工作。",
+      "promptCn": "我需要在今天结束之前完成这项工作。"
+    },
+    "hanabira-example-n2-0529": {
+      "meaningCn": "他不仅会说英语，还会说法语。",
+      "promptCn": "他不仅会说英语，还会说法语。"
+    },
+    "hanabira-example-n2-0530": {
+      "meaningCn": "这家餐厅不仅味道好，而且气氛也很棒。",
+      "promptCn": "这家餐厅不仅味道好，而且气氛也很棒。"
+    },
+    "hanabira-example-n2-0531": {
+      "meaningCn": "这个应用程序不仅方便而且高度安全。",
+      "promptCn": "这个应用程序不仅方便而且高度安全。"
+    },
+    "hanabira-example-n2-0532": {
+      "meaningCn": "她不仅聪明而且擅长运动。",
+      "promptCn": "她不仅聪明而且擅长运动。"
+    },
+    "hanabira-example-n2-0533": {
+      "meaningCn": "他紧张是可以理解的。",
+      "promptCn": "他紧张是可以理解的。"
+    },
+    "hanabira-example-n2-0534": {
+      "meaningCn": "这个问题难也是有道理的。",
+      "promptCn": "这个问题难也是有道理的。"
+    },
+    "hanabira-example-n2-0535": {
+      "meaningCn": "她高兴也是可以理解的。",
+      "promptCn": "她高兴也是可以理解的。"
+    },
+    "hanabira-example-n2-0536": {
+      "meaningCn": "他是领导也是理所当然的。",
+      "promptCn": "他是领导也是理所当然的。"
+    },
+    "hanabira-example-n2-0537": {
+      "meaningCn": "从效率上来说，这种方法是最好的。",
+      "promptCn": "从效率上来说，这种方法是最好的。"
+    },
+    "hanabira-example-n2-0538": {
+      "meaningCn": "从法律角度来看，他的行为并不违法。",
+      "promptCn": "从法律角度来看，他的行为并不违法。"
+    },
+    "hanabira-example-n2-0539": {
+      "meaningCn": "就口味而言，这家餐厅的评分很高。",
+      "promptCn": "就口味而言，这家餐厅的评分很高。"
+    },
+    "hanabira-example-n2-0540": {
+      "meaningCn": "从成绩来看，他是班上最优秀的学生。",
+      "promptCn": "从成绩来看，他是班上最优秀的学生。"
+    },
+    "hanabira-example-n2-0541": {
+      "meaningCn": "在老师的指导下学习是非常愉快的。",
+      "promptCn": "在老师的指导下学习是非常愉快的。"
+    },
+    "hanabira-example-n2-0542": {
+      "meaningCn": "我们在晴朗的天空下野餐吧。",
+      "promptCn": "我们在晴朗的天空下野餐吧。"
+    },
+    "hanabira-example-n2-0543": {
+      "meaningCn": "顶着压力，她的演讲成功了。",
+      "promptCn": "顶着压力，她的演讲成功了。"
+    },
+    "hanabira-example-n2-0544": {
+      "meaningCn": "在父母的爱下，孩子们快乐地成长。",
+      "promptCn": "在父母的爱下，孩子们快乐地成长。"
+    },
+    "hanabira-example-n2-0545": {
+      "meaningCn": "他不仅可爱而且聪明。",
+      "promptCn": "他不仅可爱而且聪明。"
+    },
+    "hanabira-example-n2-0546": {
+      "meaningCn": "这家餐厅不仅味道好，而且服务也很棒。",
+      "promptCn": "这家餐厅不仅味道好，而且服务也很棒。"
+    },
+    "hanabira-example-n2-0547": {
+      "meaningCn": "她不仅会说日语，还会说英语。",
+      "promptCn": "她不仅会说日语，还会说英语。"
+    },
+    "hanabira-example-n2-0548": {
+      "meaningCn": "他不仅擅长唱歌，还擅长跳舞。",
+      "promptCn": "他不仅擅长唱歌，还擅长跳舞。"
+    },
+    "hanabira-example-n2-0549": {
+      "meaningCn": "他总是在抱怨。",
+      "promptCn": "他总是在抱怨。"
+    },
+    "hanabira-example-n2-0550": {
+      "meaningCn": "这部电影没什么意思，我只是觉得无聊。",
+      "promptCn": "这部电影没什么意思，我只是觉得无聊。"
+    },
+    "hanabira-example-n2-0551": {
+      "meaningCn": "她总是无所事事，无所事事。",
+      "promptCn": "她总是无所事事，无所事事。"
+    },
+    "hanabira-example-n2-0552": {
+      "meaningCn": "最近一段时间，工作上的失败接二连三。",
+      "promptCn": "最近一段时间，工作上的失败接二连三。"
+    },
+    "hanabira-example-n2-0553": {
+      "meaningCn": "仅仅因为下雨，比赛就被取消了。",
+      "promptCn": "仅仅因为下雨，比赛就被取消了。"
+    },
+    "hanabira-example-n2-0554": {
+      "meaningCn": "因为他迟到了，我们也迟到了。",
+      "promptCn": "因为他迟到了，我们也迟到了。"
+    },
+    "hanabira-example-n2-0555": {
+      "meaningCn": "仅仅因为我忘记了什么，我必须回到商店。",
+      "promptCn": "仅仅因为我忘记了什么，我必须回到商店。"
+    },
+    "hanabira-example-n2-0556": {
+      "meaningCn": "就因为她长得漂亮，大家都羡慕她。",
+      "promptCn": "就因为她长得漂亮，大家都羡慕她。"
+    },
+    "hanabira-example-n2-0557": {
+      "meaningCn": "昂贵的东西并不总是好东西。",
+      "promptCn": "昂贵的东西并不总是好东西。"
+    },
+    "hanabira-example-n2-0558": {
+      "meaningCn": "仅仅因为你会说英语并不意味着你就会成功。",
+      "promptCn": "仅仅因为你会说英语并不意味着你就会成功。"
+    },
+    "hanabira-example-n2-0559": {
+      "meaningCn": "仅仅因为某人外表美丽，并不意味着他们的内心也美丽。",
+      "promptCn": "仅仅因为某人外表美丽，并不意味着他们的内心也美丽。"
+    },
+    "hanabira-example-n2-0560": {
+      "meaningCn": "进入名牌大学并不保证未来有保障。",
+      "promptCn": "进入名牌大学并不保证未来有保障。"
+    },
+    "hanabira-example-n2-0561": {
+      "meaningCn": "就设计而言，这款手机的功能是最好的。",
+      "promptCn": "就设计而言，这款手机的功能是最好的。"
+    },
+    "hanabira-example-n2-0562": {
+      "meaningCn": "抛开他的外貌不说，他的性格真是太棒了。",
+      "promptCn": "抛开他的外貌不说，他的性格真是太棒了。"
+    },
+    "hanabira-example-n2-0563": {
+      "meaningCn": "抛开食物的味道不谈，摆盘很漂亮。",
+      "promptCn": "抛开食物的味道不谈，摆盘很漂亮。"
+    },
+    "hanabira-example-n2-0564": {
+      "meaningCn": "抛开价格不说，这款包的质量还是不错的。",
+      "promptCn": "抛开价格不说，这款包的质量还是不错的。"
+    },
+    "hanabira-example-n2-0565": {
+      "meaningCn": "失败是一回事，但后悔没有尝试更糟糕。",
+      "promptCn": "失败是一回事，但后悔没有尝试更糟糕。"
+    },
+    "hanabira-example-n2-0566": {
+      "meaningCn": "这披萨不仅蔬菜少，而且味道也不好。",
+      "promptCn": "这披萨不仅蔬菜少，而且味道也不好。"
+    },
+    "hanabira-example-n2-0567": {
+      "meaningCn": "偶尔迟到可能是可以原谅的，但在没有任何联系的情况下迟到是不可接受的。",
+      "promptCn": "偶尔迟到可能是可以原谅的，但在没有任何联系的情况下迟到是不可接受的。"
+    },
+    "hanabira-example-n2-0568": {
+      "meaningCn": "无法回答困难的问题是一回事，但如果连简单的问题都无法回答，那就是真正的问题了。",
+      "promptCn": "无法回答困难的问题是一回事，但如果连简单的问题都无法回答，那就是真正的问题了。"
+    },
+    "hanabira-example-n2-0569": {
+      "meaningCn": "我不仅在学习英语，还在学习西班牙语。",
+      "promptCn": "我不仅在学习英语，还在学习西班牙语。"
+    },
+    "hanabira-example-n2-0570": {
+      "meaningCn": "她不仅擅长烹饪，还擅长制作甜点。",
+      "promptCn": "她不仅擅长烹饪，还擅长制作甜点。"
+    },
+    "hanabira-example-n2-0571": {
+      "meaningCn": "这家酒店不仅拥有干净的房间，而且服务也很棒。",
+      "promptCn": "这家酒店不仅拥有干净的房间，而且服务也很棒。"
+    },
+    "hanabira-example-n2-0572": {
+      "meaningCn": "他不仅擅长音乐，还擅长绘画。",
+      "promptCn": "他不仅擅长音乐，还擅长绘画。"
+    },
+    "hanabira-example-n2-0573": {
+      "meaningCn": "抛开价格不谈，味道还是很美味的。",
+      "promptCn": "抛开价格不谈，味道还是很美味的。"
+    },
+    "hanabira-example-n2-0574": {
+      "meaningCn": "抛开他的性格不说，我不得不承认他的能力。",
+      "promptCn": "抛开他的性格不说，我不得不承认他的能力。"
+    },
+    "hanabira-example-n2-0575": {
+      "meaningCn": "抛开设计不谈，这款手机的功能非常出色。",
+      "promptCn": "抛开设计不谈，这款手机的功能非常出色。"
+    },
+    "hanabira-example-n2-0576": {
+      "meaningCn": "抛开她的驾驶速度不谈，她是一个善良、值得信赖的司机。",
+      "promptCn": "抛开她的驾驶速度不谈，她是一个善良、值得信赖的司机。"
+    },
+    "hanabira-example-n2-0577": {
+      "meaningCn": "如果没有理由迟到，你就不应该迟到。",
+      "promptCn": "如果没有理由迟到，你就不应该迟到。"
+    },
+    "hanabira-example-n2-0578": {
+      "meaningCn": "你不应该对孩子说伤人的话。",
+      "promptCn": "你不应该对孩子说伤人的话。"
+    },
+    "hanabira-example-n2-0579": {
+      "meaningCn": "您不应该一次服用太多这种药。",
+      "promptCn": "您不应该一次服用太多这种药。"
+    },
+    "hanabira-example-n2-0580": {
+      "meaningCn": "您不应该与陌生人分享个人信息。",
+      "promptCn": "您不应该与陌生人分享个人信息。"
+    },
+    "hanabira-example-n2-0581": {
+      "meaningCn": "他今晚可能不会来。",
+      "promptCn": "他今晚可能不会来。"
+    },
+    "hanabira-example-n2-0582": {
+      "meaningCn": "这么晚了，我可能赶不上火车了。",
+      "promptCn": "这么晚了，我可能赶不上火车了。"
+    },
+    "hanabira-example-n2-0583": {
+      "meaningCn": "那个人绝对不会忘记。",
+      "promptCn": "那个人绝对不会忘记。"
+    },
+    "hanabira-example-n2-0584": {
+      "meaningCn": "我不会再重复这个错误。",
+      "promptCn": "我不会再重复这个错误。"
+    },
+    "hanabira-example-n2-0585": {
+      "meaningCn": "我工作到九点，然后休息了。",
+      "promptCn": "我工作到九点，然后休息了。"
+    },
+    "hanabira-example-n2-0586": {
+      "meaningCn": "我学习到晚上，并通过了考试。",
+      "promptCn": "我学习到晚上，并通过了考试。"
+    },
+    "hanabira-example-n2-0587": {
+      "meaningCn": "我读到最后一页，然后合上书。",
+      "promptCn": "我读到最后一页，然后合上书。"
+    },
+    "hanabira-example-n2-0588": {
+      "meaningCn": "我等到火车到达，然后见到了我的朋友。",
+      "promptCn": "我等到火车到达，然后见到了我的朋友。"
+    },
+    "hanabira-example-n2-0589": {
+      "meaningCn": "趁孩子还在睡觉的时候，我悄悄离开了房间。",
+      "promptCn": "趁孩子还在睡觉的时候，我悄悄离开了房间。"
+    },
+    "hanabira-example-n2-0590": {
+      "meaningCn": "窗户开着，天气很冷。",
+      "promptCn": "窗户开着，天气很冷。"
+    },
+    "hanabira-example-n2-0591": {
+      "meaningCn": "他在健康状况良好的情况下进入了疗养院。",
+      "promptCn": "他在健康状况良好的情况下进入了疗养院。"
+    },
+    "hanabira-example-n2-0592": {
+      "meaningCn": "我带着完整的旧记忆回到了这个小镇。",
+      "promptCn": "我带着完整的旧记忆回到了这个小镇。"
+    },
+    "hanabira-example-n2-0593": {
+      "meaningCn": "他不顾周围的人，大声说话。",
+      "promptCn": "他不顾周围的人，大声说话。"
+    },
+    "hanabira-example-n2-0594": {
+      "meaningCn": "她悠闲地看书，丝毫不顾时间。",
+      "promptCn": "她悠闲地看书，丝毫不顾时间。"
+    },
+    "hanabira-example-n2-0595": {
+      "meaningCn": "他在外面锻炼身体，不用担心寒冷。",
+      "promptCn": "他在外面锻炼身体，不用担心寒冷。"
+    },
+    "hanabira-example-n2-0596": {
+      "meaningCn": "她不顾危险跳进火里帮忙。",
+      "promptCn": "她不顾危险跳进火里帮忙。"
+    },
+    "hanabira-example-n2-0597": {
+      "meaningCn": "我绝对不想做这样的事。",
+      "promptCn": "我绝对不想做这样的事。"
+    },
+    "hanabira-example-n2-0598": {
+      "meaningCn": "到底谁会承担这样的工作？ （没有人会！）",
+      "promptCn": "到底谁会承担这样的工作？ （没有人会！）"
+    },
+    "hanabira-example-n2-0599": {
+      "meaningCn": "谁会向他寻求帮助？ （当然没有人！）",
+      "promptCn": "谁会向他寻求帮助？ （当然没有人！）"
+    },
+    "hanabira-example-n2-0600": {
+      "meaningCn": "这么冷的天我们不可能出去玩。",
+      "promptCn": "这么冷的天我们不可能出去玩。"
+    },
+    "hanabira-example-n2-0601": {
+      "meaningCn": "他的演讲中有一些令人感动的地方。",
+      "promptCn": "他的演讲中有一些令人感动的地方。"
+    },
+    "hanabira-example-n2-0602": {
+      "meaningCn": "这部电影确实有一些东西让你思考。",
+      "promptCn": "这部电影确实有一些东西让你思考。"
+    },
+    "hanabira-example-n2-0603": {
+      "meaningCn": "他说的有一定道理。",
+      "promptCn": "他说的有一定道理。"
+    },
+    "hanabira-example-n2-0604": {
+      "meaningCn": "每天如此忙碌，有点令人窒息。",
+      "promptCn": "每天如此忙碌，有点令人窒息。"
+    },
+    "hanabira-example-n2-0605": {
+      "meaningCn": "当你年轻的时候，享受很多乐趣是很自然的。",
+      "promptCn": "当你年轻的时候，享受很多乐趣是很自然的。"
+    },
+    "hanabira-example-n2-0606": {
+      "meaningCn": "既然做出了承诺，就应该遵守。",
+      "promptCn": "既然做出了承诺，就应该遵守。"
+    },
+    "hanabira-example-n2-0607": {
+      "meaningCn": "客人到来时，习惯上奉茶。",
+      "promptCn": "客人到来时，习惯上奉茶。"
+    },
+    "hanabira-example-n2-0608": {
+      "meaningCn": "人生在世，难免要经历一些磨难。",
+      "promptCn": "人生在世，难免要经历一些磨难。"
+    },
+    "hanabira-example-n2-0609": {
+      "meaningCn": "因为考试临近，我每天都在学习。",
+      "promptCn": "因为考试临近，我每天都在学习。"
+    },
+    "hanabira-example-n2-0610": {
+      "meaningCn": "因为这家餐厅很受欢迎，如果我们不预订的话可能就没有座位了。",
+      "promptCn": "因为这家餐厅很受欢迎，如果我们不预订的话可能就没有座位了。"
+    },
+    "hanabira-example-n2-0611": {
+      "meaningCn": "由于他还年轻，还没有积累太多的经验。",
+      "promptCn": "由于他还年轻，还没有积累太多的经验。"
+    },
+    "hanabira-example-n2-0612": {
+      "meaningCn": "今天天气冷，带上手套吧。",
+      "promptCn": "今天天气冷，带上手套吧。"
+    },
+    "hanabira-example-n2-0613": {
+      "meaningCn": "你不应该说这样的话。",
+      "promptCn": "你不应该说这样的话。"
+    },
+    "hanabira-example-n2-0614": {
+      "meaningCn": "您不应该在公共场所提高声音。",
+      "promptCn": "您不应该在公共场所提高声音。"
+    },
+    "hanabira-example-n2-0615": {
+      "meaningCn": "你不能把他的秘密告诉别人。",
+      "promptCn": "你不能把他的秘密告诉别人。"
+    },
+    "hanabira-example-n2-0616": {
+      "meaningCn": "在安全的地方玩没问题，但不要在危险的地方玩。",
+      "promptCn": "在安全的地方玩没问题，但不要在危险的地方玩。"
+    },
+    "hanabira-example-n2-0617": {
+      "meaningCn": "如果可以回去的话，我现在就回国。",
+      "promptCn": "如果可以回去的话，我现在就回国。"
+    },
+    "hanabira-example-n2-0618": {
+      "meaningCn": "如果可以的话，我很想环游世界。",
+      "promptCn": "如果可以的话，我很想环游世界。"
+    },
+    "hanabira-example-n2-0619": {
+      "meaningCn": "如果我的人生可以重来，我想回到童年。",
+      "promptCn": "如果我的人生可以重来，我想回到童年。"
+    },
+    "hanabira-example-n2-0620": {
+      "meaningCn": "如果它能让我健康，我会尝试任何药物。",
+      "promptCn": "如果它能让我健康，我会尝试任何药物。"
+    },
+    "hanabira-example-n2-0621": {
+      "meaningCn": "尽管我起得很早，但我还是没有及时赶上公共汽车。",
+      "promptCn": "尽管我起得很早，但我还是没有及时赶上公共汽车。"
+    },
+    "hanabira-example-n2-0622": {
+      "meaningCn": "这个房间虽然宽敞，但是家具并不多。",
+      "promptCn": "这个房间虽然宽敞，但是家具并不多。"
+    },
+    "hanabira-example-n2-0623": {
+      "meaningCn": "她很漂亮，但她的性格很糟糕。",
+      "promptCn": "她很漂亮，但她的性格很糟糕。"
+    },
+    "hanabira-example-n2-0624": {
+      "meaningCn": "虽然他是一位著名歌手，但来听他演唱会的人并不多。",
+      "promptCn": "虽然他是一位著名歌手，但来听他演唱会的人并不多。"
+    },
+    "hanabira-example-n2-0625": {
+      "meaningCn": "他擅长学习，也擅长运动。",
+      "promptCn": "他擅长学习，也擅长运动。"
+    },
+    "hanabira-example-n2-0626": {
+      "meaningCn": "这家餐厅价格便宜，食物也不错。",
+      "promptCn": "这家餐厅价格便宜，食物也不错。"
+    },
+    "hanabira-example-n2-0627": {
+      "meaningCn": "她会弹钢琴和吉他。",
+      "promptCn": "她会弹钢琴和吉他。"
+    },
+    "hanabira-example-n2-0628": {
+      "meaningCn": "生活中，既有快乐的时光，也有艰难的时光。",
+      "promptCn": "生活中，既有快乐的时光，也有艰难的时光。"
+    },
+    "hanabira-example-n2-0629": {
+      "meaningCn": "我认识他这么久了，他几乎就像我的家人一样。",
+      "promptCn": "我认识他这么久了，他几乎就像我的家人一样。"
+    },
+    "hanabira-example-n2-0630": {
+      "meaningCn": "每天迟到和不来一样好。",
+      "promptCn": "每天迟到和不来一样好。"
+    },
+    "hanabira-example-n2-0631": {
+      "meaningCn": "我和她是青梅竹马，亲如姐妹。",
+      "promptCn": "我和她是青梅竹马，亲如姐妹。"
+    },
+    "hanabira-example-n2-0632": {
+      "meaningCn": "工资这么低，几乎就像免费工作一样。",
+      "promptCn": "工资这么低，几乎就像免费工作一样。"
+    },
+    "hanabira-example-n2-0633": {
+      "meaningCn": "我有很多事情要做，比如作业和打扫卫生。",
+      "promptCn": "我有很多事情要做，比如作业和打扫卫生。"
+    },
+    "hanabira-example-n2-0634": {
+      "meaningCn": "我买了各种各样的食物，比如蔬菜和水果。",
+      "promptCn": "我买了各种各样的食物，比如蔬菜和水果。"
+    },
+    "hanabira-example-n2-0635": {
+      "meaningCn": "她真的很有天赋——唱歌、跳舞等等都很好。",
+      "promptCn": "她真的很有天赋——唱歌、跳舞等等都很好。"
+    },
+    "hanabira-example-n2-0636": {
+      "meaningCn": "店里的商品种类齐全，有包包、鞋子、配饰等。",
+      "promptCn": "店里的商品种类齐全，有包包、鞋子、配饰等。"
+    },
+    "hanabira-example-n2-0637": {
+      "meaningCn": "我不知道他的联系方式，所以我无法帮助他。",
+      "promptCn": "我不知道他的联系方式，所以我无法帮助他。"
+    },
+    "hanabira-example-n2-0638": {
+      "meaningCn": "现在已经坏到这种程度了，已经没有办法修复了。",
+      "promptCn": "现在已经坏到这种程度了，已经没有办法修复了。"
+    },
+    "hanabira-example-n2-0639": {
+      "meaningCn": "没有任何证据，所以无法证明他就是罪魁祸首。",
+      "promptCn": "没有任何证据，所以无法证明他就是罪魁祸首。"
+    },
+    "hanabira-example-n2-0640": {
+      "meaningCn": "突然有人用英语对我说话，我不知道该怎么回答，所以我没有办法回答。",
+      "promptCn": "突然有人用英语对我说话，我不知道该怎么回答，所以我没有办法回答。"
+    },
+    "hanabira-example-n2-0641": {
+      "meaningCn": "临近考试，除了学习，别无选择。",
+      "promptCn": "临近考试，除了学习，别无选择。"
+    },
+    "hanabira-example-n2-0642": {
+      "meaningCn": "我感冒很严重，所以我别无选择，只能早点睡觉。",
+      "promptCn": "我感冒很严重，所以我别无选择，只能早点睡觉。"
+    },
+    "hanabira-example-n2-0643": {
+      "meaningCn": "由于公共汽车不来，我只好步行。",
+      "promptCn": "由于公共汽车不来，我只好步行。"
+    },
+    "hanabira-example-n2-0644": {
+      "meaningCn": "因为我没有钱，所以我别无选择，只能买便宜的东西。",
+      "promptCn": "因为我没有钱，所以我别无选择，只能买便宜的东西。"
+    },
+    "hanabira-example-n2-0645": {
+      "meaningCn": "他受伤了，所以他不可能赢得比赛。",
+      "promptCn": "他受伤了，所以他不可能赢得比赛。"
+    },
+    "hanabira-example-n2-0646": {
+      "meaningCn": "我无法相信一个经常说谎的人。",
+      "promptCn": "我无法相信一个经常说谎的人。"
+    },
+    "hanabira-example-n2-0647": {
+      "meaningCn": "她很忙，所以没办法来参加这个聚会。",
+      "promptCn": "她很忙，所以没办法来参加这个聚会。"
+    },
+    "hanabira-example-n2-0648": {
+      "meaningCn": "昨天我睡了一整天，所以我不可能知道那件事。",
+      "promptCn": "昨天我睡了一整天，所以我不可能知道那件事。"
+    },
+    "hanabira-example-n2-0649": {
+      "meaningCn": "她迟到的原因是火车晚点了。",
+      "promptCn": "她迟到的原因是火车晚点了。"
+    },
+    "hanabira-example-n2-0650": {
+      "meaningCn": "这堂课很有趣，所以每个人都专心听讲。",
+      "promptCn": "这堂课很有趣，所以每个人都专心听讲。"
+    },
+    "hanabira-example-n2-0651": {
+      "meaningCn": "他真的很忙，所以他几乎没有休息时间。",
+      "promptCn": "他真的很忙，所以他几乎没有休息时间。"
+    },
+    "hanabira-example-n2-0652": {
+      "meaningCn": "这个问题很难，难怪我根本看不懂。",
+      "promptCn": "这个问题很难，难怪我根本看不懂。"
+    },
+    "hanabira-example-n2-0653": {
+      "meaningCn": "他不是不学习，而是成绩不太好。",
+      "promptCn": "他不是不学习，而是成绩不太好。"
+    },
+    "hanabira-example-n2-0654": {
+      "meaningCn": "倒不是这家店贵，而是每天去都有点贵了。",
+      "promptCn": "倒不是这家店贵，而是每天去都有点贵了。"
+    },
+    "hanabira-example-n2-0655": {
+      "meaningCn": "并不是她不友善，只是有时候她的说话方式会很严厉。",
+      "promptCn": "并不是她不友善，只是有时候她的说话方式会很严厉。"
+    },
+    "hanabira-example-n2-0656": {
+      "meaningCn": "并不是因为他很忙；而是因为他很忙。他似乎只是没有有效地利用自己的时间。",
+      "promptCn": "并不是因为他很忙；而是因为他很忙。他似乎只是没有有效地利用自己的时间。"
+    },
+    "hanabira-example-n2-0657": {
+      "meaningCn": "由于考试临近，我不能只是玩玩。",
+      "promptCn": "由于考试临近，我不能只是玩玩。"
+    },
+    "hanabira-example-n2-0658": {
+      "meaningCn": "田中先生正在等我，我绝对不能迟到。",
+      "promptCn": "田中先生正在等我，我绝对不能迟到。"
+    },
+    "hanabira-example-n2-0659": {
+      "meaningCn": "为了我的孩子，我不能放弃这份工作。",
+      "promptCn": "为了我的孩子，我不能放弃这份工作。"
+    },
+    "hanabira-example-n2-0660": {
+      "meaningCn": "这个问题很重要，所以我不能忽视它。",
+      "promptCn": "这个问题很重要，所以我不能忽视它。"
+    },
+    "hanabira-example-n2-0661": {
+      "meaningCn": "结婚是他开始认真工作的催化剂。",
+      "promptCn": "结婚是他开始认真工作的催化剂。"
+    },
+    "hanabira-example-n2-0662": {
+      "meaningCn": "那次相遇让我们成为了朋友。",
+      "promptCn": "那次相遇让我们成为了朋友。"
+    },
+    "hanabira-example-n2-0663": {
+      "meaningCn": "受到音乐会的启发，她决定追求音乐。",
+      "promptCn": "受到音乐会的启发，她决定追求音乐。"
+    },
+    "hanabira-example-n2-0664": {
+      "meaningCn": "出国留学给了我提高外语技能的机会。",
+      "promptCn": "出国留学给了我提高外语技能的机会。"
+    },
+    "hanabira-example-n2-0665": {
+      "meaningCn": "他是一名教师。",
+      "promptCn": "他是一名教师。"
+    },
+    "hanabira-example-n2-0666": {
+      "meaningCn": "她接受了领导者的角色。",
+      "promptCn": "她接受了领导者的角色。"
+    },
+    "hanabira-example-n2-0667": {
+      "meaningCn": "我们相信他是我们的一员（亲密的伙伴）。",
+      "promptCn": "我们相信他是我们的一员（亲密的伙伴）。"
+    },
+    "hanabira-example-n2-0668": {
+      "meaningCn": "这位艺术家以传统为基础创作作品。",
+      "promptCn": "这位艺术家以传统为基础创作作品。"
+    },
+    "hanabira-example-n2-0669": {
+      "meaningCn": "这项活动主要是因为它的音乐而受到人们的喜爱。",
+      "promptCn": "这项活动主要是因为它的音乐而受到人们的喜爱。"
+    },
+    "hanabira-example-n2-0670": {
+      "meaningCn": "他的工作主要在东京及其周边地区进行。",
+      "promptCn": "他的工作主要在东京及其周边地区进行。"
+    },
+    "hanabira-example-n2-0671": {
+      "meaningCn": "她正在写一本关注健康的书。",
+      "promptCn": "她正在写一本关注健康的书。"
+    },
+    "hanabira-example-n2-0672": {
+      "meaningCn": "最近正在进行的研究主要集中在环境保护上。",
+      "promptCn": "最近正在进行的研究主要集中在环境保护上。"
+    },
+    "hanabira-example-n2-0673": {
+      "meaningCn": "该活动向所有人开放，无论年龄。",
+      "promptCn": "该活动向所有人开放，无论年龄。"
+    },
+    "hanabira-example-n2-0674": {
+      "meaningCn": "这家超市每天都营业，不包括周日。",
+      "promptCn": "这家超市每天都营业，不包括周日。"
+    },
+    "hanabira-example-n2-0675": {
+      "meaningCn": "她每天早上都会散步，无论炎热还是寒冷。",
+      "promptCn": "她每天早上都会散步，无论炎热还是寒冷。"
+    },
+    "hanabira-example-n2-0676": {
+      "meaningCn": "公司总裁平等对待所有员工，不分国籍。",
+      "promptCn": "公司总裁平等对待所有员工，不分国籍。"
+    },
+    "hanabira-example-n2-0677": {
+      "meaningCn": "我用爱做饭。",
+      "promptCn": "我用爱做饭。"
+    },
+    "hanabira-example-n2-0678": {
+      "meaningCn": "我给老师写了一封感谢信，心里充满了感激之情。",
+      "promptCn": "我给老师写了一封感谢信，心里充满了感激之情。"
+    },
+    "hanabira-example-n2-0679": {
+      "meaningCn": "他用尽全力战斗到了最后一刻。",
+      "promptCn": "他用尽全力战斗到了最后一刻。"
+    },
+    "hanabira-example-n2-0680": {
+      "meaningCn": "她悲伤地向她的朋友转达了告别之言。",
+      "promptCn": "她悲伤地向她的朋友转达了告别之言。"
+    },
+    "hanabira-example-n2-0681": {
+      "meaningCn": "我通过互联网与朋友保持联系。",
+      "promptCn": "我通过互联网与朋友保持联系。"
+    },
+    "hanabira-example-n2-0682": {
+      "meaningCn": "他一整天都在勤奋地工作。",
+      "promptCn": "他一整天都在勤奋地工作。"
+    },
+    "hanabira-example-n2-0683": {
+      "meaningCn": "该活动将在整个周末举行。",
+      "promptCn": "该活动将在整个周末举行。"
+    },
+    "hanabira-example-n2-0684": {
+      "meaningCn": "花朵在整个春天绽放。",
+      "promptCn": "花朵在整个春天绽放。"
+    },
+    "hanabira-example-n2-0685": {
+      "meaningCn": "她依靠地图旅行。",
+      "promptCn": "她依靠地图旅行。"
+    },
+    "hanabira-example-n2-0686": {
+      "meaningCn": "很多人都是靠着他的力量生活的。",
+      "promptCn": "很多人都是靠着他的力量生活的。"
+    },
+    "hanabira-example-n2-0687": {
+      "meaningCn": "在这个项目中，我们依赖您的技能。",
+      "promptCn": "在这个项目中，我们依赖您的技能。"
+    },
+    "hanabira-example-n2-0688": {
+      "meaningCn": "他试图依靠朋友的帮助来解决这个问题。",
+      "promptCn": "他试图依靠朋友的帮助来解决这个问题。"
+    },
+    "hanabira-example-n2-0689": {
+      "meaningCn": "随着技术的进步，生活变得越来越忙碌。",
+      "promptCn": "随着技术的进步，生活变得越来越忙碌。"
+    },
+    "hanabira-example-n2-0690": {
+      "meaningCn": "虽然我的日语进步了，但我感觉我的英语能力却在下降。",
+      "promptCn": "虽然我的日语进步了，但我感觉我的英语能力却在下降。"
+    },
+    "hanabira-example-n2-0691": {
+      "meaningCn": "虽然这道菜很好吃，但价格有点贵。",
+      "promptCn": "虽然这道菜很好吃，但价格有点贵。"
+    },
+    "hanabira-example-n2-0692": {
+      "meaningCn": "他在善良的同时，也有严厉的一面。",
+      "promptCn": "他在善良的同时，也有严厉的一面。"
+    },
+    "hanabira-example-n2-0693": {
+      "meaningCn": "世界人口持续增加。",
+      "promptCn": "世界人口持续增加。"
+    },
+    "hanabira-example-n2-0694": {
+      "meaningCn": "这个镇的公共安全越来越差。",
+      "promptCn": "这个镇的公共安全越来越差。"
+    },
+    "hanabira-example-n2-0695": {
+      "meaningCn": "我的日语不断进步。",
+      "promptCn": "我的日语不断进步。"
+    },
+    "hanabira-example-n2-0696": {
+      "meaningCn": "随着夏天的到来，天气越来越热。",
+      "promptCn": "随着夏天的到来，天气越来越热。"
+    },
+    "hanabira-example-n2-0697": {
+      "meaningCn": "我们调查之后再得出结论吧。",
+      "promptCn": "我们调查之后再得出结论吧。"
+    },
+    "hanabira-example-n2-0698": {
+      "meaningCn": "找工作结束后我会决定是否继续学业。",
+      "promptCn": "找工作结束后我会决定是否继续学业。"
+    },
+    "hanabira-example-n2-0699": {
+      "meaningCn": "这些衣服我试穿之后再考虑要不要买。",
+      "promptCn": "这些衣服我试穿之后再考虑要不要买。"
+    },
+    "hanabira-example-n2-0700": {
+      "meaningCn": "让我们听听有经验的人的意见后决定项目的方向。",
+      "promptCn": "让我们听听有经验的人的意见后决定项目的方向。"
+    },
+    "hanabira-example-n2-0701": {
+      "meaningCn": "除了聪明之外，他还擅长运动。",
+      "promptCn": "除了聪明之外，他还擅长运动。"
+    },
+    "hanabira-example-n2-0702": {
+      "meaningCn": "这件衣服不仅漂亮而且价格实惠。",
+      "promptCn": "这件衣服不仅漂亮而且价格实惠。"
+    },
+    "hanabira-example-n2-0703": {
+      "meaningCn": "除了善良之外，她还擅长做饭。",
+      "promptCn": "除了善良之外，她还擅长做饭。"
+    },
+    "hanabira-example-n2-0704": {
+      "meaningCn": "他不仅是公司总裁，还是著名作家。",
+      "promptCn": "他不仅是公司总裁，还是著名作家。"
+    },
+    "hanabira-example-n2-0705": {
+      "meaningCn": "现在我已经通过考试了，我们来开个派对吧。",
+      "promptCn": "现在我已经通过考试了，我们来开个派对吧。"
+    },
+    "hanabira-example-n2-0706": {
+      "meaningCn": "既然我接手了这份工作，我就打算把它坚持到底。",
+      "promptCn": "既然我接手了这份工作，我就打算把它坚持到底。"
+    },
+    "hanabira-example-n2-0707": {
+      "meaningCn": "既然你都说了我好心，那我就帮你吧。",
+      "promptCn": "既然你都说了我好心，那我就帮你吧。"
+    },
+    "hanabira-example-n2-0708": {
+      "meaningCn": "既然你喜欢甜食，那你一定会喜欢这个甜点。",
+      "promptCn": "既然你喜欢甜食，那你一定会喜欢这个甜点。"
+    },
+    "hanabira-example-n2-0709": {
+      "meaningCn": "既然他很忙，尝试帮助他是没有意义的。",
+      "promptCn": "既然他很忙，尝试帮助他是没有意义的。"
+    },
+    "hanabira-example-n2-0710": {
+      "meaningCn": "既然做出了承诺，就应该遵守。",
+      "promptCn": "既然做出了承诺，就应该遵守。"
+    },
+    "hanabira-example-n2-0711": {
+      "meaningCn": "只要临近截止日期，我就必须全力以赴。",
+      "promptCn": "只要临近截止日期，我就必须全力以赴。"
+    },
+    "hanabira-example-n2-0712": {
+      "meaningCn": "既然是大学生，学习就应该是第一位的。",
+      "promptCn": "既然是大学生，学习就应该是第一位的。"
+    },
+    "hanabira-example-n2-0713": {
+      "meaningCn": "自从我们毕业之后我就没见过她。",
+      "promptCn": "自从我们毕业之后我就没见过她。"
+    },
+    "hanabira-example-n2-0714": {
+      "meaningCn": "自从我的孩子出生以来，我一直很忙。",
+      "promptCn": "自从我的孩子出生以来，我一直很忙。"
+    },
+    "hanabira-example-n2-0715": {
+      "meaningCn": "自从搬到东京后，我结识了更多朋友。",
+      "promptCn": "自从搬到东京后，我结识了更多朋友。"
+    },
+    "hanabira-example-n2-0716": {
+      "meaningCn": "自从她看了那部电影之后，她就很容易受到惊吓。",
+      "promptCn": "自从她看了那部电影之后，她就很容易受到惊吓。"
+    },
+    "hanabira-example-n2-0717": {
+      "meaningCn": "他打算把全部的精力都投入到考试学习中。",
+      "promptCn": "他打算把全部的精力都投入到考试学习中。"
+    },
+    "hanabira-example-n2-0718": {
+      "meaningCn": "在你完全完成这项工作之前请不要回家。",
+      "promptCn": "在你完全完成这项工作之前请不要回家。"
+    },
+    "hanabira-example-n2-0719": {
+      "meaningCn": "我和朋友争论了，我想说的都说不出来。",
+      "promptCn": "我和朋友争论了，我想说的都说不出来。"
+    },
+    "hanabira-example-n2-0720": {
+      "meaningCn": "他们能够彻底完成那场比赛。",
+      "promptCn": "他们能够彻底完成那场比赛。"
+    },
+    "hanabira-example-n2-0721": {
+      "meaningCn": "一方面，这辆车速度快，但另一方面，它的燃油效率却很差。",
+      "promptCn": "一方面，这辆车速度快，但另一方面，它的燃油效率却很差。"
+    },
+    "hanabira-example-n2-0722": {
+      "meaningCn": "一方面，他很聪明，但另一方面，他不擅长运动。",
+      "promptCn": "一方面，他很聪明，但另一方面，他不擅长运动。"
+    },
+    "hanabira-example-n2-0723": {
+      "meaningCn": "一方面，她很善良，但另一方面，她也太乐于助人了。",
+      "promptCn": "一方面，她很善良，但另一方面，她也太乐于助人了。"
+    },
+    "hanabira-example-n2-0724": {
+      "meaningCn": "一方面，这份工作报酬丰厚，但另一方面，压力也很大。",
+      "promptCn": "一方面，这份工作报酬丰厚，但另一方面，压力也很大。"
+    },
+    "hanabira-example-n2-0725": {
+      "meaningCn": "这本杂志是针对年轻人的。",
+      "promptCn": "这本杂志是针对年轻人的。"
+    },
+    "hanabira-example-n2-0726": {
+      "meaningCn": "超市出售适合家庭使用的食品套装。",
+      "promptCn": "超市出售适合家庭使用的食品套装。"
+    },
+    "hanabira-example-n2-0727": {
+      "meaningCn": "该应用程序是为初学者设计的。",
+      "promptCn": "该应用程序是为初学者设计的。"
+    },
+    "hanabira-example-n2-0728": {
+      "meaningCn": "这家餐厅针对素食主义者提供丰富的菜单。",
+      "promptCn": "这家餐厅针对素食主义者提供丰富的菜单。"
+    },
+    "hanabira-example-n2-0729": {
+      "meaningCn": "由于有发生地震的危险，请前往避难所。",
+      "promptCn": "由于有发生地震的危险，请前往避难所。"
+    },
+    "hanabira-example-n2-0730": {
+      "meaningCn": "可能会出事故，请小心驾驶。",
+      "promptCn": "可能会出事故，请小心驾驶。"
+    },
+    "hanabira-example-n2-0731": {
+      "meaningCn": "如果您服用过多这种药物，就有出现副作用的风险。",
+      "promptCn": "如果您服用过多这种药物，就有出现副作用的风险。"
+    },
+    "hanabira-example-n2-0732": {
+      "meaningCn": "如果我们以较低的预算进行这个项目，质量可能会受到影响。",
+      "promptCn": "如果我们以较低的预算进行这个项目，质量可能会受到影响。"
+    },
+    "hanabira-example-n2-0733": {
+      "meaningCn": "当你口渴时，请用这个瓶子喝水。",
+      "promptCn": "当你口渴时，请用这个瓶子喝水。"
+    },
+    "hanabira-example-n2-0734": {
+      "meaningCn": "当您访问该地区时，请务必前往这座神社。",
+      "promptCn": "当您访问该地区时，请务必前往这座神社。"
+    },
+    "hanabira-example-n2-0735": {
+      "meaningCn": "如果他看起来不舒服，请询问他是否感到不舒服。",
+      "promptCn": "如果他看起来不舒服，请询问他是否感到不舒服。"
+    },
+    "hanabira-example-n2-0736": {
+      "meaningCn": "当你有机会的时候，就毫不犹豫地行动。",
+      "promptCn": "当你有机会的时候，就毫不犹豫地行动。"
+    },
+    "hanabira-example-n2-0737": {
+      "meaningCn": "经过长时间的讨论，我们终于达成了共识。",
+      "promptCn": "经过长时间的讨论，我们终于达成了共识。"
+    },
+    "hanabira-example-n2-0738": {
+      "meaningCn": "经过一周的学习，我通过了考试。",
+      "promptCn": "经过一周的学习，我通过了考试。"
+    },
+    "hanabira-example-n2-0739": {
+      "meaningCn": "经过多次失败，我终于获得了成功。",
+      "promptCn": "经过多次失败，我终于获得了成功。"
+    },
+    "hanabira-example-n2-0740": {
+      "meaningCn": "和他分手后，我开始了新的生活。",
+      "promptCn": "和他分手后，我开始了新的生活。"
+    },
+    "hanabira-example-n2-0741": {
+      "meaningCn": "我一完成工作就回家。",
+      "promptCn": "我一完成工作就回家。"
+    },
+    "hanabira-example-n2-0742": {
+      "meaningCn": "我们将根据客户的反馈改进我们的服务。",
+      "promptCn": "我们将根据客户的反馈改进我们的服务。"
+    },
+    "hanabira-example-n2-0743": {
+      "meaningCn": "我会根据他的回答来决定是否去参加聚会。",
+      "promptCn": "我会根据他的回答来决定是否去参加聚会。"
+    },
+    "hanabira-example-n2-0744": {
+      "meaningCn": "我们正在根据天气情况计划野餐。",
+      "promptCn": "我们正在根据天气情况计划野餐。"
+    },
+    "hanabira-example-n2-0745": {
+      "meaningCn": "根据我完成工作的时间，我回家的时间可能会改变。",
+      "promptCn": "根据我完成工作的时间，我回家的时间可能会改变。"
+    },
+    "hanabira-example-n2-0746": {
+      "meaningCn": "我们计划根据天气情况去野餐。",
+      "promptCn": "我们计划根据天气情况去野餐。"
+    },
+    "hanabira-example-n2-0747": {
+      "meaningCn": "他是否参加聚会取决于他的心情。",
+      "promptCn": "他是否参加聚会取决于他的心情。"
+    },
+    "hanabira-example-n2-0748": {
+      "meaningCn": "该决定可能会根据会议的进展情况而改变。",
+      "promptCn": "该决定可能会根据会议的进展情况而改变。"
+    },
+    "hanabira-example-n2-0749": {
+      "meaningCn": "这取决于天气，但我想明天去野餐。",
+      "promptCn": "这取决于天气，但我想明天去野餐。"
+    },
+    "hanabira-example-n2-0750": {
+      "meaningCn": "这取决于我的考试成绩，但我正在考虑出国留学。",
+      "promptCn": "这取决于我的考试成绩，但我正在考虑出国留学。"
+    },
+    "hanabira-example-n2-0751": {
+      "meaningCn": "我们打算根据客户的反馈添加新的菜单项。",
+      "promptCn": "我们打算根据客户的反馈添加新的菜单项。"
+    },
+    "hanabira-example-n2-0752": {
+      "meaningCn": "申请完成后，您就可以收到护照。",
+      "promptCn": "申请完成后，您就可以收到护照。"
+    },
+    "hanabira-example-n2-0753": {
+      "meaningCn": "最近，我感觉有点睡眠不足，有点疲倦。",
+      "promptCn": "最近，我感觉有点睡眠不足，有点疲倦。"
+    },
+    "hanabira-example-n2-0754": {
+      "meaningCn": "这个房间有点暗，所以我们安装更亮的照明吧。",
+      "promptCn": "这个房间有点暗，所以我们安装更亮的照明吧。"
+    },
+    "hanabira-example-n2-0755": {
+      "meaningCn": "她说话的语气有些紧张。",
+      "promptCn": "她说话的语气有些紧张。"
+    },
+    "hanabira-example-n2-0756": {
+      "meaningCn": "他的声音听起来像是有点感冒。",
+      "promptCn": "他的声音听起来像是有点感冒。"
+    },
+    "hanabira-example-n2-0757": {
+      "meaningCn": "只要我身体健康，我就会继续锻炼。",
+      "promptCn": "只要我身体健康，我就会继续锻炼。"
+    },
+    "hanabira-example-n2-0758": {
+      "meaningCn": "只要我有钱，我就想去旅行。",
+      "promptCn": "只要我有钱，我就想去旅行。"
+    },
+    "hanabira-example-n2-0759": {
+      "meaningCn": "只要他不断地讲下去，这个项目的好处就会传达出来。",
+      "promptCn": "只要他不断地讲下去，这个项目的好处就会传达出来。"
+    },
+    "hanabira-example-n2-0760": {
+      "meaningCn": "只要你学习，你通过考试的机会就会更高。",
+      "promptCn": "只要你学习，你通过考试的机会就会更高。"
+    },
+    "hanabira-example-n2-0761": {
+      "meaningCn": "出发时，请不要忘记携带护照。",
+      "promptCn": "出发时，请不要忘记携带护照。"
+    },
+    "hanabira-example-n2-0762": {
+      "meaningCn": "发生地震时，请立即避难。",
+      "promptCn": "发生地震时，请立即避难。"
+    },
+    "hanabira-example-n2-0763": {
+      "meaningCn": "来日本后，我打算买很多纪念品。",
+      "promptCn": "来日本后，我打算买很多纪念品。"
+    },
+    "hanabira-example-n2-0764": {
+      "meaningCn": "参加面试时请着正装。",
+      "promptCn": "参加面试时请着正装。"
+    }
+  }
+}

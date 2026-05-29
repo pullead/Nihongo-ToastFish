@@ -43,12 +43,24 @@ namespace ToastFish.Model.StartWithWindows
         {
             int virtualKeyCode = KeyInterop.VirtualKeyFromKey(Key);
             Id = virtualKeyCode + ((int)KeyModifiers * 0x10000);
-            bool result = RegisterHotKey(IntPtr.Zero, Id, (UInt32)KeyModifiers, (UInt32)virtualKeyCode);
 
             if (_dictHotKeyToCalBackProc == null)
             {
                 _dictHotKeyToCalBackProc = new Dictionary<int, HotKey>();
                 ComponentDispatcher.ThreadFilterMessage += new ThreadMessageEventHandler(ComponentDispatcherThreadFilterMessage);
+            }
+
+            if (_dictHotKeyToCalBackProc.ContainsKey(Id))
+            {
+                Debug.WriteLine($"HotKey already registered in this process, ID={Id}, keyCode={virtualKeyCode}");
+                return false;
+            }
+
+            bool result = RegisterHotKey(IntPtr.Zero, Id, (UInt32)KeyModifiers, (UInt32)virtualKeyCode);
+            if (!result)
+            {
+                Debug.WriteLine($"RegisterHotKey failed, ID={Id}, keyCode={virtualKeyCode}");
+                return false;
             }
 
             _dictHotKeyToCalBackProc.Add(Id, this);
@@ -61,9 +73,10 @@ namespace ToastFish.Model.StartWithWindows
         public void Unregister()
         {
             HotKey hotKey;
-            if (_dictHotKeyToCalBackProc.TryGetValue(Id, out hotKey))
+            if (_dictHotKeyToCalBackProc != null && _dictHotKeyToCalBackProc.TryGetValue(Id, out hotKey))
             {
                 UnregisterHotKey(IntPtr.Zero, Id);
+                _dictHotKeyToCalBackProc.Remove(Id);
             }
         }
 

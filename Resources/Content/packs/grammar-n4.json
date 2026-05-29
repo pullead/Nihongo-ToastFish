@@ -1,0 +1,891 @@
+{
+  "pack": {
+    "packId": "builtin-grammar-n4",
+    "version": "2026.05.22",
+    "jlptLevel": "N4",
+    "contentKind": "grammar",
+    "displayName": "N4 grammar reference pack",
+    "description": "N4 grammar points imported from hanabira.org Japanese content with Simplified Chinese explanations from Nihongo ToastFish localization overlays. Chinese localization is applied from Nihongo ToastFish first-party overlays.",
+    "source": {
+      "sourceId": "hanabira-org-japanese-content",
+      "name": "hanabira.org Japanese content",
+      "url": "https://github.com/tristcoil/hanabira.org-japanese-content",
+      "attribution": "Content from hanabira.org. Attribution link required by the source repository README.",
+      "notes": "Simplified Chinese meanings and explanations are generated from Nihongo ToastFish localization overlays. Chinese localization is first-party Nihongo ToastFish content."
+    },
+    "license": {
+      "name": "Creative Commons License (variant not specified by source README)",
+      "url": "https://github.com/tristcoil/hanabira.org-japanese-content"
+    }
+  },
+  "items": [
+    {
+      "contentId": "hanabira-grammar-n4-0001",
+      "pattern": "A とか B とか",
+      "meaningCn": "用于表达多种例子或可能性； “例如”、“例如”、“例如”。",
+      "formation": "名词+とか+名词+とか",
+      "usageNote": "とか语法点用于列出多个示例或可能性。它在英语中可以被翻译为“例如”、“像”或“例如”。 とか 用在列出的项目之间，表示该列表并不详尽。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0002",
+      "pattern": "A は B ほど～ありません (A wa B hodo ～ arimasen)",
+      "meaningCn": "表示A不如B多； “不像……那样”、“不……达到……的程度”。",
+      "formation": "A は B ほど 动词/形容词 ありません",
+      "usageNote": "は B ほど～ありません语法点用于表示A不如B或与B程度不同，强调差异。它在英语中可以翻译为“不...作为”或“不...达到”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0003",
+      "pattern": "A は B ほど～ない (A wa B hodo ~ nai)",
+      "meaningCn": "表示 A 不像 B 那样～； '不像...那样'",
+      "formation": "A は B ほど + い-形容词词干（不含い）+ くない，な-形容词 + じゃない，动词负电位形式",
+      "usageNote": "A は B ほど～ない 语法点用于表达 A 在某些方面与 B 不同。它在英语中可以翻译为“not as...as”。这种结构通常与い形容词（没有い）和な形容词一起使用。对于动词，您可以使用负势形式。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0004",
+      "pattern": "A より B のほうが〜 (A yori B no hou ga 〜)",
+      "meaningCn": "比较两件事； “B 比 A 更多”。",
+      "formation": "A + より + B + のほうが + 形容词/动词",
+      "usageNote": "より 和 のほうが 语法模式用于通过形容词或动词来比较两个事物。在此结构中，项目 A 与项目 B 进行比较，表明项目 B 比项目 A 更多~。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0005",
+      "pattern": "い-Adjective く する/なる (i-Adjective kusuru/naru)",
+      "meaningCn": "表达正在发生的变化或使某事发生变化。",
+      "formation": "い-形容词（删除い）+ く + する/なる",
+      "usageNote": "い 形容词 く する/なる 语法点用于表示正在发生的变化 (naru) 或有意做出某些改变 (suru)。使用这种语法结构时，い形容词会更改为く形式，然后后跟する（进行更改）或なる（发生更改）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0006",
+      "pattern": "な-adjective に する/なる",
+      "meaningCn": "表示变化或决定；与な形容词一起表示“变得……、使其……”。",
+      "formation": "な-形容词 + に + する/なる",
+      "usageNote": "な形容词にする/なる语法点用于表达与na形容词相关的变化或决定。なる（naru）形式表示自身发生的变化，而する（suru）形式表示某人有意识地做出的决定。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0007",
+      "pattern": "Noun しか～ない (Noun shika~nai)",
+      "meaningCn": "表示“仅”、“仅此而已”或“没有其他”。",
+      "formation": "名词+しか+否定动词",
+      "usageNote": "语法点名词しか～ない用于强调某物的数量少或排他性。它在英语中可以被翻译为“仅”、“只不过”或“没有其他”。它与否定动词一起使用来表达意思。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0008",
+      "pattern": "Noun に する (Noun ni suru)",
+      "meaningCn": "用于表示选择或决定，“决定”或“选择”。",
+      "formation": "名词+に+する",
+      "usageNote": "语法点“名词にする”用于表达做出选择或决定，英文可译为“决定”或“选择”。它通常用于在不同的选项之间做出决定或在各种情况下做出决定，例如选择菜单项、决定计划或选择礼物。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0009",
+      "pattern": "Noun に なる (Noun ni naru)",
+      "meaningCn": "成为；改变成；变成。",
+      "formation": "名词+に+なる",
+      "usageNote": "“名词になる”语法点用于表示从一种状态或形式到另一种状态或形式的变化或转变。在英语中，它可以被翻译为“成为”、“变成”或“变成”。它经常与表示职业、地位或条件的名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0010",
+      "pattern": "のために (no tame ni)",
+      "meaningCn": "用于表达目的或理由； “为了”、“为了……”、“为了”。",
+      "formation": "名词+のために",
+      "usageNote": "のために语法点用于表达做某事的目的或原因，或为了某人或某事的利益。在英语中它可以被翻译为“for”、“for theake...”或“in order to”。构成很简单，只需将のために放在名词后面即可。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0011",
+      "pattern": "Noun の 間に (〜no aida ni)",
+      "meaningCn": "表达“同时”或“期间”特定时期或时间。",
+      "formation": "名词+の间に",
+      "usageNote": "名词の间に语法点用于表示动作发生的特定时期或时间。在英语中它通常被翻译为“while”或“during”。这个语法点需要一个名词来表示时间或时期。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0012",
+      "pattern": "Noun ばかり (〜bakari)",
+      "meaningCn": "表达“仅”、“只不过”、“总是”或“只是”。",
+      "formation": "名词 + ばかり、动词休闲 + ばかり、い 形容词 + ばかり、な-形容词 + だ ばかり",
+      "usageNote": "ばかり语法点用于表达某物只是、只不过、只是或总是。它可以附加在名词、动词或形容词上，并且根据上下文具有不同的含义。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0013",
+      "pattern": "Noun を あげる (Noun wo ageru)",
+      "meaningCn": "给予某人某物； ‘给予’、‘提供’、‘礼物’。",
+      "formation": "名词+を+あげる",
+      "usageNote": "をあげる语法点用于表达给予某人某物。在英语中它可以被翻译为“给予”、“提供”或“呈现”。这种结构通常与名词一起使用，表示向他人给予或提供有形的物品、行动或恩惠。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0014",
+      "pattern": "Nounをいただく (Noun wo itadaku)",
+      "meaningCn": "礼貌地接受或接受某物； “接受”、“得到”、“接受”。",
+      "formation": "名词+を+いただく",
+      "usageNote": "名词をいただく语法点用于表达以礼貌或谦虚的方式接受或接受某物的动作。动词“いただく”是动词“もらう”（接收）的更尊重的版本，因此使用“いただく”表示对给予你东西的人的谦卑和尊重。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0015",
+      "pattern": "Nounをくださる",
+      "meaningCn": "用于表示某人为了说话者的恩惠或利益而做某事。",
+      "formation": "名词+を+くださる",
+      "usageNote": "语法点“名词をくださる”是一种礼貌用语，用于表示某人为了说话者的利益而给予或做某事。它通常用于指代具有较高社会地位的人或对他们的行为表示感谢时。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0016",
+      "pattern": "Noun を くれる (Noun wo kureru)",
+      "meaningCn": "表示某人将某物送给说话者或与说话者关系密切的人。",
+      "formation": "给予者 + が + 接受者 + に + 名词 + を + くれる",
+      "usageNote": "语法点名词をくれる用于表达某人（除了说话者之外）给予说话者或与说话者关系密切的人某物。给予者是主语，接受者是说话者或靠近说话者的人。 くれる表示给予说话者或与说话者关系密切的人“有利”的行为。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0017",
+      "pattern": "Noun を さしあげる (Noun wo sashiageru)",
+      "meaningCn": "表达给予某物的礼貌方式。",
+      "formation": "名词+を+さしあげる",
+      "usageNote": "语法点名词をさしあげる用来表示你有礼貌地给某人某物。当向地位较高的人提供某物时，会使用此表达方式。它与名词连用，并取代常规动词あげる (ageru) 给予。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0018",
+      "pattern": "Noun もらう (Noun wo morau)",
+      "meaningCn": "从某人那里接受或得到某物； ‘接受’、‘获得’。",
+      "formation": "名词+を+もらう",
+      "usageNote": "もらう (morau) 语法点用于表达从某人那里接收或得到某物的动作。它通常强调该行动是为您完成的或者您是该行动的受益人。该结构需要一个名词，在“もらう”之前加助词“を”（wo）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0019",
+      "pattern": "Noun + 中 (Noun + ちゅう)",
+      "meaningCn": "表达“在……中间”、“在……期间”或“在……过程中”。",
+      "formation": "名词 + 中 (ちゅう)",
+      "usageNote": "中 (ちゅう) 语法点用于表达某事正在发生、发生期间或进行中。它附加在名词上以表达此含义（例如勉强中、仕事中、会议中）。有时也读作じゅう，具体取决于单词（例如授业中）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0020",
+      "pattern": "Verb させられる (Verb-saserareru)",
+      "meaningCn": "表达被动使役形式； “被迫”、“被迫”。",
+      "formation": "第1组动词：将～う替换为～わせられる，第2组动词：将～る替换为～させられる，第3组动词：する → させられる，くる →こさせられる",
+      "usageNote": "动词させられる语法点是动词的被动使役形式。它用于描述某人或某事导致或强迫另一个人做某事的情况。这种被动使役结构有助于表明该行为不是由该人自愿完成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0021",
+      "pattern": "Verb させる (Verb-saseru)",
+      "meaningCn": "表达“让某人做某事”、“让某人做某事”或“导致某人做某事”。",
+      "formation": "第1组动词：将最后一个平假名改为～せる，第2组动词：删除～る并添加～させる，第3组动词：する→させる，くる→こさせる",
+      "usageNote": "～させる动词形式用于描述导致或允许某人做某事。在英语中它可以被翻译为“让某人做某事”、“让某人做某事”或“导致某人做某事”。 ～させる形式的形成取决于它所附着的动词。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0022",
+      "pattern": "Verb た ことがある (Verb ta koto ga aru)",
+      "meaningCn": "表达过去做过某事的经历。",
+      "formation": "动词た形 + ことがある",
+      "usageNote": "～たことがある语法点用来表达过去做过某个动作的经历。它表明说话者以前至少有过做过某事的经历。它是在动词的た形式上加上ことがある而形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0023",
+      "pattern": "Verb た ときに (Verb た ときに)",
+      "meaningCn": "表达过去特定时间发生的动作或事件； '当'、'那时'。",
+      "formation": "动词た + ときに",
+      "usageNote": "たときに语法点用于表达过去特定时间发生的动作，通常集中于特定事件或时刻。它在英语中可以翻译为“何时”或“当时”。这个语法点需要一个た形式的动词，后跟ときに来表示动作发生的时间。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0024",
+      "pattern": "Verb た ところ (Verb ta tokoro)",
+      "meaningCn": "表达动作发生后的情况。",
+      "formation": "动词（た形式）+ところ",
+      "usageNote": "たところ语法点用于描述动作发生后立即发生的情况。它通常被翻译为“刚刚”、“之后”或“何时”。其构成相对简单，只需要动词“た”形式（过去时），后面跟“ところ”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0025",
+      "pattern": "Verb たほうがいい (〜ta hou ga ii)",
+      "meaningCn": "用于向某人提供建议或建议 - “如果……更好”。",
+      "formation": "动词（过去时）+ほうがいい",
+      "usageNote": "たほうがいい语法点用于向某人提供建议或提出建议。它可以被翻译为“如果……更好”、“应该”或“这是个好主意”。它是通过将动词变位为过去时（た形式）并添加ほうがいい而形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0026",
+      "pattern": "Verb ために (tame ni)",
+      "meaningCn": "用于描述某项行动的目的或原因； “为了”、“为了”、“因为”。",
+      "formation": "1) 动词（字典形式）+ ために（目的） 2) い-形容词 + ために（原因） 3) な-形容词 + な + ために（原因） 4) 名词 + の + ために（原因）",
+      "usageNote": "ために (tame ni) 语法点用于表达做某事的目的（在这种情况下翻译为“为了”或“为了”）或某种情况的原因/理由（在这种情况下翻译为“因为”）。通常，我们使用动词的字典形式（例如，合格する）来表达“为了”的含义。对于形容词或名词，适当地附加ために（い-形容词 + ために、な-形容词 + な + ために、名词 + の + ために）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0027",
+      "pattern": "Verb つもり (〜tsumori)",
+      "meaningCn": "表达做某事的意图、计划或决心； “我打算”、“我打算”、“我决心”。",
+      "formation": "动词休闲 + つもり",
+      "usageNote": "～つもり语法点用于表达做某事的意图、计划或决心。它在英语中可以翻译为“我打算”、“我计划”或“我决心”。它与随意形式的动词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0028",
+      "pattern": "Verb てあげる (Verb te ageru)",
+      "meaningCn": "用来表示为某人做某事； “为某人做某事”。",
+      "formation": "动词て形式+あげる",
+      "usageNote": "てあげる语法点用于表达说话者或听者以外的人正在为别人做某事。它表明该行为是出于恩惠或善意而进行的。该语法点与て形式的动词一起使用，后跟あげる。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0029",
+      "pattern": "Verb て ある (Verb-te aru)",
+      "meaningCn": "表示某项操作已完成且其结果仍然有效。",
+      "formation": "动词て形式+ある",
+      "usageNote": "～てある语法点用于表示一个动作已经完成并且其结果仍然有效。它表明该动作是有意执行的并且其效果持续存在。该构成是通过将动词变位为て形式，然后添加ある来完成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0030",
+      "pattern": "Verb て いく (Verb-te iku)",
+      "meaningCn": "表达持续到未来的动作或随着时间的推移而发生的变化。",
+      "formation": "动词て形+いく",
+      "usageNote": "ていく语法点用于表示动作将继续或变化将进展到未来。它可以附加在动词的て形式上，在英语中通常被翻译为“保持”、“继续”或“继续”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0031",
+      "pattern": "Verb ていただきたい (te itadakitai)",
+      "meaningCn": "表达礼貌的请求或希望某人为您做某事。",
+      "formation": "动词て形式+いただきたい",
+      "usageNote": "ていただきたい语法点用于表达礼貌的请求或希望某人为你做某事。它是通过在动词的て形式上附加いただきたい而形成的。它比て形+ほしい结构更有礼貌。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0032",
+      "pattern": "Verb ていただく (〜te itadaku)",
+      "meaningCn": "用来表示接受某人的恩惠或帮助； '善意地做'。",
+      "formation": "动词て形式+いただく",
+      "usageNote": "～ていただく语法点用于表达某人好心帮忙或提供帮助。这是一种更礼貌、更谦虚的方式来表示您得到了某人的帮助。该结构是通过附加动词的て形+いただく来创建的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0033",
+      "pattern": "Verb て いただけませんか (Verb te itadakemasen ka)",
+      "meaningCn": "礼貌的请求； “你能……”、“你介意吗……”",
+      "formation": "动词て形式+いただけませんか",
+      "usageNote": "ていただけませんか语法点用于向某人提出礼貌的请求。这是てくれませんか的一种更礼貌的形式，可以翻译为英语中的“你可以吗……”或“你介意吗……”。要使用它，请将动词更改为て形式并添加いただけませんか。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0034",
+      "pattern": "Verb て いる (Verb-te iru)",
+      "meaningCn": "表达正在进行的动作或由过去的动作引起的状态。",
+      "formation": "动词（て形）+いる",
+      "usageNote": "ている形式用于表达正在进行的动作或由过去的动作引起的状态。它是通过将动词变位为“て”形式，然后添加“いる”而形成的。在英语中，这可以翻译为 verb-ing 或“have verb-ed”。它的用法取决于动词的类型：动作动词或状态动词。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0035",
+      "pattern": "Verb て いる ところ (Verb te iru tokoro)",
+      "meaningCn": "描述当前正在发生的动作； “在……的中间”、“在……的过程中”。",
+      "formation": "动词て形式+いるところ",
+      "usageNote": "ているところ语法点用于表达当前正在发生或正在发生的动作。在英语中它可以被翻译为“在……的中间”或“在……的过程中”。它由动词的て形式后接いる和ところ构成。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0036",
+      "pattern": "Verb ている間に (te iru aida ni)",
+      "meaningCn": "表达“当”或“期间”某事正在发生。",
+      "formation": "动词て形式+いる+间に",
+      "usageNote": "～ている间に语法点用于表达一个动作或事件在另一个动作或事件发生期间发生。在英语中它通常被翻译为“同时”或“在一段时间内”。它是由动词て形与いる结合并加上间に而成。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0037",
+      "pattern": "Verb ておく (〜te oku)",
+      "meaningCn": "执行一项行动，为未来的情况做好准备； “提前做某事”。",
+      "formation": "动词て形式+おく",
+      "usageNote": "～ておく语法点用于表达为未来情况做准备而执行某个动作或提前做某事时。它附加在动词的 te 形式上，表达预先做某事的想法，作为准备动作。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0038",
+      "pattern": "Verb て くださいませんか (Verb-te kudasaimasen ka)",
+      "meaningCn": "礼貌地请求某人帮忙。",
+      "formation": "て形动词 + くださいませんか",
+      "usageNote": "てくださいませんか语法点是请求某人帮忙或要求他们做某事的礼貌方式。它比简单的て形式后接ください更为正式，通常用于更正式的场合或与不亲近的人交谈时。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0039",
+      "pattern": "Verb て くださる (Verb-te kudasaru)",
+      "meaningCn": "对接受某人的恩惠表示感谢； '善意地做'。",
+      "formation": "动词て形 + くださる",
+      "usageNote": "てくださる语法点用于表达对接受别人的恩惠或行为的感激之情。这是一种敬语，表示某人善意地为说话者或听者做某事。该动词变位为～て形式，后接くださる。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0040",
+      "pattern": "Verb て くる (Verb te kuru)",
+      "meaningCn": "从过去开始并持续到现在或将来的动作； “来到”、“开始”、“成为”。",
+      "formation": "动词て形+くる",
+      "usageNote": "てくる语法点用于表达从过去开始并持续到现在或将来的动作。它还可以显示状态或条件的变化。其构成包括在动词的て形式后加上くる。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0041",
+      "pattern": "Verb てくれませんか (〜te kuremasen ka)",
+      "meaningCn": "请求某人为您做某事的礼貌方式； “你可以吗”、“你愿意吗”、“你不愿意吗”。",
+      "formation": "动词て形式+くれませんか",
+      "usageNote": "～てくれませんか语法点用于礼貌地请求某人为你做某事。它由动词的て形式后接くれませんか构成。它在英语中翻译为“你可以吗”、“你愿意吗”或“你不愿意吗”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0042",
+      "pattern": "Verb て くれる (Verb-te kureru)",
+      "meaningCn": "表示某人为说话者（或说话者群体中的另一个人）做了某事； “为我/我们做点什么”。",
+      "formation": "动词te形式+くれる",
+      "usageNote": "てくれる语法点用于表达某人为说话者（或说话者群体中的某人）做某事或给予某事。该行动通常是执行该行动的人自愿或作为一个恩惠而完成的。它通常被翻译成英语“为我做某事”或“给我一些东西”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0043",
+      "pattern": "Verb て + さしあげる (Verb TE sashiageru)",
+      "meaningCn": "表达为某人奉献或做某事的礼貌方式。",
+      "formation": "动词て形 + さしあげる",
+      "usageNote": "语法点“动词て+さしあげる”用于表达以礼貌的方式为某人给予或做某事的动作。它主要用于说话者为社会地位较高的人提供或做某事或表示对该人的尊重时。要形成这个表达，您需要将动词变位为て形式并附加さしあげる。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0044",
+      "pattern": "Verb てしまう (〜te shimau)",
+      "meaningCn": "表示无意的行为或导致令人遗憾的结果的行为； “最终做了”、“意外地做了”。",
+      "formation": "动词te形式+しまう",
+      "usageNote": "～てしまう语法点用于表示无意的行为或导致令人遗憾的结果的行为。在英语中，它通常可以被翻译为“最终做”或“意外地做”。该结构需要在动词的て形后添加しまう。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0045",
+      "pattern": "Verb て ほしい (Verb-te hoshii)",
+      "meaningCn": "表达希望别人做某事的愿望； “我想要（某人）”。",
+      "formation": "动词て形式+ほしい",
+      "usageNote": "てほしい语法点用于表达说话者希望别人做某事的愿望。它是由动词的て形与ほしい组合而成。主语后面通常跟助词“に”，但在随意讲话中可以省略。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0046",
+      "pattern": "Verb てみる (〜te miru)",
+      "meaningCn": "用于表达“尝试”或“尝试去做”。",
+      "formation": "动词て形式+みる",
+      "usageNote": "～てみる语法点与动词一起使用，表示“尝试”或“试图”做某事。它强调尝试或尝试某件事的想法，通常是为了看看结果或结果会是什么。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0047",
+      "pattern": "Verb てもらいたい (～te moraitai)",
+      "meaningCn": "表达希望得到别人的恩惠或服务的愿望。",
+      "formation": "动词て形 + もらいたい",
+      "usageNote": "～もらいたい语法点用于表达一个人希望得到别人的恩惠、服务或行动的愿望。它是通过在动词て形式上附加もらいたい而形成的。这种结构强调说话者希望从别人那里得到帮助或恩惠。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0048",
+      "pattern": "Verb て もらう (Verb-te morau)",
+      "meaningCn": "表示接受某人的恩惠或行动。",
+      "formation": "动词て形式+もらう",
+      "usageNote": "动词てもらう语法点用于表示说话人或第三人受到别人的恩惠或动作。它描述某人为了说话者或第三人的利益而采取的行动，暗示受益人的感激或请求。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0049",
+      "pattern": "Verb てもらえませんか (～te moraemasen ka)",
+      "meaningCn": "请求帮助或请求某人做某事的礼貌方式。",
+      "formation": "动词て形式+もらえませんか",
+      "usageNote": "～もらえませんか语法点是一种礼貌且间接的方式，要求某人为你做某事或请求帮忙。它是通过将动词变位为て形并添加もらえませんか而形成的。这种形式用于对话中以表示礼貌和谦虚。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0050",
+      "pattern": "Verb ない ことがある (Verb-nai koto ga aru)",
+      "meaningCn": "表示某事并不总是发生或有时不发生。",
+      "formation": "动词否定形式 + ことがある",
+      "usageNote": "ないことがある语法点用于表示某些情况或时间某些事情没有发生或没有完成。它是由动词的否定形式（ない）与ことがある组合而成。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0051",
+      "pattern": "Verb ない + ことにする (Verb nai koto ni suru)",
+      "meaningCn": "决定不做某事。",
+      "formation": "动词ない形式+ことにする",
+      "usageNote": "语法点动词ない+ことにする用来表达不做某事的决定。这种结构表明说话者有意识地选择不采取动词中表达的动作。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0052",
+      "pattern": "Verb ない ことになる (Verb nai koto ni naru)",
+      "meaningCn": "表达结果； “最终不会”、“会变成那样”、“那就意味着那样”。",
+      "formation": "动词否定 (ない) + ことになる",
+      "usageNote": "动词ないことになる语法点用于表达结果或后果。它在英语中翻译为“最终不会”、“它将成为那样”或“它将意味着那样”。它是通过使用动词的否定形式（ない）后接ことになる而形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0053",
+      "pattern": "Verb ないほうがいい (Verb nai hou ga ii)",
+      "meaningCn": "表达最好不要做某事的想法。",
+      "formation": "动词否定形式+ほうがいい",
+      "usageNote": "ないほうがいい语法点用于建议最好不要做某个动作。它是由动词的否定形式加上ほうがいい构成。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0054",
+      "pattern": "Verb ながら (〜nagara)",
+      "meaningCn": "表达“同时”或“作为”，意思是同时做两件事。",
+      "formation": "动词masu词干+ながら",
+      "usageNote": "～ながら语法点用于表示两个动作同时发生，或者一个动作正在发生而另一个动作正在发生。这可以翻译为英语中的“while”或“as”。它主要与动词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0055",
+      "pattern": "Verb なさい (〜nasai)",
+      "meaningCn": "用于发出命令或指示的命令形式； “请这样做”、“这样做”。",
+      "formation": "动词词干+なさい",
+      "usageNote": "なさい语法点用于发出命令或指示，通常由老师、父母或其他权威人士在称呼年龄较小或地位较低的人时使用。它是在动词的词干上加上なさい而形成的。这种形式听起来很礼貌，但可以认为是强烈和直接的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0056",
+      "pattern": "Verb にくい (〜nikui)",
+      "meaningCn": "表达困难或复杂性； “很难”、“很难”、“不容易”。",
+      "formation": "动词词干+にくい",
+      "usageNote": "～にくい语法点用来表示某个动作很难或相对难做。通过将にくい附加在动词的词干上来使用。在英语中可以翻译为“很难”、“很难”或“不容易”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0057",
+      "pattern": "Verb やすい (〜yasui)",
+      "meaningCn": "表示某件事很容易做到； ‘容易’，‘容易’。",
+      "formation": "动词词干 + やすい",
+      "usageNote": "やすい语法点用于表达某件事很容易做或对某人来说很容易。它附加在动词词干上，在英语中可以翻译为“easy to”或“easy for”。这种结构仅与动词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0058",
+      "pattern": "Verb ようと思う (Verb-you to omou)",
+      "meaningCn": "表达做某事的意图或计划； “我想我会”、“我打算”、“我打算”。",
+      "formation": "动词意志+と思う",
+      "usageNote": "ようと思う语法点用于表达将来要做某事的意图或计划。英语中它可以翻译为“我想我会”、“我计划”或“我打算”。构成涉及使用动词的意志形式，后接と思う。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0059",
+      "pattern": "Verb ように (〜you ni)",
+      "meaningCn": "用于表达“喜欢”、“好像”、“为了”或“所以”。",
+      "formation": "示例：名词 + のように / 动词休闲 + ように / い形容词 + ように",
+      "usageNote": "～ように语法点用于根据上下文表达不同的含义：“喜欢”、“好像”、“为了”或“所以”。构成模式可以包括：名词+のように、动词词典/否定形式+ように、い形容词+ように等。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0060",
+      "pattern": "Verb ようにする (Verb ~you ni suru)",
+      "meaningCn": "努力做到；尝试；请注意这一点；确保这一点。",
+      "formation": "动词词典形式+ようにする",
+      "usageNote": "ようにする语法点用于表达某人正在努力、尝试或确保某事发生。它在英语中可以翻译为“确保”、“尝试”或“确保”。构成很简单，涉及字典形式的动词，后面跟着ようにする。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0061",
+      "pattern": "Verb ようになる (〜you ni naru)",
+      "meaningCn": "表达能力、情况或状态的变化； “能够”、“开始”、“开始”。",
+      "formation": "动词词典/潜在形式 + ようになる",
+      "usageNote": "ようになる语法意味着涉及新能力、情况或状态的变化或发展。它可以被翻译成英语“成为能够”、“来到”或“开始”。当谈论已经获得的技能或者习惯或情况随着时间的推移而发生的变化时，通常会使用这种语法。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0062",
+      "pattern": "Verb ように言う (Verb-you ni iu)",
+      "meaningCn": "告诉某人做某事； “告诉做”、“指示做”。",
+      "formation": "动词休闲+ように言う",
+      "usageNote": "语法点动词ように言う用于当某人告诉或指示另一个人做某事时。它在英语中可以翻译为“告诉做”或“指示做”。该结构是通过在动词的随意形式上添加ように言う来创建的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0063",
+      "pattern": "Verb られる (〜rareru)",
+      "meaningCn": "表达动词的被动语态或潜在形式。",
+      "formation": "う动词（被动）：将最后的う替换为われる / る动词（被动和潜在）：将る替换为られる / 不规则：する → される，くる → こられる",
+      "usageNote": "られる语法点可用于表达被动语态或动词的潜在形式。被动语态表示正在对主语采取行动，而潜在形式表示采取行动的能力或可能性。られる的构成取决于动词的类型（う、る或不规则动词）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0064",
+      "pattern": "Verb る ことがある (〜ru koto ga aru)",
+      "meaningCn": "用于表示某事有时发生或以前发生过。",
+      "formation": "动词词典形式 + ことがある",
+      "usageNote": "语法点ることがある用来表示某事有时发生或过去发生过。它表明该动作不是定期或持续的事件，而是偶尔发生或至少发生过一次的事件。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0065",
+      "pattern": "Verb ることができる (〜ru koto ga dekiru)",
+      "meaningCn": "表达采取某项行动的能力或可能性； “可以”、“能够”、“可能”。",
+      "formation": "动词る + ことができる",
+      "usageNote": "～ることができる语法点在日语中用来表示做某个动作的能力或可能性。它在英语中可以翻译为“可以”、“能够”或“可能”。该结构是通过在动词的共轭る形式中添加短语“ことができる”来形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0066",
+      "pattern": "Verb ることにする (〜ru koto ni suru)",
+      "meaningCn": "决定做某事，做出决定。",
+      "formation": "动词る + ことにする",
+      "usageNote": "～ることにする语法点用于表达某人已决定做某事或已决定采取特定的行动方针。它是通过将ことにする附加到る形式的动词上而形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0067",
+      "pattern": "Verb る ことになる (〜ru koto ni naru)",
+      "meaningCn": "表示某事已经决定或安排； “已经决定了”、“事实证明是这样”。",
+      "formation": "动词る + ことになる",
+      "usageNote": "ることになる语法点用于表达某事已经决定或安排。它通常表示由其他人或由于情况而做出的决定。在英语中它可以被翻译为“已经决定”或“事实证明”。该结构需要る（字典）形式的动词。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0068",
+      "pattern": "Verb るときに (〜ru toki ni)",
+      "meaningCn": "描述某动作发生的时间； '当'、'那时'。",
+      "formation": "动词る+ときに",
+      "usageNote": "～るときに语法点用于表示某个动作或事件发生的时间。它在英语中可以翻译为“何时”或“当时”。该构成涉及将ときに附加到字典（る）形式的动词上。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0069",
+      "pattern": "Verb る ところ (Verb-ru tokoro)",
+      "meaningCn": "表达动作即将发生或正在发生的状态或时刻。",
+      "formation": "动词词典形式+ところ",
+      "usageNote": "语法点“动词るところ”用来表达即将做某事，或者正在做某事。根据上下文，它可以被翻译为英语中的“just about to”或“in the middle of”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0070",
+      "pattern": "Verb 出す (~dasu)",
+      "meaningCn": "表达取出某物、开始一个动作或强调动词的动作。",
+      "formation": "动词词干 + 出す (~dasu)",
+      "usageNote": "动词出す（~dasu）用于表达取出某物、开始一个动作或强调其所附动词的动作。要形成这个语法点，只需将出す (~dasu) 附加到动词的词干上即可。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0071",
+      "pattern": "Verb 方 (〜hou)",
+      "meaningCn": "表示做某事的方式或方法；通常读作“～かた”（“如何”、“方式”）。",
+      "formation": "动词词干+方（读作かた）",
+      "usageNote": "～方语法点用于表达做某事的方式或方法，类似于英语中的“how to”或“the way of”。它可以附加在动词的词干上，形成名词，表示执行动作的方法。实际上，～方通常读作“～かた”（例如，作り方＝つくりかた）。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0072",
+      "pattern": "Verb 終わる (〜owaru)",
+      "meaningCn": "言语动作完成； ‘结束’、‘结束’。",
+      "formation": "终わる (owaru) 是一个五段（u-动词）",
+      "usageNote": "动词终わる（owaru）用于表示动作已经完成或某事已经结束。尽管以る结尾，但终わる是五段（u动词），因此它不遵循典型的一段（る动词）变形。它在英语中被翻译为“完成”、“结束”或“结束”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0073",
+      "pattern": "Verb + 続ける (つづける, tsuzukeru)",
+      "meaningCn": "继续做或继续做一个动作。",
+      "formation": "动词masu词干+続ける",
+      "usageNote": "语法点続ける (tsuzukeru) 附加在动词的 Masu 词干形式上，表示动作的持续连续性。它在英语中可以翻译为“继续做”或“继续做”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0074",
+      "pattern": "～かしら (〜kashira)",
+      "meaningCn": "表示不确定或怀疑； “我想知道”、“我不确定”。",
+      "formation": "动词休闲 + かしら，い-形容词 + かしら，な-形容词 + かしら，名词 + かしら",
+      "usageNote": "～かしら语法点用于表达对某种情况的不确定或怀疑。它在英语中可以翻译为“我想知道”或“我不确定”。它主要由女性在休闲对话中使用，但男性在某些情况下也可以使用。 ～かしら与动词、い形容词、な形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0075",
+      "pattern": "～かどうか (〜ka dou ka)",
+      "meaningCn": "用于在间接问题或陈述中表达“是否”或“如果”。",
+      "formation": "动词休闲 + かどうか，い-形容词 + かどうか，な-形容词 + (だ)かどうか，名词 + (だ)かどうか",
+      "usageNote": "～かどうか语法点用于在间接疑问句或陈述中表达“是否”或“如果”。它通常用于表达不确定性或以更礼貌的形式询问信息。 ～かどうか可以与动词、い形容词、な形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0076",
+      "pattern": "～かなあ (〜kanaa)",
+      "meaningCn": "表达不确定或惊奇； “我想知道”、“我不确定”。",
+      "formation": "动词休闲 + かなあ，い-形容词 + かなあ，(な-形容词/名词) + (だ) + かなあ",
+      "usageNote": "～かなあ语法点用于表达对某种情况或陈述的不确定感或好奇感。它在英语中可以翻译为“我想知道”或“我不确定”。在日语日常口语中，当在かなあ之前使用名词或な形容词时，系词だ通常被省略或用の代替（例如，学生かなあ或学生なのかなあ）。直接向某人提问时不应使用此语法点，因为它可能会显得过于直接或不礼貌。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0077",
+      "pattern": "～かもしれない (〜kamoshirenai)",
+      "meaningCn": "表达不确定性； ‘或许’、‘或许’、‘可能’。",
+      "formation": "动词休闲 + かもしれない，い 形容词 + かもしれない，な-形容词 + だかもしれない，名词 + だかもしれない",
+      "usageNote": "～かもしれない语法点用于表达不确定性或某事发生的可能性。它在英语中可以被翻译为“也许”、“可能”或“可能”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。在日常用语中，说话者经常在名词和な形容词的かもしれない之前省略だ。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0078",
+      "pattern": "～から (〜kara)",
+      "meaningCn": "表达理由或原因； “因为”、“因为”、“由于”。",
+      "formation": "动词休闲 + から，い-形容词 + から，な-形容词 + だから，名词 + だから",
+      "usageNote": "～から语法点用于表达原因、原因或某物的起源。它在英语中可以翻译为“because”、“since”或“due to”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0079",
+      "pattern": "～けれど (〜keredo)",
+      "meaningCn": "表示柔和的对比或矛盾； '但是'，'然而'。",
+      "formation": "动词休闲 + けれど，い-形容词 + けれど，な-形容词 + だけれど，名词 + だけれど",
+      "usageNote": "～けれど语法点用于表达两个陈述之间的柔和对比或矛盾。它在英语中可以翻译为“但是”或“但是”。它相对非正式，可以用更正式的表达方式代替，例如けれども或が。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0080",
+      "pattern": "～させてください (〜sasete kudasai)",
+      "meaningCn": "表达礼貌的请求，允许或准许某人做某事。",
+      "formation": "动词使役形式 + ください",
+      "usageNote": "～させてください语法点用于礼貌地请求允许或许可某人做某事。它在英语中可以翻译为“请让我”或“请允许我”。它是由动词的使役形式加上ください构成。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0081",
+      "pattern": "～し、～し、～ (〜shi, 〜shi, 〜)",
+      "meaningCn": "表达多种原因或特征； “并且”、“因为”、“因为”。",
+      "formation": "动词休闲 + し，い-形容词 + し，な-形容词 + だし，名词 + だし",
+      "usageNote": "～し、～し、～语法点用于连接支持结论或陈述的多个原因或特征。它在英语中可以翻译为“and”、“because”或“since”。此语法可与动词、い形容词、な形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0082",
+      "pattern": "～すぎる (〜sugiru)",
+      "meaningCn": "表示某事过度或过度； ‘太多’、‘太多’、‘超过’。",
+      "formation": "动词词干 + すぎる，い-形容词（去掉い）+ すぎる，な-形容词 + すぎる",
+      "usageNote": "～すぎる语法点用于表示某事过度或超出一定水平。它在英语中可以翻译为“太多”、“太多”或“过度”。根据是否与动词、い形容词或な形容词一起使用，其结构有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0083",
+      "pattern": "～ずつ (〜zutsu)",
+      "meaningCn": "表示均等分配； ‘每个’、‘每个’、‘每个’。",
+      "formation": "名词+ずつ",
+      "usageNote": "～ずつ语法点用于表达某事物的均等分配，无论是动作、金额还是项目。它在英语中被翻译为“each”、“per”或“apiece”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0084",
+      "pattern": "～そうだ (〜sou da)",
+      "meaningCn": "表达某物的外观、外观或感觉； “看起来像”、“似乎”、“似乎”。",
+      "formation": "动词ます词干 + そうだ、い-形容词（不含い）+ そうだ、な-形容词 + そうだ",
+      "usageNote": "～そうだ语法点用于根据观察或推断来描述某事物的外观或感觉。它在英语中可以被翻译为“看起来像”、“似乎”或“出现”。根据是否与动词、い形容词或な形容词一起使用，其结构有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0085",
+      "pattern": "そんな (sonna) + Noun",
+      "meaningCn": "表达“那种/类型”；指的是听者附近或之前提到过的事物。",
+      "formation": "そんな + 名词",
+      "usageNote": "“そんな”一词用在名词之前，表示“那种”或“那种类型”，通常指靠近听者的事物或之前在对话中提到的事物。它根据上下文或说话者和听者之间的共同理解来指定名词。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0086",
+      "pattern": "そんなに～ (sonna ni〜)",
+      "meaningCn": "表达“不是那么多”、“不是那样”或“不是那么~”。",
+      "formation": "そんなに + 动词否定、そんなに + 形容词否定",
+      "usageNote": "语法点そんなに是一个副词，用来表示某件事没有描述的那么极端或者没有达到那种程度。它通常被翻译为“not so much”、“not that”或“not so ~”。通常后跟动词或形容词的否定形式。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0087",
+      "pattern": "～たらいい (〜tara ii)",
+      "meaningCn": "表达对特定结果的愿望或建议； “如果”、“应该”、“我希望”，那就太好了。",
+      "formation": "动词随意过去式 + たらいい",
+      "usageNote": "～たらいい语法点用于表达对特定结果的愿望、建议或希望。它在英语中可以翻译为“如果”、“应该”或“我希望”。其构成很简单，并且与动词的随意过去时形式一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0088",
+      "pattern": "～たら いかがですか (〜tara ikaga desu ka)",
+      "meaningCn": "提出礼貌的建议； “如果怎么样”，“如果怎么样”，“如果的话就好了”。",
+      "formation": "动词随意、过去式 + たら いかがですか、い-形容词 + かったら いかがですか、な-形容词 + だったら いかがですか、名词 +だったらいかがですか",
+      "usageNote": "～たら いかがですか 语法点用于提出礼貌的建议、征求意见或暗示如果满足条件的话某件事会很好或令人向往。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0089",
+      "pattern": "～たら どうですか (〜tara doudesuka)",
+      "meaningCn": "表达建议或建议； “如果”、“怎么样”、“为什么不呢”。",
+      "formation": "动词た形式+らどうですか",
+      "usageNote": "～たら どうですか语法点用于向某人提出建议或提供建议。它在英语中可以翻译为“如果”、“怎么样”或“为什么不”。这种结构与动词た形式一起使用，以提出温和、礼貌的建议。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0090",
+      "pattern": "～たり～たり (〜tari 〜tari)",
+      "meaningCn": "用于列出多个动作或状态； “做类似的事情”、“等等”、“等等”",
+      "formation": "动词-ta + り + 下一个动词-ta + り、い-形容词 + かったり + 下一个动词-ta + り、な-形容词 + だったり + 下一个动词-ta + り、名词 + だったり + 下一个动词-ta + り",
+      "usageNote": "～たり～たり语法点用于列出两个或多个动作或状态，而不指定它们的顺序或重要性。这意味着这些动作或状态是代表性的例子，并且可能还有其他例子。这种结构对于描述一般或习惯性的行为很有用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0091",
+      "pattern": "～だろう (〜darou)",
+      "meaningCn": "表达概率、可能性或确定性； “可能”、“也许”、“我认为”。",
+      "formation": "动词休闲 + だろう、い-形容词 (drop い) + だろう、な-形容词 + だろう、名词 + だろう",
+      "usageNote": "～だろう语法点用于表达有关情况或事件的概率、可能性或确定性。它在英语中可以被翻译为“可能”、“也许”或“我认为”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0092",
+      "pattern": "～っていう (〜tte iu)",
+      "meaningCn": "用于引用、定义或指定名词。",
+      "formation": "名词/形容词/动词 + っていう + 名词",
+      "usageNote": "～っていう语法点用于引用、定义或指定名词。在英语中它可以被翻译为“被称为”、“也就是说”或“我的意思是”。这个表达方式与～という类似，​​但比较随意，常用于口语对话中。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0093",
+      "pattern": "～で (〜de)",
+      "meaningCn": "表示手段、方法或地点。",
+      "formation": "名词+～で",
+      "usageNote": "～で语法点用于表示执行动作的手段或方法，或指定动作发生的地点。它通常与动词一起使用，位于名词后面。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0094",
+      "pattern": "～でしょう (〜deshou)",
+      "meaningCn": "推测或概率； “可能”、“我认为”、“似乎”。",
+      "formation": "动词-ます词干 + でしょう，い-形容词 + でしょう，な-形容词 + でしょう，名词 + でしょう",
+      "usageNote": "～でしょう语法点用于表示猜想或概率。在英语中它可以被翻译为“可能”、“我认为”或“似乎”。它可以与动词、い形容词、な形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0095",
+      "pattern": "～てはいけない (〜te wa ikenai)",
+      "meaningCn": "表示禁止； ‘不可以’、‘不能’。",
+      "formation": "动词て形+はいけない",
+      "usageNote": "～てはいけない语法点用于表示严格禁止或绝对不能做的事情。它在英语中可以被翻译为“不能”、“不能”或“不应该”。它是通过在动词的て形后面加上はいけない而形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0096",
+      "pattern": "～てもいい (〜temo ii)",
+      "meaningCn": "给予或请求许可； “没关系”、“可以”、“可以”。",
+      "formation": "动词て形式+もいい",
+      "usageNote": "～てもいい语法点用于给予或请求许可做某事。它在英语中可以翻译为“没关系”、“可以”或“可以”。该结构是在动词て形后添加てもいい而得。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0097",
+      "pattern": "～ても/でも (〜te mo/demo)",
+      "meaningCn": "表示“即使”或“即使”；用于表达矛盾或对比。",
+      "formation": "动词て形 + も、い-形容词 (-い) + くても、な-形容词 + でも、名词 + でも",
+      "usageNote": "～ても/でも语法点用于在句子中表达“即使”或“即使”，表示矛盾或对比的意思。ても的构成因是否与动词、い形容词或な形容词一起使用而有所不同。对于名词，使用でも。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0098",
+      "pattern": "～といい (〜to ii)",
+      "meaningCn": "表达愿望或希望； “我希望”、“如果这样就好了”。",
+      "formation": "动词休闲 + といい、い-形容词 + といい、な-形容词 + だといい、名词 + だといい",
+      "usageNote": "～といい语法点用于表达对某种情况或结果的愿望或希望。它在英语中可以翻译为“我希望”、“如果这样就好了”或“如果那样就好了”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0099",
+      "pattern": "～という (〜to iu) Noun",
+      "meaningCn": "用于更具体地定义或解释名词。",
+      "formation": "名词 + という + 名词、な-形容词 + という + 名词、形容词动词 + という + 名词",
+      "usageNote": "～という语法点用于更具体地定义或解释名词。在英语中它通常被翻译为“被称为”、“被命名”或“也就是说”。它可以与名词、な形容词和形容词动词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0100",
+      "pattern": "どういう Noun (dou iu Noun)",
+      "meaningCn": "要求有关名词的澄清或更多信息； ‘什么样的’，‘什么样的’。",
+      "formation": "どういう + 名词",
+      "usageNote": "どういう 名词语法点用于询问有关特定名词的更多信息或澄清。英文可译为“what kind of”或“what sort of”。其构成只是使用どういう，后跟相关名词。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0101",
+      "pattern": "～と思う (〜to omou)",
+      "meaningCn": "表达自己的想法或意见； “我认为”、“我相信”。",
+      "formation": "动词休闲 + と思う，い-形容词 + と思う，な-形容词 + だと思う，名词 + だと思う",
+      "usageNote": "～と思う语法点用于表达对特定主题或情况的想法或意见。它在英语中可以翻译为“我认为”或“我相信”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0102",
+      "pattern": "～という (〜to iu)",
+      "meaningCn": "用于引用、表达道听途说或定义某事。",
+      "formation": "动词休闲 + という，い-形容词 + という，な-形容词 + という，名词 + という",
+      "usageNote": "～という语法点用于引用某人的话，表达你从别人那里听到或读到的东西，或者定义和澄清主题。它可以被翻译为“被称为”、“那”或“据说”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0103",
+      "pattern": "～ないといけない (〜nai to ikenai)",
+      "meaningCn": "表达必要性； ‘必须’、‘必须’、‘需要’。",
+      "formation": "动词否定+といけない",
+      "usageNote": "～ないといけない语法点用于表达必要性或义务感，类似于英语中的“must”、“have to”或“need to”。这种结构是通过使用动词的否定形式（以ない结尾）后接といけない而形成的。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0104",
+      "pattern": "～なきゃいけない (〜nakya ikenai)",
+      "meaningCn": "表达必要性或义务； ‘必须’、‘不得不’。",
+      "formation": "动词随意（不带い的否定形式）+ なきゃいけない",
+      "usageNote": "～なきゃいけない语法点用于表达必要性或义务感，类似于英语中的“must”或“have to”。它是～なければいけない语法点的一种随意且更口语化的形式。动词的构成有所不同，但不与 い 形容词、な 形容词或名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0105",
+      "pattern": "～なくちゃいけない (〜naku cha ikenai)",
+      "meaningCn": "表达做某事的义务； ‘必须’、‘必须’、‘需要’。",
+      "formation": "动词-ない形式（-ない结尾被删除）+ なくちゃいけない",
+      "usageNote": "～なくちゃいけない语法点用于表达有义务或有必要做某事。它在英语中可以翻译为“必须”、“必须”或“需要”。这个语法点主要与动词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0106",
+      "pattern": "～なくてはいけない (〜nakute wa ikenai)",
+      "meaningCn": "表示必要性或义务； ‘必须’、‘不得不’。",
+      "formation": "动词否定形式+なくてはいけない",
+      "usageNote": "～なくてはいけない语法点用于表达做某事的必要性或义务。它在英语中可以翻译为“必须”或“必须”。该结构需要动词的否定形式，后接いけない（无法进行/进行）。表示某件事如果不做就会有问题或者不合适。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0107",
+      "pattern": "～なくてもいい (〜nakutemo ii)",
+      "meaningCn": "表示某事没有必要做； “没有也没关系”、“不必”。",
+      "formation": "动词ない形式 + てもいい",
+      "usageNote": "～なくてもいい语法点用于表达某种动作或情况不是必要或必需的，暗示即使不发生也没关系。它在英语中可以翻译为“如果没有也没关系”或“不必”。该语法与动词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0108",
+      "pattern": "～なければ ならない (〜nakereba naranai)",
+      "meaningCn": "明确的义务或必要性； ‘必须’、‘必须’、‘需要’。",
+      "formation": "动词ない形式 + なければ ならない",
+      "usageNote": "～なければ ならない 语法点用于表达义务或必要性。在英语中，它可以翻译为“必须”、“必须”或“需要”。根据是否与动词一起使用，其构成有所不同。它不能与い形容词、な形容词或名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0109",
+      "pattern": "～に (〜ni)",
+      "meaningCn": "表示方向、目的地、目的或时间。",
+      "formation": "名词+に",
+      "usageNote": "～に语法点是最通用的日语助词之一。它通常用于指示动作的方向或目的地，显示动作或项目的目的，或指定时间点。根据上下文，它可以被翻译为英语中的“to”、“at”、“in”、“on”或“for”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0110",
+      "pattern": "～ので (〜node)",
+      "meaningCn": "表达某事的理由或原因； ‘因为’、‘因为’、‘所以’。",
+      "formation": "动词休闲+ので，い-形容词+ので，な-形容词+なので，名词+なので",
+      "usageNote": "～ので语法点用于表达某事的原因或原因。它在英语中可以翻译为“because”、“since”或“so”。它与から类似，但被认为更加礼貌和正式。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0111",
+      "pattern": "～のです (〜no desu)",
+      "meaningCn": "提供解释或提供背景信息； “事实是”、“原因是”、“实际上”。",
+      "formation": "动词休闲 + のです，い-形容词 + のです，な-形容词 + なのです，名词 + なのです",
+      "usageNote": "～のです语法点用于提供解释或提供有关情况的背景信息，通常在需要证明或澄清某人的陈述时使用。它在英语中可以翻译为“事实是”、“原因是”或“实际上”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0112",
+      "pattern": "～のに (〜no ni)",
+      "meaningCn": "用于表达期望与现实之间的对比，或表明做某事的目的",
+      "formation": "动词休闲+のに，い-形容词+のに，な-形容词+なのに，名词+なのに",
+      "usageNote": "～のに语法点有两个主要用法。第一个是表达期望与现实之间的对比，用英语翻译为“即使”、“尽管”或“尽管”。二是表示做某事的目的，可译为“为了”或“为了……的目的”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0113",
+      "pattern": "～ばいい (〜ba ii)",
+      "meaningCn": "表达建议或建议； ‘应该’，‘如果’就好了。",
+      "formation": "动词ば形式+いい，い形容词+ければいい，な形容词+であればいい，名词+であればいい",
+      "usageNote": "～ばいい语法点用于表达建议、推荐或忠告。在英语中它可以被翻译为“应该”或“如果这样就好了”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0114",
+      "pattern": "～まで (〜made)",
+      "meaningCn": "表示范围、“直到”、“直到”、“直到”、“甚至”。",
+      "formation": "动词 + まで、い-形容词 + まで、な-形容词 + まで、名词 + まで",
+      "usageNote": "～まで语法点用于用时间、距离或程度来表达程度或范围。在英语中它可以被翻译为“直到”、“直到”、“直到”或“甚至”。它与动词、い形容词、な形容词或名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0115",
+      "pattern": "～までに (〜made ni)",
+      "meaningCn": "表示动作或期限在某个时间之前完成。",
+      "formation": "动词休闲+までに、名词+までに、时间表达+までに",
+      "usageNote": "～までに语法点用于表示某件事必须在某个时间或特定动作之前完成或发生。它可以与动词、名词和时间表达式一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0116",
+      "pattern": "～まま (〜mama)",
+      "meaningCn": "表达“原样”、“同时”或“不变状态”。",
+      "formation": "动词て形+いる+まま，形容词（い＆な）+まま，名词+のまま",
+      "usageNote": "～まま语法点用于表达保持不变或持续的状态或条件，常译为“照原样”、“同时”或“不变”。它可以与动词和形容词一起使用，表示某物仍处于某种状态或条件。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0117",
+      "pattern": "～みたいだ (〜mitai da)",
+      "meaningCn": "表示相似、相似或“喜欢”； “看来”、“似乎”、“看起来像”。",
+      "formation": "动词休闲 + みたいだ，い-形容词 + みたいだ，な-形容词 + みたいだ，名词 + みたいだ",
+      "usageNote": "～みたいだ语法点用于表达某事物出现、看起来或类似于其他事物。它可以与名词、动词、い形容词和な形容词一起使用。它在英语中可以被翻译为“看起来”、“出现”或“看起来像”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0118",
+      "pattern": "～も (〜mo)",
+      "meaningCn": "表示“也”、“也”或“也”。",
+      "formation": "动词休闲 + も、い-形容词 + も、な-形容词 + も、名词 + も",
+      "usageNote": "～も语法点用于表达某件事也是正确的，或者为前面的陈述添加一些附加信息。英语中可译为“也”、“太”或“也”。语法点可以与动词、形容词和名词一起使用。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0119",
+      "pattern": "～ようだ (〜you da)",
+      "meaningCn": "表达外观、相似性或推论； “看起来”、“看起来像”、“看起来”。",
+      "formation": "动词て形式+ようだ，い-形容词（去掉い）+ようだ，な-形容词+のようだ，名词+のようだ",
+      "usageNote": "～ようだ语法点用于表达对某种情况或动作的外观、相似性或推论。它在英语中可以被翻译为“看起来”、“看起来像”或“它出现”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0120",
+      "pattern": "～んです (〜n desu)",
+      "meaningCn": "提供解释或理由； “就是那个”、“事情是”、“原因是”。",
+      "formation": "动词休闲 + んです，い-形容词 + んです，な-形容词 + なんです，名词 + なんです",
+      "usageNote": "～んです语法点用于对情况或动作提供解释或原因。在英语中它可以被翻译为“它是那个”、“事情是”或“原因是”。根据是否与动词、い形容词、な形容词或名词一起使用，其结构会有所不同。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0121",
+      "pattern": "文A。そのうえ 文B。",
+      "meaningCn": "显示附加信息； “此外”、“此外”、“此外”。",
+      "formation": "句子A + そのうえ + 句子B + 。",
+      "usageNote": "这个语法点用于连接两个句子，其中第一个句子文A提供一些信息，第二个句子文B添加额外的相关信息。它在英语中可以被翻译为“此外”、“此外”或“另外”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0122",
+      "pattern": "文A。それで 文B (Bun A. Sorede Bun B)",
+      "meaningCn": "用于连接两个句子； “所以”、“这就是为什么”、“因此”。",
+      "formation": "句子A。それで 句子B。",
+      "usageNote": "语法点文A。それで文B用于连接两个句子，表明第二个句子（文B）是第一个句子（文A）的结果或推论。在英语中它可以被翻译为“所以”、“这就是为什么”或“因此”。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0123",
+      "pattern": "文A。それに 文B (Bun A. Soreni Bun B)",
+      "meaningCn": "表达“此外；”此外，' 用于包含附加信息。",
+      "formation": "句子A + それに + 句子B",
+      "usageNote": "这个语法点文A。それに文B用来表达对前面提到的内容的补充陈述。在英语中，它可以被翻译为“除了”、“此外”或“在那之上”。它通过突出显示补充信息、意见或理由来连接两个句子。"
+    },
+    {
+      "contentId": "hanabira-grammar-n4-0124",
+      "pattern": "文A。だから 文B (Bun A. Dakara Bun B)",
+      "meaningCn": "表达理由或原因； ‘因为’、‘所以’、‘因此’。",
+      "formation": "句子A + だから + 句子B",
+      "usageNote": "文A。だから文B语法点用于表示第二句（文B）中表达的动作或事件的原因或原因是第一句（文A）中描述的情况的结果或后果。它在英语中可以翻译为“因为”、“所以”或“因此”。"
+    }
+  ]
+}
