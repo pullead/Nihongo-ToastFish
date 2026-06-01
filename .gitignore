@@ -13,5 +13,4 @@ _external/
 _backups/
 dist/package-staging/
 dist/installers/build-installer.log
-/Nihongo-ToastFish-Setup.exe
 /build-installer.log
