@@ -30,8 +30,6 @@ JLPT 等级内容是学习参考内容，不代表官方完整考纲。
 
 ## 界面预览
 
-> 下面两张图建议上传到仓库后显示在 README 首页。  
-> 请将你发来的第 2 张截图保存为 `docs/images/study-detail.png`，第 3 张截图保存为 `docs/images/tray-menu.png`。
 
 | 学习内容详情 | 托盘菜单 |
 | --- | --- |
