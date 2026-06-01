@@ -49,6 +49,7 @@ namespace ToastFish.Services.Study
                 case StudyCardKind.Example:
                     return JoinLines(
                         card.SecondaryText,
+                        Summarize(card.DetailText, ExampleTextSummaryLength),
                         Summarize(card.PromptText, ExampleTextSummaryLength),
                         Summarize(FormatChoices(card.Choices), ExampleTextSummaryLength),
                         Summarize(card.PrimaryText, ExampleTextSummaryLength));

@@ -94,10 +94,18 @@ namespace ToastFish.Services.Content
             EnsureDatabase(database);
             return Query<GrammarPoint>(
                 database,
-                @"SELECT contentId, packId, jlptLevel, pattern, meaningCn, formation, usageNote, furiganaJson
-                  FROM GrammarPoint
-                  WHERE (@jlptLevel IS NULL OR jlptLevel = @jlptLevel)
-                  ORDER BY contentId
+                @"SELECT g.contentId, g.packId, g.jlptLevel, g.pattern, g.meaningCn, g.formation, g.usageNote, g.furiganaJson,
+                         ex.sentenceJp AS exampleSentenceJp, ex.sentenceKana AS exampleSentenceKana,
+                         ex.sentenceFuriganaJson AS exampleFuriganaJson, ex.meaningCn AS exampleMeaningCn
+                  FROM GrammarPoint g
+                  LEFT JOIN GrammarExample ex ON ex.contentId = (
+                      SELECT e.contentId FROM GrammarExample e
+                      WHERE e.grammarId = g.contentId
+                      ORDER BY e.contentId
+                      LIMIT 1
+                  )
+                  WHERE (@jlptLevel IS NULL OR g.jlptLevel = @jlptLevel)
+                  ORDER BY g.contentId
                   LIMIT @limit",
                 new { jlptLevel = NormalizeLevel(jlptLevel), limit = NormalizeLimit(limit) });
         }
@@ -108,20 +116,36 @@ namespace ToastFish.Services.Content
             string level = NormalizeLevel(jlptLevel);
             GrammarPoint item = QueryFirstOrDefault<GrammarPoint>(
                 database,
-                @"SELECT contentId, packId, jlptLevel, pattern, meaningCn, formation, usageNote, furiganaJson
-                  FROM GrammarPoint
-                  WHERE (@jlptLevel IS NULL OR jlptLevel = @jlptLevel)
-                    AND (@afterContentId IS NULL OR contentId > @afterContentId)
-                  ORDER BY contentId
+                @"SELECT g.contentId, g.packId, g.jlptLevel, g.pattern, g.meaningCn, g.formation, g.usageNote, g.furiganaJson,
+                         ex.sentenceJp AS exampleSentenceJp, ex.sentenceKana AS exampleSentenceKana,
+                         ex.sentenceFuriganaJson AS exampleFuriganaJson, ex.meaningCn AS exampleMeaningCn
+                  FROM GrammarPoint g
+                  LEFT JOIN GrammarExample ex ON ex.contentId = (
+                      SELECT e.contentId FROM GrammarExample e
+                      WHERE e.grammarId = g.contentId
+                      ORDER BY e.contentId
+                      LIMIT 1
+                  )
+                  WHERE (@jlptLevel IS NULL OR g.jlptLevel = @jlptLevel)
+                    AND (@afterContentId IS NULL OR g.contentId > @afterContentId)
+                  ORDER BY g.contentId
                   LIMIT 1",
                 new { jlptLevel = level, afterContentId = NormalizeContentId(afterContentId) });
 
             return item ?? QueryFirstOrDefault<GrammarPoint>(
                 database,
-                @"SELECT contentId, packId, jlptLevel, pattern, meaningCn, formation, usageNote, furiganaJson
-                  FROM GrammarPoint
-                  WHERE (@jlptLevel IS NULL OR jlptLevel = @jlptLevel)
-                  ORDER BY contentId
+                @"SELECT g.contentId, g.packId, g.jlptLevel, g.pattern, g.meaningCn, g.formation, g.usageNote, g.furiganaJson,
+                         ex.sentenceJp AS exampleSentenceJp, ex.sentenceKana AS exampleSentenceKana,
+                         ex.sentenceFuriganaJson AS exampleFuriganaJson, ex.meaningCn AS exampleMeaningCn
+                  FROM GrammarPoint g
+                  LEFT JOIN GrammarExample ex ON ex.contentId = (
+                      SELECT e.contentId FROM GrammarExample e
+                      WHERE e.grammarId = g.contentId
+                      ORDER BY e.contentId
+                      LIMIT 1
+                  )
+                  WHERE (@jlptLevel IS NULL OR g.jlptLevel = @jlptLevel)
+                  ORDER BY g.contentId
                   LIMIT 1",
                 new { jlptLevel = level });
         }
@@ -132,20 +156,36 @@ namespace ToastFish.Services.Content
             string level = NormalizeLevel(jlptLevel);
             GrammarPoint item = QueryFirstOrDefault<GrammarPoint>(
                 database,
-                @"SELECT contentId, packId, jlptLevel, pattern, meaningCn, formation, usageNote, furiganaJson
-                  FROM GrammarPoint
-                  WHERE (@jlptLevel IS NULL OR jlptLevel = @jlptLevel)
-                    AND (@beforeContentId IS NULL OR contentId < @beforeContentId)
-                  ORDER BY contentId DESC
+                @"SELECT g.contentId, g.packId, g.jlptLevel, g.pattern, g.meaningCn, g.formation, g.usageNote, g.furiganaJson,
+                         ex.sentenceJp AS exampleSentenceJp, ex.sentenceKana AS exampleSentenceKana,
+                         ex.sentenceFuriganaJson AS exampleFuriganaJson, ex.meaningCn AS exampleMeaningCn
+                  FROM GrammarPoint g
+                  LEFT JOIN GrammarExample ex ON ex.contentId = (
+                      SELECT e.contentId FROM GrammarExample e
+                      WHERE e.grammarId = g.contentId
+                      ORDER BY e.contentId
+                      LIMIT 1
+                  )
+                  WHERE (@jlptLevel IS NULL OR g.jlptLevel = @jlptLevel)
+                    AND (@beforeContentId IS NULL OR g.contentId < @beforeContentId)
+                  ORDER BY g.contentId DESC
                   LIMIT 1",
                 new { jlptLevel = level, beforeContentId = NormalizeContentId(beforeContentId) });
 
             return item ?? QueryFirstOrDefault<GrammarPoint>(
                 database,
-                @"SELECT contentId, packId, jlptLevel, pattern, meaningCn, formation, usageNote, furiganaJson
-                  FROM GrammarPoint
-                  WHERE (@jlptLevel IS NULL OR jlptLevel = @jlptLevel)
-                  ORDER BY contentId DESC
+                @"SELECT g.contentId, g.packId, g.jlptLevel, g.pattern, g.meaningCn, g.formation, g.usageNote, g.furiganaJson,
+                         ex.sentenceJp AS exampleSentenceJp, ex.sentenceKana AS exampleSentenceKana,
+                         ex.sentenceFuriganaJson AS exampleFuriganaJson, ex.meaningCn AS exampleMeaningCn
+                  FROM GrammarPoint g
+                  LEFT JOIN GrammarExample ex ON ex.contentId = (
+                      SELECT e.contentId FROM GrammarExample e
+                      WHERE e.grammarId = g.contentId
+                      ORDER BY e.contentId
+                      LIMIT 1
+                  )
+                  WHERE (@jlptLevel IS NULL OR g.jlptLevel = @jlptLevel)
+                  ORDER BY g.contentId DESC
                   LIMIT 1",
                 new { jlptLevel = level });
         }
@@ -155,7 +195,9 @@ namespace ToastFish.Services.Content
             EnsureDatabase(database);
             return Query<GrammarExample>(
                 database,
-                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern, e.jlptLevel, e.sentenceJp, e.sentenceKana,
+                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern,
+                         g.meaningCn AS grammarMeaningCn, g.formation AS grammarFormation, g.usageNote AS grammarUsageNote,
+                         e.jlptLevel, e.sentenceJp, e.sentenceKana,
                          e.sentenceFuriganaJson, e.meaningCn, e.questionType, e.promptCn, e.correctAnswer, e.distractorsJson
                   FROM GrammarExample e
                   LEFT JOIN GrammarPoint g ON e.grammarId = g.contentId
@@ -171,7 +213,9 @@ namespace ToastFish.Services.Content
             string level = NormalizeLevel(jlptLevel);
             GrammarExample item = QueryFirstOrDefault<GrammarExample>(
                 database,
-                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern, e.jlptLevel, e.sentenceJp, e.sentenceKana,
+                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern,
+                         g.meaningCn AS grammarMeaningCn, g.formation AS grammarFormation, g.usageNote AS grammarUsageNote,
+                         e.jlptLevel, e.sentenceJp, e.sentenceKana,
                          e.sentenceFuriganaJson, e.meaningCn, e.questionType, e.promptCn, e.correctAnswer, e.distractorsJson
                   FROM GrammarExample e
                   LEFT JOIN GrammarPoint g ON e.grammarId = g.contentId
@@ -183,7 +227,9 @@ namespace ToastFish.Services.Content
 
             return item ?? QueryFirstOrDefault<GrammarExample>(
                 database,
-                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern, e.jlptLevel, e.sentenceJp, e.sentenceKana,
+                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern,
+                         g.meaningCn AS grammarMeaningCn, g.formation AS grammarFormation, g.usageNote AS grammarUsageNote,
+                         e.jlptLevel, e.sentenceJp, e.sentenceKana,
                          e.sentenceFuriganaJson, e.meaningCn, e.questionType, e.promptCn, e.correctAnswer, e.distractorsJson
                   FROM GrammarExample e
                   LEFT JOIN GrammarPoint g ON e.grammarId = g.contentId
@@ -199,7 +245,9 @@ namespace ToastFish.Services.Content
             string level = NormalizeLevel(jlptLevel);
             GrammarExample item = QueryFirstOrDefault<GrammarExample>(
                 database,
-                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern, e.jlptLevel, e.sentenceJp, e.sentenceKana,
+                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern,
+                         g.meaningCn AS grammarMeaningCn, g.formation AS grammarFormation, g.usageNote AS grammarUsageNote,
+                         e.jlptLevel, e.sentenceJp, e.sentenceKana,
                          e.sentenceFuriganaJson, e.meaningCn, e.questionType, e.promptCn, e.correctAnswer, e.distractorsJson
                   FROM GrammarExample e
                   LEFT JOIN GrammarPoint g ON e.grammarId = g.contentId
@@ -211,7 +259,9 @@ namespace ToastFish.Services.Content
 
             return item ?? QueryFirstOrDefault<GrammarExample>(
                 database,
-                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern, e.jlptLevel, e.sentenceJp, e.sentenceKana,
+                @"SELECT e.contentId, e.packId, e.grammarId, g.pattern AS grammarPattern,
+                         g.meaningCn AS grammarMeaningCn, g.formation AS grammarFormation, g.usageNote AS grammarUsageNote,
+                         e.jlptLevel, e.sentenceJp, e.sentenceKana,
                          e.sentenceFuriganaJson, e.meaningCn, e.questionType, e.promptCn, e.correctAnswer, e.distractorsJson
                   FROM GrammarExample e
                   LEFT JOIN GrammarPoint g ON e.grammarId = g.contentId

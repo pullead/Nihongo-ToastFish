@@ -141,6 +141,30 @@ namespace ToastFish.Model.Storage
                     command.ExecuteNonQuery();
                 }
             }
+
+            AddColumnIfMissing(database, "StudyNotebookItem", "highlightColor", "TEXT");
+        }
+
+        private static void AddColumnIfMissing(SQLiteConnection database, string tableName, string columnName, string columnType)
+        {
+            using (SQLiteCommand checkCommand = database.CreateCommand())
+            {
+                checkCommand.CommandText = "PRAGMA table_info(" + tableName + ")";
+                using (SQLiteDataReader reader = checkCommand.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        if (string.Equals(reader["name"] as string, columnName, StringComparison.OrdinalIgnoreCase))
+                            return;
+                    }
+                }
+            }
+
+            using (SQLiteCommand alterCommand = database.CreateCommand())
+            {
+                alterCommand.CommandText = "ALTER TABLE " + tableName + " ADD COLUMN " + columnName + " " + columnType;
+                alterCommand.ExecuteNonQuery();
+            }
         }
     }
 }

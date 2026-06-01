@@ -51,6 +51,7 @@ namespace ToastFish.Services.Study
                 return null;
 
             string primary = furiganaFormatter.ToInlineText(item.furiganaJson, item.pattern);
+            string example = furiganaFormatter.ToInlineText(item.exampleFuriganaJson, item.exampleSentenceJp);
 
             return new StudyCard
             {
@@ -61,7 +62,12 @@ namespace ToastFish.Services.Study
                 Title = item.pattern,
                 PrimaryText = primary,
                 SecondaryText = item.meaningCn,
-                DetailText = JoinLines(item.formation, item.usageNote),
+                DetailText = JoinLines(
+                    Label("接续", item.formation),
+                    Label("说明", item.usageNote),
+                    Label("例句", example),
+                    Label("例句读音", item.exampleSentenceKana),
+                    Label("例句释义", item.exampleMeaningCn)),
                 CorrectAnswer = item.meaningCn,
                 Choices = new List<string>()
             };
@@ -87,10 +93,14 @@ namespace ToastFish.Services.Study
                 JlptLevel = item.jlptLevel,
                 Title = item.questionType,
                 PrimaryText = primary,
-                SecondaryText = string.IsNullOrWhiteSpace(item.grammarPattern)
-                    ? "语法：" + item.grammarId
-                    : "语法：" + item.grammarPattern,
-                DetailText = JoinLines(item.sentenceKana, item.meaningCn),
+                SecondaryText = "语法：" + JoinParts(
+                    string.IsNullOrWhiteSpace(item.grammarPattern) ? item.grammarId : item.grammarPattern,
+                    item.grammarMeaningCn),
+                DetailText = JoinLines(
+                    Label("例句读音", item.sentenceKana),
+                    Label("例句释义", item.meaningCn),
+                    Label("语法接续", item.grammarFormation),
+                    Label("语法说明", item.grammarUsageNote)),
                 PromptText = item.promptCn,
                 CorrectAnswer = item.correctAnswer,
                 Choices = choices
@@ -144,6 +154,14 @@ namespace ToastFish.Services.Study
             }
 
             return string.Join(" / ", values);
+        }
+
+        private string Label(string label, string value)
+        {
+            if (string.IsNullOrWhiteSpace(value))
+                return string.Empty;
+
+            return label + "：" + value.Trim();
         }
 
         private string JoinLines(params string[] lines)

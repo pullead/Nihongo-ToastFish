@@ -44,11 +44,35 @@ namespace ToastFish.Services.Notebook
 
             return new List<NotebookItem>(database.Query<NotebookItem>(
                 @"SELECT id, contentKind, jlptLevel, contentId, title, primaryText, secondaryText,
-                         detailText, promptText, correctAnswer, createdAt
+                         detailText, promptText, correctAnswer, createdAt, highlightColor
                   FROM StudyNotebookItem
                   WHERE contentKind = @contentKind
                   ORDER BY createdAt DESC, id DESC",
                 new { contentKind = contentKind }));
+        }
+
+        public void DeleteItems(SQLiteConnection database, IEnumerable<long> ids)
+        {
+            if (database == null)
+                throw new ArgumentNullException(nameof(database));
+            if (ids == null)
+                return;
+
+            database.Execute(
+                "DELETE FROM StudyNotebookItem WHERE id IN @ids",
+                new { ids = ids });
+        }
+
+        public void SetHighlightColor(SQLiteConnection database, IEnumerable<long> ids, string color)
+        {
+            if (database == null)
+                throw new ArgumentNullException(nameof(database));
+            if (ids == null)
+                return;
+
+            database.Execute(
+                "UPDATE StudyNotebookItem SET highlightColor = @color WHERE id IN @ids",
+                new { color = color, ids = ids });
         }
     }
 }

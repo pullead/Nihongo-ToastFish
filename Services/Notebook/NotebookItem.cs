@@ -13,6 +13,7 @@ namespace ToastFish.Services.Notebook
         public string promptText { get; set; }
         public string correctAnswer { get; set; }
         public string createdAt { get; set; }
+        public string highlightColor { get; set; }
 
         public string KindLabel
         {

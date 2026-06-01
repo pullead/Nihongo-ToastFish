@@ -34,7 +34,9 @@ namespace ToastFish
         StudySessionController importedContentSession = new StudySessionController();
         StudySessionController legacyStudySession = new StudySessionController();
         StudySessionStateService studyStateService = new StudySessionStateService();
+        KeyboardHookHotKey globalHotKeys;
         bool isRestoringMenuSelection = false;
+        const string ProjectWebsiteUrl = "https://github.com/pullead/Nihongo-ToastFish";
         Thread thread = new Thread(new ParameterizedThreadStart(PushWords.Recitation));
         Dictionary<string, string> TablelDictionary = new Dictionary<string, string>(){
         {"CET4_1", "四级核心词汇"},{"CET4_3", "四级完整词汇"},{"CET6_1", "六级核心词汇"},
@@ -64,23 +66,8 @@ namespace ToastFish
             this.Visibility = Visibility.Hidden;
             Se.LoadGlobalConfig();
             ContextMenu();
-            new HotKey(Key.Oem3, KeyModifier.Alt , OnHotKeyHandler);
-            new HotKey(Key.D1, KeyModifier.Alt , OnHotKeyHandler);
-            new HotKey(Key.D2, KeyModifier.Alt , OnHotKeyHandler);
-            new HotKey(Key.D3, KeyModifier.Alt , OnHotKeyHandler);
-            new HotKey(Key.D4, KeyModifier.Alt , OnHotKeyHandler);
-            new HotKey(Key.Q, KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.A, KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.D, KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.W, KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.S, KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.E, KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.J, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.V, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.G, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.E, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.P, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
-            new HotKey(Key.O, KeyModifier.Ctrl | KeyModifier.Alt, OnHotKeyHandler);
+            globalHotKeys = new KeyboardHookHotKey(OnHotKeyHandler, new[] { "msedge", "MicrosoftEdge" });
+            this.Closed += (sender, args) => globalHotKeys?.Dispose();
 
             // 谜之bug，如果不先播放一段音频，那么什么声音都播不出来。
             // 所以播个没声音的音频先。
@@ -182,6 +169,7 @@ namespace ToastFish
 
             Vm.notifyIcon.Icon = icon;
             Vm.notifyIcon.Visible = true;
+            Vm.notifyIcon.MouseClick += NotifyIconMouseClick;
             Vm.notifyIcon.DoubleClick += Begin_Click;
             //Vm.notifyIcon.DoubleClick += NotifyIconDoubleClick;
         }
@@ -198,6 +186,12 @@ namespace ToastFish
             ShowMainWindow();
         }
 
+        private void NotifyIconMouseClick(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+                ShowMainWindow();
+        }
+
         private void ToggleMainWindow()
         {
             if (this.IsVisible && this.WindowState != WindowState.Minimized)
@@ -212,11 +206,14 @@ namespace ToastFish
 
         private void ShowMainWindow()
         {
-            this.Activate();
             this.WindowState = WindowState.Normal;
             this.ShowInTaskbar = true;
             this.Topmost = true;
             this.Show();
+            this.Activate();
+            this.Focus();
+            Keyboard.Focus(this);
+            this.Topmost = false;
         }
 
         private void PauseStudySessions()
@@ -354,7 +351,7 @@ namespace ToastFish
             Pdf.Click += new EventHandler(OpenPdf_Click);
             ToolStripItem Use = new ToolStripMenuItem("使用说明(必读)");
             Use.Click += new EventHandler(HowToUse_Click);
-            ToolStripItem Site = new ToolStripMenuItem("上游 ToastFish 项目网站");
+            ToolStripItem Site = new ToolStripMenuItem("Nihongo ToastFish 项目网站");
             Site.Click += new EventHandler(Site_Click);
             ToolStripItem Shortcuts = new ToolStripMenuItem("快捷方式");
             Shortcuts.Click += new EventHandler(ShortCuts_Click);
@@ -988,31 +985,21 @@ namespace ToastFish
 
         private void HowToUse_Click(object sender, EventArgs e)
         {
-            OpenLocalHelpFile();
+            OpenProjectWebsite();
         }
 
-        private void OpenLocalHelpFile()
+        private void OpenProjectWebsite()
         {
-            string helpPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "README-使用说明.md");
-            if (!File.Exists(helpPath))
+            Process.Start(new ProcessStartInfo
             {
-                System.Windows.Forms.MessageBox.Show(
-                    "未找到使用说明文件：\n" + helpPath,
-                    "Nihongo ToastFish",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Warning);
-                return;
-            }
-
-            System.Diagnostics.Process.Start(new ProcessStartInfo
-            {
-                FileName = helpPath,
+                FileName = ProjectWebsiteUrl,
                 UseShellExecute = true
             });
         }
+
         private void Site_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://lab.magiconch.com/toast-fish/");
+            OpenProjectWebsite();
         }
         private void OpenPdf_Click(object sender, EventArgs e)
         {

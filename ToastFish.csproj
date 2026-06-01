@@ -160,11 +160,13 @@
     <Compile Include="Model\Study\ReviewCard.cs" />
     <Compile Include="Model\SqliteControl\Select.cs" />
     <Compile Include="Model\StartWithWindows\HotKey.cs" />
+    <Compile Include="Model\StartWithWindows\KeyboardHookHotKey.cs" />
     <Compile Include="Model\StartWithWindows\StartWithWindows.cs" />
     <Compile Include="Services\Notifications\NotificationAction.cs" />
     <Compile Include="Services\Notifications\NotificationInputResult.cs" />
     <Compile Include="Services\Notifications\NotificationService.cs" />
     <Compile Include="Services\Notebook\NotebookItem.cs" />
+    <Compile Include="Services\Notebook\NotebookExportService.cs" />
     <Compile Include="Services\Notebook\NotebookService.cs" />
     <Compile Include="Services\Japanese\FuriganaFormatter.cs" />
     <Compile Include="Services\ContentUpdate\ContentImportResult.cs" />
@@ -275,6 +277,9 @@
     </PackageReference>
     <PackageReference Include="NPOI">
       <Version>2.5.5</Version>
+    </PackageReference>
+    <PackageReference Include="PdfSharp">
+      <Version>1.50.5147</Version>
     </PackageReference>
     <PackageReference Include="Prism.Core">
       <Version>8.0.0.1909</Version>
