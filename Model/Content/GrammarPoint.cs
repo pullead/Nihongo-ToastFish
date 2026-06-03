@@ -14,5 +14,9 @@ namespace ToastFish.Model.Content
         public string exampleSentenceKana { get; set; }
         public string exampleFuriganaJson { get; set; }
         public string exampleMeaningCn { get; set; }
+        public string secondExampleSentenceJp { get; set; }
+        public string secondExampleSentenceKana { get; set; }
+        public string secondExampleFuriganaJson { get; set; }
+        public string secondExampleMeaningCn { get; set; }
     }
 }

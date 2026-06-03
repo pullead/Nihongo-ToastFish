@@ -15,5 +15,6 @@ namespace ToastFish.Services.Study
         public string PromptText { get; set; }
         public string CorrectAnswer { get; set; }
         public IList<string> Choices { get; set; }
+        public IDictionary<string, string> ChoiceMeanings { get; set; }
     }
 }

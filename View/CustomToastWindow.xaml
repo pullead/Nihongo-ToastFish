@@ -1,0 +1,65 @@
+<Window x:Class="ToastFish.CustomToastWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nihongo ToastFish"
+        Width="480"
+        MinWidth="420"
+        MaxWidth="540"
+        SizeToContent="Height"
+        MaxHeight="560"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        Topmost="True"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Loaded="Window_Loaded"
+        Closed="Window_Closed">
+    <Border Background="#F7F7F7"
+            BorderBrush="#D0D0D0"
+            BorderThickness="1"
+            CornerRadius="8"
+            Padding="16">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Nihongo ToastFish"
+                           FontSize="13"
+                           FontWeight="SemiBold"
+                           Foreground="#333333"
+                           VerticalAlignment="Center" />
+                <Button Grid.Column="1"
+                        Content="X"
+                        Width="30"
+                        Height="26"
+                        Padding="0"
+                        Click="Close_Click" />
+            </Grid>
+
+            <ScrollViewer Grid.Row="1"
+                          MaxHeight="410"
+                          VerticalScrollBarVisibility="Auto"
+                          HorizontalScrollBarVisibility="Disabled">
+                <TextBlock x:Name="MessageText"
+                           TextWrapping="Wrap"
+                           FontSize="15"
+                           LineHeight="23"
+                           Foreground="#111111" />
+            </ScrollViewer>
+
+            <WrapPanel x:Name="ButtonPanel"
+                       Grid.Row="2"
+                       Margin="0,14,0,0"
+                       HorizontalAlignment="Center" />
+        </Grid>
+    </Border>
+</Window>

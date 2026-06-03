@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows;
+using ToastFish.Model.SqliteControl;
 using ToastFish.Services.Japanese;
 using ToastFish.Services.Study;
 using Windows.UI.Notifications;
@@ -61,9 +63,23 @@ namespace ToastFish.Services.Notifications
             Func<string, string> hotKeyActionMapper = null,
             CancellationToken cancellationToken = default(CancellationToken))
         {
+            string message = UseCustomPopup()
+                ? studyCardFormatter.Format(card)
+                : studyCardFormatter.FormatSummary(card);
+            if (UseCustomPopup())
+            {
+                return ShowCustomWindowAndWaitAsync(
+                    message,
+                    CreateStudyButtons(),
+                    hotKeyObservable,
+                    hotKeyActionMapper,
+                    cancellationToken,
+                    card.Kind == StudyCardKind.Vocabulary || card.Kind == StudyCardKind.Grammar ? card.PrimaryText : null);
+            }
+
             ToastContentBuilder builder = new ToastContentBuilder()
                 .SetToastDuration(ToastDuration.Long)
-                .AddText(studyCardFormatter.FormatSummary(card))
+                .AddText(message)
                 .AddButton(new ToastButton()
                     .SetContent("上一个")
                     .AddArgument("action", NotificationAction.Previous)
@@ -100,6 +116,16 @@ namespace ToastFish.Services.Notifications
             Func<string, string> hotKeyActionMapper = null,
             CancellationToken cancellationToken = default(CancellationToken))
         {
+            if (UseCustomPopup())
+            {
+                return ShowCustomWindowAndWaitAsync(
+                    FormatQuestionMessage(title, question),
+                    CreateQuestionButtons(answerButtons),
+                    hotKeyObservable,
+                    hotKeyActionMapper,
+                    cancellationToken);
+            }
+
             ToastContentBuilder builder = new ToastContentBuilder()
                 .SetToastDuration(ToastDuration.Long);
 
@@ -254,6 +280,79 @@ namespace ToastFish.Services.Notifications
             });
         }
 
+        private Task<string> ShowCustomWindowAndWaitAsync(
+            string message,
+            IList<Tuple<string, string>> buttons,
+            IObservable<string> hotKeyObservable,
+            Func<string, string> hotKeyActionMapper,
+            CancellationToken cancellationToken,
+            string highlightText = null)
+        {
+            if (cancellationToken.IsCancellationRequested)
+                return Task.FromResult(NotificationAction.Cancel);
+
+            TaskCompletionSource<string> completion = new TaskCompletionSource<string>();
+            IDisposable hotKeySubscription = null;
+            CancellationTokenRegistration cancellationRegistration = default(CancellationTokenRegistration);
+            CustomToastWindow window = null;
+
+            Action<string> complete = action =>
+            {
+                string result = string.IsNullOrEmpty(action) ? NotificationAction.Next : action;
+                if (!completion.TrySetResult(result))
+                    return;
+
+                if (Application.Current != null)
+                {
+                    Application.Current.Dispatcher.BeginInvoke(new Action(() =>
+                    {
+                        if (window != null && window.IsVisible)
+                            window.Close();
+                    }));
+                }
+            };
+
+            if (hotKeyObservable != null)
+            {
+                hotKeySubscription = hotKeyObservable.Subscribe(events =>
+                {
+                    string action = hotKeyActionMapper == null ? events : hotKeyActionMapper(events);
+                    if (!string.IsNullOrEmpty(action))
+                        complete(action);
+                });
+            }
+
+            if (cancellationToken.CanBeCanceled)
+            {
+                cancellationRegistration = cancellationToken.Register(
+                    () => complete(NotificationAction.Cancel));
+            }
+
+            if (Application.Current == null)
+            {
+                complete(NotificationAction.Cancel);
+            }
+            else
+            {
+                Application.Current.Dispatcher.BeginInvoke(new Action(() =>
+                {
+                    if (completion.Task.IsCompleted)
+                        return;
+
+                    window = new CustomToastWindow(message, buttons, highlightText);
+                    window.ActionSelected += action => complete(action);
+                    window.Show();
+                }));
+            }
+
+            return completion.Task.ContinueWith(task =>
+            {
+                hotKeySubscription?.Dispose();
+                cancellationRegistration.Dispose();
+                return task.Result;
+            });
+        }
+
         private void ApplyExtendedToastDuration(ToastContentBuilder builder)
         {
             builder.SetToastDuration(ToastDuration.Long);
@@ -289,6 +388,49 @@ namespace ToastFish.Services.Notifications
                 cancellationRegistration.Dispose();
                 return task.Result;
             });
+        }
+
+        private bool UseCustomPopup()
+        {
+            return Select.NOTIFICATION_MODE == 1;
+        }
+
+        private IList<Tuple<string, string>> CreateStudyButtons()
+        {
+            return new List<Tuple<string, string>>
+            {
+                Tuple.Create("上一个", NotificationAction.Previous),
+                Tuple.Create("下一个", NotificationAction.Next),
+                Tuple.Create("详情", NotificationAction.Details),
+                Tuple.Create("笔记", NotificationAction.AddNote),
+                Tuple.Create("暂停", NotificationAction.Cancel)
+            };
+        }
+
+        private IList<Tuple<string, string>> CreateQuestionButtons(IList<string> answerButtons)
+        {
+            List<Tuple<string, string>> buttons = new List<Tuple<string, string>>();
+            if (answerButtons != null)
+            {
+                for (int index = 0; index < answerButtons.Count; index++)
+                {
+                    buttons.Add(Tuple.Create(answerButtons[index], index.ToString()));
+                }
+            }
+
+            buttons.Add(Tuple.Create("上一个", NotificationAction.Previous));
+            buttons.Add(Tuple.Create("下一个", NotificationAction.Next));
+            return buttons;
+        }
+
+        private string FormatQuestionMessage(string title, string question)
+        {
+            List<string> lines = new List<string>();
+            if (!string.IsNullOrWhiteSpace(title))
+                lines.Add(title.Trim());
+            if (!string.IsNullOrWhiteSpace(question))
+                lines.Add(question.Trim());
+            return string.Join(Environment.NewLine, lines);
         }
 
         private string GetActionArgument(ToastNotificationActivatedEventArgsCompat toastArgs)

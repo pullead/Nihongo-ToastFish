@@ -14,5 +14,10 @@ namespace ToastFish.Model.Content
         public string exampleKana { get; set; }
         public string exampleFuriganaJson { get; set; }
         public string exampleCn { get; set; }
+        public string sourceTags { get; set; }
+        public string relatedGrammarPattern { get; set; }
+        public string relatedGrammarMeaningCn { get; set; }
+        public string relatedGrammarExampleJp { get; set; }
+        public string relatedGrammarExampleCn { get; set; }
     }
 }

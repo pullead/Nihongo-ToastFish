@@ -245,6 +245,9 @@ namespace ToastFish
 
         System.Windows.Forms.ToolStripMenuItem SetAutoPlay = new System.Windows.Forms.ToolStripMenuItem();
         System.Windows.Forms.ToolStripMenuItem SetAutoLog = new System.Windows.Forms.ToolStripMenuItem();
+        System.Windows.Forms.ToolStripMenuItem SetNotificationMode = new System.Windows.Forms.ToolStripMenuItem();
+        System.Windows.Forms.ToolStripMenuItem UseSystemNotification = new System.Windows.Forms.ToolStripMenuItem();
+        System.Windows.Forms.ToolStripMenuItem UseLeftBottomNotification = new System.Windows.Forms.ToolStripMenuItem();
 
         private new void ContextMenu()
         {
@@ -279,6 +282,15 @@ namespace ToastFish
                 SetAutoLog.Checked = true;
             else
                 SetAutoLog.Checked = false;
+
+            SetNotificationMode.Text = "弹窗位置";
+            UseSystemNotification.Text = "系统默认通知";
+            UseSystemNotification.Tag = 0;
+            UseSystemNotification.Click += new EventHandler(NotificationMode_Click);
+            UseLeftBottomNotification.Text = "左下角自定义弹窗";
+            UseLeftBottomNotification.Tag = 1;
+            UseLeftBottomNotification.Click += new EventHandler(NotificationMode_Click);
+            RefreshNotificationModeMenu();
 
 
             ImportWords.Text = "导入自定义内容";
@@ -429,7 +441,10 @@ namespace ToastFish
             Settings.DropDownItems.Add(SetEngType);
             Settings.DropDownItems.Add(SetAutoPlay);
             Settings.DropDownItems.Add(SetAutoLog);
+            Settings.DropDownItems.Add(SetNotificationMode);
             Settings.DropDownItems.Add(ResetLearingStatus);
+            SetNotificationMode.DropDownItems.Add(UseSystemNotification);
+            SetNotificationMode.DropDownItems.Add(UseLeftBottomNotification);
             SelectBook.DropDownItems.Add(CET4_1);
             SelectBook.DropDownItems.Add(CET4_3);
             SelectBook.DropDownItems.Add(CET6_1);
@@ -981,6 +996,26 @@ namespace ToastFish
                 (sender as ToolStripMenuItem).Checked = false;
             }
             Se.UpdateGlobalConfig();
+        }
+
+        private void NotificationMode_Click(object sender, EventArgs e)
+        {
+            ToolStripMenuItem item = sender as ToolStripMenuItem;
+            if (item == null || item.Tag == null)
+                return;
+
+            Select.NOTIFICATION_MODE = Convert.ToInt32(item.Tag);
+            RefreshNotificationModeMenu();
+            Se.UpdateGlobalConfig();
+
+            string modeName = Select.NOTIFICATION_MODE == 1 ? "左下角自定义弹窗" : "系统默认通知";
+            pushWords.PushMessage("弹窗位置已切换为：" + modeName);
+        }
+
+        private void RefreshNotificationModeMenu()
+        {
+            UseSystemNotification.Checked = Select.NOTIFICATION_MODE == 0;
+            UseLeftBottomNotification.Checked = Select.NOTIFICATION_MODE == 1;
         }
 
         private void HowToUse_Click(object sender, EventArgs e)

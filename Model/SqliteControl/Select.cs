@@ -20,6 +20,7 @@ namespace ToastFish.Model.SqliteControl
         public static int ENG_TYPE = 2;
         public static int AUTO_PLAY = 1;
         public static int AUTO_LOG = 1;
+        public static int NOTIFICATION_MODE = 1;
 
         private readonly string connectionString;
         private bool disposed = false;
@@ -155,6 +156,10 @@ namespace ToastFish.Model.SqliteControl
                 {
                     conn.Execute($"ALTER TABLE Global ADD COLUMN autoLog INTEGER NOT NULL DEFAULT {AUTO_LOG}");
                 }
+                if (!columns.Contains("notificationMode"))
+                {
+                    conn.Execute($"ALTER TABLE Global ADD COLUMN notificationMode INTEGER NOT NULL DEFAULT {NOTIFICATION_MODE}");
+                }
 
                 var globalVar = conn.QueryFirstOrDefault<Global>("SELECT * FROM Global");
                 if (globalVar != null)
@@ -164,6 +169,7 @@ namespace ToastFish.Model.SqliteControl
                     AUTO_PLAY = globalVar.autoPlay;
                     ENG_TYPE = globalVar.EngType;
                     AUTO_LOG = globalVar.autoLog;
+                    NOTIFICATION_MODE = globalVar.notificationMode;
                 }
             }
         }
@@ -178,14 +184,16 @@ namespace ToastFish.Model.SqliteControl
                           currentBookName = @BookName,
                           autoPlay = @AutoPlay,
                           EngType = @EngType,
-                          autoLog = @AutoLog",
+                          autoLog = @AutoLog,
+                          notificationMode = @NotificationMode",
                     new
                     {
                         WordNumber = WORD_NUMBER,
                         BookName = TABLE_NAME,
                         AutoPlay = AUTO_PLAY,
                         EngType = ENG_TYPE,
-                        AutoLog = AUTO_LOG
+                        AutoLog = AUTO_LOG,
+                        NotificationMode = NOTIFICATION_MODE
                     }
                 );
             }
@@ -625,6 +633,7 @@ namespace ToastFish.Model.SqliteControl
         public int autoPlay { get; set; }
         public int EngType { get; set; }
         public int autoLog { get; set; }
+        public int notificationMode { get; set; }
     }
 
     [Serializable]

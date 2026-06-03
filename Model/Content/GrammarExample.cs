@@ -18,5 +18,6 @@ namespace ToastFish.Model.Content
         public string promptCn { get; set; }
         public string correctAnswer { get; set; }
         public string distractorsJson { get; set; }
+        public string choiceMeaningsJson { get; set; }
     }
 }

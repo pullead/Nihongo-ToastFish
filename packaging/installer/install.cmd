@@ -32,7 +32,7 @@ if not exist "%START_MENU_DIR%" mkdir "%START_MENU_DIR%"
 powershell -NoProfile -ExecutionPolicy Bypass -Command "$shell=New-Object -ComObject WScript.Shell; $s=$shell.CreateShortcut('%DESKTOP_SHORTCUT%'); $s.TargetPath='%EXE_PATH%'; $s.WorkingDirectory='%INSTALL_DIR%'; $s.IconLocation='%EXE_PATH%,0'; $s.Save(); $s=$shell.CreateShortcut('%START_MENU_SHORTCUT%'); $s.TargetPath='%EXE_PATH%'; $s.WorkingDirectory='%INSTALL_DIR%'; $s.IconLocation='%EXE_PATH%,0'; $s.Save()"
 
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nihongo ToastFish" /v "DisplayName" /d "Nihongo ToastFish" /f >nul
-reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nihongo ToastFish" /v "DisplayVersion" /d "1.0.0" /f >nul
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nihongo ToastFish" /v "DisplayVersion" /d "3.0.0" /f >nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nihongo ToastFish" /v "Publisher" /d "Nihongo ToastFish" /f >nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nihongo ToastFish" /v "InstallLocation" /d "%INSTALL_DIR%" /f >nul
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nihongo ToastFish" /v "UninstallString" /d "\"%INSTALL_DIR%\uninstall.cmd\"" /f >nul

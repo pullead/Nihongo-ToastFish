@@ -21,7 +21,11 @@ namespace ToastFish.Services.Study
                 case StudyCardKind.Grammar:
                     return JoinLines(card.PrimaryText, card.SecondaryText, card.DetailText);
                 case StudyCardKind.Example:
-                    return JoinLines(card.SecondaryText, card.PromptText, FormatChoices(card.Choices), card.PrimaryText);
+                    return JoinLines(
+                        card.SecondaryText,
+                        Label("题目", card.PromptText),
+                        FormatChoices(card.Choices, card.ChoiceMeanings),
+                        Label("答案", card.PrimaryText));
                 case StudyCardKind.Gojuon:
                     return JoinLines(card.PrimaryText, card.SecondaryText);
                 default:
@@ -49,10 +53,9 @@ namespace ToastFish.Services.Study
                 case StudyCardKind.Example:
                     return JoinLines(
                         card.SecondaryText,
-                        Summarize(card.DetailText, ExampleTextSummaryLength),
-                        Summarize(card.PromptText, ExampleTextSummaryLength),
-                        Summarize(FormatChoices(card.Choices), ExampleTextSummaryLength),
-                        Summarize(card.PrimaryText, ExampleTextSummaryLength));
+                        Summarize(Label("题目", card.PromptText), ExampleTextSummaryLength),
+                        Summarize(FormatChoices(card.Choices, card.ChoiceMeanings), ExampleTextSummaryLength),
+                        Summarize(Label("答案", card.PrimaryText), ExampleTextSummaryLength));
                 case StudyCardKind.Gojuon:
                     return JoinLines(card.PrimaryText, card.SecondaryText);
                 default:
@@ -63,7 +66,7 @@ namespace ToastFish.Services.Study
             }
         }
 
-        private string FormatChoices(IList<string> choices)
+        private string FormatChoices(IList<string> choices, IDictionary<string, string> meanings)
         {
             if (choices == null || choices.Count == 0)
                 return string.Empty;
@@ -71,7 +74,8 @@ namespace ToastFish.Services.Study
             StringBuilder builder = new StringBuilder();
             for (int index = 0; index < choices.Count; index++)
             {
-                if (string.IsNullOrWhiteSpace(choices[index]))
+                string choice = choices[index];
+                if (string.IsNullOrWhiteSpace(choice))
                     continue;
 
                 if (builder.Length > 0)
@@ -79,10 +83,26 @@ namespace ToastFish.Services.Study
 
                 builder.Append((char)('A' + index));
                 builder.Append(". ");
-                builder.Append(choices[index].Trim());
+                builder.Append(choice.Trim());
+
+                string meaning;
+                if (meanings != null && meanings.TryGetValue(choice.Trim(), out meaning) && !string.IsNullOrWhiteSpace(meaning))
+                {
+                    builder.Append('\n');
+                    builder.Append("释义：");
+                    builder.Append(meaning.Trim());
+                }
             }
 
             return builder.ToString();
+        }
+
+        private string Label(string label, string value)
+        {
+            if (string.IsNullOrWhiteSpace(value))
+                return string.Empty;
+
+            return label + "：" + value.Trim();
         }
 
         private string JoinLines(params string[] lines)
@@ -106,7 +126,7 @@ namespace ToastFish.Services.Study
             if (normalized.Length <= maxLength)
                 return normalized;
 
-            return normalized.Substring(0, maxLength).TrimEnd() + "… 点击“详情”查看完整内容";
+            return normalized.Substring(0, maxLength).TrimEnd() + "... 点击“详情”查看完整内容";
         }
     }
 }

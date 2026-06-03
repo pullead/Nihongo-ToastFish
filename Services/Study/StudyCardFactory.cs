@@ -27,7 +27,6 @@ namespace ToastFish.Services.Study
                 return null;
 
             string primary = furiganaFormatter.ToInlineText(item.furiganaJson, item.headword);
-            string secondary = JoinParts(item.reading, item.partOfSpeech, item.meaningCn);
             string example = furiganaFormatter.ToInlineText(item.exampleFuriganaJson, item.exampleJp);
 
             return new StudyCard
@@ -38,10 +37,19 @@ namespace ToastFish.Services.Study
                 JlptLevel = item.jlptLevel,
                 Title = primary,
                 PrimaryText = primary,
-                SecondaryText = secondary,
-                DetailText = JoinLines(example, item.exampleCn),
+                SecondaryText = Label("归属", item.sourceTags),
+                DetailText = JoinLines(
+                    Label("假名", item.reading),
+                    Label("词性", string.IsNullOrWhiteSpace(item.partOfSpeech) ? "未标注" : item.partOfSpeech),
+                    Label("释义", item.meaningCn),
+                    Label("例句", example),
+                    Label("例句释义", item.exampleCn),
+                    Label("相关语法", JoinParts(item.relatedGrammarPattern, item.relatedGrammarMeaningCn)),
+                    Label("语法例句", item.relatedGrammarExampleJp),
+                    Label("语法例句释义", item.relatedGrammarExampleCn)),
                 CorrectAnswer = item.meaningCn,
-                Choices = new List<string>()
+                Choices = new List<string>(),
+                ChoiceMeanings = new Dictionary<string, string>()
             };
         }
 
@@ -52,6 +60,7 @@ namespace ToastFish.Services.Study
 
             string primary = furiganaFormatter.ToInlineText(item.furiganaJson, item.pattern);
             string example = furiganaFormatter.ToInlineText(item.exampleFuriganaJson, item.exampleSentenceJp);
+            string secondExample = furiganaFormatter.ToInlineText(item.secondExampleFuriganaJson, item.secondExampleSentenceJp);
 
             return new StudyCard
             {
@@ -65,11 +74,13 @@ namespace ToastFish.Services.Study
                 DetailText = JoinLines(
                     Label("接续", item.formation),
                     Label("说明", item.usageNote),
-                    Label("例句", example),
-                    Label("例句读音", item.exampleSentenceKana),
-                    Label("例句释义", item.exampleMeaningCn)),
+                    Label("例句1", example),
+                    Label("例句1释义", item.exampleMeaningCn),
+                    Label("例句2", secondExample),
+                    Label("例句2释义", item.secondExampleMeaningCn)),
                 CorrectAnswer = item.meaningCn,
-                Choices = new List<string>()
+                Choices = new List<string>(),
+                ChoiceMeanings = new Dictionary<string, string>()
             };
         }
 
@@ -97,13 +108,15 @@ namespace ToastFish.Services.Study
                     string.IsNullOrWhiteSpace(item.grammarPattern) ? item.grammarId : item.grammarPattern,
                     item.grammarMeaningCn),
                 DetailText = JoinLines(
+                    Label("题目", item.promptCn),
                     Label("例句读音", item.sentenceKana),
                     Label("例句释义", item.meaningCn),
                     Label("语法接续", item.grammarFormation),
                     Label("语法说明", item.grammarUsageNote)),
                 PromptText = item.promptCn,
                 CorrectAnswer = item.correctAnswer,
-                Choices = choices
+                Choices = choices,
+                ChoiceMeanings = ParseChoiceMeanings(item.choiceMeaningsJson)
             };
         }
 
@@ -121,7 +134,8 @@ namespace ToastFish.Services.Study
                 SecondaryText = item.romaji,
                 DetailText = item.audioPath,
                 CorrectAnswer = item.romaji,
-                Choices = new List<string>()
+                Choices = new List<string>(),
+                ChoiceMeanings = new Dictionary<string, string>()
             };
         }
 
@@ -141,6 +155,25 @@ namespace ToastFish.Services.Study
             catch
             {
                 return new List<string>();
+            }
+        }
+
+        private Dictionary<string, string> ParseChoiceMeanings(string meaningsJson)
+        {
+            if (string.IsNullOrWhiteSpace(meaningsJson))
+                return new Dictionary<string, string>();
+
+            try
+            {
+                DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(Dictionary<string, string>));
+                using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(meaningsJson)))
+                {
+                    return (Dictionary<string, string>)serializer.ReadObject(stream);
+                }
+            }
+            catch
+            {
+                return new Dictionary<string, string>();
             }
         }
 
